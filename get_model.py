@@ -552,35 +552,21 @@ def _process_post_core(post_id: int, save_dir: str):
     images = fetch_post_images(post_id)
 
     # ================================
-    #  멀티쓰레드 LoRA 처리
+    #  멀티쓰레드 LoRA 비동기 처리
     # ================================
-    lora_result = {
-        "failed_lora": None,
-        "lora_tag": "",
-        "sanitized_ss_name": None
-    }
-
-    # 3) LoRA 다운로드 + ss_output_name 처리
-    ss_name = None
+    lora_future = None
     sanitized_ss_name = None
     lora_tag = ""
 
     if model_version_id:
-        print(f"[THREAD] LoRA 작업 스레드 시작… modelVersionId={model_version_id}")
+        print(f"[THREAD] LoRA 작업 비동기 실행… modelVersionId={model_version_id}")
 
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            future = executor.submit(process_lora_task, folder, model_version_id, None)
-            lora_result = future.result()
-
-        # 결과 반영
-        failed["failed_lora"] = lora_result["failed_lora"]
-        lora_tag = lora_result["lora_tag"]
-        sanitized_ss_name = lora_result["sanitized_ss_name"]
+        # LoRA 작업을 즉시 비동기 실행 (대기하지 않음)
+        executor = ThreadPoolExecutor(max_workers=1)
+        lora_future = executor.submit(process_lora_task, folder, model_version_id, None)
 
     else:
         print("[WARN] modelVersionId 없음 → LoRA 스킵")
-        lora_tag = ""
-        sanitized_ss_name = None
 
     ###########################################################
     # 4) 이미지 + 메타 처리
@@ -709,7 +695,7 @@ def _process_post_core(post_id: int, save_dir: str):
             "seed": seed,
             "clip_skip": clip_skip,
             "raw_prompt": prompt,
-            "lora": lora_tag,
+            "lora": "",
             "url": f"https://civitai.com/images/{image_id}",
             "resources_used": resources_used
         }
