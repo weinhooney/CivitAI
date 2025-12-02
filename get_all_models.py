@@ -29,6 +29,7 @@ def call_model_get_all(payload: dict):
     """
     json_str = json.dumps(payload, separators=(",", ":"), ensure_ascii=True)
 
+
     for retry in range(10):
         r = session.get(
             "https://civitai.com/api/trpc/model.getAll",
