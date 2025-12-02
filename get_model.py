@@ -721,6 +721,8 @@ def _process_post_core(post_id: int, save_dir: str):
             continue
 
         meta = gen.get("meta") or {}
+        
+        resources_used = gen.get("resources") or []
         prompt = meta.get("prompt", "") or ""
         negative = meta.get("negativePrompt", "") or ""
         cfg = meta.get("cfgScale", "")
@@ -773,7 +775,8 @@ def _process_post_core(post_id: int, save_dir: str):
             "clip_skip": clip_skip,
             "raw_prompt": prompt,
             "lora": lora_tag,
-            "url": f"https://civitai.com/images/{image_id}"
+            "url": f"https://civitai.com/images/{image_id}",
+            "resources_used": resources_used
         }
 
         with open(meta_path, "w", encoding="utf-8") as f:
