@@ -5,6 +5,10 @@ import json
 import re
 import struct
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import shutil
+import threading
+
 
 
 ###########################################################
@@ -547,105 +551,36 @@ def _process_post_core(post_id: int, save_dir: str):
     # 2) 이미지 목록
     images = fetch_post_images(post_id)
 
+    # ================================
+    #  멀티쓰레드 LoRA 처리
+    # ================================
+    lora_result = {
+        "failed_lora": None,
+        "lora_tag": "",
+        "sanitized_ss_name": None
+    }
+
     # 3) LoRA 다운로드 + ss_output_name 처리
     ss_name = None
     sanitized_ss_name = None
     lora_tag = ""
 
     if model_version_id:
-        print(f"[INFO] LoRA 정보 가져오는 중… modelVersionId={model_version_id}")
-        mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
-        mv = safe_get(mv_url)
-        mv.raise_for_status()
-        mv_json = mv.json()
+        print(f"[THREAD] LoRA 작업 스레드 시작… modelVersionId={model_version_id}")
 
-        files = mv_json.get("files", [])
-        safes = [f for f in files if f.get("name", "").endswith(".safetensors")]
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            future = executor.submit(process_lora_task, folder, model_version_id, None)
+            lora_result = future.result()
 
-        if safes:
-            lora_info = safes[0]
-            lora_filename = lora_info["name"]
-            
-            try:
-                presigned = get_lora_presigned(model_version_id)
-            except Exception as e:
-                failed["failed_lora"] = {
-                    "lora_url": None,
-                    "copy_error": f"presigned 실패: {e}"
-                }
-                presigned = None
+        # 결과 반영
+        failed["failed_lora"] = lora_result["failed_lora"]
+        lora_tag = lora_result["lora_tag"]
+        sanitized_ss_name = lora_result["sanitized_ss_name"]
 
-            lora_path = os.path.join(folder, lora_filename)
-
-            if not os.path.exists(lora_path):
-                print(f"[INFO] LoRA 다운로드: {lora_filename}")
-                try:
-                    download_file(presigned, lora_path)
-                except Exception as e:
-                    failed["failed_lora"] = {
-                        "lora_url": presigned,
-                        "copy_error": f"LoRA 다운로드 실패: {e}"
-                    }
-            else:
-                print(f"[INFO] LoRA 이미 있음: {lora_filename}")
-
-            meta = read_safetensors_metadata(lora_path)
-            ss_name = meta.get("ss_output_name")
-
-            if ss_name:
-                sanitized_ss_name = ss_name.replace("__", "_")
-                print(f"[INFO] ss_output_name 정규화 {ss_name} → {sanitized_ss_name}")
-
-                rewrite_safetensors_metadata(lora_path, sanitized_ss_name)
-                lora_tag = f"<lora:{sanitized_ss_name}:1>, "
-            else:
-                sanitized_ss_name = None
-
-            print(f"[INFO] ss_output_name = {sanitized_ss_name}")
-
-            ###############################################################
-            # 🔥 LoRA 다운로드 후 자동 복사 기능 추가 (중복 파일 방지 포함)
-            ###############################################################
-
-            # 현재 저장 폴더(절대 경로)
-            folder_abs = os.path.abspath(folder)
-            exclude_abs = os.path.abspath(ROOT)
-
-            # 제외 경로 제거
-            if folder_abs.startswith(exclude_abs):
-                relative = folder_abs[len(exclude_abs):].lstrip("\\/")
-            else:
-                # 제외 경로 외의 위치면 폴더명만 사용
-                relative = os.path.basename(folder_abs)
-
-            # 최종 목적지 경로
-            final_dir = os.path.abspath(os.path.join(LORA_PASTE_TARGET_PATH, relative))
-            os.makedirs(final_dir, exist_ok=True)
-
-            # 최종 목적지 LoRA 파일 경로
-            final_lora_path = os.path.join(final_dir, lora_filename)
-
-            # 🔥 이미 파일이 있으면 복사하지 않음
-            if os.path.exists(final_lora_path):
-                print(f"[SKIP] 최종 경로에 동일한 LoRA 이미 존재 → {final_lora_path}")
-            else:
-                try:
-                    import shutil
-                    try:
-                        shutil.copy2(lora_path, final_lora_path)
-                    except Exception as e:
-                        failed["failed_lora"] = {
-                            "lora_url": presigned,
-                            "copy_error": f"LoRA 복사 실패: {e}"
-                        }
-                    print(f"[COPY] LoRA 복사 완료: {final_lora_path}")
-                except Exception as e:
-                    print(f"[ERROR] LoRA 복사 실패: {e}")
-
-        else:
-            print("[WARN] safetensors 파일 없음 → LoRA 스킵")
     else:
-        print("[WARN] modelVersionId 찾지 못함 → LoRA 스킵")
+        print("[WARN] modelVersionId 없음 → LoRA 스킵")
+        lora_tag = ""
+        sanitized_ss_name = None
 
     ###########################################################
     # 4) 이미지 + 메타 처리
@@ -787,6 +722,109 @@ def _process_post_core(post_id: int, save_dir: str):
     print(f"=== POST {post_id} 처리 완료 ===\n")
 
     return failed
+
+
+def process_lora_task(folder, model_version_id, failed_dict_lock):
+    """
+    멀티쓰레드로 실행되는 LoRA 처리 함수
+    - presigned URL 얻기
+    - 다운로드
+    - ss_output_name 정규화
+    - 최종 폴더 복사
+    - 실패정보는 dict 형태로 리턴
+    """
+
+    result = {
+        "failed_lora": None,
+        "lora_tag": "",
+        "sanitized_ss_name": None
+    }
+
+    try:
+        # 1) model-versions 정보 가져오기
+        mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
+        mv = safe_get(mv_url)
+        mv.raise_for_status()
+        mv_json = mv.json()
+
+        files = mv_json.get("files", [])
+        safes = [f for f in files if f.get("name","").endswith(".safetensors")]
+
+        if not safes:
+            print("[WARN] safetensors 파일 없음")
+            return result
+
+        # 첫 safetensors 파일만 우선 처리 (나중에 전부 처리로 확대 가능)
+        info = safes[0]
+        lora_filename = info["name"]
+
+        # 2) presigned URL 얻기
+        try:
+            presigned = get_lora_presigned(model_version_id)
+        except Exception as e:
+            result["failed_lora"] = {
+                "lora_url": None,
+                "copy_error": f"presigned 실패: {e}"
+            }
+            return result
+
+        # 3) 다운로드 경로
+        lora_path = os.path.join(folder, lora_filename)
+
+        # 다운로드 (이미 있으면 스킵)
+        if not os.path.exists(lora_path):
+            try:
+                download_file(presigned, lora_path)
+            except Exception as e:
+                result["failed_lora"] = {
+                    "lora_url": presigned,
+                    "copy_error": f"LoRA 다운로드 실패: {e}"
+                }
+                return result
+        else:
+            print(f"[INFO] LoRA 이미 있음: {lora_filename}")
+
+        # 4) ss_output_name 읽기 → 정규화
+        meta = read_safetensors_metadata(lora_path)
+        ss_name = meta.get("ss_output_name")
+        if ss_name:
+            sanitized = ss_name.replace("__", "_")
+            rewrite_safetensors_metadata(lora_path, sanitized)
+            result["sanitized_ss_name"] = sanitized
+            result["lora_tag"] = f"<lora:{sanitized}:1>"
+        else:
+            result["sanitized_ss_name"] = None
+
+        # 5) Stable Diffusion 폴더로 복사
+        folder_abs = os.path.abspath(folder)
+        exclude_abs = os.path.abspath(ROOT)
+
+        if folder_abs.startswith(exclude_abs):
+            relative = folder_abs[len(exclude_abs):].lstrip("\\/")
+        else:
+            relative = os.path.basename(folder_abs)
+
+        final_dir = os.path.abspath(os.path.join(LORA_PASTE_TARGET_PATH, relative))
+        os.makedirs(final_dir, exist_ok=True)
+
+        final_lora_path = os.path.join(final_dir, lora_filename)
+
+        if not os.path.exists(final_lora_path):
+            try:
+                shutil.copy2(lora_path, final_lora_path)
+            except Exception as e:
+                result["failed_lora"] = {
+                    "lora_url": presigned,
+                    "copy_error": f"LoRA 복사 실패: {e}"
+                }
+        else:
+            print(f"[SKIP] 최종 경로에 이미 존재: {final_lora_path}")
+
+    except Exception as e:
+        result["failed_lora"] = {"copy_error": str(e)}
+
+    return result
+
 
 
 ###########################################################
