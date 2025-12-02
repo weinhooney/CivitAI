@@ -16,7 +16,6 @@ session.headers.update({
 session.cookies.update(parse_cookie_string(COOKIE_STRING))
 
 
-
 # ------------------------------------------------------------------
 # TRPC model.getAll 공용 호출 함수 (test.py에서 쓰던 것 그대로)
 # ------------------------------------------------------------------
