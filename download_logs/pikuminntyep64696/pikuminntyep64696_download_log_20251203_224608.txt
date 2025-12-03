@@ -1,0 +1,10 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251203_224608
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/pikuminntyep64696/models
+
+[다운받을 모델 갯수]
+32
+
+[다운로드 받지 못한 모델 정보]

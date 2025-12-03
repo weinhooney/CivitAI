@@ -12,6 +12,14 @@ import subprocess
 import shlex
 from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
 
+# ★ get_all_models.py 를 import 하지 않기 위해 전역 future 리스트를 외부에서 주입받는 구조로 변경
+IMG_META_FUTURES = None
+LORA_FUTURES = None
+
+def set_future_lists(img_list, lora_list):
+    global IMG_META_FUTURES, LORA_FUTURES
+    IMG_META_FUTURES = img_list
+    LORA_FUTURES = lora_list
 
 
 ###########################################################
@@ -26,13 +34,16 @@ def idm_add_to_queue(url: str, save_dir: str, file_name: str):
     다운로드는 아직 시작되지 않음.
     """
     cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /n /a'
-    subprocess.run(shlex.split(cmd), check=False)
+    subprocess.Popen(shlex.split(cmd),
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL)
     print(f"[IDM] Added to queue: {file_name}")
 
 def idm_start_download():
     """IDM 대기열 다운로드 시작 (/s)"""
-    cmd = f'"{IDM_PATH}" /s'
-    subprocess.run(shlex.split(cmd), check=False)
+    subprocess.Popen(shlex.split(f'"{IDM_PATH}" /s'),
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL)
     print("[IDM] Queue download started!")
 
 
@@ -686,6 +697,7 @@ def _process_post_core(post_id: int, save_dir: str):
     if model_version_id:
         print(f"[THREAD] LoRA 작업 비동기 실행… modelVersionId={model_version_id}")
         lora_future = BG_LORA_EXECUTOR.submit(process_lora_task, folder, model_version_id, None)
+        LORA_FUTURES.append(lora_future)
 
     else:
         print("[WARN] modelVersionId 없음 → LoRA 스킵")
@@ -701,12 +713,30 @@ def _process_post_core(post_id: int, save_dir: str):
 
         if not uuid:
             print("  [WARN] uuid 없음 → 스킵")
+            failed["failed_image_urls"].append({
+                "download_url": None,
+                "page_url": f"https://civitai.com/images/{image_id}"
+            })
             continue
 
         # 이미지 파일명과 로컬 경로
         img_filename = f"{image_id}.png"
         img_path = os.path.join(folder, img_filename)
         img_url = build_image_url(uuid)
+
+        # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
+        from get_all_models import DOWNLOAD_TARGETS  # 파일 상단에 이미 있음
+
+        DOWNLOAD_TARGETS.append({
+            "type": "image",
+            "post_id": post_id,
+            "image_id": image_id,
+            "uuid": uuid,
+            "download_url": img_url,
+            "page_url": f"https://civitai.com/images/{image_id}",
+            "expected_file_path": img_path,
+        })
+
 
         # =============================================
         # ① 이미지 존재 여부 체크 → 있으면 IDM queue 추가하지 않음
@@ -735,12 +765,15 @@ def _process_post_core(post_id: int, save_dir: str):
         # =============================================
         # ② 메타 생성은 다운로드 여부와 무관하게 병렬 처리
         # =============================================
-        IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
+        future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
+        IMG_META_FUTURES.append(future)
 
     print(f"=== POST {post_id} 처리 완료 ===\n")
 
     # IDM 다운로드 시작
     idm_start_download()
+
+
 
     return failed
 
@@ -759,6 +792,18 @@ def process_lora_task(folder, model_version_id, _):
     lora_filename = info["name"]
     lora_path = os.path.join(folder, lora_filename)
 
+    from get_all_models import DOWNLOAD_TARGETS
+
+    DOWNLOAD_TARGETS.append({
+        "type": "lora",
+        "post_id": None,  # LoRA는 post_id가 없으므로 None
+        "model_version_id": model_version_id,
+        "presigned_url": None,  # presigned 이후에 채워짐
+        "expected_file_path": lora_path,
+        "final_paste_path": None,  # 후처리 단계에서 채워짐
+    })
+
+
     # ==========================================================
     # 🔥 파일이 이미 존재하면 → IDM에 넣지 말고 바로 후처리 스레드 실행
     # ==========================================================
@@ -766,22 +811,26 @@ def process_lora_task(folder, model_version_id, _):
         print(f"[SKIP] LoRA 이미 존재하여 IDM 다운로드 스킵: {lora_filename}")
 
         # 후처리(정규화 및 SD 폴더 복사)만 수행
-        BG_LORA_EXECUTOR.submit(
+        future = BG_LORA_EXECUTOR.submit(
             wait_and_finalize_lora, folder, None, lora_filename
         )
+        LORA_FUTURES.append(future)
         return
 
     presigned = get_lora_presigned(model_version_id)
+    DOWNLOAD_TARGETS[-1]["presigned_url"] = presigned
 
     # IDM 대기열에 추가
     idm_add_to_queue(presigned, folder, lora_filename)
+    idm_start_download()
 
     # 후처리를 백그라운드에서 수행
     # (메인 로직과 완전히 분리)
-    BG_LORA_EXECUTOR.submit(
+    future = BG_LORA_EXECUTOR.submit(
         wait_and_finalize_lora, folder, presigned, lora_filename
     )
-
+    LORA_FUTURES.append(future)
+    
     print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
 
 

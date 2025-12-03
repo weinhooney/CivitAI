@@ -5,10 +5,31 @@ import time
 import json
 import urllib.parse
 import requests
-from get_model import process_post_to_dir,parse_cookie_string, COOKIE_STRING
+from get_model import process_post_to_dir, parse_cookie_string, COOKIE_STRING, set_future_lists
 from get_model import USERS_ROOT, POSTS_ROOT
 from get_model import safe_get
 from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
+
+
+# ------------------------------------------------------------------
+# 다운로드 대상들을 저장할 리스트 (이미지 + 로라 모두 포함)
+DOWNLOAD_TARGETS = []
+# ------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------
+# 모든 작업 쓰레드가 끝났는지 확인용
+# ------------------------------------------------------------------
+IMG_META_FUTURES = []
+LORA_FUTURES = []
+
+
+# =========================================================
+# get_model.py 의 future 리스트 주입
+# =========================================================
+# get_model.py 의 future 리스트 주입
+set_future_lists(IMG_META_FUTURES, LORA_FUTURES)
+
 
 session = requests.Session()
 session.headers.update({
@@ -440,6 +461,37 @@ def get_post_id_from_model(model):
 
 
 
+###############################################################################
+# 정상적으로 다운로드 됐는지 검증
+###############################################################################
+def verify_all_downloads(download_targets):
+    """
+    IDM 다운로드 완료 여부와 상관없이
+    '파일이 실제로 존재하는지 / 손상되었는지'만 검사하는 함수
+    """
+
+    verified = []
+
+    for item in download_targets:
+        path = item["expected_file_path"]
+
+        status = "success"
+
+        if not os.path.exists(path):
+            status = "missing"
+        else:
+            size = os.path.getsize(path)
+            if size < 5000:
+                status = "corrupted"
+
+        # 상태 기록 추가
+        item["status"] = status
+
+        verified.append(item)
+
+    return verified
+
+
 
 ###############################################################################
 # 다운로드 로그 파일
@@ -669,13 +721,39 @@ def main():
 
     print("\n=== 모든 모델 처리 완료 ===")
 
-    # 모든 메타 생성 스레드 대기
-    IMG_META_EXECUTOR.shutdown(wait=True)
+    # 이미지 메타 작업 대기
+    for f in IMG_META_FUTURES:
+        try:
+            f.result()
+        except Exception as e:
+            print(f"[META][ERROR] {e}")
 
-    # 모든 로라 후처리 스레드 대기
-    BG_LORA_EXECUTOR.shutdown(wait=True)
+    # 로라 작업 대기
+    for f in LORA_FUTURES:
+        try:
+            f.result()
+        except Exception as e:
+            print(f"[LORA][ERROR] {e}")
 
     print("=== 모든 스레드 작업 완료 ===")
+
+    print("[VERIFY] 다운로드 파일 검증 시작...")
+
+    verified = verify_all_downloads(DOWNLOAD_TARGETS)
+
+    # JSON 로그 저장
+    json_log_path = os.path.join("download_logs", username)
+    os.makedirs(json_log_path, exist_ok=True)
+
+    json_log_file = os.path.join(
+        json_log_path,
+        f"{username}_download_log_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    )
+
+    with open(json_log_file, "w", encoding="utf-8") as f:
+        json.dump(verified, f, indent=2, ensure_ascii=False)
+
+    print("[VERIFY] JSON 로그 저장 완료:", json_log_file)
 
 
 if __name__ == "__main__":
