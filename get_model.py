@@ -80,12 +80,33 @@ def find_existing_image_by_id(folder, image_id):
 ###########################################################
 #  딜레이
 ###########################################################
-RATE_LIMIT_DELAY = 0.3  # 300ms
+REQUEST_LOCK = threading.Lock()
+LAST_REQUEST_TIME = 0
+REQUEST_INTERVAL = 0.4  # 최소 0.4초 간격 → 초당 2.5회 이하
 
-def safe_get(url, **kwargs):
-    """전역적으로 rate-limit 딜레이를 적용한 GET 요청"""
-    time.sleep(RATE_LIMIT_DELAY)
-    return session.get(url, **kwargs)
+def safe_get(url, retries=5, **kwargs):
+    global LAST_REQUEST_TIME
+
+    for attempt in range(retries):
+        with REQUEST_LOCK:
+            now = time.time()
+            wait = REQUEST_INTERVAL - (now - LAST_REQUEST_TIME)
+            if wait > 0:
+                time.sleep(wait)
+            LAST_REQUEST_TIME = time.time()
+
+            response = session.get(url, **kwargs)
+
+        if response.status_code != 429:
+            return response
+
+        # 429 발생 시 exponential backoff
+        backoff = 2 ** attempt
+        print(f"[RATE LIMIT] 429 발생 → {backoff}초 대기")
+        time.sleep(backoff)
+
+    raise Exception(f"429 Too Many Requests: {url}")
+
 
 
 ###########################################################
