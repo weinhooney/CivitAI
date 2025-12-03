@@ -789,6 +789,7 @@ def process_lora_task(folder, model_version_id, _):
         return
 
     info = safes[0]
+    remote_size = info.get("sizeKB", 0) * 1024
     lora_filename = info["name"]
     lora_path = os.path.join(folder, lora_filename)
 
@@ -800,6 +801,7 @@ def process_lora_task(folder, model_version_id, _):
         "model_version_id": model_version_id,
         "presigned_url": None,  # presigned 이후에 채워짐
         "expected_file_path": lora_path,
+        "expected_file_size": remote_size,
         "final_paste_path": None,  # 후처리 단계에서 채워짐
     })
 
@@ -807,15 +809,28 @@ def process_lora_task(folder, model_version_id, _):
     # ==========================================================
     # 🔥 파일이 이미 존재하면 → IDM에 넣지 말고 바로 후처리 스레드 실행
     # ==========================================================
-    if os.path.exists(lora_path) and os.path.getsize(lora_path) > 0:
-        print(f"[SKIP] LoRA 이미 존재하여 IDM 다운로드 스킵: {lora_filename}")
+    actual_size = 0
+    if os.path.exists(lora_path):
+        actual_size = os.path.getsize(lora_path)
 
-        # 후처리(정규화 및 SD 폴더 복사)만 수행
+    # expected_size = remote_size
+    if os.path.exists(lora_path) and actual_size >= remote_size:
+        print(f"[SKIP] LoRA 이미 존재하고 정상 용량 확인됨: {lora_filename}")
+
+        # 후처리만 수행
         future = BG_LORA_EXECUTOR.submit(
             wait_and_finalize_lora, folder, None, lora_filename
         )
         LORA_FUTURES.append(future)
         return
+    elif os.path.exists(lora_path) and actual_size < remote_size:
+        print(f"[WARN] 기존 파일이 있으나 용량이 부족함({actual_size} < {remote_size}) → 재다운로드 진행")
+        # 이전 불완전 파일 삭제
+        try:
+            os.remove(lora_path)
+        except:
+            pass
+
 
     presigned = get_lora_presigned(model_version_id)
     DOWNLOAD_TARGETS[-1]["presigned_url"] = presigned
@@ -843,11 +858,39 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
     else:
         print(f"[IDM] LoRA 다운로드 대기중: {lora_filename}")
 
-    # 다운로드 완료까지(별도 thread에서) 대기
-    while True:
-        if os.path.exists(lora_path) and os.path.getsize(lora_path) > 0:
+    # ------------------------------------------------------
+    # 로라 expected_size 검색 (DOWNLOAD_TARGETS에서 찾기)
+    # ------------------------------------------------------
+    from get_all_models import DOWNLOAD_TARGETS
+
+    expected_size = None
+    model_version_id = None
+
+    # presigned 모드라면 model_version_id를 DOWNLOAD_TARGETS에서 lookup 가능
+    for item in DOWNLOAD_TARGETS:
+        if item["type"] == "lora" and item["expected_file_path"] == lora_path:
+            expected_size = item.get("expected_file_size")
+            model_version_id = item.get("model_version_id")
             break
-        time.sleep(1)
+
+    # ------------------------------------------------------
+    # 정확한 다운로드 완료 대기 (expected_size 비교)
+    # ------------------------------------------------------
+    while True:
+        if os.path.exists(lora_path):
+            size = os.path.getsize(lora_path)
+
+            # expected_size가 있으면 정확한 비교
+            if expected_size:
+                if size >= expected_size:
+                    break
+            else:
+                # fallback: 존재하고 0보다 크면 break
+                if size > 0:
+                    break
+
+        time.sleep(0.5)
+
 
     print(f"[IDM] 다운로드 완료됨: {lora_filename}")
 
@@ -869,15 +912,42 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
     else:
         relative = os.path.basename(folder_abs)
 
+    expected_size = expected_size or 0
+
     final_dir = os.path.abspath(os.path.join(LORA_PASTE_TARGET_PATH, relative))
     os.makedirs(final_dir, exist_ok=True)
 
     final_lora_path = os.path.join(final_dir, lora_filename)
-    if not os.path.exists(final_lora_path):
+
+    # -------------------------------------------------------------
+    # 🔥 기존 파일 vs expected_size 비교해서 복사 여부 결정
+    # -------------------------------------------------------------
+    need_copy = True
+
+    if os.path.exists(final_lora_path):
+        actual = os.path.getsize(final_lora_path)
+
+        if expected_size > 0:
+            if actual >= expected_size:
+                print(f"[SKIP] SD 폴더에 이미 정상 파일 존재: {final_lora_path}")
+                need_copy = False
+            else:
+                print(f"[WARN] SD 폴더의 기존 파일 용량 부족 → 재복사 ({actual} < {expected_size})")
+                try:
+                    os.remove(final_lora_path)
+                except:
+                    pass
+        else:
+            # expected_size가 없으면 fallback (기존 정책)
+            if actual > 0:
+                need_copy = False
+
+    # -------------------------------------------------------------
+    # 🔥 복사 수행
+    # -------------------------------------------------------------
+    if need_copy:
         shutil.copy2(lora_path, final_lora_path)
         print(f"[COPY] LoRA 복사됨 → {final_lora_path}")
-
-    print(f"[LORA] 최종 처리 완료: {lora_filename}")
 
 
 
