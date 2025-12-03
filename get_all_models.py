@@ -31,7 +31,7 @@ def call_model_get_all(payload: dict):
 
 
     for retry in range(10):
-        r = session.get(
+        r = safe_get(
             "https://civitai.com/api/trpc/model.getAll",
             params={"input": json_str},
         )

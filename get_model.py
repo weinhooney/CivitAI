@@ -82,28 +82,32 @@ def find_existing_image_by_id(folder, image_id):
 ###########################################################
 REQUEST_LOCK = threading.Lock()
 LAST_REQUEST_TIME = 0
-REQUEST_INTERVAL = 0.4  # 최소 0.4초 간격 → 초당 2.5회 이하
+REQUEST_INTERVAL = 1.0   # 최소 1초 — CivitAI 안정권
 
 def safe_get(url, retries=5, **kwargs):
     global LAST_REQUEST_TIME
 
     for attempt in range(retries):
         with REQUEST_LOCK:
+
+            # 요청 간 간격 보장
             now = time.time()
             wait = REQUEST_INTERVAL - (now - LAST_REQUEST_TIME)
             if wait > 0:
                 time.sleep(wait)
+
             LAST_REQUEST_TIME = time.time()
 
             response = session.get(url, **kwargs)
 
-        if response.status_code != 429:
-            return response
+            # success
+            if response.status_code != 429:
+                return response
 
-        # 429 발생 시 exponential backoff
-        backoff = 2 ** attempt
-        print(f"[RATE LIMIT] 429 발생 → {backoff}초 대기")
-        time.sleep(backoff)
+            # 429면 LOCK 안에서 대기해야 한다 (중요!)
+            backoff = 2 ** attempt
+            print(f"[RATE LIMIT] 429 → {backoff}초 대기")
+            time.sleep(backoff)
 
     raise Exception(f"429 Too Many Requests: {url}")
 
@@ -681,10 +685,7 @@ def _process_post_core(post_id: int, save_dir: str):
 
     if model_version_id:
         print(f"[THREAD] LoRA 작업 비동기 실행… modelVersionId={model_version_id}")
-
-        # LoRA 작업을 즉시 비동기 실행 (대기하지 않음)
-        executor = ThreadPoolExecutor(max_workers=1)
-        lora_future = executor.submit(process_lora_task, folder, model_version_id, None)
+        lora_future = BG_LORA_EXECUTOR.submit(process_lora_task, folder, model_version_id, None)
 
     else:
         print("[WARN] modelVersionId 없음 → LoRA 스킵")
