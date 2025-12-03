@@ -8,6 +8,32 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import shutil
 import threading
+import subprocess
+import shlex
+
+
+
+###########################################################
+# IDM
+###########################################################
+IDM_PATH = r"C:\Program Files (x86)\Internet Download Manager\IDMan.exe"
+BG_LORA_EXECUTOR = ThreadPoolExecutor(max_workers=4)
+
+
+def idm_add_to_queue(url: str, save_dir: str, file_name: str):
+    """
+    IDM 다운로드 대기열에 추가 (/a)
+    다운로드는 아직 시작되지 않음.
+    """
+    cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /n /a'
+    subprocess.run(shlex.split(cmd), check=False)
+    print(f"[IDM] Added to queue: {file_name}")
+
+def idm_start_download():
+    """IDM 대기열 다운로드 시작 (/s)"""
+    cmd = f'"{IDM_PATH}" /s'
+    subprocess.run(shlex.split(cmd), check=False)
+    print("[IDM] Queue download started!")
 
 
 
@@ -707,109 +733,96 @@ def _process_post_core(post_id: int, save_dir: str):
 
     print(f"=== POST {post_id} 처리 완료 ===\n")
 
+    # IDM 다운로드 시작
+    idm_start_download()
+
     return failed
 
 
-def process_lora_task(folder, model_version_id, failed_dict_lock):
-    """
-    멀티쓰레드로 실행되는 LoRA 처리 함수
-    - presigned URL 얻기
-    - 다운로드
-    - ss_output_name 정규화
-    - 최종 폴더 복사
-    - 실패정보는 dict 형태로 리턴
-    """
+def process_lora_task(folder, model_version_id, _):
 
-    result = {
-        "failed_lora": None,
-        "lora_tag": "",
-        "sanitized_ss_name": None
-    }
+    mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
+    mv = safe_get(mv_url)
+    mv_json = mv.json()
 
-    try:
-        # 1) model-versions 정보 가져오기
-        mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
-        mv = safe_get(mv_url)
-        mv.raise_for_status()
-        mv_json = mv.json()
+    safes = [f for f in mv_json.get("files", []) if f["name"].endswith(".safetensors")]
+    if not safes:
+        return
 
-        files = mv_json.get("files", [])
-        safes = [f for f in files if f.get("name","").endswith(".safetensors")]
+    info = safes[0]
+    lora_filename = info["name"]
+    lora_path = os.path.join(folder, lora_filename)
 
-        if not safes:
-            print("[WARN] safetensors 파일 없음")
-            return result
+    # ==========================================================
+    # 🔥 파일이 이미 존재하면 → IDM에 넣지 말고 바로 후처리 스레드 실행
+    # ==========================================================
+    if os.path.exists(lora_path) and os.path.getsize(lora_path) > 0:
+        print(f"[SKIP] LoRA 이미 존재하여 IDM 다운로드 스킵: {lora_filename}")
 
-        # 첫 safetensors 파일만 우선 처리 (나중에 전부 처리로 확대 가능)
-        info = safes[0]
-        lora_filename = info["name"]
+        # 후처리(정규화 및 SD 폴더 복사)만 수행
+        BG_LORA_EXECUTOR.submit(
+            wait_and_finalize_lora, folder, None, lora_filename
+        )
+        return
 
-        # 2) presigned URL 얻기
-        try:
-            presigned = get_lora_presigned(model_version_id)
-        except Exception as e:
-            result["failed_lora"] = {
-                "lora_url": None,
-                "copy_error": f"presigned 실패: {e}"
-            }
-            return result
+    presigned = get_lora_presigned(model_version_id)
 
-        # 3) 다운로드 경로
-        lora_path = os.path.join(folder, lora_filename)
+    # IDM 대기열에 추가
+    idm_add_to_queue(presigned, folder, lora_filename)
 
-        # 다운로드 (이미 있으면 스킵)
-        if not os.path.exists(lora_path):
-            try:
-                download_file(presigned, lora_path)
-            except Exception as e:
-                result["failed_lora"] = {
-                    "lora_url": presigned,
-                    "copy_error": f"LoRA 다운로드 실패: {e}"
-                }
-                return result
-        else:
-            print(f"[INFO] LoRA 이미 있음: {lora_filename}")
+    # 후처리를 백그라운드에서 수행
+    # (메인 로직과 완전히 분리)
+    BG_LORA_EXECUTOR.submit(
+        wait_and_finalize_lora, folder, presigned, lora_filename
+    )
 
-        # 4) ss_output_name 읽기 → 정규화
-        meta = read_safetensors_metadata(lora_path)
-        ss_name = meta.get("ss_output_name")
-        if ss_name:
-            sanitized = ss_name.replace("__", "_")
-            rewrite_safetensors_metadata(lora_path, sanitized)
-            result["sanitized_ss_name"] = sanitized
-            result["lora_tag"] = f"<lora:{sanitized}:1>"
-        else:
-            result["sanitized_ss_name"] = None
+    print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
 
-        # 5) Stable Diffusion 폴더로 복사
-        folder_abs = os.path.abspath(folder)
-        exclude_abs = os.path.abspath(ROOT)
 
-        if folder_abs.startswith(exclude_abs):
-            relative = folder_abs[len(exclude_abs):].lstrip("\\/")
-        else:
-            relative = os.path.basename(folder_abs)
+def wait_and_finalize_lora(folder, presigned, lora_filename):
+    lora_path = os.path.join(folder, lora_filename)
 
-        final_dir = os.path.abspath(os.path.join(LORA_PASTE_TARGET_PATH, relative))
-        os.makedirs(final_dir, exist_ok=True)
+    # presigned가 None이면 "이미 존재하는 파일의 사후처리 모드"
+    if presigned is None:
+        print(f"[LORA] 기존 파일 사후 처리 시작: {lora_filename}")
+    else:
+        print(f"[IDM] LoRA 다운로드 대기중: {lora_filename}")
 
-        final_lora_path = os.path.join(final_dir, lora_filename)
+    # 다운로드 완료까지(별도 thread에서) 대기
+    while True:
+        if os.path.exists(lora_path) and os.path.getsize(lora_path) > 0:
+            break
+        time.sleep(1)
 
-        if not os.path.exists(final_lora_path):
-            try:
-                shutil.copy2(lora_path, final_lora_path)
-            except Exception as e:
-                result["failed_lora"] = {
-                    "lora_url": presigned,
-                    "copy_error": f"LoRA 복사 실패: {e}"
-                }
-        else:
-            print(f"[SKIP] 최종 경로에 이미 존재: {final_lora_path}")
+    print(f"[IDM] 다운로드 완료됨: {lora_filename}")
 
-    except Exception as e:
-        result["failed_lora"] = {"copy_error": str(e)}
+    # ss_output_name 정규화
+    meta = read_safetensors_metadata(lora_path)
+    ss_name = meta.get("ss_output_name")
 
-    return result
+    if ss_name:
+        sanitized = ss_name.replace("__", "_")
+        rewrite_safetensors_metadata(lora_path, sanitized)
+        print(f"[LORA] ss_output_name 정규화 완료: {sanitized}")
+
+    # SD 폴더로 복사
+    folder_abs = os.path.abspath(folder)
+    exclude_abs = os.path.abspath(ROOT)
+
+    if folder_abs.startswith(exclude_abs):
+        relative = folder_abs[len(exclude_abs):].lstrip("\\/")
+    else:
+        relative = os.path.basename(folder_abs)
+
+    final_dir = os.path.abspath(os.path.join(LORA_PASTE_TARGET_PATH, relative))
+    os.makedirs(final_dir, exist_ok=True)
+
+    final_lora_path = os.path.join(final_dir, lora_filename)
+    if not os.path.exists(final_lora_path):
+        shutil.copy2(lora_path, final_lora_path)
+        print(f"[COPY] LoRA 복사됨 → {final_lora_path}")
+
+    print(f"[LORA] 최종 처리 완료: {lora_filename}")
 
 
 
