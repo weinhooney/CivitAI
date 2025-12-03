@@ -10,6 +10,7 @@ import shutil
 import threading
 import subprocess
 import shlex
+from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
 
 
 
@@ -17,7 +18,6 @@ import shlex
 # IDM
 ###########################################################
 IDM_PATH = r"C:\Program Files (x86)\Internet Download Manager\IDMan.exe"
-BG_LORA_EXECUTOR = ThreadPoolExecutor(max_workers=4)
 
 
 def idm_add_to_queue(url: str, save_dir: str, file_name: str):
@@ -56,6 +56,24 @@ LORA_PASTE_TARGET_PATH = os.path.abspath(os.path.join(ROOT, "../sd/models/Lora")
 COOKIE_STRING = """
 civitai-route=4fac7bdddd3d8de26621ca392c01ecaf|86d931b62a0bfdebdb632d2af59dceef; __Host-next-auth.csrf-token=dcf0009810e57b3b1f560f1b9ca9a15ad71ccc2e0fb467c8c6f035886173211b%7Cc9baf06e3cc8b8ebb284a7825d8f5754d6c555e97747cb36a53b81d683c46b9f; _sharedID=7a48cb06-1c3b-429d-b822-4539054ec690; _sharedID_cst=TyylLI8srA%3D%3D; _lr_env_src_ats=false; _ga=GA1.1.1775044621.1760120310; _cc_id=b76db4186625f576cda5f268f88e7ba8; TAPAD=%7B%22id%22%3A%225c9955fd-d70e-45aa-a642-93c810be5375%22%7D; __qca=I0-867660018-1760120320347; _ga_N6W8XF7DXE=deleted; logglytrackingsession=cd671a9f-b379-43a6-b3e8-3a03436d879f; ref_landing_page=%2Fsearch%2Fmodels%3FsortBy%3Dmodels_v9%26query%3Dclothes; panoramaId_expiry=1764931013008; panoramaId=87528db802fdd07446a3aa23bd4516d539389c900c9049bcce59b4041aedf155; panoramaIdType=panoIndiv; cto_bundle=9uWXVV9DTXRLMFlHOFdnUTFROGxjcVpyb3VIRXFEc1lZU3lrNTFuQWpUVXpnRG9ZQVZVJTJCTE1ybm9ySnh2ZmJFaW5qWCUyQlgzenRpTlRzRzVXVXk3SHRyJTJCcnY1TUc1UWppWTZoRnZwaGNBTUplVzBYS1l3RjR2Nmp4TklieG13ZXRJZkN5TWcwMng5UkkzNkVpZkJibjNRJTJGdEdhY09lMXoyVHJHRW1PR2tIb1I4N0YlMkJHaGp0VnR4NnQlMkJaSXh1UzJCYWVzdHJGcHBUZ0xQMU0lMkJxRzl5Y3E4RUtaVWclM0QlM0Q; __Secure-next-auth.callback-url=https%3A%2F%2Fcivitai.com%2Fimages%2F46561031; _sharedID_last=Sat%2C%2029%20Nov%202025%2015%3A31%3A13%20GMT; _lr_retry_request=true; civitai-route=5b7cdcef932889ec6d0f9c8f079ffd24|bf4092ed2cc1ac81a1918599cbb73e8c; __gads=ID=511ed81626cfbad7:T=1760120311:RT=1764435493:S=ALNI_MYEoURyzmRRPJ-z4HyZs99Jod_p2g; __gpi=UID=000011a1daa7c570:T=1760120311:RT=1764435493:S=ALNI_MYzvgw6Sx8g5gRotIm_7UT6ECcWiQ; __eoi=ID=60b396e298cc1fa5:T=1760120311:RT=1764435493:S=AA-AfjZJA57OxejXNdM93n8WLUQf; _ga_N6W8XF7DXE=GS2.1.s1764432295$o224$g1$t1764436352$j59$l0$h0; __Secure-civitai-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..NW5G-EP_Xc3LOFQG.8SogHo6ubxDUSdNUYRsDIILTzGg0N5oQbFyV_QF8C6q0G9d6-RbixV9oSBKwzFxvtMa-b5O8EZQd5lO4xNrSsvNEY9z9F2_yPsZ33WEkFdAzOWxqX7Fbujz1wctEE6cacSP1nWbfZGqOcAyKXBLAbqVeHAbQa8-cI4gNuhJz_d8834sMy0V-28V495G1SUPhg4RfJ4HoA3RHdpjA39we4vB-kC_Ki07V1JxVu5Wmn40Zj4A7ct8v_IGTyn-9bYGRLhwo4Y0E4-BUGN96vJqNiQQFOFEE6eg3SWx--3F-3ww0N6T26s4GwKVdbyw1-9C3M6-EpaF3hel8G_KzhyBrdlPaZWnylrlkcnqhjSvNWCMOq-9SBdH27l_WkCJNlkUeU5v3FCsp0MXX3TNK5VGnPnpQBJM7T3ThvWDI3Fo1Zw7leDqwup4DvXeuoD1ZjB0RruSmQu9BoYl48rTcaHUPW5nM0jx1WPUl3K85ZICY2qQ-EwBEWLfg-JI2PC4a7l1paTOQjDXjieEAoAMViPisJDfWWkmxzc6qv9k7RkdgQQ25oiKJceopqFdsrQTexL0ESN_O3o3uWh7u0gN8NK2P_hautx4gqSk9SmufSjcZSaGISCwmoMfoxAykaV-2VmpfSlUYrDtKDfVIroFrxX3ClJLj_y8ps9Wbdu5DFtfmqJmOEiazDh-NVJZrpDHfNC3JYLpt-d_kxz_XXjLZqcYAtbitYhPm6EIPbmAxYnujEUF9PsY8iND--lGVovHMgo9_oWn-dLVQT1QisVxmCvLV6LErOMZFqMOmCiHLmjkT7v1_2n_iNvWoITwcBdlFFwM5UuU-9GQWEqaocfZk9vtrXRPnphwjD2lcR77J0dJlTOO2HfoCESMCDBr02t0Vw0GhKshOIEj8ME1YYdKEPQxbFYF6coUSytQ2oaFIKBVi916v2YwFVt1YeMK2qmTPCfku3EvZ7KXFsBlBfSBPAMnC5Op3abhxfjZ1iDRcfSu4e13DQvQG46FL6DZ4Pq4mZhwhCVVUMA4AenFN-Dn0fQi8HNp6H0q8B3bDOlv-RwzaBATxZkKsAWt15FiPKOcwe08EQfyXBaZ30qMkJF15iqQJyi2PaYiHOI05bzEmh5yA-wAedm1_rtohat-YtEjnTUvbDB0og0-IilKbXhNEWLBee74azVHGQsAfFdQcNNdwScVJkpZ-R-E55lw6Ae3f7FeWdniVXnMBj5wPyJidhvWYJGleSgFxkJBO9OMtevdjHuexggRJvslZjC9yIyTTguq4eT6L9tHamc2Lcg3iWbLBJL74kwFFgMwnzA0c4qem1HPl6JpktffnNAVY7aoiB4QWyuxg2ARFkNhUuV9KIGp6.qkA29lO-NFGu-q6BsApo5Q
 """.strip()
+
+
+
+###########################################################
+# 이미지 중복 확인
+###########################################################
+IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".avif", ".jfif"}
+
+def find_existing_image_by_id(folder, image_id):
+    """
+    폴더 내에서 image_id에 해당하는 이미지 파일을 확장자 무관하게 찾는다.
+    """
+    for name in os.listdir(folder):
+        base, ext = os.path.splitext(name)
+        if ext.lower() in IMAGE_EXTS and base == str(image_id):
+            return os.path.join(folder, name)   # 실제 파일 경로 반환
+    return None
+
 
 
 
@@ -546,6 +564,62 @@ def extract_post_ids_from_image_page(image_id):
     return list(post_ids)
 
 
+def async_process_image_meta(image_id, uuid, folder):
+    try:
+        gen = fetch_generation(image_id)
+        meta = gen.get("meta") or {}
+
+        resources_used = gen.get("resources") or []
+        prompt = meta.get("prompt", "") or ""
+        negative = meta.get("negativePrompt", "") or ""
+        cfg = meta.get("cfgScale", "")
+        steps = meta.get("steps", "")
+        sampler = meta.get("sampler", "")
+        seed = meta.get("seed", "")
+        clip_skip = meta.get("clipSkip", "")
+
+        # 줄바꿈 제거
+        prompt = re.sub(r"[\r\n]+", " ", prompt).strip()
+        negative = re.sub(r"[\r\n]+", " ", negative).strip()
+
+        # 로라 제거
+        prompt_no_lora = remove_all_lora_tags(prompt)
+
+        # 필터링
+        prompt_clean = clean_prompt(prompt_no_lora, FILTER_WORDS)
+        prompt_with_clothes = clean_prompt(prompt_no_lora, ETC_FILTER)
+
+        # 프롬프트 안에 원본 LoRA 태그가 있으면 검출
+        final_lora_tag = extract_lora_from_prompt(prompt)
+
+        # LoRA 태그를 앞에 붙이기
+        if final_lora_tag:
+            prompt_clean = f"{final_lora_tag}, {prompt_clean}" if prompt_clean else f"{final_lora_tag},"
+            prompt_with_clothes = f"{final_lora_tag}, {prompt_with_clothes}" if prompt_with_clothes else f"{final_lora_tag},"
+
+        meta_path = os.path.join(folder, f"{image_id}.txt")
+        meta_out = {
+            "prompt": prompt_clean,
+            "prompt_with_clothes": prompt_with_clothes,
+            "negative": negative,
+            "cfg": cfg,
+            "steps": steps,
+            "sampler": sampler,
+            "seed": seed,
+            "clip_skip": clip_skip,
+            "raw_prompt": prompt,
+            "lora": final_lora_tag or "",
+            "url": f"https://civitai.com/images/{image_id}",
+            "resources_used": resources_used
+        }
+
+        with open(meta_path, "w", encoding="utf-8") as f:
+            json.dump(meta_out, f, indent=2, ensure_ascii=False)
+
+        print(f"[META] 생성 완료: {meta_path}")
+
+    except Exception as e:
+        print(f"[ERROR] 메타 파일 생성 실패 ({image_id}): {e}")
 
 
 
@@ -607,129 +681,39 @@ def _process_post_core(post_id: int, save_dir: str):
             print("  [WARN] uuid 없음 → 스킵")
             continue
 
-        # 저장 경로
+        # 이미지 파일명과 로컬 경로
         img_filename = f"{image_id}.png"
         img_path = os.path.join(folder, img_filename)
-
         img_url = build_image_url(uuid)
 
-        # 🔥 파일 크기 체크 → 100KB(=102400 bytes) 미만이면 재다운로드
-        if os.path.exists(img_path):
-            size = os.path.getsize(img_path)
-            if size < 102400:  # 100KB 미만
-                print(f"[INFO] 이미지 파일 크기 {size} bytes → 너무 작음, 재다운로드 진행")
+        # =============================================
+        # ① 이미지 존재 여부 체크 → 있으면 IDM queue 추가하지 않음
+        # =============================================
+        existing_path = find_existing_image_by_id(folder, image_id)
 
-                try:
-                    os.remove(img_path)
-                    print("  [INFO] 기존 파일 삭제 완료")
-                except Exception as e:
-                    print(f"  [ERROR] 기존 파일 삭제 실패: {e}")
-
-                # 재다운로드 시도
-                try:
-                    download_file(img_url, img_path)
-                    print("  [INFO] 재다운로드 성공")
-                except Exception as e:
-                    print(f"  [ERROR] 재다운로드 실패: {e}")
-                    failed["failed_image_urls"].append({
-                        "download_url": img_url,
-                        "page_url": f"https://civitai.com/images/{image_id}"
-                    })
-                    continue
-
-                # 다운로드 성공했으면 다음 단계 진행
-                # (기본 로직 계속)
-                # GenerationData 처리로 넘어간다.
-                # 따라서 아래 else 블록 SKIP
-                pass
-
+        if existing_path:
+            size = os.path.getsize(existing_path)
+            if size >= 3000:
+                print(f"[SKIP] 정상 이미지 존재 ({os.path.basename(existing_path)})")
             else:
-                print(f"[SKIP] 이미지 이미 존재: {img_filename}")
+                print(f"[WARN] 손상 이미지 감지 ({size} bytes) → 재다운로드: {existing_path}")
+                try:
+                    os.remove(existing_path)
+                except:
+                    pass
+                idm_add_to_queue(img_url, folder, os.path.basename(existing_path))
         else:
-            print(f"[Download] {img_filename}")
-            try:
-                try:
-                    download_file(img_url, img_path)
-                except Exception:
-                    failed["failed_image_urls"].append({
-                        "download_url": img_url,
-                        "page_url": f"https://civitai.com/images/{image_id}"
-                    })
-                    continue
-            except Exception as e:
-                print(f"[ERROR] 이미지 다운로드 실패: {e}")
-                continue
+            print(f"[IDM] 신규 이미지 다운로드: {image_id}")
+            # 저장 파일명은 확장자를 uuid에서 직접 추출해도 되고 png로 지정해도 됨.
+            # 가장 안전한 방식은 uuid의 원본 확장자를 추출하는 것이다.
+            url_ext = os.path.splitext(uuid)[1] or ".png"
+            img_filename = f"{image_id}{url_ext}"
+            idm_add_to_queue(img_url, folder, img_filename)
 
-        # GenerationData
-        try:
-            gen = fetch_generation(image_id)
-        except Exception as e:
-            print(f"  [ERROR] GenerationData 실패: {e}")
-            continue
-
-        meta = gen.get("meta") or {}
-        
-        resources_used = gen.get("resources") or []
-        prompt = meta.get("prompt", "") or ""
-        negative = meta.get("negativePrompt", "") or ""
-        cfg = meta.get("cfgScale", "")
-        steps = meta.get("steps", "")
-        sampler = meta.get("sampler", "")
-        seed = meta.get("seed", "")
-        clip_skip = meta.get("clipSkip", "")
-
-        prompt = re.sub(r"[\r\n]+", " ", prompt).strip()
-        negative = re.sub(r"[\r\n]+", " ", negative).strip()
-
-        # 🔥 prompt 내부의 로라를 먼저 모두 제거해야 clean_prompt가 문제 없이 동작함
-        prompt_no_lora = remove_all_lora_tags(prompt)
-
-        # 1) 로라 제거된 프롬프트를 기준으로 필터링
-        prompt_clean = clean_prompt(prompt_no_lora, FILTER_WORDS)
-        prompt_with_clothes = clean_prompt(prompt_no_lora, ETC_FILTER)
-
-        # 3) raw 프롬프트(prompt) 에서 LoRA 태그 다시 추출
-        final_lora_tag = extract_lora_from_prompt(prompt)
-
-        # raw 프롬프트에 LoRA가 없다면, safetensors 메타에서 보정용으로 한 번 더 시도
-        if not final_lora_tag and sanitized_ss_name:
-            base_name = sanitized_ss_name.split(":")[0]  # 이름만 사용
-            final_lora_tag = f"<lora:{base_name}:1>"
-
-        # 4) 최종 LoRA 태그를 prompt_* 에 반영
-        if final_lora_tag:
-            if prompt_clean:
-                prompt_clean = f"{final_lora_tag}, {prompt_clean}"
-            else:
-                prompt_clean = f"{final_lora_tag},"
-
-            if prompt_with_clothes:
-                prompt_with_clothes = f"{final_lora_tag}, {prompt_with_clothes}"
-            else:
-                prompt_with_clothes = f"{final_lora_tag},"
-        else:
-            final_lora_tag = ""
-
-        meta_path = os.path.join(folder, f"{image_id}.txt")
-        meta_out = {
-            "prompt": prompt_clean,
-            "prompt_with_clothes": prompt_with_clothes,
-            "negative": negative,
-            "cfg": cfg,
-            "steps": steps,
-            "sampler": sampler,
-            "seed": seed,
-            "clip_skip": clip_skip,
-            "raw_prompt": prompt,
-            "lora": "",
-            "url": f"https://civitai.com/images/{image_id}",
-            "resources_used": resources_used
-        }
-
-        with open(meta_path, "w", encoding="utf-8") as f:
-            json.dump(meta_out, f, indent=2, ensure_ascii=False)
-
-        print(f"  [META] 저장: {meta_path}\n")
+        # =============================================
+        # ② 메타 생성은 다운로드 여부와 무관하게 병렬 처리
+        # =============================================
+        IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
 
     print(f"=== POST {post_id} 처리 완료 ===\n")
 

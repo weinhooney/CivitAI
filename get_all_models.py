@@ -8,6 +8,7 @@ import requests
 from get_model import process_post_to_dir,parse_cookie_string, COOKIE_STRING
 from get_model import USERS_ROOT, POSTS_ROOT
 from get_model import safe_get
+from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
 
 session = requests.Session()
 session.headers.update({
@@ -667,6 +668,14 @@ def main():
     )
 
     print("\n=== 모든 모델 처리 완료 ===")
+
+    # 모든 메타 생성 스레드 대기
+    IMG_META_EXECUTOR.shutdown(wait=True)
+
+    # 모든 로라 후처리 스레드 대기
+    BG_LORA_EXECUTOR.shutdown(wait=True)
+
+    print("=== 모든 스레드 작업 완료 ===")
 
 
 if __name__ == "__main__":
