@@ -901,6 +901,56 @@ def get_downloaded_file_list(username):
         return {"lora": [], "images": []}
 
 
+
+###########################################################
+#  다운로드 파일목록 파일 생성
+###########################################################
+def save_download_records(username, list_url, total_models, downloaded_records):
+    """
+    username 폴더에 다운로드 기록 txt 파일로 저장한다.
+    """
+
+    # 저장 폴더
+    user_dir = os.path.join(BASE_SAVE_PATH, username)
+    os.makedirs(user_dir, exist_ok=True)
+
+    log_path = os.path.join(user_dir, f"{username}_download_log.txt")
+
+    with open(log_path, "w", encoding="utf-8") as f:
+        f.write(f"입력한 모델 목록 URL: {list_url}\n")
+        f.write(f"다운받을 모델 개수: {total_models}\n")
+        f.write("\n=== 다운로드 실패 목록 ===\n\n")
+
+        if not downloaded_records:
+            f.write("모든 모델 정상 다운로드됨.\n")
+            return
+
+        for model_id, info in downloaded_records.items():
+            f.write(f"[모델 ID] {model_id}\n")
+            f.write(f"[모델 이름] {info.get('model_name')}\n")
+            f.write(f"[포스트 ID] {info.get('post_id')}\n")
+
+            # 이미지 실패
+            img_err = info.get("failed_images", [])
+            if img_err:
+                f.write("  - 다운로드 실패 이미지:\n")
+                for url in img_err:
+                    f.write(f"      {url}\n")
+
+            # 로라 실패
+            lora_err = info.get("failed_lora")
+            if lora_err:
+                f.write("  - LoRA 다운로드 실패:\n")
+                f.write(f"      URL: {lora_err.get('url')}\n")
+                if lora_err.get("copy_fail"):
+                    f.write(f"      복사 실패 정보: {lora_err['copy_fail']}\n")
+
+            f.write("\n")
+
+    print(f"[LOG] 다운로드 기록 저장 완료 → {log_path}")
+
+
+
 ###############################################################################
 # Main
 ###############################################################################
@@ -1045,6 +1095,14 @@ def main():
         json.dump(verified, f, indent=2, ensure_ascii=False)
 
     print("[VERIFY] JSON 로그 저장 완료:", json_log_file)
+
+    # 다운로드 파일목록 저장
+    save_download_records(
+    username=username,
+    list_url=url,
+    total_models=len(models),
+    downloaded_records=downloaded_records
+)
 
 
 if __name__ == "__main__":
