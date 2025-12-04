@@ -606,6 +606,18 @@ def async_process_image_meta(image_id, uuid, folder):
         meta = gen.get("meta") or {}
 
         resources_used = gen.get("resources") or []
+        # resources_used 안에 download_endpoint 추가
+        enriched_resources = []
+        for r in resources_used:
+            entry = dict(r)
+
+            mv_id = r.get("modelVersionId")
+            if mv_id:
+                # presigned URL을 요청하지 않고, 고정 엔드포인트만 설정
+                entry["download_url"] = f"https://civitai.com/api/download/models/{mv_id}"
+
+            enriched_resources.append(entry)
+
         prompt = meta.get("prompt", "") or ""
         negative = meta.get("negativePrompt", "") or ""
         cfg = meta.get("cfgScale", "")
@@ -646,7 +658,7 @@ def async_process_image_meta(image_id, uuid, folder):
             "raw_prompt": prompt,
             "lora": final_lora_tag or "",
             "url": f"https://civitai.com/images/{image_id}",
-            "resources_used": resources_used
+            "resources_used": enriched_resources
         }
 
         with open(meta_path, "w", encoding="utf-8") as f:
