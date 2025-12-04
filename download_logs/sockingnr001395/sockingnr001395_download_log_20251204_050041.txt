@@ -1,0 +1,58 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251204_050041
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/sockingnr001395/models
+
+[다운받을 모델 갯수]
+469
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Suzuya(鈴夜) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838843
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kobayakawa Shizuku(小早川 雫) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838816
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Francesca(フランチェスカ) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838799
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Plumalocke(プルマロック) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838772
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Shuri Seihajuu Nagasaki(シュリ・セイハジュウ・ナガサキ) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838697
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Andra Kujira(アンドラ・くじら) - Toushin Toshi II(闘神都市Ⅱ)/Tournament of the Gods: Title Match OVA
+모델 URL: https://civitai.com/models/1838687
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
