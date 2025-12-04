@@ -884,6 +884,22 @@ def save_downloaded_file_list(username, verified_items):
     print(f"[DOWNLOAD LIST] 다운로드 목록 저장됨: {save_path}")
 
 
+###########################################################
+#  다운로드한 파일 목록 얻기
+###########################################################
+def get_downloaded_file_list(username):
+    user_root = os.path.join("E:\\CivitAI\\Users", username)
+    save_path = os.path.join(user_root, "downloaded_files.json")
+
+    if not os.path.exists(save_path):
+        return {"lora": [], "images": []}
+
+    try:
+        with open(save_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {"lora": [], "images": []}
+
 
 ###############################################################################
 # Main
@@ -907,6 +923,10 @@ def main():
     # models = models[:3]  # 테스트 3개
 
     print(f"[INFO] 총 모델 수: {len(models)}")
+
+    # 실행 시작 시 단 1번만 다운로드 기록 로드
+    import download_state
+    downloaded_records = get_downloaded_file_list(username)
 
     failed_models = []
 

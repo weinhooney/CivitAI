@@ -682,6 +682,30 @@ def async_process_image_meta(image_id, uuid, folder):
 
 
 ###########################################################
+#  다운로드했는지 확인
+###########################################################
+def is_lora_downloaded(downloaded_records, model_version_id):
+    if not downloaded_records:
+        return False
+    for item in downloaded_records.get("lora", []):
+        if item["model_version_id"] == model_version_id:
+            return True
+    return False
+
+
+
+def is_image_downloaded(downloaded_records, image_id):
+    if not downloaded_records:
+        return False
+    for item in downloaded_records.get("images", []):
+        if item["image_id"] == image_id:
+            return True
+    return False
+
+
+
+
+###########################################################
 #  공통 코어
 ###########################################################
 def _process_post_core(post_id: int, save_dir: str):
@@ -732,6 +756,15 @@ def _process_post_core(post_id: int, save_dir: str):
         uuid = img.get("url") or img.get("uuid")
 
         print(f"[{idx}/{len(images)}] image_id={image_id}, uuid={uuid}")
+
+        # =====================================================
+        # 🚫 다운로드 기록 기반 이미지 중복 체크 (여기에 넣는 게 정답)
+        # =====================================================
+        import download_state
+        if is_image_downloaded(download_state.downloaded_records, image_id):
+            print(f"[SKIP] 이미지 이미 다운로드됨 → imageId={image_id}")
+            continue
+        # =====================================================
 
         if not uuid:
             print("  [WARN] uuid 없음 → 스킵")
@@ -802,6 +835,11 @@ def _process_post_core(post_id: int, save_dir: str):
 
 
 def process_lora_task(folder, model_version_id, _):
+    # 🚫 다운로드 기록 기반 중복 체크
+    import download_state
+    if is_lora_downloaded(download_state.downloaded_records, model_version_id):
+        print(f"[SKIP] 이미 다운로드된 LoRA → modelVersionId={model_version_id}")
+        return  # 해당 LoRA 처리 전체 스킵
 
     mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
     mv = safe_get(mv_url)
@@ -827,6 +865,8 @@ def process_lora_task(folder, model_version_id, _):
         "expected_file_size": remote_size,
         "final_paste_path": None,  # 후처리 단계에서 채워짐
     })
+
+
 
 
     # ==========================================================
