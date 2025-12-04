@@ -813,6 +813,79 @@ def generate_model_meta_files(m, user_root):
 
 
 ###############################################################################
+# 다운로드 파일 목록 생성
+###############################################################################
+def save_downloaded_file_list(username, verified_items):
+    """
+    verified_items: verify_all_downloads() 결과 리스트
+    """
+
+    user_root = os.path.join("E:\\CivitAI\\Users", username)
+    save_path = os.path.join(user_root, "downloaded_files.json")
+
+    # -------------------------------------------------
+    # 기존 기록 불러오기
+    # -------------------------------------------------
+    if os.path.exists(save_path):
+        try:
+            with open(save_path, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except:
+            existing = {"lora": [], "images": []}
+    else:
+        existing = {"lora": [], "images": []}
+
+    # dict 형태로 lookup map 화
+    lora_map = { item["model_version_id"]: item for item in existing["lora"] }
+    image_map = { item["image_id"]: item for item in existing["images"] }
+
+    # -------------------------------------------------
+    # 새로운 다운로드 성공 항목 병합
+    # -------------------------------------------------
+    for item in verified_items:
+        if item.get("status") != "success":
+            continue
+
+        # ===================== LoRA / Model =====================
+        if item.get("type") == "lora":
+            mv_id = item.get("model_version_id")
+            filename = os.path.basename(item.get("expected_file_path"))
+
+            if mv_id:
+                lora_map[mv_id] = {
+                    "model_version_id": mv_id,
+                    "filename": filename
+                }
+
+        # ===================== Images =====================
+        elif item.get("type") == "image":
+            img_id = item.get("image_id")
+            filename = os.path.basename(item.get("expected_file_path"))
+            post_id = item.get("post_id")
+
+            if img_id:
+                image_map[img_id] = {
+                    "image_id": img_id,
+                    "filename": filename,
+                    "post_id": post_id
+                }
+
+    # -------------------------------------------------
+    # 저장
+    # -------------------------------------------------
+    final_data = {
+        "lora": list(lora_map.values()),
+        "images": list(image_map.values())
+    }
+
+    with open(save_path, "w", encoding="utf-8") as f:
+        json.dump(final_data, f, indent=2, ensure_ascii=False)
+
+    print(f"[DOWNLOAD LIST] 다운로드 목록 저장됨: {save_path}")
+
+
+
+###############################################################################
 # Main
 ###############################################################################
 def main():
