@@ -89,6 +89,16 @@ def find_existing_image_by_id(folder, image_id):
 
 
 ###########################################################
+# URL로부터 이미지 확장자 추출
+###########################################################
+def extract_image_extension(url):
+    clean_url = url.split("?")[0]
+    _, ext = os.path.splitext(clean_url)
+    return ext.lower() if ext else ".png"
+
+
+
+###########################################################
 #  딜레이
 ###########################################################
 REQUEST_LOCK = threading.Lock()
@@ -732,9 +742,10 @@ def _process_post_core(post_id: int, save_dir: str):
             continue
 
         # 이미지 파일명과 로컬 경로
-        img_filename = f"{image_id}.png"
-        img_path = os.path.join(folder, img_filename)
         img_url = build_image_url(uuid)
+        ext = extract_image_extension(img_url)
+        img_filename = f"{image_id}{ext}"
+        img_path = os.path.join(folder, img_filename)
 
         # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
         from get_all_models import DOWNLOAD_TARGETS  # 파일 상단에 이미 있음
