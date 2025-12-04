@@ -68,7 +68,7 @@ def call_model_get_all(payload: dict):
                 return None
 
         if status == 429:
-            wait = 2 + retry * 2
+            wait = 5 + retry * 5   # 5초, 10초, 15초… 증가
             print(f"[WARN] TRPC 429 Too Many Requests → {wait}초 대기 후 재시도")
             time.sleep(wait)
             continue
@@ -331,7 +331,7 @@ def get_user_models_trpc(username):
             break
 
         cursor = next_cursor
-        time.sleep(1.0)  # 너무 빨리 때리는 것 방지
+        time.sleep(3.0)  # 너무 빨리 때리는 것 방지
 
     print(f"[INFO] TRPC로 {len(all_items)}개 모델 수집 완료")
     return all_items
