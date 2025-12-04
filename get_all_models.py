@@ -74,7 +74,7 @@ def call_model_get_all(payload: dict):
             continue
 
         print(f"[WARN] TRPC status={status}, retry={retry}")
-        time.sleep(1)
+        time.sleep(2)
 
     print("[FATAL] TRPC 연속 실패")
     return None
@@ -120,7 +120,22 @@ def get_post_id_from_version(version_id, session):
 # Utility
 ###############################################################################
 def safe_folder_name(name: str) -> str:
-    return re.sub(r'[<>:"/\\|?*]', "_", name).strip()
+    # 1) Windows 금지 문자 치환
+    name = re.sub(r'[<>:"/\\|?*]', "_", name)
+
+    # 2) 제어문자 제거 (\t \n \r 및 ASCII 0~31)
+    name = re.sub(r'[\t\r\n]', " ", name)
+    name = re.sub(r'[\x00-\x1F]+', " ", name)
+
+    # 3) Zero-width space 제거
+    name = name.replace('\u200b', '')
+
+    # 4) 공백 여러 개 → 1개
+    name = " ".join(name.split())
+
+    # 5) 앞뒤 공백 정리
+    return name.strip()
+
 
 
 def extract_username(url: str):
@@ -169,8 +184,8 @@ def get_user_models_v1(username):
 
                 # Rate limit
                 if r.status_code == 429:
-                    print("[WARN] v1 API 429: 1초 대기")
-                    time.sleep(1)
+                    print("[WARN] v1 API 429: 2초 대기")
+                    time.sleep(2)
                     continue
 
                 r.raise_for_status()
@@ -184,7 +199,7 @@ def get_user_models_v1(username):
                     return models
                 else:
                     print(f"[WARN] v1 API 오류 → 재시도 ({attempt+1}/3)")
-                    time.sleep(1)
+                    time.sleep(2)
 
         # -------------- 아이템 수집 단계 --------------
         items = data.get("items", [])
