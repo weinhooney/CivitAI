@@ -839,12 +839,8 @@ def process_lora_task(folder, model_version_id, _):
     idm_add_to_queue(presigned, folder, lora_filename)
     idm_start_download()
 
-    # 후처리를 백그라운드에서 수행
-    # (메인 로직과 완전히 분리)
-    future = BG_LORA_EXECUTOR.submit(
-        wait_and_finalize_lora, folder, presigned, lora_filename
-    )
-    LORA_FUTURES.append(future)
+    # 후처리
+    wait_and_finalize_lora(folder, presigned, lora_filename)
     
     print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
 
