@@ -879,12 +879,7 @@ def process_lora_task(folder, model_version_id, _):
     # expected_size = remote_size
     if os.path.exists(lora_path) and actual_size >= remote_size:
         print(f"[SKIP] LoRA 이미 존재하고 정상 용량 확인됨: {lora_filename}")
-
-        # 후처리만 수행
-        future = BG_LORA_EXECUTOR.submit(
-            wait_and_finalize_lora, folder, None, lora_filename
-        )
-        LORA_FUTURES.append(future)
+        wait_and_finalize_lora(folder, None, lora_filename)
         return
     elif os.path.exists(lora_path) and actual_size < remote_size:
         print(f"[WARN] 기존 파일이 있으나 용량이 부족함({actual_size} < {remote_size}) → 재다운로드 진행")
