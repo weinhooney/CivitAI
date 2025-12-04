@@ -481,30 +481,53 @@ def get_post_id_from_model(model):
 ###############################################################################
 def verify_all_downloads(download_targets):
     """
-    IDM 다운로드 완료 여부와 상관없이
-    '파일이 실제로 존재하는지 / 손상되었는지'만 검사하는 함수
+    다운로드된 파일을 검사하는 함수.
+    - 이미지: 최소 파일 크기 기준으로 검사
+    - 모델 파일: expected_file_size 기반으로 검사
     """
-
     verified = []
 
     for item in download_targets:
         path = item["expected_file_path"]
-
-        status = "success"
+        item_type = item.get("type")
+        expected_size = item.get("expected_file_size")
 
         if not os.path.exists(path):
-            status = "missing"
-        else:
-            size = os.path.getsize(path)
-            if size < 5000:
-                status = "corrupted"
+            item["status"] = "missing"
+            item["actual_file_size"] = 0
+            verified.append(item)
+            continue
 
-        # 상태 기록 추가
-        item["status"] = status
+        actual_size = os.path.getsize(path)
+        item["actual_file_size"] = actual_size
+
+        # ============================
+        #      1) 이미지 파일
+        # ============================
+        if item_type == "image":
+            # 원본 용량을 모름 → 최소값 기준
+            if actual_size < 5000:
+                item["status"] = "corrupted"
+            else:
+                item["status"] = "success"
+
+        # ============================
+        #   2) 그 외 모델 / LoRA 파일
+        # ============================
+        else:
+            if expected_size:  # 항상 존재함
+                if actual_size < expected_size:
+                    item["status"] = "corrupted"
+                else:
+                    item["status"] = "success"
+            else:
+                # 예상 크기 없으면 fallback
+                item["status"] = "success" if actual_size > 0 else "corrupted"
 
         verified.append(item)
 
     return verified
+
 
 
 
@@ -644,6 +667,150 @@ def get_post_ids_from_model(model):
     return post_ids
 
 
+###############################################################################
+# 모델 메타파일 생성
+###############################################################################
+import os
+import json
+import pprint
+import time
+
+def generate_model_meta_files(m, user_root):
+    r"""
+    m : get_user_models(username) 에서 얻은 모델 데이터(dict)
+    user_root : 사용자 폴더 경로 (예: E:/CivitAI/Users/username)
+    """
+
+    model_name = m.get("name", "UnknownModel")
+    model_id = m.get("id")
+    model_url = f"https://civitai.com/models/{model_id}"
+    model_type = m.get("type")
+    description_html = m.get("description")
+    tags = m.get("tags", [])
+    creator = m.get("creator", {})
+    stats = m.get("stats", {})
+
+    # 모델 폴더 생성
+    model_folder = os.path.join(user_root, safe_folder_name(model_name))
+    os.makedirs(model_folder, exist_ok=True)
+
+    model_versions = m.get("modelVersions", [])
+
+    for v in model_versions:
+        try:
+            version_id = v.get("id")
+            version_name = v.get("name")
+            base_model = v.get("baseModel")
+            base_model_type = v.get("baseModelType")
+            trained_words = v.get("trainedWords", [])
+            published_at = v.get("publishedAt")
+
+            files = v.get("files", [])
+            preview_images = v.get("images", [])
+
+            # 이미지 페이지 URL 추가
+            for p in preview_images:
+                img_id = p.get("id")
+                if img_id:
+                    p["pageUrl"] = f"https://civitai.com/images/{img_id}"
+
+            # 파일 다운로드 엔드포인트 추가
+            for f in files:
+                f["download_endpoint"] = f"https://civitai.com/api/download/models/{version_id}"
+
+            # ---------------------------------------------------------
+            #                    갤러리 이미지 가져오기
+            #   /api/v1/images?modelVersionId=xxx  (resources 없음)
+            #   modelVersion 정보는 meta.modelIds / meta.versionIds 로 가져옴
+            # ---------------------------------------------------------
+            gallery = []
+            try:
+                gallery_url = f"https://civitai.com/api/v1/images?modelVersionId={version_id}&limit=200"
+                r = safe_get(gallery_url)
+                jj = r.json()
+                items = jj.get("items", [])
+
+                for img in items:
+                    meta = img.get("meta") or {}
+
+                    # 모델 버전 정보 추출
+                    model_ids = (
+                        meta.get("modelIds") or
+                        meta.get("versionIds") or
+                        []
+                    )
+
+                    models_used = []
+                    for mv_id in model_ids:
+                        models_used.append({
+                            "modelVersionId": mv_id,
+                            "download_endpoint": f"https://civitai.com/api/download/models/{mv_id}"
+                        })
+
+                    gallery.append({
+                        "postId": img.get("postId"),
+                        "imageId": img.get("id"),
+                        "url": img.get("url"),
+                        "width": img.get("width"),
+                        "height": img.get("height"),
+                        "stats": img.get("stats"),
+                        "prompt": meta.get("prompt"),
+                        "negativePrompt": meta.get("negativePrompt"),
+                        "seed": meta.get("seed"),
+                        "sampler": meta.get("sampler") or meta.get("scheduler"),
+                        "steps": meta.get("steps"),
+                        "models_used": models_used
+                    })
+
+            except Exception as e:
+                print(f"[WARN] 갤러리 조회 실패 modelVersionId={version_id}: {e}")
+
+            # ---------------------------------------------------------
+            #                     JSON 구조 생성
+            # ---------------------------------------------------------
+            meta_json = {
+                "modelId": model_id,
+                "modelName": model_name,
+                "modelUrl": model_url,
+                "modelType": model_type,
+                "tags": tags,
+                "creator": creator,
+                "stats": stats,
+                "descriptionHtml": description_html,
+
+                "version": {
+                    "modelVersionId": version_id,
+                    "versionName": version_name,
+                    "publishedAt": published_at,
+                    "baseModel": base_model,
+                    "baseModelType": base_model_type,
+                    "trainedWords": trained_words,
+                    "files": files,
+                    "previewImages": preview_images,   # 모델 상세 페이지의 대표 이미지들
+                    "gallery": gallery                 # 갤러리(예제 이미지)
+                }
+            }
+
+            # ---------------------------------------------------------
+            #                     JSON 저장
+            # ---------------------------------------------------------
+            json_path = os.path.join(model_folder, f"model_meta_v{version_id}.json")
+            with open(json_path, "w", encoding="utf-8") as fp:
+                json.dump(meta_json, fp, indent=4, ensure_ascii=False)
+            print(f"[META] JSON 저장됨: {json_path}")
+
+            # ---------------------------------------------------------
+            #                     TXT 저장
+            # ---------------------------------------------------------
+            txt_path = os.path.join(model_folder, f"model_meta_v{version_id}.txt")
+            with open(txt_path, "w", encoding="utf-8") as fp:
+                fp.write(pprint.pformat(meta_json, width=180, compact=False))
+            print(f"[META] TXT 저장됨: {txt_path}")
+
+        except Exception as e:
+            print(f"[ERROR] 모델 버전 메타 생성 실패 modelVersionId={v.get('id')}: {e}")
+
+
 
 ###############################################################################
 # Main
@@ -683,6 +850,9 @@ def main():
         if not os.path.exists(folder):
             os.makedirs(folder)
             print(f"  [INFO] 폴더 생성:", folder)
+
+        # 모델 메타파일(JSON+TXT) 자동 생성
+        generate_model_meta_files(m, user_root)
 
         post_ids = get_post_ids_from_model(m)
 
