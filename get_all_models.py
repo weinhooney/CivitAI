@@ -689,6 +689,18 @@ def main():
         if not post_ids:
             print("  [SKIP] 포스트 ID 없음 → 스킵")
 
+            # ⭕ JSON 로그에도 기록하기 위한 DOWNLOAD_TARGETS 추가
+            DOWNLOAD_TARGETS.append({
+                "type": "model_no_postid",
+                "model_id": model_id,
+                "model_name": model_name,
+                "model_url": model_url,
+                "reason": "postId_not_found",
+                "expected_file_path": None,
+                "expected_file_size": None,
+                "status": "failed"
+            })
+
             failed_models.append({
                 "model_name": model_name,
                 "model_url": model_url,
@@ -697,6 +709,7 @@ def main():
                 "failed_lora": None,
             })
             continue
+
 
         print(f"  [INFO] 발견된 postIds: {post_ids}")
 
