@@ -21,6 +21,14 @@ def set_future_lists(img_list, lora_list):
     IMG_META_FUTURES = img_list
     LORA_FUTURES = lora_list
 
+# get_all_models.py 에서 주입해줄 다운로드 대상 리스트
+DOWNLOAD_TARGETS = None
+
+def set_download_targets(target_list):
+    """get_all_models.py에서 DOWNLOAD_TARGETS 리스트를 주입해준다."""
+    global DOWNLOAD_TARGETS
+    DOWNLOAD_TARGETS = target_list
+
 
 ###########################################################
 # IDM
@@ -678,6 +686,23 @@ def async_process_image_meta(image_id, uuid, folder):
 
     except Exception as e:
         print(f"[ERROR] 메타 파일 생성 실패 ({image_id}): {e}")
+        # 메타 작업 실패도 실패 로그에 남겨둔다 (type은 image로 통일)
+        try:
+            import download_state
+            download_state.mark_failed(
+                image_id,
+                "image",
+                f"meta_failed: {e}",
+                {
+                    "folder": folder,
+                    "uuid": uuid,
+                    "url": f"https://civitai.com/images/{image_id}",
+                    "meta_path": os.path.join(folder, f"{image_id}.txt"),
+                }
+            )
+        except Exception:
+            pass
+
 
 
 
@@ -758,13 +783,14 @@ def _process_post_core(post_id: int, save_dir: str):
         print(f"[{idx}/{len(images)}] image_id={image_id}, uuid={uuid}")
 
         # =====================================================
-        # 🚫 다운로드 기록 기반 이미지 중복 체크 (여기에 넣는 게 정답)
+        # 🚫 통합 로그 기반 이미지 중복 체크
         # =====================================================
         import download_state
-        if is_image_downloaded(download_state.downloaded_records, image_id):
-            print(f"[SKIP] 이미지 이미 다운로드됨 → imageId={image_id}")
+        if download_state.is_success(image_id, "image"):
+            print(f"[SKIP] 이미지 이미 성공 로그에 있음 → imageId={image_id}")
             continue
         # =====================================================
+
 
         if not uuid:
             print("  [WARN] uuid 없음 → 스킵")
@@ -781,17 +807,24 @@ def _process_post_core(post_id: int, save_dir: str):
         img_path = os.path.join(folder, img_filename)
 
         # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
-        from get_all_models import DOWNLOAD_TARGETS  # 파일 상단에 이미 있음
+        #  🔥 이제 get_all_models를 import하지 않고,
+        #  get_all_models에서 주입해준 DOWNLOAD_TARGETS 전역을 그대로 사용한다.
+        from get_model import DOWNLOAD_TARGETS  # 자기 자신 모듈의 전역을 참조
 
-        DOWNLOAD_TARGETS.append({
-            "type": "image",
-            "post_id": post_id,
-            "image_id": image_id,
-            "uuid": uuid,
-            "download_url": img_url,
-            "page_url": f"https://civitai.com/images/{image_id}",
-            "expected_file_path": img_path,
-        })
+        if DOWNLOAD_TARGETS is not None:
+            DOWNLOAD_TARGETS.append({
+                "type": "image",
+                "post_id": post_id,
+                "image_id": image_id,
+                "uuid": uuid,
+                "download_url": img_url,
+                "page_url": f"https://civitai.com/images/{image_id}",
+                "expected_file_path": img_path,
+            })
+        else:
+            # 혹시라도 세팅이 안 된 경우 디버그용
+            print("[WARN] DOWNLOAD_TARGETS가 None이라 이미지 대상 리스트에 추가하지 못함")
+
 
 
         # =============================================
@@ -803,6 +836,12 @@ def _process_post_core(post_id: int, save_dir: str):
             size = os.path.getsize(existing_path)
             if size >= 3000:
                 print(f"[SKIP] 정상 이미지 존재 ({os.path.basename(existing_path)})")
+                # 이미 폴더에 정상 파일이 있으므로 성공 로그에 추가
+                try:
+                    import download_state
+                    download_state.mark_success(image_id, "image", existing_path, size)
+                except Exception:
+                    pass
             else:
                 print(f"[WARN] 손상 이미지 감지 ({size} bytes) → 재다운로드: {existing_path}")
                 try:
@@ -810,13 +849,13 @@ def _process_post_core(post_id: int, save_dir: str):
                 except:
                     pass
                 idm_add_to_queue(img_url, folder, os.path.basename(existing_path))
+
         else:
             print(f"[IDM] 신규 이미지 다운로드: {image_id}")
-            # 저장 파일명은 확장자를 uuid에서 직접 추출해도 되고 png로 지정해도 됨.
-            # 가장 안전한 방식은 uuid의 원본 확장자를 추출하는 것이다.
-            url_ext = os.path.splitext(uuid)[1] or ".png"
-            img_filename = f"{image_id}{url_ext}"
-            idm_add_to_queue(img_url, folder, img_filename)
+            # ⚠ expected_file_path랑 실제 IDM 저장 파일명을 반드시 동일하게 맞춘다
+            # 위에서 만든 img_path = folder + (image_id + ext) 를 그대로 사용
+            idm_add_to_queue(img_url, folder, os.path.basename(img_path))
+
 
         # =============================================
         # ② 메타 생성은 다운로드 여부와 무관하게 병렬 처리
@@ -835,18 +874,21 @@ def _process_post_core(post_id: int, save_dir: str):
 
 
 def process_lora_task(folder, model_version_id, _):
-    # 🚫 다운로드 기록 기반 중복 체크
     import download_state
-    if is_lora_downloaded(download_state.downloaded_records, model_version_id):
-        print(f"[SKIP] 이미 다운로드된 LoRA → modelVersionId={model_version_id}")
+
+    # 1) 통합 성공 로그 기반 중복 체크
+    if download_state.is_success(model_version_id, "lora"):
+        print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
         return  # 해당 LoRA 처리 전체 스킵
 
+    # 2) 모델 버전 메타 받아서 파일 정보 확인
     mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
     mv = safe_get(mv_url)
     mv_json = mv.json()
 
     safes = [f for f in mv_json.get("files", []) if f["name"].endswith(".safetensors")]
     if not safes:
+        print(f"[LORA][WARN] safetensors 파일 없음 → modelVersionId={model_version_id}")
         return
 
     info = safes[0]
@@ -854,36 +896,43 @@ def process_lora_task(folder, model_version_id, _):
     lora_filename = info["name"]
     lora_path = os.path.join(folder, lora_filename)
 
-    from get_all_models import DOWNLOAD_TARGETS
+    from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
 
-    DOWNLOAD_TARGETS.append({
-        "type": "lora",
-        "post_id": None,  # LoRA는 post_id가 없으므로 None
-        "model_version_id": model_version_id,
-        "presigned_url": None,  # presigned 이후에 채워짐
-        "expected_file_path": lora_path,
-        "expected_file_size": remote_size,
-        "final_paste_path": None,  # 후처리 단계에서 채워짐
-    })
+    if DOWNLOAD_TARGETS is not None:
+        DOWNLOAD_TARGETS.append({
+            "type": "lora",
+            "post_id": None,  # LoRA는 post_id가 없으므로 None
+            "model_version_id": model_version_id,
+            "presigned_url": None,  # presigned 이후에 채워짐
+            "expected_file_path": lora_path,
+            "expected_file_size": remote_size,
+            "final_paste_path": None,  # 후처리 단계에서 채워짐
+        })
+    else:
+        print("[WARN] DOWNLOAD_TARGETS가 None이라 LoRA 대상 리스트에 추가하지 못함")
 
 
-
-
-    # ==========================================================
-    # 🔥 파일이 이미 존재하면 → IDM에 넣지 말고 바로 후처리 스레드 실행
-    # ==========================================================
+    # 3) 🔥 로컬에 이미 파일이 있고, 용량이 remote_size 이상이면
+    #    → 성공 로그에 추가 + IDM 안 태우고 후처리만 실행
     actual_size = 0
     if os.path.exists(lora_path):
         actual_size = os.path.getsize(lora_path)
 
-    # expected_size = remote_size
     if os.path.exists(lora_path) and actual_size >= remote_size:
         print(f"[SKIP] LoRA 이미 존재하고 정상 용량 확인됨: {lora_filename}")
+
+        # ✅ 여기서 성공 로그에 등록
+        try:
+            download_state.mark_success(model_version_id, "lora", lora_path, actual_size)
+        except Exception:
+            pass
+
+        # 정규화 + SD 폴더 복사는 그대로 수행
         wait_and_finalize_lora(folder, None, lora_filename)
         return
+
     elif os.path.exists(lora_path) and actual_size < remote_size:
-        print(f"[WARN] 기존 파일이 있으나 용량이 부족함({actual_size} < {remote_size}) → 재다운로드 진행")
-        # 이전 불완전 파일 삭제
+        print(f"[WARN] 기존 파일 용량 부족({actual_size} < {remote_size}) → 재다운로드")
         try:
             os.remove(lora_path)
         except:
@@ -895,12 +944,13 @@ def process_lora_task(folder, model_version_id, _):
 
     # IDM 대기열에 추가
     idm_add_to_queue(presigned, folder, lora_filename)
+    print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}") 
     idm_start_download()
 
     # 후처리
     wait_and_finalize_lora(folder, presigned, lora_filename)
     
-    print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
+    print(f"[LORA] 처리 완료: {lora_filename}")
 
 
 def wait_and_finalize_lora(folder, presigned, lora_filename):
@@ -914,36 +964,70 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
 
     # ------------------------------------------------------
     # 로라 expected_size 검색 (DOWNLOAD_TARGETS에서 찾기)
+    #   🔥 이제 get_all_models이 아니라, get_model 전역에서 주입받은 리스트 사용
     # ------------------------------------------------------
-    from get_all_models import DOWNLOAD_TARGETS
+    from get_model import DOWNLOAD_TARGETS
 
     expected_size = None
     model_version_id = None
 
-    # presigned 모드라면 model_version_id를 DOWNLOAD_TARGETS에서 lookup 가능
-    for item in DOWNLOAD_TARGETS:
-        if item["type"] == "lora" and item["expected_file_path"] == lora_path:
-            expected_size = item.get("expected_file_size")
-            model_version_id = item.get("model_version_id")
-            break
+    if DOWNLOAD_TARGETS is not None:
+        # presigned 모드라면 model_version_id를 DOWNLOAD_TARGETS에서 lookup 가능
+        for item in DOWNLOAD_TARGETS:
+            if item["type"] == "lora" and item["expected_file_path"] == lora_path:
+                expected_size = item.get("expected_file_size")
+                model_version_id = item.get("model_version_id")
+                break
+    else:
+        print("[WARN] DOWNLOAD_TARGETS가 None이라 expected_size lookup 불가")
+
 
     # ------------------------------------------------------
-    # 정확한 다운로드 완료 대기 (expected_size 비교)
+    # 정확한 다운로드 완료 대기 (expected_size 비교) + 타임아웃
     # ------------------------------------------------------
+    start_ts = time.time()
+    last_size = -1
+    stagnant_count = 0
+    TIMEOUT_SEC = 60 * 20  # 20분, 필요하면 조절
+
     while True:
         if os.path.exists(lora_path):
             size = os.path.getsize(lora_path)
 
-            # expected_size가 있으면 정확한 비교
+            if size != last_size:
+                last_size = size
+                stagnant_count = 0
+            else:
+                stagnant_count += 1
+
             if expected_size:
+                # 너무 빡빡하게 == 말고 어느 정도 여유를 둔다
                 if size >= expected_size:
                     break
             else:
-                # fallback: 존재하고 0보다 크면 break
-                if size > 0:
+                # presigned가 없고, 용량이 조금이라도 있고 일정 시간 동안 변화 없으면 완료로 간주
+                if size > 0 and stagnant_count >= 3:
                     break
 
-        time.sleep(0.5)
+        # 타임아웃 처리
+        if time.time() - start_ts > TIMEOUT_SEC:
+            print(f"[LORA][ERROR] 다운로드 타임아웃: {lora_filename}")
+            if model_version_id:
+                import download_state
+                download_state.mark_failed(
+                    model_version_id,
+                    "lora",
+                    "timeout",
+                    {
+                        "expected_file_path": lora_path,
+                        "expected_file_size": expected_size,
+                        "last_size": last_size,
+                    },
+                )
+            return  # 더 이상 후처리 진행하지 않고 종료
+
+        time.sleep(2)
+
 
 
     print(f"[IDM] 다운로드 완료됨: {lora_filename}")
@@ -999,9 +1083,68 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
     # -------------------------------------------------------------
     # 🔥 복사 수행
     # -------------------------------------------------------------
+    # -------------------------------------------------------------
+    # 🔥 복사 수행
+    # -------------------------------------------------------------
     if need_copy:
-        shutil.copy2(lora_path, final_lora_path)
-        print(f"[COPY] LoRA 복사됨 → {final_lora_path}")
+        try:
+            shutil.copy2(lora_path, final_lora_path)
+            print(f"[COPY] LoRA 복사됨 → {final_lora_path}")
+        except Exception as e:
+            print(f"[LORA][ERROR] SD 폴더 복사 실패: {e}")
+            if model_version_id:
+                import download_state
+                download_state.mark_failed(
+                    model_version_id,
+                    "lora",
+                    f"copy_failed: {e}",
+                    {
+                        "source_path": lora_path,
+                        "dest_path": final_lora_path,
+                        "expected_size": expected_size,
+                    }
+                )
+            return  # 복사 실패면 여기서 종료
+
+    # ✅ 여기까지 왔으면: 로라 파일 존재 + 용량 OK + (필요하면) SD 폴더 복사 완료
+    if model_version_id and os.path.exists(lora_path):
+        try:
+            import download_state
+            size = os.path.getsize(lora_path)
+            download_state.mark_success(model_version_id, "lora", lora_path, size)
+        except Exception:
+            pass
+
+        except Exception as e:
+            print(f"[LORA][ERROR] SD 폴더 복사 실패: {e}")
+            if model_version_id:
+                import download_state
+                download_state.mark_failed(
+                    model_version_id,
+                    "lora",
+                    f"copy_failed: {e}",
+                    {
+                        "source_path": lora_path,
+                        "dest_path": final_lora_path,
+                        "expected_size": expected_size,
+                    }
+                )
+            return  # 복사 실패면 여기서 종료
+
+    # 여기까지 왔으면 정규화 + 복사까지 정상 완료 → 성공 로그에 기록
+    if model_version_id and os.path.exists(final_lora_path):
+        try:
+            import download_state
+            size = os.path.getsize(final_lora_path)
+            download_state.mark_success(
+                model_version_id,
+                "lora",
+                final_lora_path,
+                size
+            )
+        except Exception:
+            pass
+
 
 
 

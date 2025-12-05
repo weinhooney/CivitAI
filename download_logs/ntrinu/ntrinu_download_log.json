@@ -1,0 +1,119 @@
+{
+  "success": [
+    {
+      "id": 54045362,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Murrue Ramius (マリュー・ラミアス) from Mobile Suit Gundam SEED (機動戦士ガンダムSEED)\\54045362.png",
+      "size": 2605718
+    },
+    {
+      "id": 54045376,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Murrue Ramius (マリュー・ラミアス) from Mobile Suit Gundam SEED (機動戦士ガンダムSEED)\\54045376.png",
+      "size": 2588463
+    },
+    {
+      "id": 1334003,
+      "type": "lora",
+      "path": "E:\\sd\\models\\Lora\\Users\\ntrinu\\Murrue Ramius (マリュー・ラミアス) from Mobile Suit Gundam SEED (機動戦士ガンダムSEED)\\murrue_v1.0.safetensors",
+      "size": 114460440
+    },
+    {
+      "id": 54045392,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Murrue Ramius (マリュー・ラミアス) from Mobile Suit Gundam SEED (機動戦士ガンダムSEED)\\54045392.png",
+      "size": 2704054
+    },
+    {
+      "id": 54045402,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Murrue Ramius (マリュー・ラミアス) from Mobile Suit Gundam SEED (機動戦士ガンダムSEED)\\54045402.png",
+      "size": 2514038
+    },
+    {
+      "id": 53404308,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Aina Sahalim (アイナ・サハリン) from Mobile Suit Gundam 08th Ms Team (機動戦士ガンダム 第08MS小隊)\\53404308.png",
+      "size": 2578679
+    },
+    {
+      "id": 53404329,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Aina Sahalim (アイナ・サハリン) from Mobile Suit Gundam 08th Ms Team (機動戦士ガンダム 第08MS小隊)\\53404329.png",
+      "size": 3018192
+    },
+    {
+      "id": 53404344,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Aina Sahalim (アイナ・サハリン) from Mobile Suit Gundam 08th Ms Team (機動戦士ガンダム 第08MS小隊)\\53404344.png",
+      "size": 2319660
+    },
+    {
+      "id": 1319654,
+      "type": "lora",
+      "path": "E:\\sd\\models\\Lora\\Users\\ntrinu\\Aina Sahalim (アイナ・サハリン) from Mobile Suit Gundam 08th Ms Team (機動戦士ガンダム 第08MS小隊)\\aina_sahalim_v2.01.safetensors",
+      "size": 57449085
+    },
+    {
+      "id": 53399955,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Christina Mackenzie(クリスチーナ・マッケンジー) from Mobile Suit Gundam 0080 War in the Pocket (機動戦士ガンダム0080 ポケットの中の戦争)\\53399955.png",
+      "size": 2251661
+    },
+    {
+      "id": 53399962,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Christina Mackenzie(クリスチーナ・マッケンジー) from Mobile Suit Gundam 0080 War in the Pocket (機動戦士ガンダム0080 ポケットの中の戦争)\\53399962.png",
+      "size": 2958413
+    },
+    {
+      "id": 53399982,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Christina Mackenzie(クリスチーナ・マッケンジー) from Mobile Suit Gundam 0080 War in the Pocket (機動戦士ガンダム0080 ポケットの中の戦争)\\53399982.png",
+      "size": 2397529
+    },
+    {
+      "id": 53400003,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Christina Mackenzie(クリスチーナ・マッケンジー) from Mobile Suit Gundam 0080 War in the Pocket (機動戦士ガンダム0080 ポケットの中の戦争)\\53400003.png",
+      "size": 2278359
+    },
+    {
+      "id": 1319562,
+      "type": "lora",
+      "path": "E:\\sd\\models\\Lora\\Users\\ntrinu\\Christina Mackenzie(クリスチーナ・マッケンジー) from Mobile Suit Gundam 0080 War in the Pocket (機動戦士ガンダム0080 ポケットの中の戦争)\\christina_v1.0.safetensors",
+      "size": 114460858
+    },
+    {
+      "id": 52308673,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Ayano Kashiwagi (柏木綾乃) from kisaku (鬼作)\\52308673.png",
+      "size": 1889117
+    },
+    {
+      "id": 52308671,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Ayano Kashiwagi (柏木綾乃) from kisaku (鬼作)\\52308671.png",
+      "size": 1905859
+    },
+    {
+      "id": 52308672,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Ayano Kashiwagi (柏木綾乃) from kisaku (鬼作)\\52308672.png",
+      "size": 2027496
+    },
+    {
+      "id": 52308670,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Ayano Kashiwagi (柏木綾乃) from kisaku (鬼作)\\52308670.png",
+      "size": 2121457
+    },
+    {
+      "id": 1297485,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ntrinu\\Ayano Kashiwagi (柏木綾乃) from kisaku (鬼作)\\kashiwagi_ayano_v1.0.safetensors",
+      "size": 456513987
+    }
+  ],
+  "failed": []
+}

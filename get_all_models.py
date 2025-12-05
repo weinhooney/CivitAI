@@ -5,7 +5,13 @@ import time
 import json
 import urllib.parse
 import requests
-from get_model import process_post_to_dir, parse_cookie_string, COOKIE_STRING, set_future_lists
+from get_model import (
+    process_post_to_dir,
+    parse_cookie_string,
+    COOKIE_STRING,
+    set_future_lists,
+    set_download_targets,   # 🔥 새로 추가
+)
 from get_model import USERS_ROOT, POSTS_ROOT
 from get_model import safe_get
 from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
@@ -27,8 +33,19 @@ LORA_FUTURES = []
 # =========================================================
 # get_model.py 의 future 리스트 주입
 # =========================================================
-# get_model.py 의 future 리스트 주입
 set_future_lists(IMG_META_FUTURES, LORA_FUTURES)
+
+
+# =========================================================
+# get_model.py 의 future 리스트 주입
+# =========================================================
+set_future_lists(IMG_META_FUTURES, LORA_FUTURES)
+
+# =========================================================
+# get_model.py 에 DOWNLOAD_TARGETS 리스트도 주입
+# =========================================================
+set_download_targets(DOWNLOAD_TARGETS)
+
 
 
 session = requests.Session()
@@ -119,6 +136,45 @@ def get_post_id_from_version(version_id, session):
 ###############################################################################
 # Utility
 ###############################################################################
+def _same_by_ids(a, b):
+    # mv_id가 둘 다 있으면 그걸로 유일 식별
+    if a.get("mv_id") is not None and b.get("mv_id") is not None:
+        return a["mv_id"] == b["mv_id"]
+    # mv_id 없으면 model_id + filename 조합으로 비교 (임시)
+    if a.get("model_id") is not None and b.get("model_id") is not None:
+        return a["model_id"] == b["model_id"] and a.get("filename") == b.get("filename")
+    return False
+
+def _same_by_name(a, b):
+    # 최후의 보루: filename만 같으면 동일로 취급
+    return a.get("filename") == b.get("filename")
+
+# filename은 None 허용 (ID만으로 업서트 가능)
+def _upsert(kind, filename=None, mv_id=None, image_id=None):
+    import download_state
+    lst = download_state.downloaded_records[kind]
+
+    meta = {}
+    if filename is not None: meta["filename"] = filename
+    if mv_id   is not None:  meta["mv_id"]   = int(mv_id)
+    if image_id is not None: meta["image_id"] = int(image_id)
+
+    def same(a, b):
+        if a.get("image_id") is not None and b.get("image_id") is not None:
+            return a["image_id"] == b["image_id"]
+        if a.get("mv_id") is not None and b.get("mv_id") is not None:
+            return a["mv_id"] == b["mv_id"]
+        # 마지막 보조: 파일명만 같으면 동일 취급 (ID 없을 때만)
+        return a.get("filename") and b.get("filename") and a["filename"] == b["filename"]
+
+    for i, it in enumerate(lst):
+        if same(it, meta):
+            lst[i] = {**it, **meta}  # 최신 정보로 병합
+            return
+    lst.append(meta)
+
+
+
 def safe_folder_name(name: str) -> str:
     # 1) Windows 금지 문자 치환
     name = re.sub(r'[<>:"/\\|?*]', "_", name)
@@ -483,50 +539,136 @@ def verify_all_downloads(download_targets):
     """
     다운로드된 파일을 검사하는 함수.
     - 이미지: 최소 파일 크기 기준으로 검사
-    - 모델 파일: expected_file_size 기반으로 검사
+    - 모델 파일(LoRA): expected_file_size 기반으로 검사
     """
+    import os
+    import download_state
+
     verified = []
 
     for item in download_targets:
-        path = item["expected_file_path"]
+        # 안전하게 get() 사용
+        path = item.get("expected_file_path")
         item_type = item.get("type")
         expected_size = item.get("expected_file_size")
 
-        if not os.path.exists(path):
-            item["status"] = "missing"
+        # 파일 ID 추출
+        file_id = None
+        if item_type == "image":
+            file_id = item.get("image_id")
+        elif item_type == "lora":
+            file_id = item.get("model_version_id")
+
+        # ================================
+        # 0) path 자체가 비정상인 경우 방어
+        # ================================
+        if not path or not isinstance(path, (str, bytes, os.PathLike)):
+            # 이 경우는 애초에 잘못 들어온 엔트리이므로 바로 실패 처리
+            item["status"] = "invalid_path"
             item["actual_file_size"] = 0
+
+            if file_id is not None:
+                info = {
+                    "expected_file_path": path,
+                    "expected_file_size": expected_size,
+                }
+                if item_type == "image":
+                    info["download_url"] = item.get("download_url")
+                    info["page_url"] = item.get("page_url")
+                elif item_type == "lora":
+                    info["presigned_url"] = item.get("presigned_url")
+
+                download_state.mark_failed(
+                    file_id,
+                    item_type,
+                    item["status"],  # "invalid_path"
+                    info,
+                )
+
             verified.append(item)
             continue
 
+        # ================================
+        # 1) 파일 존재 여부 검사
+        # ================================
+        if not os.path.exists(path):
+            item["status"] = "missing"
+            item["actual_file_size"] = 0
+
+            if file_id is not None:
+                info = {
+                    "expected_file_path": path,
+                    "expected_file_size": expected_size,
+                }
+                if item_type == "image":
+                    info["download_url"] = item.get("download_url")
+                    info["page_url"] = item.get("page_url")
+                elif item_type == "lora":
+                    info["presigned_url"] = item.get("presigned_url")
+
+                download_state.mark_failed(file_id, item_type, "missing", info)
+
+            verified.append(item)
+            continue
+
+        # ================================
+        # 2) 실제 파일 용량 체크
+        # ================================
         actual_size = os.path.getsize(path)
         item["actual_file_size"] = actual_size
 
-        # ============================
-        #      1) 이미지 파일
-        # ============================
+        # ----------------------------
+        #   2-1) 이미지 파일
+        # ----------------------------
         if item_type == "image":
-            # 원본 용량을 모름 → 최소값 기준
+            # 원본 용량을 모르니까 최소값 기준 (5KB)
             if actual_size < 5000:
                 item["status"] = "corrupted"
             else:
                 item["status"] = "success"
 
-        # ============================
-        #   2) 그 외 모델 / LoRA 파일
-        # ============================
+        # ----------------------------
+        #   2-2) LoRA 등 모델 파일
+        # ----------------------------
         else:
-            if expected_size:  # 항상 존재함
-                if actual_size < expected_size:
-                    item["status"] = "corrupted"
-                else:
+            if expected_size:
+                # == 말고 >= 로 해서 여유를 둔다
+                if actual_size >= expected_size:
                     item["status"] = "success"
+                else:
+                    item["status"] = "corrupted"
             else:
-                # 예상 크기 없으면 fallback
                 item["status"] = "success" if actual_size > 0 else "corrupted"
+
+        # --- 여기서 통합 로그 갱신 ---
+        if file_id is not None:
+            if item["status"] == "success":
+                # LoRA는 다운로드 폴더 기준 경로 저장
+                download_state.mark_success(file_id, item_type, path, actual_size)
+            else:
+                info = {
+                    "expected_file_path": path,
+                    "expected_file_size": expected_size,
+                    "actual_file_size": actual_size,
+                }
+                if item_type == "image":
+                    info["download_url"] = item.get("download_url")
+                    info["page_url"] = item.get("page_url")
+                elif item_type == "lora":
+                    info["presigned_url"] = item.get("presigned_url")
+
+                download_state.mark_failed(
+                    file_id,
+                    item_type,
+                    item["status"],
+                    info
+                )
 
         verified.append(item)
 
     return verified
+
+
 
 
 
@@ -907,49 +1049,64 @@ def get_downloaded_file_list(username):
 ###########################################################
 import os
 
-def save_download_records(user_dir, list_url, total_models, downloaded_records):
-    """
-    user_dir 폴더에 다운로드 기록 txt 파일로 저장한다.
-    user_dir 예: C:\\Repository\\AI\\CivitAI\\Users\\busterkun
-    """
-
+def save_download_records(user_dir, list_url, total_models, records):
+    import os
     os.makedirs(user_dir, exist_ok=True)
-
-    # 폴더 이름(= username) 따기
     username = os.path.basename(os.path.normpath(user_dir))
     log_path = os.path.join(user_dir, f"{username}_download_log.txt")
 
     with open(log_path, "w", encoding="utf-8") as f:
         f.write(f"입력한 모델 목록 URL: {list_url}\n")
         f.write(f"다운받을 모델 개수: {total_models}\n")
-        f.write("\n=== 다운로드 실패 목록 ===\n\n")
+        f.write("\n=== 다운로드된 파일 목록 ===\n\n")
 
-        if not downloaded_records:
-            f.write("모든 모델 정상 다운로드됨.\n")
-            return
+        f.write("[LoRA]\n")
+        for it in records.get("lora", []):
+            line = f"  - {it.get('filename')}"
+            if it.get("model_id") is not None: line += f"  modelId={it['model_id']}"
+            if it.get("mv_id")   is not None: line += f"  mvId={it['mv_id']}"
+            f.write(line + "\n")
+        if not records.get("lora"): f.write("  (없음)\n")
 
-        for model_id, info in downloaded_records.items():
-            f.write(f"[모델 ID] {model_id}\n")
-            f.write(f"[모델 이름] {info.get('model_name')}\n")
-            f.write(f"[포스트 ID] {info.get('post_id')}\n")
-
-            img_err = info.get("failed_images", [])
-            if img_err:
-                f.write("  - 다운로드 실패 이미지:\n")
-                for url in img_err:
-                    f.write(f"      {url}\n")
-
-            lora_err = info.get("failed_lora")
-            if lora_err:
-                f.write("  - LoRA 다운로드 실패:\n")
-                f.write(f"      URL: {lora_err.get('url')}\n")
-                if lora_err.get("copy_fail"):
-                    f.write(f"      복사 실패 정보: {lora_err['copy_fail']}\n")
-
-            f.write("\n")
+        f.write("\n[Images]\n")
+        for it in records.get("images", []):
+            line = f"  - {it.get('filename')}"
+            if it.get("model_id") is not None: line += f"  modelId={it['model_id']}"
+            if it.get("mv_id")   is not None: line += f"  mvId={it['mv_id']}"
+            f.write(line + "\n")
+        if not records.get("images"): f.write("  (없음)\n")
 
     print(f"[LOG] 다운로드 기록 저장 완료 → {log_path}")
 
+
+def apply_verified_to_records(verified):
+    """
+    verify_all_downloads(DOWNLOAD_TARGETS) 결과에서
+    성공(OK) 항목만 download_state.downloaded_records 에 반영
+    """
+    import os
+
+    for item in verified or []:
+        # 성공 플래그는 프로젝트 구현에 맞춰 아래 중 하나일 가능성:
+        ok = item.get("ok") or item.get("success") or (item.get("status") == "ok")
+        if not ok:
+            continue
+
+        t = item.get("type")
+        # 최종 파일명: final_paste_path 우선, 없으면 expected_file_path 사용
+        final_path = item.get("final_paste_path") or item.get("expected_file_path")
+        filename = os.path.basename(final_path) if final_path else None
+
+        if t == "lora":
+            mv_id = item.get("model_version_id")
+            _upsert_verified("lora", filename=filename, mv_id=mv_id)
+
+        elif t == "image":
+            image_id = item.get("image_id")       # ← 0)에서 넣어둔 필드
+            mv_id    = item.get("model_version_id")  # 있으면 유지
+            _upsert_verified("images", filename=filename, mv_id=mv_id, image_id=image_id)
+
+        # 필요 시 다른 type도 여기서 처리
 
 
 
@@ -978,7 +1135,14 @@ def main():
 
     # 실행 시작 시 단 1번만 다운로드 기록 로드
     import download_state
+
+    # 예전에 만든 downloaded_files.json → get_model.is_*_downloaded 에서 사용
     downloaded_records = get_downloaded_file_list(username)
+    download_state.downloaded_records = downloaded_records
+
+    # 새 통합 다운로드 로그 (성공/실패 목록) 로드
+    download_state.load_download_log(username)
+
 
     failed_models = []
 
@@ -1084,27 +1248,8 @@ def main():
 
     verified = verify_all_downloads(DOWNLOAD_TARGETS)
 
-    # JSON 로그 저장
-    json_log_path = os.path.join("download_logs", username)
-    os.makedirs(json_log_path, exist_ok=True)
-
-    json_log_file = os.path.join(
-        json_log_path,
-        f"{username}_download_log_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    )
-
-    with open(json_log_file, "w", encoding="utf-8") as f:
-        json.dump(verified, f, indent=2, ensure_ascii=False)
-
-    print("[VERIFY] JSON 로그 저장 완료:", json_log_file)
-
-    # 다운로드 파일목록 저장
-    save_download_records(
-    username=username,
-    list_url=url,
-    total_models=len(models),
-    downloaded_records=downloaded_records
-)
+    # 통합 다운로드 로그(JSON) 저장 (기존 파일은 덮어씀)
+    download_state.save_download_log(username)
 
 
 if __name__ == "__main__":
