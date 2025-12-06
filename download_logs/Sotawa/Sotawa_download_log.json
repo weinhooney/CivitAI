@@ -1,0 +1,1617 @@
+{
+  "success": [
+    {
+      "id": 76104631,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104631.png",
+      "size": 1058526
+    },
+    {
+      "id": 76104632,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104632.png",
+      "size": 1171193
+    },
+    {
+      "id": 76104633,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104633.png",
+      "size": 1041224
+    },
+    {
+      "id": 76104674,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104674.png",
+      "size": 1242544
+    },
+    {
+      "id": 76104670,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104670.png",
+      "size": 1201141
+    },
+    {
+      "id": 76104669,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104669.png",
+      "size": 1139585
+    },
+    {
+      "id": 76104671,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104671.png",
+      "size": 1245695
+    },
+    {
+      "id": 76104672,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104672.png",
+      "size": 1245464
+    },
+    {
+      "id": 76104673,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\76104673.png",
+      "size": 1106975
+    },
+    {
+      "id": 1780842,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Studio Style _ LoRA for Illustrious\\bunnywalker.safetensors",
+      "size": 456550454
+    },
+    {
+      "id": 72451539,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\72451539.png",
+      "size": 1439032
+    },
+    {
+      "id": 72451593,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\72451593.png",
+      "size": 1454669
+    },
+    {
+      "id": 72451591,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\72451591.png",
+      "size": 1164504
+    },
+    {
+      "id": 72451590,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\72451590.png",
+      "size": 1377706
+    },
+    {
+      "id": 72451592,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\72451592.png",
+      "size": 1373107
+    },
+    {
+      "id": 1711168,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Minecraft 3D Style - Illustrious\\Fapcraft.safetensors",
+      "size": 228496821
+    },
+    {
+      "id": 78516533,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\78516533.png",
+      "size": 1337985
+    },
+    {
+      "id": 78516536,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\78516536.png",
+      "size": 1498463
+    },
+    {
+      "id": 78516535,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\78516535.png",
+      "size": 1565850
+    },
+    {
+      "id": 78516537,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\78516537.png",
+      "size": 1417652
+    },
+    {
+      "id": 78516534,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\78516534.png",
+      "size": 1512873
+    },
+    {
+      "id": 1831647,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen Bee Studio Style _ Illustrious LoRA\\Queen_Bee.safetensors",
+      "size": 456551095
+    },
+    {
+      "id": 35856301,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\35856301.png",
+      "size": 1146476
+    },
+    {
+      "id": 35856312,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\35856312.png",
+      "size": 1132326
+    },
+    {
+      "id": 35856315,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\35856315.png",
+      "size": 1224191
+    },
+    {
+      "id": 35856328,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\35856328.png",
+      "size": 1539177
+    },
+    {
+      "id": 35856338,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\35856338.png",
+      "size": 1454686
+    },
+    {
+      "id": 981351,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style - (Pony XL - LoRA)\\Nyakumi.safetensors",
+      "size": 456537298
+    },
+    {
+      "id": 70247399,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247399.png",
+      "size": 2170051
+    },
+    {
+      "id": 70247406,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247406.png",
+      "size": 2366074
+    },
+    {
+      "id": 70247403,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247403.png",
+      "size": 2153276
+    },
+    {
+      "id": 70247400,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247400.png",
+      "size": 2252557
+    },
+    {
+      "id": 70247407,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247407.png",
+      "size": 2268887
+    },
+    {
+      "id": 70247398,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\70247398.png",
+      "size": 2179605
+    },
+    {
+      "id": 1667548,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\_EDGE - Drop Out Style _ LoRA for Illustrious\\EDGE.safetensors",
+      "size": 228492518
+    },
+    {
+      "id": 62752762,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer Queen - (Pony XL - LoRA)\\62752762.png",
+      "size": 1098095
+    },
+    {
+      "id": 62752766,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer Queen - (Pony XL - LoRA)\\62752766.png",
+      "size": 1149042
+    },
+    {
+      "id": 62752764,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer Queen - (Pony XL - LoRA)\\62752764.png",
+      "size": 1098911
+    },
+    {
+      "id": 62752763,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer Queen - (Pony XL - LoRA)\\62752763.png",
+      "size": 1092484
+    },
+    {
+      "id": 1516801,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer Queen - (Pony XL - LoRA)\\Archer_Queen.safetensors",
+      "size": 228483565
+    },
+    {
+      "id": 33864639,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Shadman Style-(LoRA-PonyXL)\\33864639.png",
+      "size": 1073338
+    },
+    {
+      "id": 33864732,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Shadman Style-(LoRA-PonyXL)\\33864732.png",
+      "size": 1195616
+    },
+    {
+      "id": 33864748,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Shadman Style-(LoRA-PonyXL)\\33864748.jpeg",
+      "size": 181961
+    },
+    {
+      "id": 33864765,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Shadman Style-(LoRA-PonyXL)\\33864765.jpeg",
+      "size": 170396
+    },
+    {
+      "id": 941658,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Shadman Style-(LoRA-PonyXL)\\Shadman Style.safetensors",
+      "size": 114466987
+    },
+    {
+      "id": 35093850,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\35093850.jpeg",
+      "size": 91830
+    },
+    {
+      "id": 35093853,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\35093853.jpeg",
+      "size": 98910
+    },
+    {
+      "id": 35093883,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\35093883.jpeg",
+      "size": 133976
+    },
+    {
+      "id": 35093927,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\35093927.jpeg",
+      "size": 105962
+    },
+    {
+      "id": 35093936,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\35093936.jpeg",
+      "size": 122294
+    },
+    {
+      "id": 966417,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Edge-H Style - (LoRA - PonyXL)\\Edge_DO.safetensors",
+      "size": 228491791
+    },
+    {
+      "id": 72747407,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\72747407.png",
+      "size": 1345691
+    },
+    {
+      "id": 72747410,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\72747410.png",
+      "size": 1501577
+    },
+    {
+      "id": 72747408,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\72747408.png",
+      "size": 1474723
+    },
+    {
+      "id": 72747411,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\72747411.png",
+      "size": 1476510
+    },
+    {
+      "id": 72747409,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\72747409.png",
+      "size": 1203682
+    },
+    {
+      "id": 1718008,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Blue Diamond - Steven Universe _ LoRA\\bluediamond.safetensors",
+      "size": 405069872
+    },
+    {
+      "id": 107592099,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Hokkyoku Hotaru Style _ LoRA for Illustrious\\107592099.png",
+      "size": 1598259
+    },
+    {
+      "id": 107592158,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Hokkyoku Hotaru Style _ LoRA for Illustrious\\107592158.png",
+      "size": 1763763
+    },
+    {
+      "id": 107593317,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Hokkyoku Hotaru Style _ LoRA for Illustrious\\107593317.png",
+      "size": 1534670
+    },
+    {
+      "id": 107592598,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Hokkyoku Hotaru Style _ LoRA for Illustrious\\107592598.png",
+      "size": 1669582
+    },
+    {
+      "id": 2347271,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Hokkyoku Hotaru Style _ LoRA for Illustrious\\HokkyStyle.safetensors",
+      "size": 456536188
+    },
+    {
+      "id": 99352675,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Androjuniarto Style _ LoRA for Illustrious\\99352675.png",
+      "size": 1190087
+    },
+    {
+      "id": 99352695,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Androjuniarto Style _ LoRA for Illustrious\\99352695.png",
+      "size": 1397549
+    },
+    {
+      "id": 99352697,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Androjuniarto Style _ LoRA for Illustrious\\99352697.png",
+      "size": 1397077
+    },
+    {
+      "id": 99352696,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Androjuniarto Style _ LoRA for Illustrious\\99352696.png",
+      "size": 1309507
+    },
+    {
+      "id": 2199124,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Androjuniarto Style _ LoRA for Illustrious\\Androstyle.safetensors",
+      "size": 456535737
+    },
+    {
+      "id": 97979752,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Namespace Style _ LoRA for Illustrious\\97979752.png",
+      "size": 1270113
+    },
+    {
+      "id": 97979755,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Namespace Style _ LoRA for Illustrious\\97979755.png",
+      "size": 1046530
+    },
+    {
+      "id": 97979760,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Namespace Style _ LoRA for Illustrious\\97979760.png",
+      "size": 1113953
+    },
+    {
+      "id": 97979766,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Namespace Style _ LoRA for Illustrious\\97979766.png",
+      "size": 1143261
+    },
+    {
+      "id": 2175680,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Namespace Style _ LoRA for Illustrious\\namespace.safetensors",
+      "size": 456538479
+    },
+    {
+      "id": 56029943,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\56029943.png",
+      "size": 1175718
+    },
+    {
+      "id": 56029957,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\56029957.png",
+      "size": 1303055
+    },
+    {
+      "id": 56029975,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\56029975.png",
+      "size": 1211565
+    },
+    {
+      "id": 56029985,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\56029985.png",
+      "size": 1226695
+    },
+    {
+      "id": 56029988,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\56029988.png",
+      "size": 1226695
+    },
+    {
+      "id": 1376334,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki OG -(Fortnite IllustriousXL - LoRa)\\Tsuki.safetensors",
+      "size": 228487886
+    },
+    {
+      "id": 2773496,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Camille Ferros - League Of Legends\\2773496.png",
+      "size": 372914
+    },
+    {
+      "id": 2773497,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Camille Ferros - League Of Legends\\2773497.png",
+      "size": 372914
+    },
+    {
+      "id": 2773498,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Camille Ferros - League Of Legends\\2773498.png",
+      "size": 730982
+    },
+    {
+      "id": 174933,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Camille Ferros - League Of Legends\\CamilleV1-10.safetensors",
+      "size": 19005756
+    },
+    {
+      "id": 32211357,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211357.png",
+      "size": 1258481
+    },
+    {
+      "id": 32211372,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211372.png",
+      "size": 1089638
+    },
+    {
+      "id": 32211371,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211371.png",
+      "size": 1007982
+    },
+    {
+      "id": 910264,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\Catrina.safetensors",
+      "size": 228484462
+    },
+    {
+      "id": 73115274,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Dusty - Fortnite _ LoRA for Illustrious\\73115274.png",
+      "size": 1492793
+    },
+    {
+      "id": 73115273,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Dusty - Fortnite _ LoRA for Illustrious\\73115273.png",
+      "size": 1785662
+    },
+    {
+      "id": 73115272,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Dusty - Fortnite _ LoRA for Illustrious\\73115272.png",
+      "size": 1702839
+    },
+    {
+      "id": 1725228,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Dusty - Fortnite _ LoRA for Illustrious\\DustyOg.safetensors",
+      "size": 405075607
+    },
+    {
+      "id": 2403294,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki Human - Fortnite\\2403294.png",
+      "size": 475376
+    },
+    {
+      "id": 2403319,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki Human - Fortnite\\2403319.png",
+      "size": 518616
+    },
+    {
+      "id": 157501,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki Human - Fortnite\\TsukiFortVer1-10.safetensors",
+      "size": 19011680
+    },
+    {
+      "id": 33322268,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322268.png",
+      "size": 1163816
+    },
+    {
+      "id": 33322304,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322304.png",
+      "size": 1132699
+    },
+    {
+      "id": 33322334,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322334.png",
+      "size": 1207222
+    },
+    {
+      "id": 33322352,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322352.png",
+      "size": 1258103
+    },
+    {
+      "id": 33322407,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322407.png",
+      "size": 1239926
+    },
+    {
+      "id": 33322406,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\33322406.png",
+      "size": 1209402
+    },
+    {
+      "id": 931723,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Stelle - Honkai_ Star Rail - (Pony XL - LoRA)\\Stella.safetensors",
+      "size": 228482305
+    },
+    {
+      "id": 56895981,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Skye OG - Fortnite - Illustrious\\56895981.png",
+      "size": 990055
+    },
+    {
+      "id": 56895986,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Skye OG - Fortnite - Illustrious\\56895986.png",
+      "size": 931823
+    },
+    {
+      "id": 56896007,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Skye OG - Fortnite - Illustrious\\56896007.png",
+      "size": 1037412
+    },
+    {
+      "id": 1394907,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Skye OG - Fortnite - Illustrious\\Skye.safetensors",
+      "size": 228490046
+    },
+    {
+      "id": 108812035,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\108812035.png",
+      "size": 2087841
+    },
+    {
+      "id": 108812053,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\108812053.png",
+      "size": 1647498
+    },
+    {
+      "id": 108812052,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\108812052.png",
+      "size": 1850967
+    },
+    {
+      "id": 108812058,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\108812058.png",
+      "size": 1978477
+    },
+    {
+      "id": 108812054,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\108812054.png",
+      "size": 1965195
+    },
+    {
+      "id": 2373487,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Taba Style _ LoRA for Illustrious\\TabaStyle-000015.safetensors",
+      "size": 456532158
+    },
+    {
+      "id": 107974503,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\SexNote_JamLiz Style _ Illustrious LoRA\\107974503.png",
+      "size": 1690592
+    },
+    {
+      "id": 107974502,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\SexNote_JamLiz Style _ Illustrious LoRA\\107974502.png",
+      "size": 1484261
+    },
+    {
+      "id": 107974504,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\SexNote_JamLiz Style _ Illustrious LoRA\\107974504.png",
+      "size": 1489197
+    },
+    {
+      "id": 107974505,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\SexNote_JamLiz Style _ Illustrious LoRA\\107974505.png",
+      "size": 1429925
+    },
+    {
+      "id": 2355547,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\SexNote_JamLiz Style _ Illustrious LoRA\\Jamliz.safetensors",
+      "size": 456538264
+    },
+    {
+      "id": 106207970,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yeon Chae-Young _ Horizon Walker _ LoRA Illustrious\\106207970.png",
+      "size": 1004725
+    },
+    {
+      "id": 106207971,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yeon Chae-Young _ Horizon Walker _ LoRA Illustrious\\106207971.png",
+      "size": 983843
+    },
+    {
+      "id": 106207969,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yeon Chae-Young _ Horizon Walker _ LoRA Illustrious\\106207969.png",
+      "size": 966002
+    },
+    {
+      "id": 2316977,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yeon Chae-Young _ Horizon Walker _ LoRA Illustrious\\Yeon_Chae-Young.safetensors",
+      "size": 456519226
+    },
+    {
+      "id": 100193428,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Alamanderarts Style _ Illustrious LoRA\\100193428.png",
+      "size": 1450478
+    },
+    {
+      "id": 100193611,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Alamanderarts Style _ Illustrious LoRA\\100193611.png",
+      "size": 1227652
+    },
+    {
+      "id": 100193635,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Alamanderarts Style _ Illustrious LoRA\\100193635.png",
+      "size": 1342324
+    },
+    {
+      "id": 2213160,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Alamanderarts Style _ Illustrious LoRA\\Alamanderarts.safetensors",
+      "size": 456536276
+    },
+    {
+      "id": 83054853,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054853.png",
+      "size": 1116512
+    },
+    {
+      "id": 83054889,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054889.png",
+      "size": 1206293
+    },
+    {
+      "id": 83054896,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054896.png",
+      "size": 1104276
+    },
+    {
+      "id": 83054918,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054918.png",
+      "size": 1118613
+    },
+    {
+      "id": 83054924,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054924.png",
+      "size": 1242799
+    },
+    {
+      "id": 1916503,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\Lewdlingo.safetensors",
+      "size": 228525910
+    },
+    {
+      "id": 82072222,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\82072222.png",
+      "size": 1234047
+    },
+    {
+      "id": 82072224,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\82072224.png",
+      "size": 901035
+    },
+    {
+      "id": 82072236,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\82072236.png",
+      "size": 1248656
+    },
+    {
+      "id": 1897025,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\Nyakumi_01.safetensors",
+      "size": 456537855
+    },
+    {
+      "id": 79075743,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79075743.png",
+      "size": 1614725
+    },
+    {
+      "id": 79076935,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076935.png",
+      "size": 1667483
+    },
+    {
+      "id": 79076950,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076950.png",
+      "size": 1739445
+    },
+    {
+      "id": 79076972,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076972.png",
+      "size": 1741789
+    },
+    {
+      "id": 79076983,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076983.png",
+      "size": 1535881
+    },
+    {
+      "id": 79076985,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076985.png",
+      "size": 1665818
+    },
+    {
+      "id": 79076982,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\79076982.png",
+      "size": 1763989
+    },
+    {
+      "id": 1842045,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Inmou Style _ Illustrious LoRA\\Inmou.safetensors",
+      "size": 456533591
+    },
+    {
+      "id": 70882410,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\70882410.png",
+      "size": 2090664
+    },
+    {
+      "id": 70882412,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\70882412.png",
+      "size": 2284883
+    },
+    {
+      "id": 70882411,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\70882411.png",
+      "size": 1968325
+    },
+    {
+      "id": 70882413,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\70882413.png",
+      "size": 2238392
+    },
+    {
+      "id": 70882414,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\70882414.png",
+      "size": 1736511
+    },
+    {
+      "id": 1679484,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Pinkdrawz Style _ Illustrious LoRA\\Pinkdrawz.safetensors",
+      "size": 405086322
+    },
+    {
+      "id": 70464175,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style _ LoRA for Illustrious\\70464175.png",
+      "size": 2340943
+    },
+    {
+      "id": 70464155,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style _ LoRA for Illustrious\\70464155.png",
+      "size": 2294927
+    },
+    {
+      "id": 70464184,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style _ LoRA for Illustrious\\70464184.png",
+      "size": 2035018
+    },
+    {
+      "id": 1671375,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style _ LoRA for Illustrious\\ZER0.safetensors",
+      "size": 405087650
+    },
+    {
+      "id": 37395971,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\37395971.png",
+      "size": 1180940
+    },
+    {
+      "id": 37396044,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\37396044.png",
+      "size": 1029611
+    },
+    {
+      "id": 37396050,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\37396050.png",
+      "size": 1090857
+    },
+    {
+      "id": 37396110,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\37396110.png",
+      "size": 914254
+    },
+    {
+      "id": 37396117,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\37396117.png",
+      "size": 1040294
+    },
+    {
+      "id": 1010203,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style - (Pony XL-LoRA)\\zer0.safetensors",
+      "size": 456537867
+    },
+    {
+      "id": 34613074,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\34613074.jpeg",
+      "size": 80125
+    },
+    {
+      "id": 34613135,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\34613135.jpeg",
+      "size": 120794
+    },
+    {
+      "id": 34613193,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\34613193.jpeg",
+      "size": 77109
+    },
+    {
+      "id": 34613206,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\34613206.jpeg",
+      "size": 95849
+    },
+    {
+      "id": 34613208,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\34613208.jpeg",
+      "size": 83121
+    },
+    {
+      "id": 956860,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bunnywalker Style - (LoRA-PonyXL)\\Bunny.safetensors",
+      "size": 456546698
+    },
+    {
+      "id": 32054427,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054427.png",
+      "size": 1260968
+    },
+    {
+      "id": 32054436,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054436.png",
+      "size": 1275304
+    },
+    {
+      "id": 32054437,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054437.png",
+      "size": 1141097
+    },
+    {
+      "id": 32054442,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054442.png",
+      "size": 1258794
+    },
+    {
+      "id": 32054484,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054484.png",
+      "size": 1224698
+    },
+    {
+      "id": 32054483,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\32054483.png",
+      "size": 1229377
+    },
+    {
+      "id": 907068,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Queen B - DEATHVERSE - (Pony XL - LoRA)\\Quuen_B.safetensors",
+      "size": 228481843
+    },
+    {
+      "id": 28825337,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825337.png",
+      "size": 1108001
+    },
+    {
+      "id": 28825374,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825374.png",
+      "size": 1066795
+    },
+    {
+      "id": 28825391,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825391.png",
+      "size": 1193082
+    },
+    {
+      "id": 28825395,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825395.png",
+      "size": 1000330
+    },
+    {
+      "id": 829137,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\Erispheria.safetensors",
+      "size": 228486542
+    },
+    {
+      "id": 25629246,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629246.png",
+      "size": 948555
+    },
+    {
+      "id": 25629253,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629253.png",
+      "size": 993161
+    },
+    {
+      "id": 25629288,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629288.png",
+      "size": 746775
+    },
+    {
+      "id": 25629317,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629317.png",
+      "size": 839281
+    },
+    {
+      "id": 25629319,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629319.png",
+      "size": 694434
+    },
+    {
+      "id": 25629318,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629318.png",
+      "size": 838875
+    },
+    {
+      "id": 25629338,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629338.png",
+      "size": 911416
+    },
+    {
+      "id": 755741,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\Archer.safetensors",
+      "size": 228482202
+    },
+    {
+      "id": 25332519,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332519.png",
+      "size": 1044316
+    },
+    {
+      "id": 25332604,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332604.png",
+      "size": 1117487
+    },
+    {
+      "id": 25332603,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332603.png",
+      "size": 1014550
+    },
+    {
+      "id": 25332607,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332607.png",
+      "size": 904963
+    },
+    {
+      "id": 25332613,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332613.png",
+      "size": 1073700
+    },
+    {
+      "id": 25332618,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332618.png",
+      "size": 1066948
+    },
+    {
+      "id": 25332660,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\25332660.png",
+      "size": 1006284
+    },
+    {
+      "id": 748212,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Witch - Clash of Clans- (Pony XL - LoRA)\\Witch_COC.safetensors",
+      "size": 228481901
+    },
+    {
+      "id": 25133754,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\25133754.png",
+      "size": 938699
+    },
+    {
+      "id": 25133766,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\25133766.png",
+      "size": 911358
+    },
+    {
+      "id": 25133911,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\25133911.png",
+      "size": 863138
+    },
+    {
+      "id": 25133920,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\25133920.png",
+      "size": 870808
+    },
+    {
+      "id": 25133996,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\25133996.png",
+      "size": 935926
+    },
+    {
+      "id": 742824,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Villager - (Pony XL - LoRA)\\Villager.safetensors",
+      "size": 228480848
+    },
+    {
+      "id": 22417204,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel (Pony XL-LoRA)\\22417204.png",
+      "size": 1729869
+    },
+    {
+      "id": 22417177,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel (Pony XL-LoRA)\\22417177.png",
+      "size": 1679918
+    },
+    {
+      "id": 22417203,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel (Pony XL-LoRA)\\22417203.png",
+      "size": 1894541
+    },
+    {
+      "id": 22417176,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel (Pony XL-LoRA)\\22417176.png",
+      "size": 1241804
+    },
+    {
+      "id": 689815,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel (Pony XL-LoRA)\\Rikaser.safetensors",
+      "size": 228482129
+    },
+    {
+      "id": 19693918,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\19693918.png",
+      "size": 1971279
+    },
+    {
+      "id": 19693924,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\19693924.png",
+      "size": 1861958
+    },
+    {
+      "id": 19693935,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\19693935.png",
+      "size": 2109714
+    },
+    {
+      "id": 19693944,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\19693944.png",
+      "size": 1823207
+    },
+    {
+      "id": 640934,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\Yaoshi.safetensors",
+      "size": 228481116
+    },
+    {
+      "id": 19561565,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561565.png",
+      "size": 1801816
+    },
+    {
+      "id": 639903,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\Tsuki_Final.safetensors",
+      "size": 228485135
+    },
+    {
+      "id": 11751227,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\11751227.png",
+      "size": 1543531
+    },
+    {
+      "id": 11751228,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\11751228.png",
+      "size": 1543497
+    },
+    {
+      "id": 11751230,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\11751230.png",
+      "size": 1598796
+    },
+    {
+      "id": 11751233,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\11751233.png",
+      "size": 1653551
+    },
+    {
+      "id": 11751234,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\11751234.png",
+      "size": 1443299
+    },
+    {
+      "id": 490817,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Bonfie-(Fenni's Night Club-SDXL-LoRA)\\Bonfie-10.safetensors",
+      "size": 114460524
+    },
+    {
+      "id": 9240101,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240101.png",
+      "size": 1602247
+    },
+    {
+      "id": 9240102,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240102.png",
+      "size": 1642301
+    },
+    {
+      "id": 9240128,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240128.png",
+      "size": 1325652
+    },
+    {
+      "id": 9240135,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240135.png",
+      "size": 1407177
+    },
+    {
+      "id": 9240142,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240142.png",
+      "size": 1517088
+    },
+    {
+      "id": 9240140,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240140.png",
+      "size": 1366506
+    },
+    {
+      "id": 427659,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\Marie_XL.safetensors",
+      "size": 228487705
+    },
+    {
+      "id": 8799386,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799386.png",
+      "size": 1781825
+    },
+    {
+      "id": 8799383,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799383.png",
+      "size": 1490741
+    },
+    {
+      "id": 8799398,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799398.png",
+      "size": 1855000
+    },
+    {
+      "id": 8799391,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799391.png",
+      "size": 1798727
+    },
+    {
+      "id": 8799393,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799393.png",
+      "size": 1756006
+    },
+    {
+      "id": 8799394,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799394.png",
+      "size": 1570505
+    },
+    {
+      "id": 8799397,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799397.png",
+      "size": 1652341
+    },
+    {
+      "id": 416837,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\Chiku_XL.safetensors",
+      "size": 228486616
+    },
+    {
+      "id": 8676569,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\8676569.png",
+      "size": 1605205
+    },
+    {
+      "id": 8676570,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\8676570.png",
+      "size": 1578262
+    },
+    {
+      "id": 8676576,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\8676576.png",
+      "size": 1746661
+    },
+    {
+      "id": 8676583,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\8676583.png",
+      "size": 1510782
+    },
+    {
+      "id": 414501,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\Reina_XL-10.safetensors",
+      "size": 57451828
+    },
+    {
+      "id": 8523469,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Coil-Fem (Coil-Head From Lethal Company)\\8523469.png",
+      "size": 271269
+    },
+    {
+      "id": 8523471,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Coil-Fem (Coil-Head From Lethal Company)\\8523471.png",
+      "size": 304887
+    },
+    {
+      "id": 8523472,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Coil-Fem (Coil-Head From Lethal Company)\\8523472.png",
+      "size": 300875
+    },
+    {
+      "id": 409903,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Coil-Fem (Coil-Head From Lethal Company)\\Coil_Fem-05.safetensors",
+      "size": 57447689
+    },
+    {
+      "id": 2992755,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel\\2992755.png",
+      "size": 753418
+    },
+    {
+      "id": 2992756,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel\\2992756.png",
+      "size": 464069
+    },
+    {
+      "id": 2992759,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel\\2992759.png",
+      "size": 381651
+    },
+    {
+      "id": 185661,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Android - Harem Hotel\\HH_AndroidMK3-14.safetensors",
+      "size": 18998071
+    },
+    {
+      "id": 32211360,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211360.png",
+      "size": 1324648
+    },
+    {
+      "id": 32211369,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211369.png",
+      "size": 1293723
+    },
+    {
+      "id": 100193622,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Alamanderarts Style _ Illustrious LoRA\\100193622.png",
+      "size": 1178901
+    },
+    {
+      "id": 83054923,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Lewdlingo Style _ Illustrious LoRA\\83054923.png",
+      "size": 1085154
+    },
+    {
+      "id": 82072226,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\82072226.png",
+      "size": 1072742
+    },
+    {
+      "id": 82072228,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Nyakumi Style _ Illustrious LoRA\\82072228.png",
+      "size": 1061809
+    },
+    {
+      "id": 70464185,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Zer0.Zer0 Style _ LoRA for Illustrious\\70464185.png",
+      "size": 2442950
+    },
+    {
+      "id": 28825371,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825371.png",
+      "size": 1022017
+    },
+    {
+      "id": 25629289,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Archer - Clash of Clans- (Pony XL - LoRA)\\25629289.png",
+      "size": 800840
+    },
+    {
+      "id": 19693922,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Yaoshi - (HSR-Pony XL-LoRA)\\19693922.png",
+      "size": 1971279
+    },
+    {
+      "id": 19561413,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561413.png",
+      "size": 1679591
+    },
+    {
+      "id": 19561425,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561425.png",
+      "size": 1574821
+    },
+    {
+      "id": 19561546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561546.png",
+      "size": 1500508
+    },
+    {
+      "id": 19561550,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561550.png",
+      "size": 1646995
+    },
+    {
+      "id": 19561551,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561551.png",
+      "size": 1658429
+    },
+    {
+      "id": 19561561,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561561.png",
+      "size": 1553998
+    },
+    {
+      "id": 9240134,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240134.png",
+      "size": 1478465
+    },
+    {
+      "id": 9240139,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Marie-(Fenni's Night Club-SDXL-LoRA)\\9240139.png",
+      "size": 1458625
+    },
+    {
+      "id": 8799396,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\Chiku-(Frenni's Night Club-SDXL 1.0-LoRA)\\8799396.png",
+      "size": 1666948
+    },
+    {
+      "id": 8676574,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Sotawa\\REINA (Fortnite-SDXL 1.0)\\8676574.png",
+      "size": 1608879
+    }
+  ],
+  "failed": [
+    {
+      "id": 32211366,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Sotawa\\Catalina La Catrina - (Pony XL - LoRA)\\32211366.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1cc3c9b-8465-4e67-ad71-45825225f1b6/original=true/b1cc3c9b-8465-4e67-ad71-45825225f1b6.jpeg",
+        "page_url": "https://civitai.com/images/32211366"
+      }
+    },
+    {
+      "id": 28825396,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Sotawa\\Erispheria - (Pony XL - LoRA)\\28825396.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b962a05c-89f4-42f6-a06a-bd349f8e76b2/original=true/b962a05c-89f4-42f6-a06a-bd349f8e76b2.jpeg",
+        "page_url": "https://civitai.com/images/28825396"
+      }
+    },
+    {
+      "id": 19561423,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Sotawa\\Tsuki-(Fortnite Pony XL-LoRa)\\19561423.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef88ce2-5d4c-433c-a54c-570c01fddb54/original=true/eef88ce2-5d4c-433c-a54c-570c01fddb54.jpeg",
+        "page_url": "https://civitai.com/images/19561423"
+      }
+    }
+  ]
+}

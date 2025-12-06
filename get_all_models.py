@@ -10,7 +10,8 @@ from get_model import (
     parse_cookie_string,
     COOKIE_STRING,
     set_future_lists,
-    set_download_targets,   # 🔥 새로 추가
+    set_download_targets,
+    idm_start_download,
 )
 from get_model import USERS_ROOT, POSTS_ROOT
 from get_model import safe_get
@@ -590,7 +591,28 @@ def verify_all_downloads(download_targets):
 
         # ================================
         # 1) 파일 존재 여부 검사
+        #    - 이미지인 경우, 같은 ID의 다른 확장자 파일도 한 번 더 검색
         # ================================
+
+        # 1-0) 이미지라면, 무조건 실제 디스크에서 image_id 기준으로 경로 보정
+        #      (IDM이 .jpeg 대신 .png 등으로 저장하는 경우 대응)
+        if item_type == "image":
+            try:
+                from get_model import find_existing_image_by_id
+                folder = os.path.dirname(path) if path else None
+                image_id = item.get("image_id")
+                if folder and image_id is not None:
+                    alt_path = find_existing_image_by_id(folder, image_id)
+                    if alt_path and os.path.exists(alt_path):
+                        # 실제 파일 발견 → 이 경로를 기준으로 이후 로직 진행
+                        path = alt_path
+                        item["expected_file_path"] = alt_path
+            except Exception:
+                # 보정 시도 실패하면 그냥 원래 로직으로 처리
+                pass
+
+
+        # 1-1) 최종적으로도 파일이 없다면 missing
         if not os.path.exists(path):
             item["status"] = "missing"
             item["actual_file_size"] = 0
@@ -610,6 +632,7 @@ def verify_all_downloads(download_targets):
 
             verified.append(item)
             continue
+
 
         # ================================
         # 2) 실제 파일 용량 체크
@@ -1217,6 +1240,8 @@ def main():
                     "failed_image_urls": [],
                     "failed_lora": {"copy_error": str(e)},
                 })
+
+        idm_start_download()
 
 
     log_file_path = write_download_log(

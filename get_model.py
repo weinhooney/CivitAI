@@ -41,7 +41,7 @@ def idm_add_to_queue(url: str, save_dir: str, file_name: str):
     IDM 다운로드 대기열에 추가 (/a)
     다운로드는 아직 시작되지 않음.
     """
-    cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /n /a'
+    cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /a'
     subprocess.Popen(shlex.split(cmd),
                     stdout=subprocess.DEVNULL,
                     stderr=subprocess.DEVNULL)
@@ -803,34 +803,17 @@ def _process_post_core(post_id: int, save_dir: str):
         # 이미지 파일명과 로컬 경로
         img_url = build_image_url(uuid)
         ext = extract_image_extension(img_url)
-        img_filename = f"{image_id}{ext}"
-        img_path = os.path.join(folder, img_filename)
-
-        # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
-        #  🔥 이제 get_all_models를 import하지 않고,
-        #  get_all_models에서 주입해준 DOWNLOAD_TARGETS 전역을 그대로 사용한다.
-        from get_model import DOWNLOAD_TARGETS  # 자기 자신 모듈의 전역을 참조
-
-        if DOWNLOAD_TARGETS is not None:
-            DOWNLOAD_TARGETS.append({
-                "type": "image",
-                "post_id": post_id,
-                "image_id": image_id,
-                "uuid": uuid,
-                "download_url": img_url,
-                "page_url": f"https://civitai.com/images/{image_id}",
-                "expected_file_path": img_path,
-            })
-        else:
-            # 혹시라도 세팅이 안 된 경우 디버그용
-            print("[WARN] DOWNLOAD_TARGETS가 None이라 이미지 대상 리스트에 추가하지 못함")
-
-
+        default_filename = f"{image_id}{ext}"
+        default_path = os.path.join(folder, default_filename)
 
         # =============================================
         # ① 이미지 존재 여부 체크 → 있으면 IDM queue 추가하지 않음
+        #    (확장자 .png/.jpg/.jpeg 상관없이 image_id 기준으로 찾음)
         # =============================================
         existing_path = find_existing_image_by_id(folder, image_id)
+
+        # 우리가 실제로 기대하는 로컬 파일 경로 (확장자 포함)
+        expected_path = existing_path or default_path
 
         if existing_path:
             size = os.path.getsize(existing_path)
@@ -848,13 +831,33 @@ def _process_post_core(post_id: int, save_dir: str):
                     os.remove(existing_path)
                 except:
                     pass
+                # 손상 파일도 같은 이름으로 다시 받는다
                 idm_add_to_queue(img_url, folder, os.path.basename(existing_path))
-
         else:
             print(f"[IDM] 신규 이미지 다운로드: {image_id}")
-            # ⚠ expected_file_path랑 실제 IDM 저장 파일명을 반드시 동일하게 맞춘다
-            # 위에서 만든 img_path = folder + (image_id + ext) 를 그대로 사용
-            idm_add_to_queue(img_url, folder, os.path.basename(img_path))
+            # expected_path == default_path
+            idm_add_to_queue(img_url, folder, os.path.basename(default_path))
+
+        # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
+        #  🔥 이제 get_all_models를 import하지 않고,
+        #  get_all_models에서 주입해준 DOWNLOAD_TARGETS 전역을 그대로 사용한다.
+        from get_model import DOWNLOAD_TARGETS  # 자기 자신 모듈의 전역을 참조
+
+        if DOWNLOAD_TARGETS is not None:
+            DOWNLOAD_TARGETS.append({
+                "type": "image",
+                "post_id": post_id,
+                "image_id": image_id,
+                "uuid": uuid,
+                "download_url": img_url,
+                "page_url": f"https://civitai.com/images/{image_id}",
+                # ✅ 실제 존재하는(또는 앞으로 받을) 파일 경로 기준으로 저장
+                "expected_file_path": expected_path,
+            })
+        else:
+            # 혹시라도 세팅이 안 된 경우 디버그용
+            print("[WARN] DOWNLOAD_TARGETS가 None이라 이미지 대상 리스트에 추가하지 못함")
+
 
 
         # =============================================
@@ -864,11 +867,6 @@ def _process_post_core(post_id: int, save_dir: str):
         IMG_META_FUTURES.append(future)
 
     print(f"=== POST {post_id} 처리 완료 ===\n")
-
-    # IDM 다운로드 시작
-    idm_start_download()
-
-
 
     return failed
 
@@ -945,12 +943,15 @@ def process_lora_task(folder, model_version_id, _):
     # IDM 대기열에 추가
     idm_add_to_queue(presigned, folder, lora_filename)
     print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}") 
-    idm_start_download()
+
+    # ⚠ 여기서는 /s 호출 안 함
+    # 실제 다운로드 시작은 _process_post_core 마지막에서 한 번만 호출된다.
 
     # 후처리
     wait_and_finalize_lora(folder, presigned, lora_filename)
     
     print(f"[LORA] 처리 완료: {lora_filename}")
+
 
 
 def wait_and_finalize_lora(folder, presigned, lora_filename):

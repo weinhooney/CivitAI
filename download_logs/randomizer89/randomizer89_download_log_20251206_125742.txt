@@ -1,0 +1,70 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251206_125742
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/randomizer89/models
+
+[다운받을 모델 갯수]
+1089
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Yami Healer | Carmilla
+모델 URL: https://civitai.com/models/1441250
+포스트 아이디: 15192718
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/15192718
+--------------------------------------
+
+--------------------------------------
+모델 이름: NinKoro | Michiru Kusagakure
+모델 URL: https://civitai.com/models/1497378
+포스트 아이디: 15903904
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/15903904
+--------------------------------------
+
+--------------------------------------
+모델 이름: Chanto Suenai Kyuuketsuki-chan | Ishikawa Luna
+모델 URL: https://civitai.com/models/2039701
+포스트 아이디: 23469622
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/23469622
+--------------------------------------
+
+--------------------------------------
+모델 이름: NinKoro | Kuro
+모델 URL: https://civitai.com/models/1497366
+포스트 아이디: 15903939
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/15903939
+--------------------------------------
+
+--------------------------------------
+모델 이름: Zettai Karen Children | Hatsune Inugami
+모델 URL: https://civitai.com/models/1611826
+포스트 아이디: 17333016
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17333016
+--------------------------------------
+
+--------------------------------------
+모델 이름: NinKoro | Yuriko
+모델 URL: https://civitai.com/models/1604583
+포스트 아이디: 17234697
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17234697
+--------------------------------------

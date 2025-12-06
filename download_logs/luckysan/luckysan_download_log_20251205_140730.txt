@@ -1,0 +1,118 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251205_140730
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/luckysan/models
+
+[다운받을 모델 갯수]
+660
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: 新藤麗子 illustrious/Pony shindou reiko (Kakyuusei）
+모델 URL: https://civitai.com/models/318536
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: スワティ illustrious/Pony Swatty (CanCanBunny)
+모델 URL: https://civitai.com/models/320880
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 一文字茜 illustrious/Pony Ichimonji Akane (Tokimeki Memorial 2)
+모델 URL: https://civitai.com/models/250885
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 加納涼子 illustrious Kanou Ryouko (kakyuusei）
+모델 URL: https://civitai.com/models/341352
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 愛沢ともみ illustrious/Pony Aizawa Tomomi (Pia carrot he Youkoso!2 SS_Ver)
+모델 URL: https://civitai.com/models/298920
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 今井澪 illustrious/Pony (学校の怪談) Imai Mio (Gakkou no Kaidan)
+모델 URL: https://civitai.com/models/616866
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: エステル・ブライト  illustrious/Pony Estelle Bright (Sora no Kiseki SC-old_Ver)
+모델 URL: https://civitai.com/models/751240
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Beat Angel Escalayer Pony XL
+모델 URL: https://civitai.com/models/461433
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: イレーネ・ラ・ティアス illustrious/Pony Irene_La_Tias  (XEXEX)
+모델 URL: https://civitai.com/models/742648
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 伊集院メイ Pony XL Ijuin_Mei (Tokimeki Memorial 2)
+모델 URL: https://civitai.com/models/278139
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 藍田カオル Aida Kaoru (VIPER M3 3.2) illustrious
+모델 URL: https://civitai.com/models/2034436
+포스트 아이디: 23392190
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+--------------------------------------
+
+--------------------------------------
+모델 이름: シリア・フラット illustrious/Pony Siria Flatte (EVE Burst Error A)
+모델 URL: https://civitai.com/models/633691
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: アヤメ illustrious ayame (yawaraka ninpou sos)
+모델 URL: https://civitai.com/models/1617836
+포스트 아이디: 17411278
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17411278
+--------------------------------------

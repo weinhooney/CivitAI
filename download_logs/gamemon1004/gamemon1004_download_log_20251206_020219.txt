@@ -1,0 +1,34 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251206_020219
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/gamemon1004/models
+
+[다운받을 모델 갯수]
+699
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Webtoon Character) Karina Dragonia / 카리나 드라고니아 (The Knight King Who Returned with a God / 신과함께 돌아온 기사왕님)
+모델 URL: https://civitai.com/models/1902029
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Webtoon Character) Asmodeus / 아스모데우스 (Omniscient Reader's Viewpoint / 전지적 독자 시점)
+모델 URL: https://civitai.com/models/1731247
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Anime Character) Rakshata Chawla / 락샤타 챠울라 (Code geass / 코드 기어스)
+모델 URL: https://civitai.com/models/940329
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

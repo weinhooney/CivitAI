@@ -1,0 +1,54 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251205_210202
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/Busterkun/models
+
+[다운받을 모델 갯수]
+551
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Bessho Toshiko, Saegusa Tomoka - Detective Conan (ILXL)
+모델 URL: https://civitai.com/models/1576389
+포스트 아이디: 16929594
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16929594
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ikenami Shizuka / Hattori Shizuka - Detective Conan (ILXL)
+모델 URL: https://civitai.com/models/1661349
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Dragon Shiryu - Saint Seiya (ILXL)
+모델 URL: https://civitai.com/models/1484004
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Freiya - Detective Conan (ILXL)
+모델 URL: https://civitai.com/models/2187521
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Cho Sun-Ah - Beautiful Gunbari (Pony/ILXL)
+모델 URL: https://civitai.com/models/849472
+포스트 아이디: 17111387
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17111387
+--------------------------------------

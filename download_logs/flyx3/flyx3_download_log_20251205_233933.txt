@@ -1,0 +1,66 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251205_233933
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/flyx3/models
+
+[다운받을 모델 갯수]
+412
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: [XL] Yutaka Izubuchi/出渕裕/出渊裕 《Record of Lodoss War》/《ロードス島戦記》/《罗德岛战记》 -Deedlit -Artist Style
+모델 URL: https://civitai.com/models/179904
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: CLAMP 《Card Captor Sakura(Animation version)》/《魔卡少女樱(动画版)》 木之本樱/大道世知世- Artist Style
+모델 URL: https://civitai.com/models/187234
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [PONY XL] Kanzaki Hiro/神崎广/Tabgraphics 《我的妹妹哪有那么可爱》/《俺の妹がこんなに可愛いわけがない》 - Artist Style
+모델 URL: https://civitai.com/models/355652
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [illustrious XL] 6 in 1，《Night Shift Nurses》/《夜勤病栋》Ren Nanase- Artist Style
+모델 URL: https://civitai.com/models/1682506
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [XL] Inoue Takehiko/井上雄彦 《SLAM DUNK》/《灌篮高手》 樱木花道、流川枫 - Artist Style
+모델 URL: https://civitai.com/models/390151
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [illustrious XL] Aoi Nanase/七濑葵 《Samurai Shodown》/《侍魂》 《ZWEI!!》/《双星物语》 NakoRuru/娜可露露 - Artist Style
+모델 URL: https://civitai.com/models/1240911
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [illustrious XL] SHAA/しゃあ 《Nogizaka Haruka no Himitsu》/《乃木坂春香的秘密》 - Artist Style
+모델 URL: https://civitai.com/models/1414009
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

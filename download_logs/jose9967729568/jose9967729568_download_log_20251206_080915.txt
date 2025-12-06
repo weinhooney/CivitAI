@@ -1,0 +1,212 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251206_080915
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/jose9967729568/models
+
+[다운받을 모델 갯수]
+1202
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Jin Xuan | Eternal Supreme | 万古至尊 | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/2084735
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Li Yaoyao ( 李瑶瑶 ) | 斗罗大陆3 | Douluo Dalu III | Soul Land III | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/2007595
+포스트 아이디: 23208844
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/23208844
+--------------------------------------
+
+--------------------------------------
+모델 이름: Wang Dongqi ( 王东琪 ) | 斗罗大陆3 | Douluo Dalu III | Soul Land III | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/2006874
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ye Yingrong ( 叶樱榕 ) | 斗罗大陆3 | Douluo Dalu III | Soul Land III | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/2005338
+포스트 아이디: 23168751
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/23168751
+--------------------------------------
+
+--------------------------------------
+모델 이름: Murong Geomhwa | World's Greatest Senior Disciple | 천하제일 대사형 | Manhwa | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/2011131
+포스트 아이디: 23116861
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/23116861
+--------------------------------------
+
+--------------------------------------
+모델 이름: Xie Yan | 我为邪帝 | I'm An Evil God | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1952097
+포스트 아이디: 22272074
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/22272074
+--------------------------------------
+
+--------------------------------------
+모델 이름: Dal-Lee Yoo ( 유달리 ) | Queen Bee | 집주인 딸내미 | Manhwa | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1931530
+포스트 아이디: 21958552
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/21958552
+--------------------------------------
+
+--------------------------------------
+모델 이름: Bing Bing ( 冰帝 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1922456
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Xue Di ( 雪帝 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1922538
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Goddess of Light ( 光明女神 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1920659
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Tang Wutong ( 唐舞桐 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1914587
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ning Rongrong ( 宁荣荣 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1920572
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Zhu Zhuqing ( 朱竹清 ) | 斗罗大陆2.5 | Douluo Dalu 2.5 | Soul Land 2.5 | Soul Land - Legend of the Gods' Realm | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1919912
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Yan Meiling | 我为邪帝 | I'm An Evil God | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1913738
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Vanessa | I'm Really Not The Demon God's Lackey | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1916614
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Meiya | Night of the Soulless Heathens | Manhwa | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1824990
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Enya | Swordmaster’s Youngest Son | Manhwa | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1829025
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Beiju | The Last Adventurer | Manhwa | Webtoon | Illustrious | Pony
+모델 URL: https://civitai.com/models/1354410
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Zhu Lu ( 朱露 ) | 斗罗大陆2 | Douluo Dalu II | Soul Land II | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1809253
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Tian Yingying | Dragon’s Chosen | 龙腾战尊 | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1788390
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Daria Whitember di Tersia | Surviving the Game as a Barbarian | Manhwa | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1660730
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ling-Er | Battle Through the Heavens | Doupo Cangqiong | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1492552
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ye Liuli | I am the Fated Villain | Manhua | Webtoon | Illustrious | Pony
+모델 URL: https://civitai.com/models/1322840
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Jun Yao | I am the Fated Villain | Manhua | Webtoon | Illustrious
+모델 URL: https://civitai.com/models/1406335
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
