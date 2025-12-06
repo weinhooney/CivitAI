@@ -1,0 +1,46 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251204_114225
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/Elesico/models
+
+[다운받을 모델 갯수]
+546
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: [IL v0.1 + Pony] Adelaide Grand Marnier - Dog Days | アデライド・グランマニエ (4 costumes)
+모델 URL: https://civitai.com/models/982467
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: [IL v0.1] Dahee - Turning my Life Around with Crypto (+18 Manhwa) [Request]
+모델 URL: https://civitai.com/models/1573751
+포스트 아이디: 16856213
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16856213
+--------------------------------------
+
+--------------------------------------
+모델 이름: [IL v0.1] Jagaa - Neptunia Series | ジャーガ 超次元ゲイムネプチューヌ (2+1 costumes)
+모델 URL: https://civitai.com/models/1641482
+포스트 아이디: 17739871
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17739871
+--------------------------------------
+
+--------------------------------------
+모델 이름: linkartoon Style (Request)
+모델 URL: https://civitai.com/models/551019
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
