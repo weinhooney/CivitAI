@@ -241,8 +241,8 @@ if __name__ == "__main__":
     #     base = os.getcwd()
 
     # base = os.path.abspath(base)
-    # base = r"E:\CivitAI\Users"
-    base = r"E:\CivitAI\Users\Phoebus_AD\Older Sister (Sponsor Me Please)"
+    base = r"E:\CivitAI\Users"
+
     print(f"[INFO] prompt_modifier 시작: {base}")
 
     if not os.path.isdir(base):

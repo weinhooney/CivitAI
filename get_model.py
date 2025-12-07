@@ -477,8 +477,8 @@ def clean_prompt(prompt: str, filters):
                     kept_inners.append(inner)
                     continue
 
-                # 필터 단어 포함 → 제거
-                if any(f in inner_low for f in f_low):
+                # 🔹 필터 문구와 "정확히 일치"하는 경우만 제거
+                if inner_low in f_low:
                     continue
 
                 kept_inners.append(inner)
@@ -499,10 +499,12 @@ def clean_prompt(prompt: str, filters):
 
         if inner.startswith("<lora:"):
             outputs.append(inner)
-        elif any(f in inner_low for f in f_low):
+        # 🔹 필터 문구와 "정확히 일치"하는 경우만 제거
+        elif inner_low in f_low:
             pass
         else:
             outputs.append(inner)
+
 
         idx += 1
 
