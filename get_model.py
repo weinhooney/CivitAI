@@ -363,18 +363,44 @@ FILTER_WORDS = CLOTHES_FILTER + ETC_FILTER
 
 INVALID_FS_CHARS = r'[\\/:*?"<>|]'
 
+def normalize_prompt_basic(prompt: str) -> str:
+    if not prompt:
+        return ""
+
+    # 0) 필요하면 디버그용 로그
+    if "BREAK" in prompt:
+        print(f"[DEBUG] BREAK before replace: {repr(prompt)}")
+
+    # 1) BREAK → 콤마 (정규식 쓰지 말고 그냥 문자열로 다 갈아버리자)
+    #    어디에 붙어있든 "BREAK"라는 연속 글자가 나오면 전부 콤마로 교체
+    prompt = prompt.replace("BREAK", ",")
+
+    # 2) <lora:...> 태그 앞뒤에 콤마 자동 삽입
+    #    예: "looking at viewer <lora:foo:1> breast"
+    #      -> "looking at viewer , <lora:foo:1> , breast"
+    prompt = re.sub(r"\s*(<lora:[^>]+>)\s*", r", \1, ", prompt)
+
+    # 3) 콤마 정리
+    #    - 콤마 기준으로 split
+    #    - 양쪽 공백 제거
+    #    - 빈 문자열은 버림 → ",, ,," 같은 건 다 사라짐
+    parts = [p.strip() for p in prompt.split(",") if p.strip()]
+
+    if not parts:
+        return ""
+
+    # 다시 ", "로 붙여서 깔끔한 형태로 반환
+    return ", ".join(parts)
+
+
+
+
 def clean_prompt(prompt: str, filters):
     if not prompt:
         return ""
 
-    # 1) BREAK 는 콤마처럼 동작하게 먼저 치환
-    #    예: "tag1 BREAK tag2" -> "tag1 , tag2"
-    prompt = re.sub(r"\bBREAK\b", ",", prompt)
-
-    # 2) <lora:...> 태그 앞뒤에 콤마가 없더라도 강제로 콤마 추가
-    #    예: "looking at viewer <lora:foo:1> breast"
-    #      -> "looking at viewer , <lora:foo:1> , breast"
-    prompt = re.sub(r"\s*(<lora:[^>]+>)\s*", r", \1, ", prompt)
+    # 기존 BREAK, LORA 콤마 삽입, 중복 콤마 정리 → 전부 여기로 통합
+    prompt = normalize_prompt_basic(prompt)
 
     # 필터 문자열 (소문자 변환 + 정확 일치용)
     f_low = [f.lower() for f in filters]
@@ -1066,14 +1092,59 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
 
     print(f"[IDM] 다운로드 완료됨: {lora_filename}")
 
+    # ------------------------------------------------------
     # ss_output_name 정규화
+    #  - 있으면: __ → _ 만 적용
+    #  - 없으면: 파일명(확장자 제거)을 정규화(__ → _) 해서
+    #             1) ss_output_name 으로 쓰고
+    #             2) 실제 파일 이름도 정규화된 이름으로 rename
+    # ------------------------------------------------------
     meta = read_safetensors_metadata(lora_path)
     ss_name = meta.get("ss_output_name")
+    if isinstance(ss_name, str):
+        ss_name = ss_name.strip()
+    else:
+        ss_name = ""
 
-    if ss_name:
+    # 현재 lora_filename 기준 정규화 이름 계산
+    base_name, ext = os.path.splitext(lora_filename)
+    normalized_base = base_name.replace("__", "_")
+    normalized_filename = normalized_base + ext
+
+    if not ss_name:
+        # 🔹 ss_output_name 없으면 → 정규화된 파일명(확장자 제거)을 ss_output_name 으로 사용
+        new_path = lora_path
+
+        # 🔹 실제 파일 이름도 정규화된 이름으로 변경
+        if normalized_filename != lora_filename:
+            candidate = os.path.join(folder, normalized_filename)
+            if os.path.exists(candidate):
+                print(f"[LORA][WARN] 정규화된 파일명이 이미 존재 → 파일명 변경 스킵: {candidate}")
+                # 이 경우에는 파일명은 그대로 두고 ss_output_name만 맞추고 간다.
+            else:
+                os.rename(lora_path, candidate)
+                print(f"[LORA] 파일명 정규화: {lora_filename} → {normalized_filename}")
+                lora_filename = normalized_filename
+                new_path = candidate
+
+        try:
+            rewrite_safetensors_metadata(new_path, normalized_base)
+            print(f"[LORA] ss_output_name 없음 → 파일명 기반으로 설정: {normalized_base}")
+        except Exception as e:
+            print(f"[ERROR] ss_output_name 설정 실패: {e}")
+
+        # 이후 로직에서 사용할 실제 경로 갱신
+        lora_path = new_path
+
+    else:
+        # 🔹 ss_output_name 이 이미 있으면 → __ 를 _ 로만 정규화
         sanitized = ss_name.replace("__", "_")
-        rewrite_safetensors_metadata(lora_path, sanitized)
-        print(f"[LORA] ss_output_name 정규화 완료: {sanitized}")
+        try:
+            rewrite_safetensors_metadata(lora_path, sanitized)
+            print(f"[LORA] ss_output_name 정규화 완료: {sanitized}")
+        except Exception as e:
+            print(f"[ERROR] ss_output_name 정규화 실패: {e}")
+
 
     # SD 폴더로 복사
     folder_abs = os.path.abspath(folder)

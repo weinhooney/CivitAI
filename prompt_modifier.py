@@ -26,16 +26,18 @@ def find_lora_ss_output_name(folder: str):
     """
     folder 안에서 .safetensors 파일을 찾고, 그 안의 ss_output_name 을 반환한다.
     - .safetensors 가 없으면 예외 발생
-    - ss_output_name 이 없으면 예외 발생
+    - ss_output_name 이 없으면:
+        1) 로라 파일 이름(확장자 제거)을 기반으로 정규화(__ → _) 한 값을 ss_output_name 으로 사용
+        2) 실제 로라 파일 이름도 정규화된 이름으로 rename
     """
     safes = [f for f in os.listdir(folder) if f.lower().endswith(".safetensors")]
     if not safes:
         raise RuntimeError(f"LoRA(.safetensors) 파일이 없습니다: {folder}")
 
     if len(safes) > 1:
-        # 필요하면 여기서 선택 로직을 더 넣어도 됨
         print(f"[WARN] safetensors 파일이 여러 개입니다. 첫 번째만 사용합니다: {safes}")
     safes.sort()
+
     lora_filename = safes[0]
     lora_path = os.path.join(folder, lora_filename)
 
@@ -44,10 +46,44 @@ def find_lora_ss_output_name(folder: str):
         raise RuntimeError(f"메타데이터를 읽을 수 없습니다: {lora_path}")
 
     ss_name = meta.get("ss_output_name")
+    if isinstance(ss_name, str):
+        ss_name = ss_name.strip()
+    else:
+        ss_name = ""
+
+    # 현재 파일 이름 기준 정규화 이름 계산
+    base_name, ext = os.path.splitext(lora_filename)
+    normalized_base = base_name.replace("__", "_")
+    normalized_filename = normalized_base + ext
+
     if not ss_name:
-        raise RuntimeError(f"ss_output_name 항목이 없습니다: {lora_path}")
+        # 🔹 ss_output_name 이 없으면 → 정규화된 파일 이름(확장자 제거)을 ss_output_name 으로 사용
+        ss_name = normalized_base
+
+        # 🔹 실제 파일 이름도 정규화된 이름으로 변경
+        if normalized_filename != lora_filename:
+            new_path = os.path.join(folder, normalized_filename)
+            if os.path.exists(new_path):
+                print(f"[LORA][WARN] 정규화된 파일명이 이미 존재 → 파일명 변경 스킵: {new_path}")
+                # 이 경우에는 파일명은 그대로 두고 ss_output_name만 맞춰둔다.
+            else:
+                os.rename(lora_path, new_path)
+                print(f"[LORA] 파일명 정규화: {lora_filename} → {normalized_filename}")
+                lora_filename = normalized_filename
+                lora_path = new_path
+
+        # 🔹 메타데이터에도 ss_output_name 써주기
+        try:
+            get_model.rewrite_safetensors_metadata(lora_path, ss_name)
+            print(f"[LORA] ss_output_name 없음 → 파일명 기반으로 설정: {ss_name}")
+        except Exception as e:
+            print(f"[WARN] ss_output_name 자동 설정 실패: {e}")
+
+    # ss_output_name 이 원래부터 있던 경우에는 여기서는 rename 안 하고,
+    # get_model.py 쪽 wait_and_finalize_lora 에서 정규화 처리.
 
     return lora_filename, ss_name
+
 
 
 # ----------------------------------------------------------------------
@@ -127,7 +163,7 @@ def process_txt(path: str):
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
-        print(f"[ERROR] JSON 읽기 실패: {path} - {e}")
+        # print(f"[ERROR] JSON 읽기 실패: {path} - {e}")
         return
 
     raw_prompt = (data.get("raw_prompt") or "").strip()
