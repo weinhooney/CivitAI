@@ -19,6 +19,33 @@ import re
 import get_model
 
 
+# 폴더별 LoRA 메타 캐시: { folder_path: (lora_filename, ss_output_name) or None }
+_LORA_INFO_CACHE = {}
+
+
+def get_lora_info_for_folder(folder: str):
+    """
+    같은 폴더에 대해 find_lora_ss_output_name 을 여러 번 호출하지 않도록
+    결과를 캐시하는 헬퍼.
+
+    - 성공 시: (lora_filename, ss_output_name) 튜플
+    - 실패 시: None 저장 후 None 반환
+    """
+    # 이미 캐시되어 있으면 그대로 반환
+    if folder in _LORA_INFO_CACHE:
+        return _LORA_INFO_CACHE[folder]
+
+    try:
+        info = find_lora_ss_output_name(folder)
+    except Exception as e:
+        print(f"[ERROR] LoRA 메타 처리 실패(폴더 캐시): {folder} - {e}")
+        _LORA_INFO_CACHE[folder] = None
+        return None
+
+    _LORA_INFO_CACHE[folder] = info
+    return info
+
+
 # ----------------------------------------------------------------------
 #  safetensors → ss_output_name 찾기
 # ----------------------------------------------------------------------
@@ -179,14 +206,16 @@ def process_txt(path: str):
 
     # --------------------------------------------------
     # 1) 해당 폴더의 LoRA(.safetensors) → ss_output_name
+    #    폴더 단위 캐시 사용
     # --------------------------------------------------
     folder = os.path.dirname(path)
-    try:
-        lora_filename, ss_output_name = find_lora_ss_output_name(folder)
-    except Exception as e:
-        # 요구사항: 없으면 에러. 여기서는 에러 로그 출력 후 스킵.
-        print(f"[ERROR] LoRA 메타 처리 실패: {path} - {e}")
+    info = get_lora_info_for_folder(folder)
+    if info is None:
+        # 이 폴더는 이미 실패로 캐시되었거나, 방금 실패함 → 전체 txt 스킵
+        print(f"[ERROR] LoRA 메타 처리 실패(캐시 사용): {path}")
         return
+
+    lora_filename, ss_output_name = info
 
     # ss_output_name 비교용으로 약간 정규화 ( '__' → '_' )
     target_name = ss_output_name.replace("__", "_")
@@ -230,14 +259,11 @@ def process_txt(path: str):
 
     # --------------------------------------------------
     # 4) 필터링해서 prompt / prompt_with_clothes 설정
-    #    - prompt             : CLOTHES_FILTER + ETC_FILTER
-    #    - prompt_with_clothes: ETC_FILTER
     # --------------------------------------------------
     sex_filter = getattr(get_model, "SEX_FILTER", [])
     clothes_filter = getattr(get_model, "CLOTHES_FILTER", [])
     etc_filter = getattr(get_model, "ETC_FILTER", [])
 
-    # clean_prompt 로 필터링 (기존 로직 재사용)
     prompt_filtered = get_model.clean_prompt(raw_prompt_temp, sex_filter + clothes_filter + etc_filter)
     prompt_with_clothes_filtered = get_model.clean_prompt(raw_prompt_temp, sex_filter + etc_filter)
 
@@ -253,6 +279,7 @@ def process_txt(path: str):
         print(f"[OK] 처리 완료: {path}")
     except Exception as e:
         print(f"[ERROR] 저장 실패: {path} - {e}")
+
 
 
 # ----------------------------------------------------------------------
