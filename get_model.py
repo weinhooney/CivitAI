@@ -367,6 +367,16 @@ def clean_prompt(prompt: str, filters):
     if not prompt:
         return ""
 
+    # 1) BREAK 는 콤마처럼 동작하게 먼저 치환
+    #    예: "tag1 BREAK tag2" -> "tag1 , tag2"
+    prompt = re.sub(r"\bBREAK\b", ",", prompt)
+
+    # 2) <lora:...> 태그 앞뒤에 콤마가 없더라도 강제로 콤마 추가
+    #    예: "looking at viewer <lora:foo:1> breast"
+    #      -> "looking at viewer , <lora:foo:1> , breast"
+    prompt = re.sub(r"\s*(<lora:[^>]+>)\s*", r", \1, ", prompt)
+
+    # 필터 문자열 (소문자 변환 + 정확 일치용)
     f_low = [f.lower() for f in filters]
 
     raw_tokens = [
@@ -407,7 +417,7 @@ def clean_prompt(prompt: str, filters):
         if j >= 0 and s[j] == ")":
             ends_group[idx] = True
 
-    # --- 그룹 범위 탐색 ---
+    # --- 그룹 구간 계산 (중첩 괄호 고려) ---
     groups = []
     depth = 0
     current_start = None
@@ -441,7 +451,10 @@ def clean_prompt(prompt: str, filters):
             idx += 1
             continue
 
+        # ===== 괄호 안 토큰 처리 =====
         if in_group[idx]:
+            # 현재 idx 가 속한 그룹 찾기
+            start_i = end_i = idx
             for s, e in groups:
                 if s == idx:
                     start_i, end_i = s, e
@@ -458,11 +471,13 @@ def clean_prompt(prompt: str, filters):
 
                 # 그룹 시작 '(' 제거
                 if j == start_i:
+                    raw_s = raw_s.lstrip()
                     if raw_s.startswith("("):
                         raw_s = raw_s[1:]
 
                 # 그룹 끝 ')' 제거
                 if j == end_i:
+                    raw_s = raw_s.rstrip()
                     if raw_s.endswith(")"):
                         raw_s = raw_s[:-1]
 
@@ -489,7 +504,7 @@ def clean_prompt(prompt: str, filters):
             idx = end_i + 1
             continue
 
-        # --- 괄호 외부 토큰 처리 ---
+        # ===== 괄호 밖 토큰 처리 =====
         inner = t["raw"].strip()
         if not inner:
             idx += 1
@@ -497,6 +512,7 @@ def clean_prompt(prompt: str, filters):
 
         inner_low = inner.lower()
 
+        # LoRA 태그는 무조건 유지
         if inner.startswith("<lora:"):
             outputs.append(inner)
         # 🔹 필터 문구와 "정확히 일치"하는 경우만 제거
@@ -505,11 +521,26 @@ def clean_prompt(prompt: str, filters):
         else:
             outputs.append(inner)
 
-
         idx += 1
 
+    # 1차 조합
     final = ", ".join(outputs)
-    return final + ("," if final else "")
+
+    if not final:
+        return ""
+
+    # 2차 정리: ",, , ,, tag" 같은 것들을 하나의 콤마 기준으로 정규화
+    #   - 콤마로 다시 나눈 뒤 공백/빈 요소 제거
+    parts = [p.strip() for p in final.split(",") if p.strip()]
+    if not parts:
+        return ""
+
+    final = ", ".join(parts)
+
+    # 기존과 동일하게 마지막에 콤마 하나 유지
+    return final + ","
+
+
 
 
 ###########################################################
