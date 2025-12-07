@@ -233,13 +233,13 @@ def process_txt(path: str):
     #    - prompt             : CLOTHES_FILTER + ETC_FILTER
     #    - prompt_with_clothes: ETC_FILTER
     # --------------------------------------------------
+    sex_filter = getattr(get_model, "SEX_FILTER", [])
     clothes_filter = getattr(get_model, "CLOTHES_FILTER", [])
     etc_filter = getattr(get_model, "ETC_FILTER", [])
-    all_filter = clothes_filter + etc_filter
 
     # clean_prompt 로 필터링 (기존 로직 재사용)
-    prompt_filtered = get_model.clean_prompt(raw_prompt_temp, all_filter)
-    prompt_with_clothes_filtered = get_model.clean_prompt(raw_prompt_temp, etc_filter)
+    prompt_filtered = get_model.clean_prompt(raw_prompt_temp, sex_filter + clothes_filter + etc_filter)
+    prompt_with_clothes_filtered = get_model.clean_prompt(raw_prompt_temp, sex_filter + etc_filter)
 
     data["prompt"] = prompt_filtered
     data["prompt_with_clothes"] = prompt_with_clothes_filtered

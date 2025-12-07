@@ -64,6 +64,7 @@ ROOT = r"E:\CivitAI"   # ← 네가 원하는 경로로 변경
 POSTS_ROOT = os.path.join(ROOT, "Posts")     # get_model.py → 단일 포스트
 USERS_ROOT = os.path.join(ROOT, "Users")     # get_all_models.py → 전체 모델
 
+FILTER_SEX_PATH = os.path.join(ROOT, "Filter_Sex.txt")
 FILTER_CLOTHES_PATH = os.path.join(ROOT, "Filter_Clothes.txt")
 FILTER_ETC_PATH     = os.path.join(ROOT, "Filter_Etc.txt")
 LORA_PASTE_TARGET_PATH = os.path.abspath(os.path.join(ROOT, "../sd/models/Lora")) # 로라 파일 붙여넣을 폴더
@@ -355,13 +356,44 @@ def load_filter_file(path):
                 words.append(w.lower())
     return words
 
+SEX_FILTER = load_filter_file(FILTER_SEX_PATH)
 CLOTHES_FILTER = load_filter_file(FILTER_CLOTHES_PATH)
 ETC_FILTER = load_filter_file(FILTER_ETC_PATH)
 
 # 전체 필터 = 두 개 합침
-FILTER_WORDS = CLOTHES_FILTER + ETC_FILTER
+FILTER_WORDS = SEX_FILTER + CLOTHES_FILTER + ETC_FILTER
 
 INVALID_FS_CHARS = r'[\\/:*?"<>|]'
+
+import re
+...
+def normalize_filter_item(text: str) -> str:
+    """
+    필터 비교/중복 제거용으로 토큰을 정규화한다.
+    예:
+      "(Naughty smile:0.7)"  -> "naughty smile"
+      "( Naughty smile )"    -> "naughty smile"
+      "Naughty smile:0.8"    -> "naughty smile"
+      " Naughty  smile  "    -> "naughty smile"
+    """
+    if not text:
+        return ""
+
+    s = text.strip()
+
+    # 바깥 한 겹 괄호 제거: ( ... )
+    if s.startswith("(") and s.endswith(")"):
+        s = s[1:-1].strip()
+
+    # 끝에 붙은 가중치 제거: ":0.7", ": 0.8", ":1", ": 1.0" 등
+    s = re.sub(r"\s*:\s*[0-9]+(?:\.[0-9]+)?\s*$", "", s)
+
+    # 공백 여러 개 → 하나로
+    s = re.sub(r"\s+", " ", s)
+
+    # 필터 비교는 소문자로
+    return s.lower()
+
 
 def normalize_prompt_basic(prompt: str) -> str:
     if not prompt:
@@ -399,11 +431,15 @@ def clean_prompt(prompt: str, filters):
     if not prompt:
         return ""
 
-    # 기존 BREAK, LORA 콤마 삽입, 중복 콤마 정리 → 전부 여기로 통합
     prompt = normalize_prompt_basic(prompt)
 
-    # 필터 문자열 (소문자 변환 + 정확 일치용)
-    f_low = [f.lower() for f in filters]
+    # 필터 문자열을 정규화해서 키셋으로 만든다.
+    # 예: "Naughty smile", "(Naughty smile)", "Naughty smile:0.7" 전부 "naughty smile" 로 통일
+    f_keys = set()
+    for f in filters:
+        key = normalize_filter_item(f)
+        if key:
+            f_keys.add(key)
 
     raw_tokens = [
         p.strip()
@@ -511,15 +547,16 @@ def clean_prompt(prompt: str, filters):
                 if not inner:
                     continue
 
-                inner_low = inner.lower()
-
                 # LoRA 태그는 무조건 유지
                 if inner.startswith("<lora:"):
                     kept_inners.append(inner)
                     continue
 
-                # 🔹 필터 문구와 "정확히 일치"하는 경우만 제거
-                if inner_low in f_low:
+                # 🔹 필터용 정규화 키로 비교
+                #    "(Naughty smile:0.7)" -> "naughty smile"
+                key = normalize_filter_item(inner)
+                if key and key in f_keys:
+                    # 필터에 걸렸으면 제거
                     continue
 
                 kept_inners.append(inner)
@@ -536,16 +573,16 @@ def clean_prompt(prompt: str, filters):
             idx += 1
             continue
 
-        inner_low = inner.lower()
-
-        # LoRA 태그는 무조건 유지
         if inner.startswith("<lora:"):
             outputs.append(inner)
-        # 🔹 필터 문구와 "정확히 일치"하는 경우만 제거
-        elif inner_low in f_low:
-            pass
         else:
-            outputs.append(inner)
+            key = normalize_filter_item(inner)
+            if key and key in f_keys:
+                # 필터 대상이면 버린다
+                pass
+            else:
+                outputs.append(inner)
+
 
         idx += 1
 

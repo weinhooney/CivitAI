@@ -32,7 +32,7 @@ def collect_from_raw_prompt(raw_prompt: str, acc_list, acc_set):
     raw_prompt 문자열에서 콤마 기준으로 토큰을 나누고,
     <lora:...> 형태의 토큰을 제외한 나머지를 acc_list / acc_set 에 누적한다.
     - acc_list: 최종 JSON에 기록될 리스트 (순서 유지)
-    - acc_set : 중복 체크용 집합
+    - acc_set : 중복 체크용 집합 (정규화 키 기준)
     """
     if not raw_prompt:
         return
@@ -42,11 +42,14 @@ def collect_from_raw_prompt(raw_prompt: str, acc_list, acc_set):
 
     # 🔥 get_model.py에서 공통화한 정규화 기능 재사용
     try:
-        from get_model import normalize_prompt_basic
-        tmp = normalize_prompt_basic(raw_prompt)
+        from get_model import normalize_prompt_basic, normalize_filter_item
     except ImportError:
-        # fallback
-        tmp = raw_prompt
+        # fallback: 최소 동작만 (정규화 없이)
+        tmp = raw_prompt.replace("\r", " ").replace("\n", " ")
+        def normalize_filter_item(x: str) -> str:
+            return x.strip().lower()
+    else:
+        tmp = normalize_prompt_basic(raw_prompt)
 
     # 줄바꿈 제거 후 콤마 기준 분리
     tmp = tmp.replace("\r", " ").replace("\n", " ")
@@ -62,12 +65,25 @@ def collect_from_raw_prompt(raw_prompt: str, acc_list, acc_set):
         if stripped.startswith("<lora:") and stripped.endswith(">"):
             continue
 
-        # 전역 중복 제거 (완전 일치하는 문자열만)
-        if stripped in acc_set:
+        # 🔹 정규화 키 생성
+        #    "(Naughty smile:0.7)" → "naughty smile"
+        key = normalize_filter_item(stripped)
+        if not key:
             continue
 
-        acc_set.add(stripped)
-        acc_list.append(stripped)
+        # 정규화 키 기준 중복 제거
+        if key in acc_set:
+            continue
+
+        # acc_set 은 "논리적인 항목" 집합 (정규화된 키)
+        acc_set.add(key)
+
+        # acc_list 에 뭐 넣을지는 선택사항:
+        #  - 첫 등장한 원본 문자열을 그대로 넣고 싶으면 stripped
+        #  - 항상 정규화된 형태("naughty smile")로만 저장하고 싶으면 key
+        # 여기서는 정규화된 값을 저장하도록 한다.
+        acc_list.append(key)
+
 
 
 def process_txt(path: str, acc_list, acc_set):
