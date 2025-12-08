@@ -399,9 +399,9 @@ def normalize_prompt_basic(prompt: str) -> str:
     if not prompt:
         return ""
 
-    # 0) 필요하면 디버그용 로그
-    if "BREAK" in prompt:
-        print(f"[DEBUG] BREAK before replace: {repr(prompt)}")
+    # # 0) 필요하면 디버그용 로그
+    # if "BREAK" in prompt:
+    #     print(f"[DEBUG] BREAK before replace: {repr(prompt)}")
 
     # 1) BREAK → 콤마 (정규식 쓰지 말고 그냥 문자열로 다 갈아버리자)
     #    어디에 붙어있든 "BREAK"라는 연속 글자가 나오면 전부 콤마로 교체
