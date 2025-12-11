@@ -1,0 +1,1171 @@
+{
+  "success": [
+    {
+      "id": 69781508,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781508.png",
+      "size": 978516
+    },
+    {
+      "id": 1655714,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\Kurosawa_Minamo__黒沢みなも_Azumanga_Daioh_Illustrious.safetensors",
+      "size": 228460244
+    },
+    {
+      "id": 69781557,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781557.png",
+      "size": 905667
+    },
+    {
+      "id": 69782822,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69782822.png",
+      "size": 708143
+    },
+    {
+      "id": 69781579,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781579.png",
+      "size": 899029
+    },
+    {
+      "id": 69781657,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781657.png",
+      "size": 883941
+    },
+    {
+      "id": 69784971,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69784971.png",
+      "size": 812112
+    },
+    {
+      "id": 69781671,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781671.png",
+      "size": 924548
+    },
+    {
+      "id": 69783176,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69783176.png",
+      "size": 1194716
+    },
+    {
+      "id": 69781886,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781886.png",
+      "size": 786103
+    },
+    {
+      "id": 69781645,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kurosawa Minamo _ 黒沢みなも (Azumanga Daioh) [Illustrious]\\69781645.png",
+      "size": 922117
+    },
+    {
+      "id": 71752344,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71752344.png",
+      "size": 1294572
+    },
+    {
+      "id": 71751657,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71751657.png",
+      "size": 1148780
+    },
+    {
+      "id": 1695793,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\Viletta_Vadim__ヴィレッタバディム_Super_Robot_Wars_OG_Illustrious_v1.1.safetensors",
+      "size": 228461532
+    },
+    {
+      "id": 71760286,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71760286.png",
+      "size": 1346912
+    },
+    {
+      "id": 71757343,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71757343.png",
+      "size": 1111876
+    },
+    {
+      "id": 71760988,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71760988.png",
+      "size": 1172358
+    },
+    {
+      "id": 71765567,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Viletta Vadim _ ヴィレッタ・バディム (Super Robot Wars OG) [Illustrious]\\71765567.png",
+      "size": 1234741
+    },
+    {
+      "id": 69402898,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69402898.png",
+      "size": 1138380
+    },
+    {
+      "id": 69401706,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69401706.png",
+      "size": 1361358
+    },
+    {
+      "id": 1648683,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\Lefina_Enfield_Super_Robot_Wars.safetensors",
+      "size": 228461476
+    },
+    {
+      "id": 69401701,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69401701.png",
+      "size": 998230
+    },
+    {
+      "id": 69408395,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69408395.png",
+      "size": 1342305
+    },
+    {
+      "id": 69412801,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69412801.png",
+      "size": 1198393
+    },
+    {
+      "id": 69410990,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69410990.png",
+      "size": 1208209
+    },
+    {
+      "id": 69418804,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69418804.png",
+      "size": 1177613
+    },
+    {
+      "id": 69417981,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69417981.png",
+      "size": 1097801
+    },
+    {
+      "id": 69417957,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69417957.png",
+      "size": 1185064
+    },
+    {
+      "id": 69401680,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Lefina Enfield _ レフィーナ・エンフィールド (Super Robot Wars OG) [Illustrious]\\69401680.png",
+      "size": 1175938
+    },
+    {
+      "id": 68550205,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mirage Jenius _ ミラージュ・ジーナス (Macross Delta) [Illustrious]\\68550205.png",
+      "size": 1300134
+    },
+    {
+      "id": 68549475,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mirage Jenius _ ミラージュ・ジーナス (Macross Delta) [Illustrious]\\68549475.png",
+      "size": 1284961
+    },
+    {
+      "id": 1631967,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mirage Jenius _ ミラージュ・ジーナス (Macross Delta) [Illustrious]\\Mirage_Jenius__ミラージュジーナス_Macross_Delta_Illustrious.safetensors",
+      "size": 228459860
+    },
+    {
+      "id": 68528549,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mirage Jenius _ ミラージュ・ジーナス (Macross Delta) [Illustrious]\\68528549.png",
+      "size": 1174521
+    },
+    {
+      "id": 68523467,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mirage Jenius _ ミラージュ・ジーナス (Macross Delta) [Illustrious]\\68523467.png",
+      "size": 1268930
+    },
+    {
+      "id": 69191835,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Super Inazuma Kick _ スーパーイナズマキック(Pose) [Illustrious]\\69191835.png",
+      "size": 1476564
+    },
+    {
+      "id": 1645327,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Super Inazuma Kick _ スーパーイナズマキック(Pose) [Illustrious]\\Super_Inazuma_Kick__スーパーイナズマキックPose_Illustrious.safetensors",
+      "size": 228460260
+    },
+    {
+      "id": 69195399,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Super Inazuma Kick _ スーパーイナズマキック(Pose) [Illustrious]\\69195399.png",
+      "size": 1338357
+    },
+    {
+      "id": 73024529,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\73024529.png",
+      "size": 1075550
+    },
+    {
+      "id": 73024535,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\73024535.png",
+      "size": 995224
+    },
+    {
+      "id": 1722510,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\May_-_Mobile_Doll_Gundam_Build_Divers_ReRise_Illustrious.safetensors",
+      "size": 228458140
+    },
+    {
+      "id": 73024643,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\73024643.png",
+      "size": 983679
+    },
+    {
+      "id": 73024950,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\73024950.png",
+      "size": 881753
+    },
+    {
+      "id": 73031374,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mobile Doll May _ モビルドールメイ (Gundam Build Divers Re_Rise) [Illustrious]\\73031374.jpeg",
+      "size": 556163
+    },
+    {
+      "id": 69097854,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\69097854.png",
+      "size": 1170144
+    },
+    {
+      "id": 69097846,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\69097846.png",
+      "size": 1321814
+    },
+    {
+      "id": 1643391,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\Buster_Machine_No._7__バスターマシン７号__とっぷをネラエ_2_Illustrious.safetensors",
+      "size": 228457380
+    },
+    {
+      "id": 69100388,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\69100388.png",
+      "size": 1388179
+    },
+    {
+      "id": 69104269,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\69104269.png",
+      "size": 1308241
+    },
+    {
+      "id": 69097849,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Buster Machine No.7 _ バスターマシン７号 (Diebuster _ トップをねらえ! 2) [Illustrious]\\69097849.png",
+      "size": 1193288
+    },
+    {
+      "id": 72065523,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72065523.png",
+      "size": 1110506
+    },
+    {
+      "id": 72065617,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72065617.png",
+      "size": 963696
+    },
+    {
+      "id": 1702206,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\Bellamy__ベラミ_Space_Adventure_Cobra_Illustrious.safetensors",
+      "size": 228457788
+    },
+    {
+      "id": 72067056,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72067056.png",
+      "size": 1117585
+    },
+    {
+      "id": 72066257,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72066257.png",
+      "size": 930798
+    },
+    {
+      "id": 72069742,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72069742.png",
+      "size": 1023214
+    },
+    {
+      "id": 72068535,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Bellamy _ ベラミ (Space Adventure Cobra) [Illustrious]\\72068535.png",
+      "size": 968389
+    },
+    {
+      "id": 103100283,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Highleg Buruma _ ヒレグブルマー\\103100283.png",
+      "size": 1086981
+    },
+    {
+      "id": 2263242,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Highleg Buruma _ ヒレグブルマー\\BetterBurumas.safetensors",
+      "size": 228469708
+    },
+    {
+      "id": 103093775,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Highleg Buruma _ ヒレグブルマー\\103093775.png",
+      "size": 889632
+    },
+    {
+      "id": 103094082,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Highleg Buruma _ ヒレグブルマー\\103094082.png",
+      "size": 1072020
+    },
+    {
+      "id": 80524274,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント - Makna Forest Outfit (Xenoblade Chronicles) [Illustrious]\\80524274.png",
+      "size": 1574720
+    },
+    {
+      "id": 1869807,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント - Makna Forest Outfit (Xenoblade Chronicles) [Illustrious]\\Melia_Antiqua__メリアエンシェント_-_Makna_Forest_Outfit_Xenoblade_Chronicles_Illustrious.safetensors",
+      "size": 228456756
+    },
+    {
+      "id": 80524372,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント - Makna Forest Outfit (Xenoblade Chronicles) [Illustrious]\\80524372.png",
+      "size": 1503962
+    },
+    {
+      "id": 80521374,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント - Makna Forest Outfit (Xenoblade Chronicles) [Illustrious]\\80521374.png",
+      "size": 1455068
+    },
+    {
+      "id": 80520567,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\80520567.png",
+      "size": 1426012
+    },
+    {
+      "id": 80520588,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\80520588.png",
+      "size": 1430169
+    },
+    {
+      "id": 1869798,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\Melia_Antiqua__メリアエンシェント_Xenoblade_Chronicles_Illustrious_v1.2.safetensors",
+      "size": 228464292
+    },
+    {
+      "id": 80520681,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\80520681.png",
+      "size": 1439875
+    },
+    {
+      "id": 80520646,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\80520646.png",
+      "size": 1245626
+    },
+    {
+      "id": 80520718,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Melia Antiqua _ メリア・エンシェント (Xenoblade Chronicles) [Illustrious]\\80520718.png",
+      "size": 1118356
+    },
+    {
+      "id": 75518014,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518014.png",
+      "size": 1436475
+    },
+    {
+      "id": 75518009,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518009.png",
+      "size": 1272818
+    },
+    {
+      "id": 1772815,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\Sin__シン_NIKKE_Illustrious.safetensors",
+      "size": 228460348
+    },
+    {
+      "id": 75518010,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518010.png",
+      "size": 1200887
+    },
+    {
+      "id": 75518012,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518012.png",
+      "size": 1257760
+    },
+    {
+      "id": 75518011,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518011.png",
+      "size": 1226225
+    },
+    {
+      "id": 75518016,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Sin _ シン (NIKKE) [Illustrious]\\75518016.png",
+      "size": 1291349
+    },
+    {
+      "id": 74233706,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74233706.png",
+      "size": 1353102
+    },
+    {
+      "id": 1733434,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\Kanna_Dead_or_Alive_Illustrious.safetensors",
+      "size": 228462748
+    },
+    {
+      "id": 74227925,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74227925.png",
+      "size": 1126799
+    },
+    {
+      "id": 74229662,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74229662.png",
+      "size": 1328770
+    },
+    {
+      "id": 74220564,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74220564.png",
+      "size": 1175252
+    },
+    {
+      "id": 74225832,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74225832.png",
+      "size": 1228509
+    },
+    {
+      "id": 74227063,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Kanna _ カンナ (Dead or Alive Xtreme Venus Vacation) [Illustrious]\\74227063.png",
+      "size": 1237231
+    },
+    {
+      "id": 73021032,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021032.png",
+      "size": 1089327
+    },
+    {
+      "id": 73021034,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021034.png",
+      "size": 1154096
+    },
+    {
+      "id": 1722234,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\May_Gundam_Build_Divers_ReRise_Illustrious.safetensors",
+      "size": 228462708
+    },
+    {
+      "id": 73021062,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021062.png",
+      "size": 1236571
+    },
+    {
+      "id": 73021036,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021036.png",
+      "size": 921486
+    },
+    {
+      "id": 73021059,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021059.png",
+      "size": 1043800
+    },
+    {
+      "id": 73021054,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021054.png",
+      "size": 1065254
+    },
+    {
+      "id": 73021091,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\May _ メイ (Gundam Build Divers Re_Rise) [Illustrious]\\73021091.png",
+      "size": 1150645
+    },
+    {
+      "id": 70965504,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Tiaplate _ ティアプレート (Ishuzoku Reviewers) [Illustrious]\\70965504.png",
+      "size": 1055375
+    },
+    {
+      "id": 1680472,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Tiaplate _ ティアプレート (Ishuzoku Reviewers) [Illustrious]\\Tiaplate_Ishuzoku_Reviewers_Illustrious.safetensors",
+      "size": 228459812
+    },
+    {
+      "id": 70965496,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Tiaplate _ ティアプレート (Ishuzoku Reviewers) [Illustrious]\\70965496.png",
+      "size": 1132572
+    },
+    {
+      "id": 70965525,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Tiaplate _ ティアプレート (Ishuzoku Reviewers) [Illustrious]\\70965525.png",
+      "size": 1102376
+    },
+    {
+      "id": 70965546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Tiaplate _ ティアプレート (Ishuzoku Reviewers) [Illustrious]\\70965546.png",
+      "size": 1135780
+    },
+    {
+      "id": 70682368,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682368.png",
+      "size": 1385961
+    },
+    {
+      "id": 70685796,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70685796.png",
+      "size": 1204949
+    },
+    {
+      "id": 70682381,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682381.png",
+      "size": 1276050
+    },
+    {
+      "id": 70682403,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682403.png",
+      "size": 1325533
+    },
+    {
+      "id": 70682408,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682408.png",
+      "size": 1233125
+    },
+    {
+      "id": 70682409,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682409.png",
+      "size": 1242414
+    },
+    {
+      "id": 1674528,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\Mimika__ミミカ_Usagi-chan_de_Cue_Illustrious_v1.1.safetensors",
+      "size": 228458820
+    },
+    {
+      "id": 70689748,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70689748.png",
+      "size": 1347567
+    },
+    {
+      "id": 70682442,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682442.png",
+      "size": 1315767
+    },
+    {
+      "id": 70682478,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70682478.png",
+      "size": 1341116
+    },
+    {
+      "id": 70686535,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70686535.png",
+      "size": 1265788
+    },
+    {
+      "id": 70686261,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70686261.png",
+      "size": 1440326
+    },
+    {
+      "id": 70687383,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70687383.png",
+      "size": 1375739
+    },
+    {
+      "id": 70688968,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70688968.png",
+      "size": 1160316
+    },
+    {
+      "id": 70690445,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mimika _ ミミカ (Usagi-chan de Cue!) [Illustrious]\\70690445.png",
+      "size": 1316907
+    },
+    {
+      "id": 70100871,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Palamena - Grand Diviner Outfit (Visions of Mana) [Illustrious]\\70100871.png",
+      "size": 1528811
+    },
+    {
+      "id": 1663632,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Palamena - Grand Diviner Outfit (Visions of Mana) [Illustrious]\\Palamena_-_Grand_Diviner_Outfit_Visions_of_Mana_Illustrious.safetensors",
+      "size": 228459316
+    },
+    {
+      "id": 70108111,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Palamena - Grand Diviner Outfit (Visions of Mana) [Illustrious]\\70108111.png",
+      "size": 1494067
+    },
+    {
+      "id": 70103067,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Palamena - Grand Diviner Outfit (Visions of Mana) [Illustrious]\\70103067.png",
+      "size": 1301958
+    },
+    {
+      "id": 69999591,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\69999591.png",
+      "size": 929179
+    },
+    {
+      "id": 69999281,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\69999281.png",
+      "size": 1023113
+    },
+    {
+      "id": 1662407,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\Subtle_Nipples__胸ポチ_Illustrious_v1.1.safetensors",
+      "size": 228483420
+    },
+    {
+      "id": 69999276,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\69999276.png",
+      "size": 2050048
+    },
+    {
+      "id": 69999425,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\69999425.png",
+      "size": 1170232
+    },
+    {
+      "id": 70001394,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Subtle Nipples _ 胸ポチ [Illustrious]\\70001394.png",
+      "size": 803003
+    },
+    {
+      "id": 69611413,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nekoi Koshka _ 猫井コーシュカ (Usagi-chan de Cue!) [Illustrious]\\69611413.png",
+      "size": 1133806
+    },
+    {
+      "id": 1651516,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nekoi Koshka _ 猫井コーシュカ (Usagi-chan de Cue!) [Illustrious]\\Nekoi_Koshka__猫井コーシュカ_Usagi-chan_de_Cue_Illustrious.safetensors",
+      "size": 228457828
+    },
+    {
+      "id": 69611534,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nekoi Koshka _ 猫井コーシュカ (Usagi-chan de Cue!) [Illustrious]\\69611534.png",
+      "size": 1070427
+    },
+    {
+      "id": 69612394,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nekoi Koshka _ 猫井コーシュカ (Usagi-chan de Cue!) [Illustrious]\\69612394.png",
+      "size": 1321829
+    },
+    {
+      "id": 69612336,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nekoi Koshka _ 猫井コーシュカ (Usagi-chan de Cue!) [Illustrious]\\69612336.png",
+      "size": 1122578
+    },
+    {
+      "id": 68933999,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68933999.png",
+      "size": 1203148
+    },
+    {
+      "id": 1640094,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\Aida_Surugan__アイーダスルガン_Gundam_Reconguista_in_G_Illustrious_V2.safetensors",
+      "size": 228469756
+    },
+    {
+      "id": 69004459,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\69004459.png",
+      "size": 1271880
+    },
+    {
+      "id": 68930096,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68930096.png",
+      "size": 1147305
+    },
+    {
+      "id": 68939859,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68939859.png",
+      "size": 1143260
+    },
+    {
+      "id": 68941011,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68941011.png",
+      "size": 1070335
+    },
+    {
+      "id": 68930077,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68930077.png",
+      "size": 1160754
+    },
+    {
+      "id": 68943901,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68943901.png",
+      "size": 1284096
+    },
+    {
+      "id": 68937345,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68937345.png",
+      "size": 1036583
+    },
+    {
+      "id": 68942451,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68942451.png",
+      "size": 1095826
+    },
+    {
+      "id": 68932239,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68932239.png",
+      "size": 1306352
+    },
+    {
+      "id": 68946697,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68946697.png",
+      "size": 1036394
+    },
+    {
+      "id": 68945818,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68945818.png",
+      "size": 1121297
+    },
+    {
+      "id": 68946347,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aida Surugan _ アイーダ・スルガン (Gundam Reconguista in G) [Illustrious]\\68946347.png",
+      "size": 880736
+    },
+    {
+      "id": 68764218,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\68764218.png",
+      "size": 1472693
+    },
+    {
+      "id": 1636545,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\Angela__アンジェラ_Trials_of_Mana_-_Light_Classes_Illustrious.safetensors",
+      "size": 228460276
+    },
+    {
+      "id": 68764261,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\68764261.png",
+      "size": 1487677
+    },
+    {
+      "id": 68764228,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\68764228.png",
+      "size": 1414960
+    },
+    {
+      "id": 68764582,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\68764582.png",
+      "size": 1402438
+    },
+    {
+      "id": 68768802,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Light Class Outfits [Illustrious]\\68768802.png",
+      "size": 1336205
+    },
+    {
+      "id": 68736992,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\68736992.png",
+      "size": 1437027
+    },
+    {
+      "id": 68743078,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\68743078.png",
+      "size": 1357508
+    },
+    {
+      "id": 1635388,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\Angela__アンジェラ_Trials_of_Mana_-_Dark_Classes_Illustrious.safetensors",
+      "size": 228464252
+    },
+    {
+      "id": 68743208,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\68743208.png",
+      "size": 1236476
+    },
+    {
+      "id": 68746044,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\68746044.png",
+      "size": 1430823
+    },
+    {
+      "id": 68751297,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Angela _ アンジェラ (Trials of Mana) - Dark Class Outfits [Illustrious]\\68751297.png",
+      "size": 1347202
+    },
+    {
+      "id": 1627714,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\Jessica-DQ8-Illustrious.safetensors",
+      "size": 228467660
+    },
+    {
+      "id": 68326295,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68326295.png",
+      "size": 1233253
+    },
+    {
+      "id": 68326267,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68326267.png",
+      "size": 1087498
+    },
+    {
+      "id": 68326292,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68326292.png",
+      "size": 1276938
+    },
+    {
+      "id": 68326299,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68326299.png",
+      "size": 1241930
+    },
+    {
+      "id": 68326309,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68326309.png",
+      "size": 1230647
+    },
+    {
+      "id": 68327514,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68327514.png",
+      "size": 1075679
+    },
+    {
+      "id": 68331092,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68331092.png",
+      "size": 1230903
+    },
+    {
+      "id": 68382874,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68382874.png",
+      "size": 1383272
+    },
+    {
+      "id": 68339154,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68339154.png",
+      "size": 1209140
+    },
+    {
+      "id": 68339982,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68339982.png",
+      "size": 1130396
+    },
+    {
+      "id": 68341736,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68341736.png",
+      "size": 1271481
+    },
+    {
+      "id": 68344821,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68344821.png",
+      "size": 1291553
+    },
+    {
+      "id": 68347664,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Jessica Albert _ ゼシカ・アルバート (Dragon Quest VIII) [Illustrious]\\68347664.png",
+      "size": 1268711
+    },
+    {
+      "id": 67963599,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\67963599.png",
+      "size": 1450249
+    },
+    {
+      "id": 1621541,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\Aqua_Centolm_Illustrious_v2.safetensors",
+      "size": 228457788
+    },
+    {
+      "id": 67984249,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\67984249.png",
+      "size": 1311625
+    },
+    {
+      "id": 67970564,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\67970564.png",
+      "size": 1236416
+    },
+    {
+      "id": 67966842,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\67966842.png",
+      "size": 1101149
+    },
+    {
+      "id": 67963667,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Aqua Centolm _ アクア・ケントルム (Super Robot Wars OG) [Illustrious]\\67963667.png",
+      "size": 1174043
+    },
+    {
+      "id": 67958128,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mia Alice _ ミア・アリス (Dangaioh) [Illustrious]\\67958128.png",
+      "size": 1175698
+    },
+    {
+      "id": 1621203,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mia Alice _ ミア・アリス (Dangaioh) [Illustrious]\\Mia_Alice_Dangaioh_v1.safetensors",
+      "size": 228457188
+    },
+    {
+      "id": 67958159,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Mia Alice _ ミア・アリス (Dangaioh) [Illustrious]\\67958159.png",
+      "size": 1302591
+    },
+    {
+      "id": 66638791,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nibutani Shinka (Cheerleader) _ 丹生谷森夏(チアギャル) (Chuunibyou demo Koi ga Shitai!) [Illustrious]\\66638791.jpeg",
+      "size": 201718
+    },
+    {
+      "id": 1595002,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Nibutani Shinka (Cheerleader) _ 丹生谷森夏(チアギャル) (Chuunibyou demo Koi ga Shitai!) [Illustrious]\\Nibutani_Shinka_Cheerleader.safetensors",
+      "size": 228458252
+    },
+    {
+      "id": 65599900,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65599900.jpeg",
+      "size": 172201
+    },
+    {
+      "id": 1575039,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\Takaya_Noriko_v1.safetensors",
+      "size": 228460932
+    },
+    {
+      "id": 65598458,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65598458.jpeg",
+      "size": 221292
+    },
+    {
+      "id": 65602015,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65602015.jpeg",
+      "size": 200234
+    },
+    {
+      "id": 65603565,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65603565.jpeg",
+      "size": 176593
+    },
+    {
+      "id": 65607188,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65607188.jpeg",
+      "size": 213421
+    },
+    {
+      "id": 65606196,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Takaya Noriko _ タカヤ・ノリコ （トップをねらえ！） [Illustrious]\\65606196.jpeg",
+      "size": 158497
+    },
+    {
+      "id": 65494591,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\65494591.jpeg",
+      "size": 211622
+    },
+    {
+      "id": 65495221,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\65495221.jpeg",
+      "size": 190536
+    }
+  ],
+  "failed": [
+    {
+      "id": 1570649,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\Fumina_Test.safetensors",
+        "expected_file_size": 228462844.0,
+        "presigned_url": null
+      }
+    },
+    {
+      "id": 65495694,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\65495694.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1bb0a29f-cce8-4bee-a51a-657bba2c21f6/original=true/1bb0a29f-cce8-4bee-a51a-657bba2c21f6.jpeg",
+        "page_url": "https://civitai.com/images/65495694"
+      }
+    },
+    {
+      "id": 65496569,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\65496569.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d57ff7b-1fa1-411e-aeef-fb56915e3c89/original=true/2d57ff7b-1fa1-411e-aeef-fb56915e3c89.jpeg",
+        "page_url": "https://civitai.com/images/65496569"
+      }
+    },
+    {
+      "id": 65497114,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\dongus_the_wise\\Fumina Hoshino _ ホシノ・フミナ (Gundam Build Fighters Try) [Illustrious]\\65497114.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cbd272d5-a733-43d6-88ed-4ab74226886e/original=true/cbd272d5-a733-43d6-88ed-4ab74226886e.jpeg",
+        "page_url": "https://civitai.com/images/65497114"
+      }
+    }
+  ]
+}

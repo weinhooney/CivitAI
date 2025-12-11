@@ -1,0 +1,111 @@
+{
+  "success": [
+    {
+      "id": 102747332,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Granart Needakitta\\102747332.png",
+      "size": 1471430
+    },
+    {
+      "id": 2252530,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Granart Needakitta\\Granart_Needakitta.safetensors",
+      "size": 228457692
+    },
+    {
+      "id": 102747331,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Granart Needakitta\\102747331.png",
+      "size": 1374621
+    },
+    {
+      "id": 102746472,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Heine Of The Flames\\102746472.png",
+      "size": 1189146
+    },
+    {
+      "id": 2252515,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Heine Of The Flames\\Heine_Of_The_Flames-000009.safetensors",
+      "size": 228458212
+    },
+    {
+      "id": 102746470,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Heine Of The Flames\\102746470.png",
+      "size": 1253448
+    },
+    {
+      "id": 102062048,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Blonde Haired Elf\\102062048.jpeg",
+      "size": 119728
+    },
+    {
+      "id": 2242190,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Blonde Haired Elf\\Blonde_Haired_Elf-000005.safetensors",
+      "size": 228457644
+    },
+    {
+      "id": 102061967,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Blonde Haired Elf\\102061967.png",
+      "size": 1240816
+    },
+    {
+      "id": 102061968,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Blonde Haired Elf\\102061968.png",
+      "size": 1167055
+    },
+    {
+      "id": 95941305,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Futa minotaur Pony\\95941305.png",
+      "size": 1015731
+    },
+    {
+      "id": 2139897,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\Futa minotaur Pony\\Futa_minotaur_Pony.safetensors",
+      "size": 228468420
+    },
+    {
+      "id": 95639792,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\After Oral Minotaur for illus\\95639792.jpeg",
+      "size": 500478
+    },
+    {
+      "id": 2133734,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ImminentFun\\After Oral Minotaur for illus\\After_Oral_Minotaur_for_Pony.safetensors",
+      "size": 228469404
+    }
+  ],
+  "failed": [
+    {
+      "id": 91826464,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\ImminentFun\\After oral 2\\91826464.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3432b930-e9e9-45b3-940f-00f9a0950666/original=true/3432b930-e9e9-45b3-940f-00f9a0950666.jpeg",
+        "page_url": "https://civitai.com/images/91826464"
+      }
+    },
+    {
+      "id": 2071544,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\ImminentFun\\After oral 2\\After_oral_2.safetensors",
+        "expected_file_size": 228473204.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/2071544/After_oral_2.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22After_oral_2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T161231Z&X-Amz-SignedHeaders=host&X-Amz-Signature=bc243b01528efc2480337922899aeed5a1a474e6d83c80461338feabe0f89803"
+      }
+    }
+  ]
+}

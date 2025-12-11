@@ -1015,6 +1015,9 @@ def _process_post_core(post_id: int, save_dir: str):
         # 우리가 실제로 기대하는 로컬 파일 경로 (확장자 포함)
         expected_path = existing_path or default_path
 
+        # 이미지의 다운로드 필요 여부 플래그
+        needs_download = True
+
         if existing_path:
             size = os.path.getsize(existing_path)
             if size >= 3000:
@@ -1025,6 +1028,7 @@ def _process_post_core(post_id: int, save_dir: str):
                     download_state.mark_success(image_id, "image", existing_path, size)
                 except Exception:
                     pass
+                needs_download = False
             else:
                 print(f"[WARN] 손상 이미지 감지 ({size} bytes) → 재다운로드: {existing_path}")
                 try:
@@ -1033,14 +1037,16 @@ def _process_post_core(post_id: int, save_dir: str):
                     pass
                 # 손상 파일도 같은 이름으로 다시 받는다
                 idm_add_to_queue(img_url, folder, os.path.basename(existing_path))
+                needs_download = True
         else:
             print(f"[IDM] 신규 이미지 다운로드: {image_id}")
             # expected_path == default_path
             idm_add_to_queue(img_url, folder, os.path.basename(default_path))
+            needs_download = True
 
-        # 다운로드 대상 목록에 추가 (JSON 로그 & 자동 복구용)
-        #  🔥 이제 get_all_models를 import하지 않고,
-        #  get_all_models에서 주입해준 DOWNLOAD_TARGETS 전역을 그대로 사용한다.
+        # =============================================
+        # ✅ 다운로드 대상 목록에 추가 (모든 이미지를 누락없이 추가)
+        # =============================================
         from get_model import DOWNLOAD_TARGETS  # 자기 자신 모듈의 전역을 참조
 
         if DOWNLOAD_TARGETS is not None:
@@ -1053,6 +1059,8 @@ def _process_post_core(post_id: int, save_dir: str):
                 "page_url": f"https://civitai.com/images/{image_id}",
                 # ✅ 실제 존재하는(또는 앞으로 받을) 파일 경로 기준으로 저장
                 "expected_file_path": expected_path,
+                # ✅ 다운로드 필요 여부 플래그 추가
+                "needs_download": needs_download,
             })
         else:
             # 혹시라도 세팅이 안 된 경우 디버그용
