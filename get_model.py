@@ -1022,7 +1022,8 @@ def process_lora_task(folder, model_version_id, _):
             pass
 
         # 정규화 + SD 폴더 복사는 그대로 수행
-        wait_and_finalize_lora(folder, None, lora_filename)
+        # 작업 속도를 위해 임시로 주석 처리
+        # wait_and_finalize_lora(folder, None, lora_filename)
         return
 
     elif os.path.exists(lora_path) and actual_size < remote_size:
@@ -1044,7 +1045,8 @@ def process_lora_task(folder, model_version_id, _):
     # 실제 다운로드 시작은 _process_post_core 마지막에서 한 번만 호출된다.
 
     # 후처리
-    wait_and_finalize_lora(folder, presigned, lora_filename)
+    # 빠르게 다운로드만 받으려고 임시로 주석처리했음
+    # wait_and_finalize_lora(folder, presigned, lora_filename)
     
     print(f"[LORA] 처리 완료: {lora_filename}")
 
