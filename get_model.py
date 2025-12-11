@@ -1112,25 +1112,12 @@ def process_lora_task(folder, model_version_id, _):
         lora_filename = info["name"]
         lora_path = os.path.join(folder, lora_filename)
 
-        from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
-
-        if DOWNLOAD_TARGETS is not None:
-            DOWNLOAD_TARGETS.append({
-                "type": "lora",
-                "post_id": None,  # LoRA는 post_id가 없으므로 None
-                "model_version_id": model_version_id,
-                "presigned_url": None,  # presigned 이후에 채워짐
-                "expected_file_path": lora_path,
-                "expected_file_size": remote_size,
-                "final_paste_path": None,  # 후처리 단계에서 채워짐
-            })
-        else:
-            print("[WARN] DOWNLOAD_TARGETS가 None이라 LoRA 대상 리스트에 추가하지 못함")
-
-
         # 3) 🔥 로컬에 이미 파일이 있고, 용량이 remote_size 이상이면
         #    → 성공 로그에 추가 + IDM 안 태우고 후처리만 실행
         actual_size = 0
+        needs_download = True
+        presigned_url = None
+
         if os.path.exists(lora_path):
             actual_size = os.path.getsize(lora_path)
 
@@ -1143,10 +1130,11 @@ def process_lora_task(folder, model_version_id, _):
             except Exception:
                 pass
 
+            needs_download = False
+
             # 정규화 + SD 폴더 복사는 그대로 수행
             # 작업 속도를 위해 임시로 주석 처리
             # wait_and_finalize_lora(folder, None, lora_filename)
-            return
 
         elif os.path.exists(lora_path) and actual_size < remote_size:
             print(f"[WARN] 기존 파일 용량 부족({actual_size} < {remote_size}) → 재다운로드")
@@ -1154,28 +1142,68 @@ def process_lora_task(folder, model_version_id, _):
                 os.remove(lora_path)
             except:
                 pass
+            needs_download = True
 
-        # 4) presigned URL 획득 (✅ 예외 처리 추가)
-        try:
-            presigned = get_lora_presigned(model_version_id)
-        except Exception as e:
-            print(f"[LORA][ERROR] presigned URL 획득 실패 (modelVersionId={model_version_id}): {e}")
-            download_state.mark_failed(
-                model_version_id,
-                "lora",
-                f"presigned_url_failed: {str(e)}",
-                {
-                    "error_type": type(e).__name__,
-                    "lora_filename": lora_filename,
-                    "folder": folder
-                }
-            )
-            return  # ✅ 실패 기록 후 return
+        else:
+            needs_download = True
 
-        DOWNLOAD_TARGETS[-1]["presigned_url"] = presigned
+        # 4) presigned URL 획득 (다운로드 필요한 경우만)
+        if needs_download:
+            try:
+                presigned_url = get_lora_presigned(model_version_id)
+            except Exception as e:
+                print(f"[LORA][ERROR] presigned URL 획득 실패 (modelVersionId={model_version_id}): {e}")
+                download_state.mark_failed(
+                    model_version_id,
+                    "lora",
+                    f"presigned_url_failed: {str(e)}",
+                    {
+                        "error_type": type(e).__name__,
+                        "lora_filename": lora_filename,
+                        "folder": folder
+                    }
+                )
+                # ✅ 실패해도 DOWNLOAD_TARGETS에 추가 후 return
+                from get_model import DOWNLOAD_TARGETS
+                if DOWNLOAD_TARGETS is not None:
+                    DOWNLOAD_TARGETS.append({
+                        "type": "lora",
+                        "post_id": None,
+                        "model_version_id": model_version_id,
+                        "presigned_url": None,
+                        "expected_file_path": lora_path,
+                        "expected_file_size": remote_size,
+                        "final_paste_path": None,
+                        "needs_download": True,
+                        "status": "presigned_failed",
+                    })
+                return
+
+        # =============================================
+        # ✅ DOWNLOAD_TARGETS에 모든 LoRA 추가 (누락 방지)
+        # =============================================
+        from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
+
+        if DOWNLOAD_TARGETS is not None:
+            DOWNLOAD_TARGETS.append({
+                "type": "lora",
+                "post_id": None,  # LoRA는 post_id가 없으므로 None
+                "model_version_id": model_version_id,
+                "presigned_url": presigned_url,  # 다운로드 필요한 경우만 값 있음
+                "expected_file_path": lora_path,
+                "expected_file_size": remote_size,
+                "final_paste_path": None,  # 후처리 단계에서 채워짐
+                "needs_download": needs_download,
+            })
+        else:
+            print("[WARN] DOWNLOAD_TARGETS가 None이라 LoRA 대상 리스트에 추가하지 못함")
+
+        # 다운로드 필요 없으면 여기서 종료
+        if not needs_download:
+            return
 
         # IDM 대기열에 추가
-        idm_add_to_queue(presigned, folder, lora_filename)
+        idm_add_to_queue(presigned_url, folder, lora_filename)
         print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
 
     except Exception as e:

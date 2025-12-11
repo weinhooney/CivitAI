@@ -542,11 +542,20 @@ def verify_all_downloads(download_targets):
     다운로드된 파일을 검사하는 함수.
     - 이미지: 최소 파일 크기 기준으로 검사
     - 모델 파일(LoRA): expected_file_size 기반으로 검사
+
+    ✅ 중복 체크:
+    - 이미 download_log.success에 있는 항목은 재검증하지 않음
+    - 파일이 실제로 존재하고 용량이 정상이면 성공 유지
+    - 파일이 없거나 손상된 경우만 재검증
     """
     import os
     import download_state
 
     verified = []
+
+    print(f"\n[VERIFY] 다운로드 검증 시작: 총 {len(download_targets)}개 항목")
+    print(f"[VERIFY] 현재 성공 로그: {len(download_state.download_log.get('success', []))}개")
+    print(f"[VERIFY] 현재 실패 로그: {len(download_state.download_log.get('failed', []))}개")
 
     for item in download_targets:
         # 안전하게 get() 사용
@@ -560,6 +569,55 @@ def verify_all_downloads(download_targets):
             file_id = item.get("image_id")
         elif item_type == "lora":
             file_id = item.get("model_version_id")
+
+        # ================================
+        # ✅ 0-1) 중복 체크: 이미 성공 로그에 있는 항목은 재검증
+        # ================================
+        if file_id is not None and download_state.is_success(file_id, item_type):
+            # 성공 로그에서 경로 가져오기
+            logged_entry = None
+            for e in download_state.download_log.get("success", []):
+                if e.get("id") == file_id and e.get("type") == item_type:
+                    logged_entry = e
+                    break
+
+            if logged_entry:
+                logged_path = logged_entry.get("path")
+                logged_size = logged_entry.get("size", 0)
+
+                # 파일이 실제로 존재하고 용량이 정상인지 확인
+                if logged_path and os.path.exists(logged_path):
+                    actual_size = os.path.getsize(logged_path)
+
+                    # 용량 검증
+                    is_valid = False
+                    if item_type == "image":
+                        is_valid = actual_size >= 5000
+                    elif item_type == "lora":
+                        is_valid = actual_size >= (expected_size or 0)
+                    else:
+                        is_valid = actual_size > 0
+
+                    if is_valid:
+                        # 성공 로그에 있고 파일도 정상 → 스킵
+                        item["status"] = "success"
+                        item["actual_file_size"] = actual_size
+                        verified.append(item)
+                        continue
+                    else:
+                        # 파일은 있지만 손상됨 → 성공 로그에서 제거하고 재검증 진행
+                        print(f"[VERIFY][WARN] 성공 로그에 있지만 파일 손상 (ID={file_id}, type={item_type}) → 재검증")
+                        download_state.download_log["success"] = [
+                            e for e in download_state.download_log["success"]
+                            if not (e.get("id") == file_id and e.get("type") == item_type)
+                        ]
+                else:
+                    # 파일이 없음 → 성공 로그에서 제거하고 재검증 진행
+                    print(f"[VERIFY][WARN] 성공 로그에 있지만 파일 없음 (ID={file_id}, type={item_type}) → 재검증")
+                    download_state.download_log["success"] = [
+                        e for e in download_state.download_log["success"]
+                        if not (e.get("id") == file_id and e.get("type") == item_type)
+                    ]
 
         # ================================
         # 0) path 자체가 비정상인 경우 방어
@@ -689,6 +747,19 @@ def verify_all_downloads(download_targets):
                 )
 
         verified.append(item)
+
+    # ================================
+    # ✅ 검증 결과 요약 출력
+    # ================================
+    success_count = sum(1 for item in verified if item.get("status") == "success")
+    failed_count = len(verified) - success_count
+
+    print(f"\n[VERIFY] 검증 완료:")
+    print(f"  - 총 검증: {len(verified)}개")
+    print(f"  - 성공: {success_count}개")
+    print(f"  - 실패: {failed_count}개")
+    print(f"[VERIFY] 최종 성공 로그: {len(download_state.download_log.get('success', []))}개")
+    print(f"[VERIFY] 최종 실패 로그: {len(download_state.download_log.get('failed', []))}개")
 
     return verified
 
