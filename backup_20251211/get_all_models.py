@@ -5,7 +5,6 @@ import time
 import json
 import urllib.parse
 import requests
-from concurrent.futures import as_completed
 from get_model import (
     process_post_to_dir,
     parse_cookie_string,
@@ -1253,86 +1252,22 @@ def main():
     )
 
     print("\n=== 모든 모델 처리 완료 ===")
-    print("=== 비동기 작업 대기 시작 ===")
 
-    # ====================================================================
-    # 이미지 메타 작업 대기 (타임아웃: 작업당 5분)
-    # ====================================================================
-    IMG_TIMEOUT = 300  # 5분
-    total_img_tasks = len(IMG_META_FUTURES)
-
-    if total_img_tasks > 0:
-        print(f"[INFO] 이미지 메타 작업 대기 중... (총 {total_img_tasks}개, 타임아웃: {IMG_TIMEOUT}초)")
-
-        completed_count = 0
-        failed_count = 0
-        start_time = time.time()
-
+    # 이미지 메타 작업 대기
+    for f in IMG_META_FUTURES:
         try:
-            for future in as_completed(IMG_META_FUTURES, timeout=IMG_TIMEOUT * total_img_tasks):
-                try:
-                    future.result(timeout=IMG_TIMEOUT)
-                    completed_count += 1
+            f.result()
+        except Exception as e:
+            print(f"[META][ERROR] {e}")
 
-                    # 10개마다 진행상황 출력
-                    if completed_count % 10 == 0:
-                        elapsed = time.time() - start_time
-                        print(f"[PROGRESS] 이미지 메타: {completed_count}/{total_img_tasks} 완료 (경과: {elapsed:.1f}초)")
-
-                except TimeoutError:
-                    failed_count += 1
-                    print(f"[META][TIMEOUT] 작업 타임아웃 발생 ({IMG_TIMEOUT}초 초과)")
-                except Exception as e:
-                    failed_count += 1
-                    print(f"[META][ERROR] {e}")
-
-        except TimeoutError:
-            # as_completed 자체의 타임아웃
-            print(f"[META][FATAL] 전체 작업 타임아웃 ({IMG_TIMEOUT * total_img_tasks}초 초과)")
-            print(f"[META][FATAL] 완료: {completed_count}, 실패: {failed_count}, 미완료: {total_img_tasks - completed_count - failed_count}")
-
-        elapsed = time.time() - start_time
-        print(f"[RESULT] 이미지 메타 작업 완료: {completed_count}개 성공, {failed_count}개 실패 (소요 시간: {elapsed:.1f}초)")
-    else:
-        print("[INFO] 이미지 메타 작업 없음")
-
-    # ====================================================================
-    # LoRA 작업 대기 (타임아웃: 작업당 10분 - 파일 다운로드가 있으므로 더 긴 시간)
-    # ====================================================================
-    LORA_TIMEOUT = 600  # 10분
-    total_lora_tasks = len(LORA_FUTURES)
-
-    if total_lora_tasks > 0:
-        print(f"\n[INFO] LoRA 작업 대기 중... (총 {total_lora_tasks}개, 타임아웃: {LORA_TIMEOUT}초)")
-
-        completed_count = 0
-        failed_count = 0
-        start_time = time.time()
-
+    # 로라 작업 대기
+    for f in LORA_FUTURES:
         try:
-            for future in as_completed(LORA_FUTURES, timeout=LORA_TIMEOUT * total_lora_tasks):
-                try:
-                    future.result(timeout=LORA_TIMEOUT)
-                    completed_count += 1
-                    print(f"[PROGRESS] LoRA: {completed_count}/{total_lora_tasks} 완료")
+            f.result()
+        except Exception as e:
+            print(f"[LORA][ERROR] {e}")
 
-                except TimeoutError:
-                    failed_count += 1
-                    print(f"[LORA][TIMEOUT] 작업 타임아웃 발생 ({LORA_TIMEOUT}초 초과)")
-                except Exception as e:
-                    failed_count += 1
-                    print(f"[LORA][ERROR] {e}")
-
-        except TimeoutError:
-            print(f"[LORA][FATAL] 전체 작업 타임아웃 ({LORA_TIMEOUT * total_lora_tasks}초 초과)")
-            print(f"[LORA][FATAL] 완료: {completed_count}, 실패: {failed_count}, 미완료: {total_lora_tasks - completed_count - failed_count}")
-
-        elapsed = time.time() - start_time
-        print(f"[RESULT] LoRA 작업 완료: {completed_count}개 성공, {failed_count}개 실패 (소요 시간: {elapsed:.1f}초)")
-    else:
-        print("[INFO] LoRA 작업 없음")
-
-    print("\n=== 모든 스레드 작업 완료 ===")
+    print("=== 모든 스레드 작업 완료 ===")
 
     print("[VERIFY] 다운로드 파일 검증 시작...")
 

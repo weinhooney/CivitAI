@@ -115,44 +115,31 @@ LAST_REQUEST_TIME = 0
 REQUEST_INTERVAL = 1.0   # 최소 1초 — CivitAI 안정권
 
 def safe_get(url, retries=5, **kwargs):
-    """
-    Rate limit을 고려한 안전한 GET 요청
-    - REQUEST_LOCK: 최소 시간만 보유 (시간 계산 + 갱신)
-    - sleep: LOCK 외부에서 실행하여 다른 스레드 블로킹 방지
-    """
     global LAST_REQUEST_TIME
 
     for attempt in range(retries):
-        # 1) LOCK으로 보호된 영역: 대기 시간 계산 + 시간 갱신만
         with REQUEST_LOCK:
+
+            # 요청 간 간격 보장
             now = time.time()
-            wait_time = REQUEST_INTERVAL - (now - LAST_REQUEST_TIME)
-            LAST_REQUEST_TIME = time.time()  # 미리 갱신하여 다음 스레드가 계산 가능하게
+            wait = REQUEST_INTERVAL - (now - LAST_REQUEST_TIME)
+            if wait > 0:
+                time.sleep(wait)
 
-        # 2) LOCK 외부에서 대기 (다른 스레드가 LOCK 획득 가능)
-        if wait_time > 0:
-            time.sleep(wait_time)
+            LAST_REQUEST_TIME = time.time()
 
-        # 3) API 요청 (LOCK 없이)
-        try:
             response = session.get(url, **kwargs)
-        except Exception as e:
-            print(f"[ERROR] 요청 실패 (attempt {attempt+1}/{retries}): {e}")
-            if attempt == retries - 1:
-                raise
-            time.sleep(2)  # 네트워크 에러 시 2초 대기 후 재시도
-            continue
 
-        # 4) 성공하면 바로 반환
-        if response.status_code != 429:
-            return response
+            # success
+            if response.status_code != 429:
+                return response
 
-        # 5) 429 에러 시: LOCK 외부에서 백오프 대기
-        backoff = min(2 ** attempt, 60)  # 최대 60초로 제한
-        print(f"[RATE LIMIT] 429 → {backoff}초 대기 (attempt {attempt+1}/{retries})")
-        time.sleep(backoff)
+            # 429면 LOCK 안에서 대기해야 한다 (중요!)
+            backoff = 2 ** attempt
+            print(f"[RATE LIMIT] 429 → {backoff}초 대기")
+            time.sleep(backoff)
 
-    raise Exception(f"429 Too Many Requests after {retries} attempts: {url}")
+    raise Exception(f"429 Too Many Requests: {url}")
 
 
 
