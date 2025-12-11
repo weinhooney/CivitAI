@@ -1076,10 +1076,11 @@ def process_lora_task(folder, model_version_id, _):
     import traceback
 
     try:
-        # 1) 통합 성공 로그 기반 중복 체크
-        if download_state.is_success(model_version_id, "lora"):
-            print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
-            return  # 해당 LoRA 처리 전체 스킵
+        # [251211] 임시로 주석
+        # # 1) 통합 성공 로그 기반 중복 체크
+        # if download_state.is_success(model_version_id, "lora"):
+        #     print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
+        #     return  # 해당 LoRA 처리 전체 스킵
 
         # 2) 모델 버전 메타 받아서 파일 정보 확인
         mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
