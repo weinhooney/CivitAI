@@ -1,0 +1,48 @@
+{
+  "success": [],
+  "failed": [
+    {
+      "id": 88058052,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Burenketto\\Panni from Fatal Fury\\88058052.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/931eb24a-a5c4-4a8e-9b39-cb5d2350c689/original=true/931eb24a-a5c4-4a8e-9b39-cb5d2350c689.jpeg",
+        "page_url": "https://civitai.com/images/88058052"
+      }
+    },
+    {
+      "id": 88058056,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Burenketto\\Panni from Fatal Fury\\88058056.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a429d41-dc3f-42ac-94bf-4fdaa80f936c/original=true/9a429d41-dc3f-42ac-94bf-4fdaa80f936c.jpeg",
+        "page_url": "https://civitai.com/images/88058056"
+      }
+    },
+    {
+      "id": 88058051,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Burenketto\\Panni from Fatal Fury\\88058051.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/204fddaa-7178-47cb-bacf-00e2f0ebc82d/original=true/204fddaa-7178-47cb-bacf-00e2f0ebc82d.jpeg",
+        "page_url": "https://civitai.com/images/88058051"
+      }
+    },
+    {
+      "id": 2006445,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Burenketto\\Panni from Fatal Fury\\Panni_v2.safetensors",
+        "expected_file_size": 228456372.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/8586314/panniV2.2YxN.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Panni_v2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T035145Z&X-Amz-SignedHeaders=host&X-Amz-Signature=d1af881c55b61c69f4a6dd58f88a2204fdc830634a4be3bb00182c8d8fa380d6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251210_073036
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/knxo/models
+
+[다운받을 모델 갯수]
+386
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Saori Kido - Saint Seiya
+모델 URL: https://civitai.com/models/14899
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Bulma Brief (Multiple older versions) - Dragon Ball Z and Super
+모델 URL: https://civitai.com/models/23837
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Tamaki Kousaka - To Heart 2
+모델 URL: https://civitai.com/models/52254
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Haruka Tenou and Michiru Kaiou ( Sailor Uranus and Sailor Neptune Fanart LOCON Version) - Sailor Moon
+모델 URL: https://civitai.com/models/118142
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Erina Kinjo Won - Martian Successor Nadesico
+모델 URL: https://civitai.com/models/45551
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Uzume - Sekirei
+모델 URL: https://civitai.com/models/43988
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Penguin Empire Mooks - Kenzen Robo Daimidaler (optimizer tests)
+모델 URL: https://civitai.com/models/95018
+포스트 아이디: 483531
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/483531
+--------------------------------------

@@ -1,0 +1,44 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251211_073913
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/Goofy_Ai/models
+
+[다운받을 모델 갯수]
+687
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Alice (Genshin Impact) | Goofy Ai
+모델 URL: https://civitai.com/models/1850568
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Degenbrecher(Arknights) | Goofy Ai
+모델 URL: https://civitai.com/models/71229
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Dagger (Marvel Rivals) | Goofy Ai
+모델 URL: https://civitai.com/models/1802897
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Gokkun / Drinking Cum from Glass | Goofy Ai
+모델 URL: https://civitai.com/models/630252
+포스트 아이디: 16806196
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16806196
+--------------------------------------

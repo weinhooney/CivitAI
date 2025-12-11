@@ -1,0 +1,174 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251210_210313
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/Fasd800/models
+
+[다운받을 모델 갯수]
+630
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? [Character Pack]
+모델 URL: https://civitai.com/models/1313576
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Seika Jogakuin Kounin Sao Ojisan [Character Pack]
+모델 URL: https://civitai.com/models/1342237
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Muttsuri Dosukebe Tsuyu Gibo Shimai no Honshitsu Minuite Sex Sanmai [Character Pack]
+모델 URL: https://civitai.com/models/1325040
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Perona [One Piece]
+모델 URL: https://civitai.com/models/1472324
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Lucy Heartfilia [Fairy Tail]
+모델 URL: https://civitai.com/models/1547064
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Priscilla Barielle [Re:Zero - Starting Life in Another World | Re:Zero Kara Hajimeru Isekai Seikatsu]
+모델 URL: https://civitai.com/models/1150892
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Azazel Ameri [Mairimashita! Iruma-kun] - Commission
+모델 URL: https://civitai.com/models/1176698
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kobeni Higashiyama [Chainsaw Man]
+모델 URL: https://civitai.com/models/1220748
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kakegurui [Character Pack]
+모델 URL: https://civitai.com/models/1464819
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kamiizumi Rio [Kyonyuu Reijou MC Gakuen]
+모델 URL: https://civitai.com/models/1948718
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Fukunaga Koharu [Kyonyuu Reijou MC Gakuen]
+모델 URL: https://civitai.com/models/1947876
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Medhimama [Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki desu ka?]
+모델 URL: https://civitai.com/models/1957384
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Maia [Kuroinu: Kedakaki Seijo wa Hakudaku ni Somaru]
+모델 URL: https://civitai.com/models/1939108
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Bisca Connell [Fairy Tail]
+모델 URL: https://civitai.com/models/1582678
+포스트 아이디: 16967647
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16967647
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sorano Agria [Fairy Tail]
+모델 URL: https://civitai.com/models/1582642
+포스트 아이디: 16967543
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16967543
+--------------------------------------
+
+--------------------------------------
+모델 이름: Wanda [One Piece]
+모델 URL: https://civitai.com/models/1475997
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Soukura Tesu [Futari Switch (Akira Hiramoto)]
+모델 URL: https://civitai.com/models/1132762
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Mariko Atsumi [Raw Hero (Akira Hiramoto)]
+모델 URL: https://civitai.com/models/1128997
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Wanda [Fairly Odd Parents (Croc Style)]
+모델 URL: https://civitai.com/models/1100217
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Chloe Morgan [Kingdom of ruins]
+모델 URL: https://civitai.com/models/1099476
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

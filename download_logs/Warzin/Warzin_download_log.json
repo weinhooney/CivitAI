@@ -1,0 +1,111 @@
+{
+  "success": [
+    {
+      "id": 43501926,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501926.png",
+      "size": 1257095
+    },
+    {
+      "id": 43501916,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501916.png",
+      "size": 1015948
+    },
+    {
+      "id": 43501919,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501919.png",
+      "size": 898549
+    },
+    {
+      "id": 43501932,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501932.png",
+      "size": 1212773
+    },
+    {
+      "id": 43501935,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501935.png",
+      "size": 1117935
+    },
+    {
+      "id": 3278230,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Getting out of the pool - Sexy pose - Depth Controlnet\\3278230.png",
+      "size": 211454
+    },
+    {
+      "id": 1125587,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\Ero404.safetensors",
+      "size": 228459924
+    },
+    {
+      "id": 43501925,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501925.png",
+      "size": 1211687
+    },
+    {
+      "id": 43501913,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501913.png",
+      "size": 1093463
+    },
+    {
+      "id": 43501921,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501921.png",
+      "size": 1161066
+    },
+    {
+      "id": 43501933,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501933.png",
+      "size": 1263407
+    },
+    {
+      "id": 43501934,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501934.png",
+      "size": 1285539
+    }
+  ],
+  "failed": [
+    {
+      "id": 43501917,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501917.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/205d6fe5-5276-4f98-b989-3359f7d64d2c/original=true/205d6fe5-5276-4f98-b989-3359f7d64d2c.jpeg",
+        "page_url": "https://civitai.com/images/43501917"
+      }
+    },
+    {
+      "id": 43501915,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Warzin\\Milf Hunter in This World Style (Ero 404)\\43501915.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa06947c-1de8-4760-82bf-ef0a61af3b3a/original=true/fa06947c-1de8-4760-82bf-ef0a61af3b3a.jpeg",
+        "page_url": "https://civitai.com/images/43501915"
+      }
+    },
+    {
+      "id": 3278231,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Warzin\\Getting out of the pool - Sexy pose - Depth Controlnet\\3278231.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/64334ca5-59d6-4df8-a101-9dbc2f6f577b/original=true/64334ca5-59d6-4df8-a101-9dbc2f6f577b.jpeg",
+        "page_url": "https://civitai.com/images/3278231"
+      }
+    }
+  ]
+}

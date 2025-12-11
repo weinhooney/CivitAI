@@ -5243,42 +5243,639 @@
       "type": "image",
       "path": "E:\\CivitAI\\Users\\Squ1zzles\\春 (Oharu) - ムシブギョー (Mushibugyō)\\36310180.webp",
       "size": 53724
-    }
-  ],
-  "failed": [
+    },
+    {
+      "id": 986640,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\春 (Oharu) - ムシブギョー (Mushibugyō)\\Oharu_Pony_v1.safetensors",
+      "size": 228457484
+    },
     {
       "id": 82086023,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086023.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25590807-7c17-4178-a703-85fb45ad538d/original=true/25590807-7c17-4178-a703-85fb45ad538d.jpeg",
-        "page_url": "https://civitai.com/images/82086023"
-      }
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086023.webp",
+      "size": 57250
     },
     {
       "id": 82086030,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086030.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73461338-07d1-4bee-bc1a-68c4b254ba91/original=true/73461338-07d1-4bee-bc1a-68c4b254ba91.jpeg",
-        "page_url": "https://civitai.com/images/82086030"
-      }
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086030.webp",
+      "size": 69708
     },
     {
       "id": 82086025,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086025.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45dc03c5-f1a9-469f-8322-b28689cec494/original=true/45dc03c5-f1a9-469f-8322-b28689cec494.jpeg",
-        "page_url": "https://civitai.com/images/82086025"
-      }
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\七瀬恋 (Nanase Ren) - 夜勤病棟 (Night Shift Nurses)\\82086025.webp",
+      "size": 78316
     },
+    {
+      "id": 102909033,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\風巳とりの (Kazami Torino) ードライヴ マーメイド (Valkyrie Drive Mermaid)\\102909033.webp",
+      "size": 51550
+    },
+    {
+      "id": 41330711,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\新城礼美 (Shinjyo Remi) - 夜勤病棟 (Night Shift Nurses)\\41330711.webp",
+      "size": 73370
+    },
+    {
+      "id": 82216797,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\藤沢亜子 (Fujisawa Ako) - 夜勤病棟 (Night Shift Nurses)\\82216797.webp",
+      "size": 50834
+    },
+    {
+      "id": 82216806,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\藤沢亜子 (Fujisawa Ako) - 夜勤病棟 (Night Shift Nurses)\\82216806.webp",
+      "size": 59976
+    },
+    {
+      "id": 104890987,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\処女まもり (Tokonome Mamori) [Valkyrie Drive Mermaid]\\104890987.webp",
+      "size": 39494
+    },
+    {
+      "id": 104890986,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\処女まもり (Tokonome Mamori) [Valkyrie Drive Mermaid]\\104890986.webp",
+      "size": 41108
+    },
+    {
+      "id": 106531387,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\櫻美鳳 (Sakura Meifon) [Valkyrie Drive Mermaid]\\106531387.webp",
+      "size": 47242
+    },
+    {
+      "id": 106531396,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\櫻美鳳 (Sakura Meifon) [Valkyrie Drive Mermaid]\\106531396.webp",
+      "size": 55108
+    },
+    {
+      "id": 106979453,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\時雨霞 (Shigure Kasumi) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106979453.webp",
+      "size": 76560
+    },
+    {
+      "id": 101254708,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アイリス・ティア エーデルリンド (Iris Thea Eaderlindt) - ○○交配 (Enjo Kouhai)\\101254708.webp",
+      "size": 90902
+    },
+    {
+      "id": 101254715,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アイリス・ティア エーデルリンド (Iris Thea Eaderlindt) - ○○交配 (Enjo Kouhai)\\101254715.webp",
+      "size": 80906
+    },
+    {
+      "id": 81277391,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277391.webp",
+      "size": 87872
+    },
+    {
+      "id": 81277393,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277393.webp",
+      "size": 78916
+    },
+    {
+      "id": 81277388,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277388.webp",
+      "size": 65608
+    },
+    {
+      "id": 106566735,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\未弐身にみ (Minimi Nimi) [Valkyrie Drive Mermaid]\\106566735.webp",
+      "size": 66444
+    },
+    {
+      "id": 107155481,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\桐井双葉 (Kirii Futaba) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\107155481.webp",
+      "size": 62934
+    },
+    {
+      "id": 107155487,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\桐井双葉 (Kirii Futaba) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\107155487.webp",
+      "size": 86600
+    },
+    {
+      "id": 78405375,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Misora Haebaru [はぐれアイドル地獄変] (Hagure Idol _ Booty Royale)\\78405375.webp",
+      "size": 79596
+    },
+    {
+      "id": 83884081,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884081.webp",
+      "size": 47964
+    },
+    {
+      "id": 83884080,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884080.webp",
+      "size": 60930
+    },
+    {
+      "id": 83884084,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884084.webp",
+      "size": 50744
+    },
+    {
+      "id": 83884096,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884096.webp",
+      "size": 42930
+    },
+    {
+      "id": 100495102,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\D5 - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\100495102.webp",
+      "size": 81594
+    },
+    {
+      "id": 100495141,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\D5 - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\100495141.webp",
+      "size": 64278
+    },
+    {
+      "id": 103707250,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Hyouko Yundou [Valkyrie Drive Mermaid]\\103707250.webp",
+      "size": 86020
+    },
+    {
+      "id": 41496483,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496483.webp",
+      "size": 86238
+    },
+    {
+      "id": 41496471,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496471.webp",
+      "size": 76576
+    },
+    {
+      "id": 41496470,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496470.webp",
+      "size": 51882
+    },
+    {
+      "id": 41496480,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496480.webp",
+      "size": 54676
+    },
+    {
+      "id": 41496468,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496468.webp",
+      "size": 66004
+    },
+    {
+      "id": 101369807,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\相良百華 (Sagara Momoka) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101369807.webp",
+      "size": 61676
+    },
+    {
+      "id": 106722143,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\柊晶 (Hiragi Akira) [Valkyrie Drive Mermaid]\\106722143.webp",
+      "size": 51652
+    },
+    {
+      "id": 106669577,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\貫井智美 (Nukui Tomomi) [Valkyrie Drive Mermaid]\\106669577.webp",
+      "size": 75572
+    },
+    {
+      "id": 106669581,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\貫井智美 (Nukui Tomomi) [Valkyrie Drive Mermaid]\\106669581.webp",
+      "size": 65962
+    },
+    {
+      "id": 82414485,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\神宮寺成美 (Jinguji Narumi) - 夜勤病棟 (Night Shift Nurses)\\82414485.webp",
+      "size": 79104
+    },
+    {
+      "id": 82414492,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\神宮寺成美 (Jinguji Narumi) - 夜勤病棟 (Night Shift Nurses)\\82414492.webp",
+      "size": 60034
+    },
+    {
+      "id": 42704616,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ムシブギョー (Mushibugyō) - All In One\\42704616.webp",
+      "size": 70120
+    },
+    {
+      "id": 101560431,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560431.webp",
+      "size": 62590
+    },
+    {
+      "id": 101560421,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560421.webp",
+      "size": 78438
+    },
+    {
+      "id": 101560434,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560434.webp",
+      "size": 65924
+    },
+    {
+      "id": 101560433,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560433.webp",
+      "size": 83980
+    },
+    {
+      "id": 106305713,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305713.webp",
+      "size": 51636
+    },
+    {
+      "id": 106305706,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305706.webp",
+      "size": 62846
+    },
+    {
+      "id": 106305707,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305707.webp",
+      "size": 67468
+    },
+    {
+      "id": 38258644,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\叶 (Kanae) - ムシブギョー (Mushibugyō)\\38258644.jpeg",
+      "size": 85744
+    },
+    {
+      "id": 35616408,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\火鉢 (Hibachi) - ムシブギョー (Mushibugyō)\\35616408.webp",
+      "size": 78708
+    },
+    {
+      "id": 36338520,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\蟲奉行 (Kuroageha) - ムシブギョー (Mushibugyō)\\36338520.webp",
+      "size": 75380
+    },
+    {
+      "id": 107512572,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512572.webp",
+      "size": 36742
+    },
+    {
+      "id": 107512563,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512563.webp",
+      "size": 48588
+    },
+    {
+      "id": 107512573,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512573.webp",
+      "size": 46392
+    },
+    {
+      "id": 40287497,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\東間ハルキ (Azuma Haruki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40287497.webp",
+      "size": 74814
+    },
+    {
+      "id": 40567168,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\北村奈月 (Kitamura Natsuki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40567168.webp",
+      "size": 71214
+    },
+    {
+      "id": 81901764,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\セーラ (Sarah) - はぐれアイドル地獄変外伝 プリンセス・セーラ (Hagure Idol Jigokuhen Gaiden - Princess Sarah)\\81901764.webp",
+      "size": 89074
+    },
+    {
+      "id": 81901771,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\セーラ (Sarah) - はぐれアイドル地獄変外伝 プリンセス・セーラ (Hagure Idol Jigokuhen Gaiden - Princess Sarah)\\81901771.webp",
+      "size": 84504
+    },
+    {
+      "id": 40430488,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\南愛生 (Minami Aki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40430488.webp",
+      "size": 93784
+    },
+    {
+      "id": 44187387,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Makeship Plushies\\44187387.webp",
+      "size": 41040
+    },
+    {
+      "id": 44187404,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Makeship Plushies\\44187404.webp",
+      "size": 53978
+    },
+    {
+      "id": 36831819,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\真白 (Mashiro) - ムシブギョー (Mushibugyō)\\36831819.webp",
+      "size": 83322
+    },
+    {
+      "id": 40586449,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\西園寺橙子 (Saionji Tо̄ko) - ハーレムきゃんぷっ！ (Harem Camp!)\\40586449.webp",
+      "size": 82026
+    },
+    {
+      "id": 85840019,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Catherine - Become A Rock Star\\85840019.webp",
+      "size": 44562
+    },
+    {
+      "id": 54179605,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179605.webp",
+      "size": 93234
+    },
+    {
+      "id": 54179609,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179609.webp",
+      "size": 85604
+    },
+    {
+      "id": 54179616,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179616.webp",
+      "size": 88360
+    },
+    {
+      "id": 54179613,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179613.webp",
+      "size": 122578
+    },
+    {
+      "id": 41639091,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Maat - Eternum\\41639091.webp",
+      "size": 102592
+    },
+    {
+      "id": 41639097,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Maat - Eternum\\41639097.webp",
+      "size": 106842
+    },
+    {
+      "id": 54178885,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Urus (ウルス) - だから僕は、Hができない。 (So, I Can't Play H!)\\54178885.webp",
+      "size": 109538
+    },
+    {
+      "id": 54178888,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Urus (ウルス) - だから僕は、Hができない。 (So, I Can't Play H!)\\54178888.webp",
+      "size": 111458
+    },
+    {
+      "id": 39364658,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\お園 (Osono) - ムシブギョー (Mushibugyō)\\39364658.jpeg",
+      "size": 79798
+    },
+    {
+      "id": 39364663,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\お園 (Osono) - ムシブギョー (Mushibugyō)\\39364663.jpeg",
+      "size": 83276
+    },
+    {
+      "id": 108117895,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\海老塚南波 (Nanami Ebizuka) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108117895.webp",
+      "size": 69308
+    },
+    {
+      "id": 88815990,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Rosa - Become A Rock Star\\88815990.webp",
+      "size": 55982
+    },
+    {
+      "id": 88816005,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Rosa - Become A Rock Star\\88816005.webp",
+      "size": 39870
+    },
+    {
+      "id": 87253436,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253436.webp",
+      "size": 87610
+    },
+    {
+      "id": 87253439,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253439.webp",
+      "size": 84800
+    },
+    {
+      "id": 87253444,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253444.webp",
+      "size": 57796
+    },
+    {
+      "id": 54170563,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\ダルニア イアハート (Dalnia Earheart) - だから僕は、Hができない。 (So, I Can't Play H!)\\54170563.webp",
+      "size": 100622
+    },
+    {
+      "id": 86600466,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600466.webp",
+      "size": 35292
+    },
+    {
+      "id": 86600471,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600471.webp",
+      "size": 35064
+    },
+    {
+      "id": 86600476,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600476.webp",
+      "size": 39146
+    },
+    {
+      "id": 38967546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Anna - Become A Rock Star\\38967546.jpeg",
+      "size": 100794
+    },
+    {
+      "id": 86171290,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Emma - Become A Rock Star\\86171290.webp",
+      "size": 44626
+    },
+    {
+      "id": 87580737,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Julia - Become A Rock Star\\87580737.webp",
+      "size": 50224
+    },
+    {
+      "id": 89370924,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Selina - Become A Rock Star\\89370924.webp",
+      "size": 38204
+    },
+    {
+      "id": 88931714,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Ruby - Become A Rock Star\\88931714.webp",
+      "size": 47706
+    },
+    {
+      "id": 88008125,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Nicole - Become A Rock Star\\88008125.webp",
+      "size": 35310
+    },
+    {
+      "id": 88008126,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\Nicole - Become A Rock Star\\88008126.webp",
+      "size": 33310
+    },
+    {
+      "id": 107807234,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807234.webp",
+      "size": 49114
+    },
+    {
+      "id": 107807238,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807238.webp",
+      "size": 58048
+    },
+    {
+      "id": 107807237,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807237.webp",
+      "size": 57184
+    },
+    {
+      "id": 107807235,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807235.webp",
+      "size": 58218
+    },
+    {
+      "id": 108110904,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110904.webp",
+      "size": 54142
+    },
+    {
+      "id": 108110906,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110906.webp",
+      "size": 52466
+    },
+    {
+      "id": 108110909,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110909.webp",
+      "size": 56688
+    },
+    {
+      "id": 107926889,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\風 (Sora) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107926889.webp",
+      "size": 58196
+    },
+    {
+      "id": 107926887,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\風 (Sora) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107926887.webp",
+      "size": 66842
+    },
+    {
+      "id": 106865044,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\上月桃子 (Kōzuki Momoko) [Valkyrie Drive Mermaid]\\106865044.webp",
+      "size": 53474
+    },
+    {
+      "id": 106865054,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\上月桃子 (Kōzuki Momoko) [Valkyrie Drive Mermaid]\\106865054.webp",
+      "size": 65104
+    },
+    {
+      "id": 106455537,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\レディー・J (Lady J) [Valkyrie Drive Mermaid]\\106455537.webp",
+      "size": 80478
+    },
+    {
+      "id": 106189577,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\敷島魅零 (Shikishima Mirei) [Valkyrie Drive Mermaid]\\106189577.webp",
+      "size": 69954
+    },
+    {
+      "id": 106189579,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Squ1zzles\\敷島魅零 (Shikishima Mirei) [Valkyrie Drive Mermaid]\\106189579.webp",
+      "size": 76932
+    }
+  ],
+  "failed": [
     {
       "id": 102909026,
       "type": "image",
@@ -5288,50 +5885,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cada126-851d-4c1e-ab65-9036a444e8b6/original=true/1cada126-851d-4c1e-ab65-9036a444e8b6.jpeg",
         "page_url": "https://civitai.com/images/102909026"
-      }
-    },
-    {
-      "id": 102909033,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\風巳とりの (Kazami Torino) ードライヴ マーメイド (Valkyrie Drive Mermaid)\\102909033.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccc0d94f-9860-46f7-9267-b65c52a2144b/original=true/ccc0d94f-9860-46f7-9267-b65c52a2144b.jpeg",
-        "page_url": "https://civitai.com/images/102909033"
-      }
-    },
-    {
-      "id": 41330711,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\新城礼美 (Shinjyo Remi) - 夜勤病棟 (Night Shift Nurses)\\41330711.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e1cefd1-9b82-493e-bf1b-128892db0b3c/original=true/5e1cefd1-9b82-493e-bf1b-128892db0b3c.jpeg",
-        "page_url": "https://civitai.com/images/41330711"
-      }
-    },
-    {
-      "id": 82216797,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\藤沢亜子 (Fujisawa Ako) - 夜勤病棟 (Night Shift Nurses)\\82216797.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2687c4ae-6319-42da-969a-38c9c7cb794f/original=true/2687c4ae-6319-42da-969a-38c9c7cb794f.jpeg",
-        "page_url": "https://civitai.com/images/82216797"
-      }
-    },
-    {
-      "id": 82216806,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\藤沢亜子 (Fujisawa Ako) - 夜勤病棟 (Night Shift Nurses)\\82216806.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90229c94-f6f3-488e-9e79-79c2b4099d29/original=true/90229c94-f6f3-488e-9e79-79c2b4099d29.jpeg",
-        "page_url": "https://civitai.com/images/82216806"
       }
     },
     {
@@ -5368,50 +5921,6 @@
       }
     },
     {
-      "id": 104890987,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\処女まもり (Tokonome Mamori) [Valkyrie Drive Mermaid]\\104890987.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b9a2a9f-ff20-42b9-adb7-bd7d5728d493/original=true/8b9a2a9f-ff20-42b9-adb7-bd7d5728d493.jpeg",
-        "page_url": "https://civitai.com/images/104890987"
-      }
-    },
-    {
-      "id": 104890986,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\処女まもり (Tokonome Mamori) [Valkyrie Drive Mermaid]\\104890986.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6cef1d6b-5a47-441e-a3d4-57c938185f5f/original=true/6cef1d6b-5a47-441e-a3d4-57c938185f5f.jpeg",
-        "page_url": "https://civitai.com/images/104890986"
-      }
-    },
-    {
-      "id": 106531387,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\櫻美鳳 (Sakura Meifon) [Valkyrie Drive Mermaid]\\106531387.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44320396-c7c7-4aab-b1a2-983e0402099e/original=true/44320396-c7c7-4aab-b1a2-983e0402099e.jpeg",
-        "page_url": "https://civitai.com/images/106531387"
-      }
-    },
-    {
-      "id": 106531396,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\櫻美鳳 (Sakura Meifon) [Valkyrie Drive Mermaid]\\106531396.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7424db1d-223e-46dd-b9ad-cbe4f41e0a50/original=true/7424db1d-223e-46dd-b9ad-cbe4f41e0a50.jpeg",
-        "page_url": "https://civitai.com/images/106531396"
-      }
-    },
-    {
       "id": 106979444,
       "type": "image",
       "reason": "missing",
@@ -5423,72 +5932,6 @@
       }
     },
     {
-      "id": 106979453,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\時雨霞 (Shigure Kasumi) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106979453.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/97a7e722-464c-4314-9210-250ead06283f/original=true/97a7e722-464c-4314-9210-250ead06283f.jpeg",
-        "page_url": "https://civitai.com/images/106979453"
-      }
-    },
-    {
-      "id": 101254708,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アイリス・ティア エーデルリンド (Iris Thea Eaderlindt) - ○○交配 (Enjo Kouhai)\\101254708.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2bfbd285-0889-428c-aa38-5f9295ac9036/original=true/2bfbd285-0889-428c-aa38-5f9295ac9036.jpeg",
-        "page_url": "https://civitai.com/images/101254708"
-      }
-    },
-    {
-      "id": 101254715,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アイリス・ティア エーデルリンド (Iris Thea Eaderlindt) - ○○交配 (Enjo Kouhai)\\101254715.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ddfd7d05-fcde-4533-862c-d09b2453198b/original=true/ddfd7d05-fcde-4533-862c-d09b2453198b.jpeg",
-        "page_url": "https://civitai.com/images/101254715"
-      }
-    },
-    {
-      "id": 81277391,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277391.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b03b75da-85af-4ba7-bebe-8f7f06d6c9af/original=true/b03b75da-85af-4ba7-bebe-8f7f06d6c9af.jpeg",
-        "page_url": "https://civitai.com/images/81277391"
-      }
-    },
-    {
-      "id": 81277393,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277393.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ba57d38-6f9d-44f7-bfd7-b7ef428c2461/original=true/2ba57d38-6f9d-44f7-bfd7-b7ef428c2461.jpeg",
-        "page_url": "https://civitai.com/images/81277393"
-      }
-    },
-    {
-      "id": 81277388,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\高瀬恭子 (Takase Kyouko) - 女神のスプリンター (Megami no Sprinter)\\81277388.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c7b9c5a7-0562-4efb-91d9-508c989bcaab/original=true/c7b9c5a7-0562-4efb-91d9-508c989bcaab.jpeg",
-        "page_url": "https://civitai.com/images/81277388"
-      }
-    },
-    {
       "id": 81277398,
       "type": "image",
       "reason": "missing",
@@ -5497,39 +5940,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f3dcdd4d-27dc-4e1a-bf43-854251cbb142/original=true/f3dcdd4d-27dc-4e1a-bf43-854251cbb142.jpeg",
         "page_url": "https://civitai.com/images/81277398"
-      }
-    },
-    {
-      "id": 106566735,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\未弐身にみ (Minimi Nimi) [Valkyrie Drive Mermaid]\\106566735.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e146d803-46f5-4075-a660-df01f46d2e41/original=true/e146d803-46f5-4075-a660-df01f46d2e41.jpeg",
-        "page_url": "https://civitai.com/images/106566735"
-      }
-    },
-    {
-      "id": 107155481,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\桐井双葉 (Kirii Futaba) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\107155481.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5569a89-abeb-4258-aea0-0ad4901193c6/original=true/c5569a89-abeb-4258-aea0-0ad4901193c6.jpeg",
-        "page_url": "https://civitai.com/images/107155481"
-      }
-    },
-    {
-      "id": 107155487,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\桐井双葉 (Kirii Futaba) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\107155487.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ac1eec44-6e5b-4216-8bcb-1e26c7c5d3a4/original=true/ac1eec44-6e5b-4216-8bcb-1e26c7c5d3a4.jpeg",
-        "page_url": "https://civitai.com/images/107155487"
       }
     },
     {
@@ -5555,17 +5965,6 @@
       }
     },
     {
-      "id": 78405375,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Misora Haebaru [はぐれアイドル地獄変] (Hagure Idol _ Booty Royale)\\78405375.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e3cc79b-d82d-4f67-820f-ac6960a5dcf0/original=true/6e3cc79b-d82d-4f67-820f-ac6960a5dcf0.jpeg",
-        "page_url": "https://civitai.com/images/78405375"
-      }
-    },
-    {
       "id": 78405380,
       "type": "image",
       "reason": "missing",
@@ -5574,39 +5973,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e10cd96-212b-46ce-b96b-dfa86e03a45e/original=true/0e10cd96-212b-46ce-b96b-dfa86e03a45e.jpeg",
         "page_url": "https://civitai.com/images/78405380"
-      }
-    },
-    {
-      "id": 83884081,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884081.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dca2fb7d-9787-4b15-8dbf-239137a8a23d/original=true/dca2fb7d-9787-4b15-8dbf-239137a8a23d.jpeg",
-        "page_url": "https://civitai.com/images/83884081"
-      }
-    },
-    {
-      "id": 83884080,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884080.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/277adef1-375c-43ec-81a1-b20952032cb5/original=true/277adef1-375c-43ec-81a1-b20952032cb5.jpeg",
-        "page_url": "https://civitai.com/images/83884080"
-      }
-    },
-    {
-      "id": 83884084,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884084.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2dad8ef9-2a33-418d-9702-9d9e60219045/original=true/2dad8ef9-2a33-418d-9702-9d9e60219045.jpeg",
-        "page_url": "https://civitai.com/images/83884084"
       }
     },
     {
@@ -5621,17 +5987,6 @@
       }
     },
     {
-      "id": 83884096,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\蓮実レイン (Hasumi Rein) [Valkyrie Drive Mermaid] - Pony\\83884096.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7801e2c-1003-48c0-97c9-73e234c464f9/original=true/a7801e2c-1003-48c0-97c9-73e234c464f9.jpeg",
-        "page_url": "https://civitai.com/images/83884096"
-      }
-    },
-    {
       "id": 83884097,
       "type": "image",
       "reason": "missing",
@@ -5640,50 +5995,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80bf2d21-ef4c-464e-a3ed-fdd22466faf3/original=true/80bf2d21-ef4c-464e-a3ed-fdd22466faf3.jpeg",
         "page_url": "https://civitai.com/images/83884097"
-      }
-    },
-    {
-      "id": 100495102,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\D5 - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\100495102.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e33b722-6fd8-4a0e-8842-909d0f742125/original=true/5e33b722-6fd8-4a0e-8842-909d0f742125.jpeg",
-        "page_url": "https://civitai.com/images/100495102"
-      }
-    },
-    {
-      "id": 100495141,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\D5 - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\100495141.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/651b3372-fb17-4be0-b88b-79694eff640a/original=true/651b3372-fb17-4be0-b88b-79694eff640a.jpeg",
-        "page_url": "https://civitai.com/images/100495141"
-      }
-    },
-    {
-      "id": 103707250,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Hyouko Yundou [Valkyrie Drive Mermaid]\\103707250.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c98946dc-9ae3-4bf4-abad-8ee6cf048fe3/original=true/c98946dc-9ae3-4bf4-abad-8ee6cf048fe3.jpeg",
-        "page_url": "https://civitai.com/images/103707250"
-      }
-    },
-    {
-      "id": 41496483,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496483.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ae674ce4-4e74-40ef-ad1d-200b3e99efd4/original=true/ae674ce4-4e74-40ef-ad1d-200b3e99efd4.jpeg",
-        "page_url": "https://civitai.com/images/41496483"
       }
     },
     {
@@ -5698,28 +6009,6 @@
       }
     },
     {
-      "id": 41496471,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496471.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9067b8b6-68fa-406c-92c3-c151c5333ca8/original=true/9067b8b6-68fa-406c-92c3-c151c5333ca8.jpeg",
-        "page_url": "https://civitai.com/images/41496471"
-      }
-    },
-    {
-      "id": 41496470,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496470.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b901b323-5fdb-484c-b4d9-fafa654738b6/original=true/b901b323-5fdb-484c-b4d9-fafa654738b6.jpeg",
-        "page_url": "https://civitai.com/images/41496470"
-      }
-    },
-    {
       "id": 41496487,
       "type": "image",
       "reason": "missing",
@@ -5728,61 +6017,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f695e90-810e-4117-bbcd-f51717d0bea0/original=true/8f695e90-810e-4117-bbcd-f51717d0bea0.jpeg",
         "page_url": "https://civitai.com/images/41496487"
-      }
-    },
-    {
-      "id": 41496480,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496480.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d7914de0-49c1-46cf-8b16-caf865016545/original=true/d7914de0-49c1-46cf-8b16-caf865016545.jpeg",
-        "page_url": "https://civitai.com/images/41496480"
-      }
-    },
-    {
-      "id": 41496468,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ハーレムきゃんぷっ！ (Harem Camp!) - All In One\\41496468.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7a84ff5-2208-4baa-a9b3-bc0851b8e3b6/original=true/e7a84ff5-2208-4baa-a9b3-bc0851b8e3b6.jpeg",
-        "page_url": "https://civitai.com/images/41496468"
-      }
-    },
-    {
-      "id": 101369807,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\相良百華 (Sagara Momoka) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101369807.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0976884b-0aa9-43b7-a947-0dd33aac7e2e/original=true/0976884b-0aa9-43b7-a947-0dd33aac7e2e.jpeg",
-        "page_url": "https://civitai.com/images/101369807"
-      }
-    },
-    {
-      "id": 106722143,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\柊晶 (Hiragi Akira) [Valkyrie Drive Mermaid]\\106722143.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b5a343d-8867-42fc-b50e-b8575311a77b/original=true/8b5a343d-8867-42fc-b50e-b8575311a77b.jpeg",
-        "page_url": "https://civitai.com/images/106722143"
-      }
-    },
-    {
-      "id": 106669577,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\貫井智美 (Nukui Tomomi) [Valkyrie Drive Mermaid]\\106669577.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca27e34b-59b6-44b1-836f-4aa8b1055ab3/original=true/ca27e34b-59b6-44b1-836f-4aa8b1055ab3.jpeg",
-        "page_url": "https://civitai.com/images/106669577"
       }
     },
     {
@@ -5808,39 +6042,6 @@
       }
     },
     {
-      "id": 106669581,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\貫井智美 (Nukui Tomomi) [Valkyrie Drive Mermaid]\\106669581.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e83b2f63-2b12-4794-9dbc-a97ea792d059/original=true/e83b2f63-2b12-4794-9dbc-a97ea792d059.jpeg",
-        "page_url": "https://civitai.com/images/106669581"
-      }
-    },
-    {
-      "id": 82414485,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\神宮寺成美 (Jinguji Narumi) - 夜勤病棟 (Night Shift Nurses)\\82414485.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b680520b-8c23-4f11-be1c-d59e08291af1/original=true/b680520b-8c23-4f11-be1c-d59e08291af1.jpeg",
-        "page_url": "https://civitai.com/images/82414485"
-      }
-    },
-    {
-      "id": 82414492,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\神宮寺成美 (Jinguji Narumi) - 夜勤病棟 (Night Shift Nurses)\\82414492.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e139502-8858-4ffa-80bc-08b645f1ce8b/original=true/0e139502-8858-4ffa-80bc-08b645f1ce8b.jpeg",
-        "page_url": "https://civitai.com/images/82414492"
-      }
-    },
-    {
       "id": 82414494,
       "type": "image",
       "reason": "missing",
@@ -5849,83 +6050,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e93116fe-c937-484d-856d-a6da0cfa4b1e/original=true/e93116fe-c937-484d-856d-a6da0cfa4b1e.jpeg",
         "page_url": "https://civitai.com/images/82414494"
-      }
-    },
-    {
-      "id": 42704616,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ムシブギョー (Mushibugyō) - All In One\\42704616.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f273fc4b-809f-44af-92f6-91e870f85e3c/original=true/f273fc4b-809f-44af-92f6-91e870f85e3c.jpeg",
-        "page_url": "https://civitai.com/images/42704616"
-      }
-    },
-    {
-      "id": 101560431,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560431.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c327035-7483-4d16-9f9d-f9730b8f3615/original=true/8c327035-7483-4d16-9f9d-f9730b8f3615.jpeg",
-        "page_url": "https://civitai.com/images/101560431"
-      }
-    },
-    {
-      "id": 101560421,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560421.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/038621b8-e347-441b-9000-848838c046ba/original=true/038621b8-e347-441b-9000-848838c046ba.jpeg",
-        "page_url": "https://civitai.com/images/101560421"
-      }
-    },
-    {
-      "id": 101560434,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560434.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/577d28e1-fb13-479e-927b-859403e19c64/original=true/577d28e1-fb13-479e-927b-859403e19c64.jpeg",
-        "page_url": "https://civitai.com/images/101560434"
-      }
-    },
-    {
-      "id": 101560433,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アンジュ (Anju) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\101560433.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0921c7a5-c6d9-40a1-9998-2ee21f9e63cb/original=true/0921c7a5-c6d9-40a1-9998-2ee21f9e63cb.jpeg",
-        "page_url": "https://civitai.com/images/101560433"
-      }
-    },
-    {
-      "id": 106305713,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305713.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3974d32b-17d0-4150-8d54-c6d144022be8/original=true/3974d32b-17d0-4150-8d54-c6d144022be8.jpeg",
-        "page_url": "https://civitai.com/images/106305713"
-      }
-    },
-    {
-      "id": 106305706,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305706.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/acb332e9-c70e-4deb-8edb-d0fefdecda0a/original=true/acb332e9-c70e-4deb-8edb-d0fefdecda0a.jpeg",
-        "page_url": "https://civitai.com/images/106305706"
       }
     },
     {
@@ -5940,61 +6064,6 @@
       }
     },
     {
-      "id": 106305707,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ミランダ (Miranda) - ヴァルキリードライヴ マーメイド (Valkyrie Drive Mermaid)\\106305707.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ed768e6-7b25-4df9-86c8-5192e5aea43b/original=true/4ed768e6-7b25-4df9-86c8-5192e5aea43b.jpeg",
-        "page_url": "https://civitai.com/images/106305707"
-      }
-    },
-    {
-      "id": 38258644,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\叶 (Kanae) - ムシブギョー (Mushibugyō)\\38258644.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2e4d2389-585a-4f8f-a431-8b2a6f85ebaa/original=true/2e4d2389-585a-4f8f-a431-8b2a6f85ebaa.jpeg",
-        "page_url": "https://civitai.com/images/38258644"
-      }
-    },
-    {
-      "id": 35616408,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\火鉢 (Hibachi) - ムシブギョー (Mushibugyō)\\35616408.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a0d87eea-5141-4ce3-a4d8-c5828be11c64/original=true/a0d87eea-5141-4ce3-a4d8-c5828be11c64.jpeg",
-        "page_url": "https://civitai.com/images/35616408"
-      }
-    },
-    {
-      "id": 36338520,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\蟲奉行 (Kuroageha) - ムシブギョー (Mushibugyō)\\36338520.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/532d9208-f644-429b-b118-cad84d9e227e/original=true/532d9208-f644-429b-b118-cad84d9e227e.jpeg",
-        "page_url": "https://civitai.com/images/36338520"
-      }
-    },
-    {
-      "id": 107512572,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512572.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12a3d5c0-7c48-49ac-9258-733e39eb8f14/original=true/12a3d5c0-7c48-49ac-9258-733e39eb8f14.jpeg",
-        "page_url": "https://civitai.com/images/107512572"
-      }
-    },
-    {
       "id": 107512569,
       "type": "image",
       "reason": "missing",
@@ -6003,50 +6072,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c20c1fd-2c20-4110-8270-dc9d3046e064/original=true/6c20c1fd-2c20-4110-8270-dc9d3046e064.jpeg",
         "page_url": "https://civitai.com/images/107512569"
-      }
-    },
-    {
-      "id": 107512563,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512563.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24eabda7-709a-493c-8609-19faeab94b8e/original=true/24eabda7-709a-493c-8609-19faeab94b8e.jpeg",
-        "page_url": "https://civitai.com/images/107512563"
-      }
-    },
-    {
-      "id": 107512573,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\門守しずく (Shizuku Kadomori) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107512573.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a09d6462-3323-4910-96f6-98aed54986bd/original=true/a09d6462-3323-4910-96f6-98aed54986bd.jpeg",
-        "page_url": "https://civitai.com/images/107512573"
-      }
-    },
-    {
-      "id": 40287497,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\東間ハルキ (Azuma Haruki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40287497.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/089c8bc6-1470-47cd-9ad9-4f3a91906859/original=true/089c8bc6-1470-47cd-9ad9-4f3a91906859.jpeg",
-        "page_url": "https://civitai.com/images/40287497"
-      }
-    },
-    {
-      "id": 40567168,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\北村奈月 (Kitamura Natsuki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40567168.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/24c6eb0c-c0f1-4f3f-9a35-eb378773512f/original=true/24c6eb0c-c0f1-4f3f-9a35-eb378773512f.jpeg",
-        "page_url": "https://civitai.com/images/40567168"
       }
     },
     {
@@ -6061,50 +6086,6 @@
       }
     },
     {
-      "id": 81901764,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\セーラ (Sarah) - はぐれアイドル地獄変外伝 プリンセス・セーラ (Hagure Idol Jigokuhen Gaiden - Princess Sarah)\\81901764.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14261f8d-1d29-439d-b81d-d9bbb7e233d0/original=true/14261f8d-1d29-439d-b81d-d9bbb7e233d0.jpeg",
-        "page_url": "https://civitai.com/images/81901764"
-      }
-    },
-    {
-      "id": 81901771,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\セーラ (Sarah) - はぐれアイドル地獄変外伝 プリンセス・セーラ (Hagure Idol Jigokuhen Gaiden - Princess Sarah)\\81901771.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f21045dc-e898-4292-82b3-e7412f33dae6/original=true/f21045dc-e898-4292-82b3-e7412f33dae6.jpeg",
-        "page_url": "https://civitai.com/images/81901771"
-      }
-    },
-    {
-      "id": 40430488,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\南愛生 (Minami Aki) - ハーレムきゃんぷっ！ (Harem Camp!)\\40430488.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8acc0567-b405-416c-835d-51d01b987417/original=true/8acc0567-b405-416c-835d-51d01b987417.jpeg",
-        "page_url": "https://civitai.com/images/40430488"
-      }
-    },
-    {
-      "id": 44187387,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Makeship Plushies\\44187387.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/650d5a34-10af-4829-a716-e641716ec3e6/original=true/650d5a34-10af-4829-a716-e641716ec3e6.jpeg",
-        "page_url": "https://civitai.com/images/44187387"
-      }
-    },
-    {
       "id": 44187389,
       "type": "image",
       "reason": "missing",
@@ -6113,50 +6094,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c1587d98-567f-4b83-8957-9774df477940/original=true/c1587d98-567f-4b83-8957-9774df477940.jpeg",
         "page_url": "https://civitai.com/images/44187389"
-      }
-    },
-    {
-      "id": 44187404,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Makeship Plushies\\44187404.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a81182e-c7bd-4772-bd0e-e88f1c6348dd/original=true/2a81182e-c7bd-4772-bd0e-e88f1c6348dd.jpeg",
-        "page_url": "https://civitai.com/images/44187404"
-      }
-    },
-    {
-      "id": 36831819,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\真白 (Mashiro) - ムシブギョー (Mushibugyō)\\36831819.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4bfb250-e263-4ff2-a529-6ab619f187f5/original=true/b4bfb250-e263-4ff2-a529-6ab619f187f5.jpeg",
-        "page_url": "https://civitai.com/images/36831819"
-      }
-    },
-    {
-      "id": 40586449,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\西園寺橙子 (Saionji Tо̄ko) - ハーレムきゃんぷっ！ (Harem Camp!)\\40586449.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/41a15029-d22e-4215-abc5-34907487f4f5/original=true/41a15029-d22e-4215-abc5-34907487f4f5.jpeg",
-        "page_url": "https://civitai.com/images/40586449"
-      }
-    },
-    {
-      "id": 85840019,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Catherine - Become A Rock Star\\85840019.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/909ca63f-c799-447b-a3a6-09ca03e9a3de/original=true/909ca63f-c799-447b-a3a6-09ca03e9a3de.jpeg",
-        "page_url": "https://civitai.com/images/85840019"
       }
     },
     {
@@ -6171,28 +6108,6 @@
       }
     },
     {
-      "id": 54179605,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179605.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/265beb4d-ecfe-4a90-a254-47d05427140d/original=true/265beb4d-ecfe-4a90-a254-47d05427140d.jpeg",
-        "page_url": "https://civitai.com/images/54179605"
-      }
-    },
-    {
-      "id": 54179609,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179609.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d98858c-c3f1-40fc-acd7-9d45963aa018/original=true/3d98858c-c3f1-40fc-acd7-9d45963aa018.jpeg",
-        "page_url": "https://civitai.com/images/54179609"
-      }
-    },
-    {
       "id": 54179615,
       "type": "image",
       "reason": "missing",
@@ -6201,94 +6116,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db47b10e-e011-4877-93f6-3ecad13751be/original=true/db47b10e-e011-4877-93f6-3ecad13751be.jpeg",
         "page_url": "https://civitai.com/images/54179615"
-      }
-    },
-    {
-      "id": 54179616,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179616.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1b8ecab-8ef4-4996-9f99-df1a839f5453/original=true/e1b8ecab-8ef4-4996-9f99-df1a839f5453.jpeg",
-        "page_url": "https://civitai.com/images/54179616"
-      }
-    },
-    {
-      "id": 54179613,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\アルメイア・レストール (Almeia Restall) - だから僕は、Hができない。 (So, I Can't Play H!)\\54179613.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/99ac9bf5-c9b9-47f6-8e9f-4b288ab9ed17/original=true/99ac9bf5-c9b9-47f6-8e9f-4b288ab9ed17.jpeg",
-        "page_url": "https://civitai.com/images/54179613"
-      }
-    },
-    {
-      "id": 41639091,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Maat - Eternum\\41639091.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33a4ee3d-7923-47a8-ab22-dfeda37d8954/original=true/33a4ee3d-7923-47a8-ab22-dfeda37d8954.jpeg",
-        "page_url": "https://civitai.com/images/41639091"
-      }
-    },
-    {
-      "id": 41639097,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Maat - Eternum\\41639097.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2f68665-b543-4302-b24d-177fcb4c8fd0/original=true/b2f68665-b543-4302-b24d-177fcb4c8fd0.jpeg",
-        "page_url": "https://civitai.com/images/41639097"
-      }
-    },
-    {
-      "id": 54178885,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Urus (ウルス) - だから僕は、Hができない。 (So, I Can't Play H!)\\54178885.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9103e6ec-72a8-482b-b60e-72f92da7c25f/original=true/9103e6ec-72a8-482b-b60e-72f92da7c25f.jpeg",
-        "page_url": "https://civitai.com/images/54178885"
-      }
-    },
-    {
-      "id": 54178888,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Urus (ウルス) - だから僕は、Hができない。 (So, I Can't Play H!)\\54178888.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94dc37ab-2c75-44e8-bc18-4e06cd496cbe/original=true/94dc37ab-2c75-44e8-bc18-4e06cd496cbe.jpeg",
-        "page_url": "https://civitai.com/images/54178888"
-      }
-    },
-    {
-      "id": 39364658,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\お園 (Osono) - ムシブギョー (Mushibugyō)\\39364658.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b06d46e6-00c0-4f55-be25-29a7f8a3ce77/original=true/b06d46e6-00c0-4f55-be25-29a7f8a3ce77.jpeg",
-        "page_url": "https://civitai.com/images/39364658"
-      }
-    },
-    {
-      "id": 39364663,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\お園 (Osono) - ムシブギョー (Mushibugyō)\\39364663.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00f728f4-c258-468c-972f-4178455e9e70/original=true/00f728f4-c258-468c-972f-4178455e9e70.jpeg",
-        "page_url": "https://civitai.com/images/39364663"
       }
     },
     {
@@ -6303,61 +6130,6 @@
       }
     },
     {
-      "id": 108117895,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\海老塚南波 (Nanami Ebizuka) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108117895.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37d7b08e-35a3-4088-9081-8375b81790a8/original=true/37d7b08e-35a3-4088-9081-8375b81790a8.jpeg",
-        "page_url": "https://civitai.com/images/108117895"
-      }
-    },
-    {
-      "id": 88815990,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Rosa - Become A Rock Star\\88815990.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8798215-bb40-4cb2-a223-b1682758dac6/original=true/d8798215-bb40-4cb2-a223-b1682758dac6.jpeg",
-        "page_url": "https://civitai.com/images/88815990"
-      }
-    },
-    {
-      "id": 88816005,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Rosa - Become A Rock Star\\88816005.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc366f87-c20e-4395-8749-11d48d5689e5/original=true/bc366f87-c20e-4395-8749-11d48d5689e5.jpeg",
-        "page_url": "https://civitai.com/images/88816005"
-      }
-    },
-    {
-      "id": 87253436,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253436.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/25801045-d78a-4fc6-97bf-27cd9fdb7257/original=true/25801045-d78a-4fc6-97bf-27cd9fdb7257.jpeg",
-        "page_url": "https://civitai.com/images/87253436"
-      }
-    },
-    {
-      "id": 87253439,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253439.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/784a3311-7628-4f12-b43a-79256ea164ce/original=true/784a3311-7628-4f12-b43a-79256ea164ce.jpeg",
-        "page_url": "https://civitai.com/images/87253439"
-      }
-    },
-    {
       "id": 87253434,
       "type": "image",
       "reason": "missing",
@@ -6366,28 +6138,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa222bb6-ee69-4c7a-975a-88f579884ab0/original=true/fa222bb6-ee69-4c7a-975a-88f579884ab0.jpeg",
         "page_url": "https://civitai.com/images/87253434"
-      }
-    },
-    {
-      "id": 87253444,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Asuka - EROSサバイバル (Eros Survival)\\87253444.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c3cab37-463f-42af-addf-af652d077501/original=true/6c3cab37-463f-42af-addf-af652d077501.jpeg",
-        "page_url": "https://civitai.com/images/87253444"
-      }
-    },
-    {
-      "id": 54170563,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\ダルニア イアハート (Dalnia Earheart) - だから僕は、Hができない。 (So, I Can't Play H!)\\54170563.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ce8337bb-3e83-4aee-a462-ff4f78b2240f/original=true/ce8337bb-3e83-4aee-a462-ff4f78b2240f.jpeg",
-        "page_url": "https://civitai.com/images/54170563"
       }
     },
     {
@@ -6402,17 +6152,6 @@
       }
     },
     {
-      "id": 86600466,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600466.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0262350-7ebc-4fe9-92e6-0a323fa405e6/original=true/f0262350-7ebc-4fe9-92e6-0a323fa405e6.jpeg",
-        "page_url": "https://civitai.com/images/86600466"
-      }
-    },
-    {
       "id": 86600470,
       "type": "image",
       "reason": "missing",
@@ -6421,28 +6160,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/533b1d8c-c8fc-4954-9390-7e13607968ab/original=true/533b1d8c-c8fc-4954-9390-7e13607968ab.jpeg",
         "page_url": "https://civitai.com/images/86600470"
-      }
-    },
-    {
-      "id": 86600471,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600471.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f756a641-b9f7-4755-88e6-b7ab3e3f6d04/original=true/f756a641-b9f7-4755-88e6-b7ab3e3f6d04.jpeg",
-        "page_url": "https://civitai.com/images/86600471"
-      }
-    },
-    {
-      "id": 86600476,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Jade - Become A Rock Star\\86600476.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90dd1bb1-5ff5-45a5-a0b0-d51fc5693859/original=true/90dd1bb1-5ff5-45a5-a0b0-d51fc5693859.jpeg",
-        "page_url": "https://civitai.com/images/86600476"
       }
     },
     {
@@ -6457,83 +6174,6 @@
       }
     },
     {
-      "id": 38967546,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Anna - Become A Rock Star\\38967546.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2111979b-eb59-41e1-aa95-f2abf3d27a5d/original=true/2111979b-eb59-41e1-aa95-f2abf3d27a5d.jpeg",
-        "page_url": "https://civitai.com/images/38967546"
-      }
-    },
-    {
-      "id": 86171290,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Emma - Become A Rock Star\\86171290.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d050acb-a9c9-43ea-9785-d6ab363cf7b5/original=true/0d050acb-a9c9-43ea-9785-d6ab363cf7b5.jpeg",
-        "page_url": "https://civitai.com/images/86171290"
-      }
-    },
-    {
-      "id": 87580737,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Julia - Become A Rock Star\\87580737.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/174e4e16-a377-4e06-85d3-ca260dac11eb/original=true/174e4e16-a377-4e06-85d3-ca260dac11eb.jpeg",
-        "page_url": "https://civitai.com/images/87580737"
-      }
-    },
-    {
-      "id": 89370924,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Selina - Become A Rock Star\\89370924.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/160bde55-298a-491a-bfaa-296e17f3f4f8/original=true/160bde55-298a-491a-bfaa-296e17f3f4f8.jpeg",
-        "page_url": "https://civitai.com/images/89370924"
-      }
-    },
-    {
-      "id": 88931714,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Ruby - Become A Rock Star\\88931714.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f03d9552-3312-4000-9d95-54103f88c4e6/original=true/f03d9552-3312-4000-9d95-54103f88c4e6.jpeg",
-        "page_url": "https://civitai.com/images/88931714"
-      }
-    },
-    {
-      "id": 88008125,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Nicole - Become A Rock Star\\88008125.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00c34af7-0643-45b9-84dd-0dde361aa169/original=true/00c34af7-0643-45b9-84dd-0dde361aa169.jpeg",
-        "page_url": "https://civitai.com/images/88008125"
-      }
-    },
-    {
-      "id": 88008126,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\Nicole - Become A Rock Star\\88008126.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/43f9491a-db09-41b8-ba29-f098a7c56bce/original=true/43f9491a-db09-41b8-ba29-f098a7c56bce.jpeg",
-        "page_url": "https://civitai.com/images/88008126"
-      }
-    },
-    {
       "id": 107807231,
       "type": "image",
       "reason": "missing",
@@ -6542,105 +6182,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a9437293-486a-44b4-97fd-4d557770b657/original=true/a9437293-486a-44b4-97fd-4d557770b657.jpeg",
         "page_url": "https://civitai.com/images/107807231"
-      }
-    },
-    {
-      "id": 107807234,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807234.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03392007-8914-4f65-88d7-8a7349b03c16/original=true/03392007-8914-4f65-88d7-8a7349b03c16.jpeg",
-        "page_url": "https://civitai.com/images/107807234"
-      }
-    },
-    {
-      "id": 107807238,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807238.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6132c06f-dca2-4c04-850f-ee6f2ea3aa79/original=true/6132c06f-dca2-4c04-850f-ee6f2ea3aa79.jpeg",
-        "page_url": "https://civitai.com/images/107807238"
-      }
-    },
-    {
-      "id": 107807237,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807237.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36501d47-ea17-40f4-a123-50d8585bd4f6/original=true/36501d47-ea17-40f4-a123-50d8585bd4f6.jpeg",
-        "page_url": "https://civitai.com/images/107807237"
-      }
-    },
-    {
-      "id": 107807235,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\小宮山水希 (Mizuki Komiyama) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107807235.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/13788736-339f-4d9c-94c2-ad4d3f155c66/original=true/13788736-339f-4d9c-94c2-ad4d3f155c66.jpeg",
-        "page_url": "https://civitai.com/images/107807235"
-      }
-    },
-    {
-      "id": 108110904,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110904.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/81a8cd93-42c3-46f3-84c2-7439a7f366e7/original=true/81a8cd93-42c3-46f3-84c2-7439a7f366e7.jpeg",
-        "page_url": "https://civitai.com/images/108110904"
-      }
-    },
-    {
-      "id": 108110906,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110906.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a879dbe-81ed-49a0-94b8-aa4a2b8a1ec4/original=true/3a879dbe-81ed-49a0-94b8-aa4a2b8a1ec4.jpeg",
-        "page_url": "https://civitai.com/images/108110906"
-      }
-    },
-    {
-      "id": 108110909,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\城風 (Fuu Katsuragi) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\108110909.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0d9db762-a4a3-4037-ba27-ce9d19a695e3/original=true/0d9db762-a4a3-4037-ba27-ce9d19a695e3.jpeg",
-        "page_url": "https://civitai.com/images/108110909"
-      }
-    },
-    {
-      "id": 107926889,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\風 (Sora) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107926889.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b68eaf2-b92e-4986-a135-0b49b2223a4f/original=true/5b68eaf2-b92e-4986-a135-0b49b2223a4f.jpeg",
-        "page_url": "https://civitai.com/images/107926889"
-      }
-    },
-    {
-      "id": 107926887,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\風 (Sora) - ブラックゲート 姦淫の学園 (Black Gate_ Kanin no Gakuen)\\107926887.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/badc1709-a666-4158-a81c-6796867f978d/original=true/badc1709-a666-4158-a81c-6796867f978d.jpeg",
-        "page_url": "https://civitai.com/images/107926887"
       }
     },
     {
@@ -6655,39 +6196,6 @@
       }
     },
     {
-      "id": 106865044,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\上月桃子 (Kōzuki Momoko) [Valkyrie Drive Mermaid]\\106865044.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/651140d5-cc11-4656-9b69-4abda0e6759e/original=true/651140d5-cc11-4656-9b69-4abda0e6759e.jpeg",
-        "page_url": "https://civitai.com/images/106865044"
-      }
-    },
-    {
-      "id": 106865054,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\上月桃子 (Kōzuki Momoko) [Valkyrie Drive Mermaid]\\106865054.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1e11310-8a3b-47da-9d1a-366c48ce5c42/original=true/a1e11310-8a3b-47da-9d1a-366c48ce5c42.jpeg",
-        "page_url": "https://civitai.com/images/106865054"
-      }
-    },
-    {
-      "id": 106455537,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\レディー・J (Lady J) [Valkyrie Drive Mermaid]\\106455537.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd4cbbca-46a2-4eb1-8392-540ef80ab6ff/original=true/bd4cbbca-46a2-4eb1-8392-540ef80ab6ff.jpeg",
-        "page_url": "https://civitai.com/images/106455537"
-      }
-    },
-    {
       "id": 106455538,
       "type": "image",
       "reason": "missing",
@@ -6696,17 +6204,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1a76fb73-c9f6-4e6a-9869-bfc2e6b79fc2/original=true/1a76fb73-c9f6-4e6a-9869-bfc2e6b79fc2.jpeg",
         "page_url": "https://civitai.com/images/106455538"
-      }
-    },
-    {
-      "id": 106189577,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\敷島魅零 (Shikishima Mirei) [Valkyrie Drive Mermaid]\\106189577.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c55a3c94-680e-473d-ab01-f2559ac8de30/original=true/c55a3c94-680e-473d-ab01-f2559ac8de30.jpeg",
-        "page_url": "https://civitai.com/images/106189577"
       }
     },
     {
@@ -6729,27 +6226,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b3a643-9afb-4105-b1ba-c56e022a1dad/original=true/68b3a643-9afb-4105-b1ba-c56e022a1dad.jpeg",
         "page_url": "https://civitai.com/images/106189583"
-      }
-    },
-    {
-      "id": 106189579,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\敷島魅零 (Shikishima Mirei) [Valkyrie Drive Mermaid]\\106189579.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73edb7d3-5b9a-40b0-ad8f-3fc4aca3502f/original=true/73edb7d3-5b9a-40b0-ad8f-3fc4aca3502f.jpeg",
-        "page_url": "https://civitai.com/images/106189579"
-      }
-    },
-    {
-      "id": 986640,
-      "type": "lora",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Squ1zzles\\春 (Oharu) - ムシブギョー (Mushibugyō)\\Oharu_Pony_v1.safetensors",
-        "expected_file_size": 228457484.0,
-        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/5156871/oharuPonyV1.f3p8.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Oharu_Pony_v1.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251206/us-east-1/s3/aws4_request&X-Amz-Date=20251206T044204Z&X-Amz-SignedHeaders=host&X-Amz-Signature=eca3bfb3e36ff1576af39ac8ac862cf576d6de650980049769d2ce43bb526783"
       }
     }
   ]

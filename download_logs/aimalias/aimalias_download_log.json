@@ -1,0 +1,786 @@
+{
+  "success": [
+    {
+      "id": 82704795,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704795.png",
+      "size": 1069141
+    },
+    {
+      "id": 82704789,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704789.png",
+      "size": 1130287
+    },
+    {
+      "id": 82705608,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82705608.png",
+      "size": 1353475
+    },
+    {
+      "id": 82704786,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704786.png",
+      "size": 1113437
+    },
+    {
+      "id": 82704791,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704791.png",
+      "size": 1330148
+    },
+    {
+      "id": 82704788,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704788.png",
+      "size": 1346437
+    },
+    {
+      "id": 82704816,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704816.png",
+      "size": 1313890
+    },
+    {
+      "id": 1907945,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\animeScreenshotMerge_v40.safetensors",
+      "size": 6938050970
+    },
+    {
+      "id": 86366744,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86366744.png",
+      "size": 1388243
+    },
+    {
+      "id": 86366767,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86366767.png",
+      "size": 1031861
+    },
+    {
+      "id": 86366830,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86366830.png",
+      "size": 1256833
+    },
+    {
+      "id": 86366842,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86366842.png",
+      "size": 1087921
+    },
+    {
+      "id": 86369348,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86369348.png",
+      "size": 1171602
+    },
+    {
+      "id": 1975760,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\animeScreenshotMerge_v40.safetensors",
+      "size": 6938053226
+    },
+    {
+      "id": 74191038,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191038.png",
+      "size": 1405404
+    },
+    {
+      "id": 74191036,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191036.png",
+      "size": 1377947
+    },
+    {
+      "id": 74193214,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74193214.png",
+      "size": 1345142
+    },
+    {
+      "id": 74191035,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191035.png",
+      "size": 1329866
+    },
+    {
+      "id": 74191032,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191032.png",
+      "size": 1376928
+    },
+    {
+      "id": 74191037,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191037.png",
+      "size": 1303872
+    },
+    {
+      "id": 1746554,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\miu.safetensors",
+      "size": 228456692
+    },
+    {
+      "id": 72288910,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Reika Shimohira (Gantz) Illustrious\\72288910.png",
+      "size": 1805210
+    },
+    {
+      "id": 72310953,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Reika Shimohira (Gantz) Illustrious\\72310953.png",
+      "size": 1338648
+    },
+    {
+      "id": 72312488,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Reika Shimohira (Gantz) Illustrious\\72312488.png",
+      "size": 1678579
+    },
+    {
+      "id": 72312717,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Reika Shimohira (Gantz) Illustrious\\72312717.png",
+      "size": 1461110
+    },
+    {
+      "id": 1707901,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Reika Shimohira (Gantz) Illustrious\\reika.safetensors",
+      "size": 228455036
+    },
+    {
+      "id": 13274307,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\13274307.png",
+      "size": 1386897
+    },
+    {
+      "id": 13271861,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\13271861.png",
+      "size": 1344889
+    },
+    {
+      "id": 13271862,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\13271862.png",
+      "size": 1272744
+    },
+    {
+      "id": 523147,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\coolkyou.safetensors",
+      "size": 340786114
+    },
+    {
+      "id": 74415804,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\74415804.png",
+      "size": 1538754
+    },
+    {
+      "id": 74415088,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\74415088.png",
+      "size": 1520620
+    },
+    {
+      "id": 74415085,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\74415085.png",
+      "size": 1368738
+    },
+    {
+      "id": 74415086,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\74415086.png",
+      "size": 1322713
+    },
+    {
+      "id": 1750063,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\shigure.safetensors",
+      "size": 228455292
+    },
+    {
+      "id": 96146230,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\96146230.png",
+      "size": 1073267
+    },
+    {
+      "id": 96138027,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\96138027.png",
+      "size": 1242993
+    },
+    {
+      "id": 96141195,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\96141195.png",
+      "size": 1280430
+    },
+    {
+      "id": 96137358,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\96137358.png",
+      "size": 1080090
+    },
+    {
+      "id": 2143306,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\chintarou.safetensors",
+      "size": 405033676
+    },
+    {
+      "id": 73527678,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Kokuyou (Tsugumomo) Illustrious\\73527678.png",
+      "size": 1142436
+    },
+    {
+      "id": 73528570,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Kokuyou (Tsugumomo) Illustrious\\73528570.png",
+      "size": 1478428
+    },
+    {
+      "id": 1064538,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Kokuyou (Tsugumomo) Illustrious\\kokuyou.safetensors",
+      "size": 228454364
+    },
+    {
+      "id": 66762273,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Manana\\66762273.png",
+      "size": 1226469
+    },
+    {
+      "id": 66762271,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Manana\\66762271.png",
+      "size": 1210959
+    },
+    {
+      "id": 1597899,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Manana\\manana.safetensors",
+      "size": 228455036
+    },
+    {
+      "id": 78814214,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Himeko (Sket Dance)\\78814214.png",
+      "size": 1163638
+    },
+    {
+      "id": 78813833,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Himeko (Sket Dance)\\78813833.png",
+      "size": 1107130
+    },
+    {
+      "id": 78814865,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Himeko (Sket Dance)\\78814865.png",
+      "size": 1261109
+    },
+    {
+      "id": 1838910,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Himeko (Sket Dance)\\himeko.safetensors",
+      "size": 228454204
+    },
+    {
+      "id": 63590812,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\63590812.png",
+      "size": 1386390
+    },
+    {
+      "id": 63590813,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\63590813.png",
+      "size": 1335359
+    },
+    {
+      "id": 63590805,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\63590805.png",
+      "size": 1271771
+    },
+    {
+      "id": 63590811,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\63590811.png",
+      "size": 1098200
+    },
+    {
+      "id": 1534482,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\haruk0.safetensors",
+      "size": 228454492
+    },
+    {
+      "id": 66967701,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ooyama Takeko\\66967701.png",
+      "size": 1295293
+    },
+    {
+      "id": 66967703,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ooyama Takeko\\66967703.png",
+      "size": 1049197
+    },
+    {
+      "id": 1601193,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ooyama Takeko\\ooyama.safetensors",
+      "size": 228455084
+    },
+    {
+      "id": 101279781,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Hanana\\101279781.png",
+      "size": 1289245
+    },
+    {
+      "id": 101279810,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Hanana\\101279810.png",
+      "size": 1286070
+    },
+    {
+      "id": 2232011,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Hanana\\h4nana.safetensors",
+      "size": 456487068
+    },
+    {
+      "id": 111589091,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ryou\\111589091.png",
+      "size": 1616122
+    },
+    {
+      "id": 111589104,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ryou\\111589104.png",
+      "size": 1490582
+    },
+    {
+      "id": 111589275,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ryou\\111589275.png",
+      "size": 1483444
+    },
+    {
+      "id": 111589698,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Ryou\\111589698.png",
+      "size": 1554423
+    },
+    {
+      "id": 71991211,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\71991211.png",
+      "size": 1219557
+    },
+    {
+      "id": 71991214,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\71991214.png",
+      "size": 1200340
+    },
+    {
+      "id": 71991213,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\71991213.png",
+      "size": 1143627
+    }
+  ],
+  "failed": [
+    {
+      "id": 82706878,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82706878.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5fb3b4f-577e-42e9-abae-d1c79eca5328/original=true/b5fb3b4f-577e-42e9-abae-d1c79eca5328.jpeg",
+        "page_url": "https://civitai.com/images/82706878"
+      }
+    },
+    {
+      "id": 82704790,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704790.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07131d14-8455-4223-a40a-979ef2257dad/original=true/07131d14-8455-4223-a40a-979ef2257dad.jpeg",
+        "page_url": "https://civitai.com/images/82704790"
+      }
+    },
+    {
+      "id": 82704785,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge NoobAI\\82704785.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/964800b3-f65d-42ce-9f12-a5cf50c7dd74/original=true/964800b3-f65d-42ce-9f12-a5cf50c7dd74.jpeg",
+        "page_url": "https://civitai.com/images/82704785"
+      }
+    },
+    {
+      "id": 86366794,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Anime Screenshot Merge IL\\86366794.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/867f265d-7af2-45c3-8372-9411339815b5/original=true/867f265d-7af2-45c3-8372-9411339815b5.jpeg",
+        "page_url": "https://civitai.com/images/86366794"
+      }
+    },
+    {
+      "id": 74191039,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Furinji Miu Illustrious\\74191039.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0739bbc2-c483-45c3-8c79-2fe2cd3fcc5c/original=true/0739bbc2-c483-45c3-8c79-2fe2cd3fcc5c.jpeg",
+        "page_url": "https://civitai.com/images/74191039"
+      }
+    },
+    {
+      "id": 13274485,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\13274485.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e3890e0a-9a1b-46b0-9aee-f971b6c64719/original=true/e3890e0a-9a1b-46b0-9aee-f971b6c64719.jpeg",
+        "page_url": "https://civitai.com/images/13274485"
+      }
+    },
+    {
+      "id": 13274037,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Artist Style_ Cool-Kyou Shinja\\13274037.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52182d03-ac51-4d58-a22d-d41f57a93afd/original=true/52182d03-ac51-4d58-a22d-d41f57a93afd.jpeg",
+        "page_url": "https://civitai.com/images/13274037"
+      }
+    },
+    {
+      "id": 74415083,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Shigure Kosaka\\74415083.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f405cb7-f22d-4426-a305-3f56ead21d5f/original=true/4f405cb7-f22d-4426-a305-3f56ead21d5f.jpeg",
+        "page_url": "https://civitai.com/images/74415083"
+      }
+    },
+    {
+      "id": 96137393,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Chintarou\\96137393.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d92f0793-5e2a-4a6a-9b73-a3ec7cded61b/original=true/d92f0793-5e2a-4a6a-9b73-a3ec7cded61b.jpeg",
+        "page_url": "https://civitai.com/images/96137393"
+      }
+    },
+    {
+      "id": 73527468,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Kokuyou (Tsugumomo) Illustrious\\73527468.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6a9e3be-084d-4742-a953-6813948460ce/original=true/b6a9e3be-084d-4742-a953-6813948460ce.jpeg",
+        "page_url": "https://civitai.com/images/73527468"
+      }
+    },
+    {
+      "id": 73528026,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Kokuyou (Tsugumomo) Illustrious\\73528026.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be5cc187-3b2c-471e-816d-e1e673b61ac1/original=true/be5cc187-3b2c-471e-816d-e1e673b61ac1.jpeg",
+        "page_url": "https://civitai.com/images/73528026"
+      }
+    },
+    {
+      "id": 66763282,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Manana\\66763282.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6fba64b7-1f69-416d-b8e4-096b755fac1a/original=true/6fba64b7-1f69-416d-b8e4-096b755fac1a.jpeg",
+        "page_url": "https://civitai.com/images/66763282"
+      }
+    },
+    {
+      "id": 63590809,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Haruko (Bleach)\\63590809.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf68c216-a200-4eb8-907b-fc4e2a1d0a3a/original=true/bf68c216-a200-4eb8-907b-fc4e2a1d0a3a.jpeg",
+        "page_url": "https://civitai.com/images/63590809"
+      }
+    },
+    {
+      "id": 66967702,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Ooyama Takeko\\66967702.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52a6f41c-2e95-4a8c-9144-df155017d907/original=true/52a6f41c-2e95-4a8c-9144-df155017d907.jpeg",
+        "page_url": "https://civitai.com/images/66967702"
+      }
+    },
+    {
+      "id": 66967704,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Ooyama Takeko\\66967704.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4997a250-a97f-4288-923c-80ed0f5e9dfe/original=true/4997a250-a97f-4288-923c-80ed0f5e9dfe.jpeg",
+        "page_url": "https://civitai.com/images/66967704"
+      }
+    },
+    {
+      "id": 101279787,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Hanana\\101279787.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fb9150fd-851f-4485-a731-31a373ac7692/original=true/fb9150fd-851f-4485-a731-31a373ac7692.jpeg",
+        "page_url": "https://civitai.com/images/101279787"
+      }
+    },
+    {
+      "id": 101280307,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Hanana\\101280307.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5688eeaa-bfd4-44ba-8efc-b0c6d19710ee/original=true/5688eeaa-bfd4-44ba-8efc-b0c6d19710ee.jpeg",
+        "page_url": "https://civitai.com/images/101280307"
+      }
+    },
+    {
+      "id": 2440178,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Ryou\\ry0u.safetensors",
+        "expected_file_size": 456485580.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2785725/ry0u.a0xw.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22ry0u.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251208/us-east-1/s3/aws4_request&X-Amz-Date=20251208T124623Z&X-Amz-SignedHeaders=host&X-Amz-Signature=4268bd15f93ca96f91c2a54e0b85235f7ed6d0dc2f12693cd8781177caa3b743"
+      }
+    },
+    {
+      "id": 94252126,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252126.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17244017-8fd3-4285-84a2-709208d4f7b8/original=true/17244017-8fd3-4285-84a2-709208d4f7b8.jpeg",
+        "page_url": "https://civitai.com/images/94252126"
+      }
+    },
+    {
+      "id": 94353325,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94353325.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/525bd428-0b2d-4576-9259-693960204767/original=true/525bd428-0b2d-4576-9259-693960204767.jpeg",
+        "page_url": "https://civitai.com/images/94353325"
+      }
+    },
+    {
+      "id": 94252121,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252121.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a333df7a-6ac4-4519-bce3-5036efb5321a/original=true/a333df7a-6ac4-4519-bce3-5036efb5321a.jpeg",
+        "page_url": "https://civitai.com/images/94252121"
+      }
+    },
+    {
+      "id": 94252129,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252129.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/459c82fb-40c5-4456-9f0a-1c1678eb987b/original=true/459c82fb-40c5-4456-9f0a-1c1678eb987b.jpeg",
+        "page_url": "https://civitai.com/images/94252129"
+      }
+    },
+    {
+      "id": 94252132,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252132.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0be7ddf-9c8d-4abe-80c0-e14440ab34ae/original=true/f0be7ddf-9c8d-4abe-80c0-e14440ab34ae.jpeg",
+        "page_url": "https://civitai.com/images/94252132"
+      }
+    },
+    {
+      "id": 94252125,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252125.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9133c13f-ae8b-4a79-90b4-807875ccd633/original=true/9133c13f-ae8b-4a79-90b4-807875ccd633.jpeg",
+        "page_url": "https://civitai.com/images/94252125"
+      }
+    },
+    {
+      "id": 94252120,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252120.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2deb0fd7-140f-4c08-b93f-ffe7f141fe2b/original=true/2deb0fd7-140f-4c08-b93f-ffe7f141fe2b.jpeg",
+        "page_url": "https://civitai.com/images/94252120"
+      }
+    },
+    {
+      "id": 94252119,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252119.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cde43fea-63f7-48f3-b262-ee48de2c9319/original=true/cde43fea-63f7-48f3-b262-ee48de2c9319.jpeg",
+        "page_url": "https://civitai.com/images/94252119"
+      }
+    },
+    {
+      "id": 94252124,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252124.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3301577d-785d-4948-8a7b-665ed6f3cc7b/original=true/3301577d-785d-4948-8a7b-665ed6f3cc7b.jpeg",
+        "page_url": "https://civitai.com/images/94252124"
+      }
+    },
+    {
+      "id": 94252118,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252118.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4aec4b4-713f-4441-a23b-55d4fab8224e/original=true/c4aec4b4-713f-4441-a23b-55d4fab8224e.jpeg",
+        "page_url": "https://civitai.com/images/94252118"
+      }
+    },
+    {
+      "id": 94252128,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94252128.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/af97e556-f305-4726-97ba-159d9a8b0630/original=true/af97e556-f305-4726-97ba-159d9a8b0630.jpeg",
+        "page_url": "https://civitai.com/images/94252128"
+      }
+    },
+    {
+      "id": 94353233,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\94353233.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2397204a-8438-437f-a5a1-ecd53d79f9b5/original=true/2397204a-8438-437f-a5a1-ecd53d79f9b5.jpeg",
+        "page_url": "https://civitai.com/images/94353233"
+      }
+    },
+    {
+      "id": 2113488,
+      "type": "lora",
+      "reason": "corrupted",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Huge Titfuck (Wan)\\huge-titfuck-high.safetensors",
+        "expected_file_size": 306807976.0,
+        "actual_file_size": 79233172,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/2785725/hugeTitfuckHigh.gqCY.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22huge-titfuck-high.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251208/us-east-1/s3/aws4_request&X-Amz-Date=20251208T124637Z&X-Amz-SignedHeaders=host&X-Amz-Signature=993275affb207a3412df66b241fe3a743724ecd42ea792a2ff18f5ad4209c01b"
+      }
+    },
+    {
+      "id": 71991215,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\71991215.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/70c7f1ad-f711-4d0a-a82f-f093039593a9/original=true/70c7f1ad-f711-4d0a-a82f-f093039593a9.jpeg",
+        "page_url": "https://civitai.com/images/71991215"
+      }
+    },
+    {
+      "id": 71991212,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\71991212.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7916417a-e861-4504-a864-beead4b38860/original=true/7916417a-e861-4504-a864-beead4b38860.jpeg",
+        "page_url": "https://civitai.com/images/71991212"
+      }
+    },
+    {
+      "id": 1700457,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\aimalias\\Beauty Cafe Manager (Manyuu Hikenchou)\\cafe-manager.safetensors",
+        "expected_file_size": 228453988.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1700457/cafe-manager.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22cafe-manager.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251208/us-east-1/s3/aws4_request&X-Amz-Date=20251208T124650Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a77c332ad3e6ffd85b0da988148f5f301565f229b63d207b44dd78e032ba11d5"
+      }
+    }
+  ]
+}

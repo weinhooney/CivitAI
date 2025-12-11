@@ -1,0 +1,1650 @@
+{
+  "success": [
+    {
+      "id": 85190231,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mrs. Kageno\\85190231.png",
+      "size": 1351041
+    },
+    {
+      "id": 85190229,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mrs. Kageno\\85190229.png",
+      "size": 1025668
+    },
+    {
+      "id": 1840693,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mrs. Kageno\\MrsKageno.safetensors",
+      "size": 228454252
+    },
+    {
+      "id": 89225419,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\89225419.png",
+      "size": 3316539
+    },
+    {
+      "id": 89228997,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\89228997.png",
+      "size": 2161825
+    },
+    {
+      "id": 89232427,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\89232427.png",
+      "size": 1936452
+    },
+    {
+      "id": 1996250,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\Warden_Si-Eun_Jo.safetensors",
+      "size": 228458684
+    },
+    {
+      "id": 102728382,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102728382.png",
+      "size": 4113416
+    },
+    {
+      "id": 102729282,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102729282.png",
+      "size": 1714879
+    },
+    {
+      "id": 102733825,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102733825.png",
+      "size": 3906605
+    },
+    {
+      "id": 2237290,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\Karen_Coral_Island.safetensors",
+      "size": 228454484
+    },
+    {
+      "id": 87502101,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87502101.png",
+      "size": 1722748
+    },
+    {
+      "id": 87505706,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87505706.png",
+      "size": 3010271
+    },
+    {
+      "id": 87504245,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87504245.png",
+      "size": 1880382
+    },
+    {
+      "id": 1993189,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\Ms._Tailoom.safetensors",
+      "size": 228456172
+    },
+    {
+      "id": 91055023,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\91055023.png",
+      "size": 1832920
+    },
+    {
+      "id": 91055088,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\91055088.png",
+      "size": 1995587
+    },
+    {
+      "id": 91056449,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\91056449.png",
+      "size": 1733415
+    },
+    {
+      "id": 2057519,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\YoshiYoshi-Ya_Style.safetensors",
+      "size": 228469236
+    },
+    {
+      "id": 111640748,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640748.png",
+      "size": 2010273
+    },
+    {
+      "id": 111640740,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640740.png",
+      "size": 2454225
+    },
+    {
+      "id": 111640736,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640736.png",
+      "size": 1809494
+    },
+    {
+      "id": 111640738,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640738.png",
+      "size": 1738856
+    },
+    {
+      "id": 110288435,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288435.png",
+      "size": 4067863
+    },
+    {
+      "id": 110288444,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288444.png",
+      "size": 3898916
+    },
+    {
+      "id": 110293310,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110293310.png",
+      "size": 3757509
+    },
+    {
+      "id": 110293210,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110293210.png",
+      "size": 3184355
+    },
+    {
+      "id": 2408240,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\Mida_Rana.safetensors",
+      "size": 228455580
+    },
+    {
+      "id": 104607520,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Blythe\\104607520.png",
+      "size": 4336441
+    },
+    {
+      "id": 2243344,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Blythe\\Blythe.safetensors",
+      "size": 228458836
+    },
+    {
+      "id": 101450263,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\101450263.png",
+      "size": 2017672
+    },
+    {
+      "id": 101451012,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\101451012.png",
+      "size": 3912154
+    },
+    {
+      "id": 101453560,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\101453560.png",
+      "size": 4216451
+    },
+    {
+      "id": 2229312,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\Segzecute.safetensors",
+      "size": 228472124
+    },
+    {
+      "id": 96905943,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\96905943.png",
+      "size": 3724131
+    },
+    {
+      "id": 96905933,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\96905933.png",
+      "size": 3436764
+    },
+    {
+      "id": 96905934,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\96905934.png",
+      "size": 3610965
+    },
+    {
+      "id": 2152893,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\Hanaji_Sensei.safetensors",
+      "size": 228470268
+    },
+    {
+      "id": 95926518,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\95926518.png",
+      "size": 3701439
+    },
+    {
+      "id": 95926557,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\95926557.png",
+      "size": 1576606
+    },
+    {
+      "id": 95926628,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\95926628.png",
+      "size": 2023582
+    },
+    {
+      "id": 2137269,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\Flappojacko.safetensors",
+      "size": 228464564
+    },
+    {
+      "id": 95606848,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\95606848.png",
+      "size": 1771619
+    },
+    {
+      "id": 95607041,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\95607041.png",
+      "size": 2316913
+    },
+    {
+      "id": 95607829,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\95607829.png",
+      "size": 1626736
+    },
+    {
+      "id": 95542194,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ko Miyeon\\95542194.png",
+      "size": 3597848
+    },
+    {
+      "id": 95543502,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ko Miyeon\\95543502.png",
+      "size": 3460238
+    },
+    {
+      "id": 2123532,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Ko Miyeon\\Ko_MIyeon.safetensors",
+      "size": 228463724
+    },
+    {
+      "id": 94346954,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\94346954.png",
+      "size": 3792020
+    },
+    {
+      "id": 94350574,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\94350574.png",
+      "size": 1529591
+    },
+    {
+      "id": 94351163,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\94351163.png",
+      "size": 2525581
+    },
+    {
+      "id": 2105287,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\Prison_Queendom_Claire.safetensors",
+      "size": 228458668
+    },
+    {
+      "id": 91035596,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\91035596.png",
+      "size": 3755747
+    },
+    {
+      "id": 91059735,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\91059735.png",
+      "size": 4229269
+    },
+    {
+      "id": 92424223,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\92424223.png",
+      "size": 4471534
+    },
+    {
+      "id": 2049333,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\Prison_Queen_Elsa.safetensors",
+      "size": 228454892
+    },
+    {
+      "id": 87327914,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Cleopatra VII\\87327914.png",
+      "size": 4087690
+    },
+    {
+      "id": 87332782,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Cleopatra VII\\87332782.png",
+      "size": 1388050
+    },
+    {
+      "id": 1974195,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Cleopatra VII\\Cleopatra_VII.safetensors",
+      "size": 228456708
+    },
+    {
+      "id": 73004343,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Shiras Saifan\\73004343.png",
+      "size": 4318091
+    },
+    {
+      "id": 73005561,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Shiras Saifan\\73005561.png",
+      "size": 4070787
+    },
+    {
+      "id": 1603046,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Shiras Saifan\\Shiras_Saifan.safetensors",
+      "size": 228460452
+    },
+    {
+      "id": 72530063,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72530063.png",
+      "size": 2661756
+    },
+    {
+      "id": 72539714,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72539714.png",
+      "size": 3755481
+    },
+    {
+      "id": 67474726,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67474726.png",
+      "size": 3737212
+    },
+    {
+      "id": 67474874,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67474874.png",
+      "size": 3707297
+    },
+    {
+      "id": 67477490,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67477490.png",
+      "size": 3321127
+    },
+    {
+      "id": 67478282,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67478282.png",
+      "size": 4336489
+    },
+    {
+      "id": 66973944,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66973944.png",
+      "size": 3897003
+    },
+    {
+      "id": 66974166,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66974166.png",
+      "size": 2495776
+    },
+    {
+      "id": 66992063,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66992063.png",
+      "size": 2867965
+    }
+  ],
+  "failed": [
+    {
+      "id": 85190234,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mrs. Kageno\\85190234.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f248b4c-777a-48ca-8b91-ac5aa567d6f9/original=true/0f248b4c-777a-48ca-8b91-ac5aa567d6f9.jpeg",
+        "page_url": "https://civitai.com/images/85190234"
+      }
+    },
+    {
+      "id": 85190233,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mrs. Kageno\\85190233.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52fbf740-d0f2-4f1e-b9fb-819bdd516b9f/original=true/52fbf740-d0f2-4f1e-b9fb-819bdd516b9f.jpeg",
+        "page_url": "https://civitai.com/images/85190233"
+      }
+    },
+    {
+      "id": 89229527,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\89229527.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee90c194-fc6b-461f-b54a-8c6579b0e599/original=true/ee90c194-fc6b-461f-b54a-8c6579b0e599.jpeg",
+        "page_url": "https://civitai.com/images/89229527"
+      }
+    },
+    {
+      "id": 89231326,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Warden Si-Eun Jo\\89231326.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5b36311-7ee6-48f3-970e-e44c3bd5454e/original=true/b5b36311-7ee6-48f3-970e-e44c3bd5454e.jpeg",
+        "page_url": "https://civitai.com/images/89231326"
+      }
+    },
+    {
+      "id": 102728526,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102728526.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/efa547eb-0fa1-4274-8999-c9f961123bb2/original=true/efa547eb-0fa1-4274-8999-c9f961123bb2.jpeg",
+        "page_url": "https://civitai.com/images/102728526"
+      }
+    },
+    {
+      "id": 102730765,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102730765.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9c2c940-60ee-4852-8dc1-12d0629b6802/original=true/f9c2c940-60ee-4852-8dc1-12d0629b6802.jpeg",
+        "page_url": "https://civitai.com/images/102730765"
+      }
+    },
+    {
+      "id": 102733875,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Karen (Coral Island)\\102733875.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eace6fff-963e-4937-ae22-ea51874b7168/original=true/eace6fff-963e-4937-ae22-ea51874b7168.jpeg",
+        "page_url": "https://civitai.com/images/102733875"
+      }
+    },
+    {
+      "id": 87502104,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87502104.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4080e7f1-92c8-40cb-b5fd-a8d021a85ce8/original=true/4080e7f1-92c8-40cb-b5fd-a8d021a85ce8.jpeg",
+        "page_url": "https://civitai.com/images/87502104"
+      }
+    },
+    {
+      "id": 87502107,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87502107.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3e249c4-4f80-4769-b386-9d2e91e9d862/original=true/b3e249c4-4f80-4769-b386-9d2e91e9d862.jpeg",
+        "page_url": "https://civitai.com/images/87502107"
+      }
+    },
+    {
+      "id": 87502255,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Ms. Tailoom\\87502255.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3099d4a7-20c3-496b-aa16-c38caa9b030e/original=true/3099d4a7-20c3-496b-aa16-c38caa9b030e.jpeg",
+        "page_url": "https://civitai.com/images/87502255"
+      }
+    },
+    {
+      "id": 91055050,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\91055050.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/644d6bc7-de5d-498a-846a-2dfa28d495fe/original=true/644d6bc7-de5d-498a-846a-2dfa28d495fe.jpeg",
+        "page_url": "https://civitai.com/images/91055050"
+      }
+    },
+    {
+      "id": 91056441,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\YoshiYoshi-Ya Style\\91056441.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46b915b5-19d3-439a-89cf-a6b2669b31af/original=true/46b915b5-19d3-439a-89cf-a6b2669b31af.jpeg",
+        "page_url": "https://civitai.com/images/91056441"
+      }
+    },
+    {
+      "id": 111640761,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640761.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ab27949-dc53-40bc-b120-679d3e21a04d/original=true/8ab27949-dc53-40bc-b120-679d3e21a04d.jpeg",
+        "page_url": "https://civitai.com/images/111640761"
+      }
+    },
+    {
+      "id": 111640763,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640763.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0727b8e4-4038-4a8e-8280-7877120a0bfc/original=true/0727b8e4-4038-4a8e-8280-7877120a0bfc.jpeg",
+        "page_url": "https://civitai.com/images/111640763"
+      }
+    },
+    {
+      "id": 111640754,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\111640754.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f502499-ea6a-4c95-88c3-6bb3abd76c2f/original=true/6f502499-ea6a-4c95-88c3-6bb3abd76c2f.jpeg",
+        "page_url": "https://civitai.com/images/111640754"
+      }
+    },
+    {
+      "id": 2441627,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Vivica Illustrious\\vivicaIllustrious_v30DMD.safetensors",
+        "expected_file_size": 6938040706.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/49342/vivican3dmdeFp16.BHhu.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22vivicaIllustrious_v30DMD.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131923Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e51e6805c3ad1873c57eec9a8ba9220170952aeb5e789753f9938937227dbd5e"
+      }
+    },
+    {
+      "id": 110288400,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288400.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/805c0ac6-8b65-4bdc-83a1-298dd49fd1ec/original=true/805c0ac6-8b65-4bdc-83a1-298dd49fd1ec.jpeg",
+        "page_url": "https://civitai.com/images/110288400"
+      }
+    },
+    {
+      "id": 110288441,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288441.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a88e630e-4dea-4b00-9fcc-9226bf04ec1d/original=true/a88e630e-4dea-4b00-9fcc-9226bf04ec1d.jpeg",
+        "page_url": "https://civitai.com/images/110288441"
+      }
+    },
+    {
+      "id": 110288457,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288457.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4422d6bc-e448-44a2-ba77-3b64d1e170d2/original=true/4422d6bc-e448-44a2-ba77-3b64d1e170d2.jpeg",
+        "page_url": "https://civitai.com/images/110288457"
+      }
+    },
+    {
+      "id": 110288476,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110288476.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03be6226-1ad5-430f-8beb-e05f537b9059/original=true/03be6226-1ad5-430f-8beb-e05f537b9059.jpeg",
+        "page_url": "https://civitai.com/images/110288476"
+      }
+    },
+    {
+      "id": 110289463,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110289463.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b7714738-a0b9-4bc9-a694-26d14a0e26a3/original=true/b7714738-a0b9-4bc9-a694-26d14a0e26a3.jpeg",
+        "page_url": "https://civitai.com/images/110289463"
+      }
+    },
+    {
+      "id": 110293196,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Mida Rana\\110293196.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f402d48-6a3a-4f8c-ba8a-38de25a65bbf/original=true/3f402d48-6a3a-4f8c-ba8a-38de25a65bbf.jpeg",
+        "page_url": "https://civitai.com/images/110293196"
+      }
+    },
+    {
+      "id": 101450726,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\101450726.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a73634ed-99b9-42eb-91fa-58c1b679daa0/original=true/a73634ed-99b9-42eb-91fa-58c1b679daa0.jpeg",
+        "page_url": "https://civitai.com/images/101450726"
+      }
+    },
+    {
+      "id": 101453152,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Segzecute\\101453152.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/200a9607-ab8e-4a7c-a516-01a80b4b102b/original=true/200a9607-ab8e-4a7c-a516-01a80b4b102b.jpeg",
+        "page_url": "https://civitai.com/images/101453152"
+      }
+    },
+    {
+      "id": 96905937,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\96905937.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21f0272c-ae02-44d4-91e4-134d503672db/original=true/21f0272c-ae02-44d4-91e4-134d503672db.jpeg",
+        "page_url": "https://civitai.com/images/96905937"
+      }
+    },
+    {
+      "id": 96905936,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Hanaji Sensei Style\\96905936.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f4d13cb6-ccb5-43bb-93b7-7711065f26b2/original=true/f4d13cb6-ccb5-43bb-93b7-7711065f26b2.jpeg",
+        "page_url": "https://civitai.com/images/96905936"
+      }
+    },
+    {
+      "id": 95926589,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\95926589.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/593be2d6-9550-4fdf-8c63-a46421d18651/original=true/593be2d6-9550-4fdf-8c63-a46421d18651.jpeg",
+        "page_url": "https://civitai.com/images/95926589"
+      }
+    },
+    {
+      "id": 95926714,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Flappojacko Style\\95926714.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/845de000-1656-46e1-8d65-c58190b93c50/original=true/845de000-1656-46e1-8d65-c58190b93c50.jpeg",
+        "page_url": "https://civitai.com/images/95926714"
+      }
+    },
+    {
+      "id": 95606646,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\95606646.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c9247d6f-2b0d-4c3e-85fa-990f50ed9b17/original=true/c9247d6f-2b0d-4c3e-85fa-990f50ed9b17.jpeg",
+        "page_url": "https://civitai.com/images/95606646"
+      }
+    },
+    {
+      "id": 95607675,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\95607675.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b2affa7c-84e2-4b6c-95de-cffd992d404f/original=true/b2affa7c-84e2-4b6c-95de-cffd992d404f.jpeg",
+        "page_url": "https://civitai.com/images/95607675"
+      }
+    },
+    {
+      "id": 2133849,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\BlueSilver Style\\BlueSilver.safetensors",
+        "expected_file_size": 228463428.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/2133849/BlueSilver.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22BlueSilver.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132031Z&X-Amz-SignedHeaders=host&X-Amz-Signature=139cfd9ab31848217220dfcb2b6ec685c103568ac26957bfadb6f48244d27884"
+      }
+    },
+    {
+      "id": 95547376,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Ko Miyeon\\95547376.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/420e5311-c283-45ae-9752-ccc28a754804/original=true/420e5311-c283-45ae-9752-ccc28a754804.jpeg",
+        "page_url": "https://civitai.com/images/95547376"
+      }
+    },
+    {
+      "id": 94343716,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\94343716.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d371ac4-d5fa-4f48-bd2f-c592ec1adbf3/original=true/4d371ac4-d5fa-4f48-bd2f-c592ec1adbf3.jpeg",
+        "page_url": "https://civitai.com/images/94343716"
+      }
+    },
+    {
+      "id": 94350612,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queendom Claire\\94350612.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/58fd4d93-8622-4fa5-a714-9c55784d9bb6/original=true/58fd4d93-8622-4fa5-a714-9c55784d9bb6.jpeg",
+        "page_url": "https://civitai.com/images/94350612"
+      }
+    },
+    {
+      "id": 92408283,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\92408283.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6004777-8e5a-4490-a3aa-d9da2730b0f3/original=true/c6004777-8e5a-4490-a3aa-d9da2730b0f3.jpeg",
+        "page_url": "https://civitai.com/images/92408283"
+      }
+    },
+    {
+      "id": 92425725,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Prison Queen Elsa\\92425725.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f9951e4-46e2-46bc-b84d-ac57cf07bec9/original=true/4f9951e4-46e2-46bc-b84d-ac57cf07bec9.jpeg",
+        "page_url": "https://civitai.com/images/92425725"
+      }
+    },
+    {
+      "id": 87327904,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Cleopatra VII\\87327904.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/997248b3-ac57-4e39-a64a-a18c93071491/original=true/997248b3-ac57-4e39-a64a-a18c93071491.jpeg",
+        "page_url": "https://civitai.com/images/87327904"
+      }
+    },
+    {
+      "id": 73004383,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Shiras Saifan\\73004383.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/46831062-d110-4039-841d-756cd5439553/original=true/46831062-d110-4039-841d-756cd5439553.jpeg",
+        "page_url": "https://civitai.com/images/73004383"
+      }
+    },
+    {
+      "id": 73004451,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Shiras Saifan\\73004451.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be7bf64c-a7fe-46c3-b257-0d71e20487fe/original=true/be7bf64c-a7fe-46c3-b257-0d71e20487fe.jpeg",
+        "page_url": "https://civitai.com/images/73004451"
+      }
+    },
+    {
+      "id": 72531319,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72531319.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a5c373f3-6d4a-47f3-9020-bfc751475c27/original=true/a5c373f3-6d4a-47f3-9020-bfc751475c27.jpeg",
+        "page_url": "https://civitai.com/images/72531319"
+      }
+    },
+    {
+      "id": 72534670,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72534670.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06f7431b-44c3-4db1-80e2-e79618ca1587/original=true/06f7431b-44c3-4db1-80e2-e79618ca1587.jpeg",
+        "page_url": "https://civitai.com/images/72534670"
+      }
+    },
+    {
+      "id": 72536303,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72536303.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4537f9d-ca94-42bb-be48-2c92456ea4c7/original=true/e4537f9d-ca94-42bb-be48-2c92456ea4c7.jpeg",
+        "page_url": "https://civitai.com/images/72536303"
+      }
+    },
+    {
+      "id": 72537278,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\72537278.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b830bedc-baf8-4b17-a77f-d303994c0087/original=true/b830bedc-baf8-4b17-a77f-d303994c0087.jpeg",
+        "page_url": "https://civitai.com/images/72537278"
+      }
+    },
+    {
+      "id": 1702014,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aika (Benefactor's Daughters)\\Aika_Benefactors_Daughters-000010.safetensors",
+        "expected_file_size": 228467372.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1702014/Aika_Benefactors_Daughters-000010.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Aika_Benefactors_Daughters-000010.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132159Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a572e7951f56ad9df1cf8f3b8583a21d34041942a2cb7f07b20eba2a3dfbbb2f"
+      }
+    },
+    {
+      "id": 67474670,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67474670.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a2bf6073-80d9-4db7-97c6-a8fe60dcd788/original=true/a2bf6073-80d9-4db7-97c6-a8fe60dcd788.jpeg",
+        "page_url": "https://civitai.com/images/67474670"
+      }
+    },
+    {
+      "id": 67474796,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67474796.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18e52e22-bd67-4d1f-aece-78bac6eaa1db/original=true/18e52e22-bd67-4d1f-aece-78bac6eaa1db.jpeg",
+        "page_url": "https://civitai.com/images/67474796"
+      }
+    },
+    {
+      "id": 67474966,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\67474966.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b13f671d-6d5d-4339-a585-2b4c65cd63b5/original=true/b13f671d-6d5d-4339-a585-2b4c65cd63b5.jpeg",
+        "page_url": "https://civitai.com/images/67474966"
+      }
+    },
+    {
+      "id": 1611219,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Eri Shinkai (Aika R-16)\\Eri_Shinkai_Aika_R-16.safetensors",
+        "expected_file_size": 228466812.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1611219/Eri_Shinkai_Aika_R-16.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Eri_Shinkai_Aika_R-16.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132212Z&X-Amz-SignedHeaders=host&X-Amz-Signature=859596dc8cbb439145533deecab455c24eb562ccc8d91a2e5650b9bac6e8b798"
+      }
+    },
+    {
+      "id": 66979430,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66979430.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a21baa7-a7a9-4697-ba50-90a246a4a9b2/original=true/3a21baa7-a7a9-4697-ba50-90a246a4a9b2.jpeg",
+        "page_url": "https://civitai.com/images/66979430"
+      }
+    },
+    {
+      "id": 66981362,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66981362.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87077741-da6f-49c8-8926-e2d22adde4c9/original=true/87077741-da6f-49c8-8926-e2d22adde4c9.jpeg",
+        "page_url": "https://civitai.com/images/66981362"
+      }
+    },
+    {
+      "id": 66989497,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66989497.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4641f2cb-bef2-4f3c-95ac-ca02224e8ee6/original=true/4641f2cb-bef2-4f3c-95ac-ca02224e8ee6.jpeg",
+        "page_url": "https://civitai.com/images/66989497"
+      }
+    },
+    {
+      "id": 66991132,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\66991132.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321e5c9e-e462-4e98-95f6-c7cf4ab51730/original=true/321e5c9e-e462-4e98-95f6-c7cf4ab51730.jpeg",
+        "page_url": "https://civitai.com/images/66991132"
+      }
+    },
+    {
+      "id": 1601967,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Reina Oriana\\Reina_Oriana.safetensors",
+        "expected_file_size": 228456844.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1601967/Reina_Oriana.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Reina_Oriana.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132253Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5ddb849981b22e4cf6dcaefaeacf182aacb2fe62c8a58a1899077ca9e077ed2c"
+      }
+    },
+    {
+      "id": 66947417,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\66947417.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e1fc31db-0697-4015-9e08-5ee785c3394c/original=true/e1fc31db-0697-4015-9e08-5ee785c3394c.jpeg",
+        "page_url": "https://civitai.com/images/66947417"
+      }
+    },
+    {
+      "id": 66947442,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\66947442.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de372613-c341-48e2-a0fc-919b93fefab1/original=true/de372613-c341-48e2-a0fc-919b93fefab1.jpeg",
+        "page_url": "https://civitai.com/images/66947442"
+      }
+    },
+    {
+      "id": 66947322,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\66947322.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/875f2359-6e7c-457d-8ed4-49db31f81105/original=true/875f2359-6e7c-457d-8ed4-49db31f81105.jpeg",
+        "page_url": "https://civitai.com/images/66947322"
+      }
+    },
+    {
+      "id": 66947434,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\66947434.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2023e66f-d76c-4ba2-991b-01af55806dfc/original=true/2023e66f-d76c-4ba2-991b-01af55806dfc.jpeg",
+        "page_url": "https://civitai.com/images/66947434"
+      }
+    },
+    {
+      "id": 66947804,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\66947804.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb413d98-f123-451b-b2d8-5fea4957fed4/original=true/eb413d98-f123-451b-b2d8-5fea4957fed4.jpeg",
+        "page_url": "https://civitai.com/images/66947804"
+      }
+    },
+    {
+      "id": 1589995,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\FF7 Scarlet\\FF7_Scarlet.safetensors",
+        "expected_file_size": 228456220.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1589995/FF7_Scarlet.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22FF7_Scarlet.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132304Z&X-Amz-SignedHeaders=host&X-Amz-Signature=87f3ccf0b9e4a58516106f1dece06fe94d49f9abc7361718f3e48b3efddbde99"
+      }
+    },
+    {
+      "id": 66643071,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Elaine\\66643071.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34c92489-ea82-4d5b-82e9-799c429a7670/original=true/34c92489-ea82-4d5b-82e9-799c429a7670.jpeg",
+        "page_url": "https://civitai.com/images/66643071"
+      }
+    },
+    {
+      "id": 66643715,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Elaine\\66643715.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9557028-973f-4e57-8cd8-c32acf127f72/original=true/d9557028-973f-4e57-8cd8-c32acf127f72.jpeg",
+        "page_url": "https://civitai.com/images/66643715"
+      }
+    },
+    {
+      "id": 66643153,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Elaine\\66643153.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c8b437e3-12eb-4f77-a624-ca6f1fa13376/original=true/c8b437e3-12eb-4f77-a624-ca6f1fa13376.jpeg",
+        "page_url": "https://civitai.com/images/66643153"
+      }
+    },
+    {
+      "id": 66645893,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Elaine\\66645893.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a77822ca-3b47-40a3-a463-456849d59936/original=true/a77822ca-3b47-40a3-a463-456849d59936.jpeg",
+        "page_url": "https://civitai.com/images/66645893"
+      }
+    },
+    {
+      "id": 1594300,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Elaine\\Elaine.safetensors",
+        "expected_file_size": 228458900.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1594300/Elaine.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Elaine.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132314Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ac67b2397415c261dfa3cb4d645dcc1a5bfe034d5627d2c43445bfc915e71b75"
+      }
+    },
+    {
+      "id": 66558788,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\66558788.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4714bad8-be52-414e-b4a3-62b3668daf36/original=true/4714bad8-be52-414e-b4a3-62b3668daf36.jpeg",
+        "page_url": "https://civitai.com/images/66558788"
+      }
+    },
+    {
+      "id": 66462312,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\66462312.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a9965a9-cba2-4068-a265-f454fdf3f255/original=true/6a9965a9-cba2-4068-a265-f454fdf3f255.jpeg",
+        "page_url": "https://civitai.com/images/66462312"
+      }
+    },
+    {
+      "id": 66559737,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\66559737.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/22506104-f4db-4019-8f46-88990e09d461/original=true/22506104-f4db-4019-8f46-88990e09d461.jpeg",
+        "page_url": "https://civitai.com/images/66559737"
+      }
+    },
+    {
+      "id": 66460547,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\66460547.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2ef7b794-f896-4010-99ee-2472972a610c/original=true/2ef7b794-f896-4010-99ee-2472972a610c.jpeg",
+        "page_url": "https://civitai.com/images/66460547"
+      }
+    },
+    {
+      "id": 66560636,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\66560636.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44d11931-26a2-488a-b554-ee72037d50ce/original=true/44d11931-26a2-488a-b554-ee72037d50ce.jpeg",
+        "page_url": "https://civitai.com/images/66560636"
+      }
+    },
+    {
+      "id": 1590632,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Aria Na\\Aria_Na.safetensors",
+        "expected_file_size": 228468028.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1590632/Aria_Na.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Aria_Na.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132325Z&X-Amz-SignedHeaders=host&X-Amz-Signature=098bac3df1a9bec51d817609ad650aad7c0616f0aa7e1439472feea9e06e171b"
+      }
+    },
+    {
+      "id": 66203891,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203891.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9552ce18-a433-4852-a7c2-496295635722/original=true/9552ce18-a433-4852-a7c2-496295635722.jpeg",
+        "page_url": "https://civitai.com/images/66203891"
+      }
+    },
+    {
+      "id": 66203899,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203899.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fde47688-7b9d-4d1f-893a-71f2869273d6/original=true/fde47688-7b9d-4d1f-893a-71f2869273d6.jpeg",
+        "page_url": "https://civitai.com/images/66203899"
+      }
+    },
+    {
+      "id": 66203902,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203902.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/775bdbbe-8f66-487f-aca0-60a97658e779/original=true/775bdbbe-8f66-487f-aca0-60a97658e779.jpeg",
+        "page_url": "https://civitai.com/images/66203902"
+      }
+    },
+    {
+      "id": 66203896,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203896.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ee6124fb-bc6e-4ff7-bc43-fff7f5aa4596/original=true/ee6124fb-bc6e-4ff7-bc43-fff7f5aa4596.jpeg",
+        "page_url": "https://civitai.com/images/66203896"
+      }
+    },
+    {
+      "id": 66203901,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203901.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d8b2b54-12b2-4210-aa95-6f1bfa320022/original=true/9d8b2b54-12b2-4210-aa95-6f1bfa320022.jpeg",
+        "page_url": "https://civitai.com/images/66203901"
+      }
+    },
+    {
+      "id": 66203897,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203897.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26aef54f-c085-4932-9cb7-977ea8dac287/original=true/26aef54f-c085-4932-9cb7-977ea8dac287.jpeg",
+        "page_url": "https://civitai.com/images/66203897"
+      }
+    },
+    {
+      "id": 66203903,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203903.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a440b815-e371-469b-bf1b-7061693afca0/original=true/a440b815-e371-469b-bf1b-7061693afca0.jpeg",
+        "page_url": "https://civitai.com/images/66203903"
+      }
+    },
+    {
+      "id": 66203898,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203898.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8f9faab-cc07-42c3-87f2-aba6ec86690c/original=true/a8f9faab-cc07-42c3-87f2-aba6ec86690c.jpeg",
+        "page_url": "https://civitai.com/images/66203898"
+      }
+    },
+    {
+      "id": 66203900,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66203900.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08706d2c-0ebb-45da-9089-489de60dd53a/original=true/08706d2c-0ebb-45da-9089-489de60dd53a.jpeg",
+        "page_url": "https://civitai.com/images/66203900"
+      }
+    },
+    {
+      "id": 66569471,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\66569471.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c3b188b-d822-4bae-9fa4-fa2bd504af6b/original=true/4c3b188b-d822-4bae-9fa4-fa2bd504af6b.jpeg",
+        "page_url": "https://civitai.com/images/66569471"
+      }
+    },
+    {
+      "id": 1586480,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\President Kim Ji - Household Affairs\\President_Kim_Ji_-_Household_Affairs.safetensors",
+        "expected_file_size": 228470748.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1586480/President_Kim_Ji_-_Household_Affairs.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22President_Kim_Ji_-_Household_Affairs.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132340Z&X-Amz-SignedHeaders=host&X-Amz-Signature=219637404ff0ac1ecdded7e405cb41af3824eab5946c9307f53f59c43057f4b0"
+      }
+    },
+    {
+      "id": 66162599,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\66162599.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8527f3aa-d44f-4d4c-9381-98cdfc21a456/original=true/8527f3aa-d44f-4d4c-9381-98cdfc21a456.jpeg",
+        "page_url": "https://civitai.com/images/66162599"
+      }
+    },
+    {
+      "id": 66162624,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\66162624.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/93d1d9f5-2a1a-4809-b31e-abbc6627d9a9/original=true/93d1d9f5-2a1a-4809-b31e-abbc6627d9a9.jpeg",
+        "page_url": "https://civitai.com/images/66162624"
+      }
+    },
+    {
+      "id": 66162650,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\66162650.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8960fd2a-51c8-4d11-9bf7-9e460824e014/original=true/8960fd2a-51c8-4d11-9bf7-9e460824e014.jpeg",
+        "page_url": "https://civitai.com/images/66162650"
+      }
+    },
+    {
+      "id": 66162690,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\66162690.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5f25bf00-2533-4d24-882e-bd7bc8c7cef1/original=true/5f25bf00-2533-4d24-882e-bd7bc8c7cef1.jpeg",
+        "page_url": "https://civitai.com/images/66162690"
+      }
+    },
+    {
+      "id": 66162694,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\66162694.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f9efae14-c098-41c1-b03e-7d02f97b2d5a/original=true/f9efae14-c098-41c1-b03e-7d02f97b2d5a.jpeg",
+        "page_url": "https://civitai.com/images/66162694"
+      }
+    },
+    {
+      "id": 1582993,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Delmo Commander - Agent Aika\\Delmo_Commander_-_Agent_Aika.safetensors",
+        "expected_file_size": 228460596.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1582993/Delmo_Commander_-_Agent_Aika.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Delmo_Commander_-_Agent_Aika.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132352Z&X-Amz-SignedHeaders=host&X-Amz-Signature=23c91e969694a67678d1de04c0f39cf198afe091a72c350a691f2ee6fac350e5"
+      }
+    },
+    {
+      "id": 65985655,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Jenny Onassis - The Last Cultivator\\65985655.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c5f971a9-1702-44a4-8bf4-4e5d9f1443d4/original=true/c5f971a9-1702-44a4-8bf4-4e5d9f1443d4.jpeg",
+        "page_url": "https://civitai.com/images/65985655"
+      }
+    },
+    {
+      "id": 65985600,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Jenny Onassis - The Last Cultivator\\65985600.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2435ae0f-a485-47d6-ae81-132041665598/original=true/2435ae0f-a485-47d6-ae81-132041665598.jpeg",
+        "page_url": "https://civitai.com/images/65985600"
+      }
+    },
+    {
+      "id": 65986644,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Jenny Onassis - The Last Cultivator\\65986644.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/630b53df-d5d4-4ba8-804f-edcbe33bba6b/original=true/630b53df-d5d4-4ba8-804f-edcbe33bba6b.jpeg",
+        "page_url": "https://civitai.com/images/65986644"
+      }
+    },
+    {
+      "id": 65987171,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Jenny Onassis - The Last Cultivator\\65987171.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a69b6688-43ba-43a3-968d-695a950e5da0/original=true/a69b6688-43ba-43a3-968d-695a950e5da0.jpeg",
+        "page_url": "https://civitai.com/images/65987171"
+      }
+    },
+    {
+      "id": 1582047,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Jenny Onassis - The Last Cultivator\\Jenny_Onassis_-_The_Last_Cultivator.safetensors",
+        "expected_file_size": 228458060.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1582047/Jenny_Onassis_-_The_Last_Cultivator.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Jenny_Onassis_-_The_Last_Cultivator.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132402Z&X-Amz-SignedHeaders=host&X-Amz-Signature=efa82c3a529bf2c437e6a1346406f047b1d74fc998068398b3c4c70738689bb9"
+      }
+    },
+    {
+      "id": 65551905,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\65551905.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88575c05-a471-4922-a52f-41cec13a677e/original=true/88575c05-a471-4922-a52f-41cec13a677e.jpeg",
+        "page_url": "https://civitai.com/images/65551905"
+      }
+    },
+    {
+      "id": 65551955,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\65551955.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4896942c-b4fb-46d9-a080-afab0850b405/original=true/4896942c-b4fb-46d9-a080-afab0850b405.jpeg",
+        "page_url": "https://civitai.com/images/65551955"
+      }
+    },
+    {
+      "id": 65551953,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\65551953.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cbc03c2-10ba-4b13-be8a-59c7d8b68f63/original=true/1cbc03c2-10ba-4b13-be8a-59c7d8b68f63.jpeg",
+        "page_url": "https://civitai.com/images/65551953"
+      }
+    },
+    {
+      "id": 65552751,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\65552751.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/109abdca-09d9-47e4-b895-07ad1fc471e9/original=true/109abdca-09d9-47e4-b895-07ad1fc471e9.jpeg",
+        "page_url": "https://civitai.com/images/65552751"
+      }
+    },
+    {
+      "id": 65553357,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\65553357.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d99aa8e-7290-42ce-ab06-43ea1beb7f60/original=true/4d99aa8e-7290-42ce-ab06-43ea1beb7f60.jpeg",
+        "page_url": "https://civitai.com/images/65553357"
+      }
+    },
+    {
+      "id": 1573378,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Risako Nagisa\\Risako_Nagisa.safetensors",
+        "expected_file_size": 228458348.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1573378/Risako_Nagisa.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Risako_Nagisa.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132413Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ad0e12017691c5380eb069f3847b6e4d68ef30c40e34c45a94cffbb53dcdfb76"
+      }
+    },
+    {
+      "id": 65556281,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\65556281.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c499df48-7305-43f1-bad0-a3b569315a33/original=true/c499df48-7305-43f1-bad0-a3b569315a33.jpeg",
+        "page_url": "https://civitai.com/images/65556281"
+      }
+    },
+    {
+      "id": 65557615,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\65557615.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/410d3120-a2dd-4276-bb1c-8681c0702d4c/original=true/410d3120-a2dd-4276-bb1c-8681c0702d4c.jpeg",
+        "page_url": "https://civitai.com/images/65557615"
+      }
+    },
+    {
+      "id": 65560197,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\65560197.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/39d4a650-c045-4b21-beb3-c7cdffeff43c/original=true/39d4a650-c045-4b21-beb3-c7cdffeff43c.jpeg",
+        "page_url": "https://civitai.com/images/65560197"
+      }
+    },
+    {
+      "id": 65562323,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\65562323.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e4cb462-efcb-4c1f-9f2d-d1c3013da9cf/original=true/5e4cb462-efcb-4c1f-9f2d-d1c3013da9cf.jpeg",
+        "page_url": "https://civitai.com/images/65562323"
+      }
+    },
+    {
+      "id": 65563422,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\65563422.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c50d5943-f891-4d0e-ba81-e0652fd17500/original=true/c50d5943-f891-4d0e-ba81-e0652fd17500.jpeg",
+        "page_url": "https://civitai.com/images/65563422"
+      }
+    },
+    {
+      "id": 1553583,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\SenriGAN style\\SenriGAN_style.safetensors",
+        "expected_file_size": 228464268.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1553583/SenriGAN_style.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22SenriGAN_style.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132423Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ace4f4c4ffdd6b25a83ad8272e43f1421da71417b312035f9d11366555c8cebb"
+      }
+    },
+    {
+      "id": 65531389,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65531389.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/239e4df6-b3c5-483f-b9d1-f62b4b840e5c/original=true/239e4df6-b3c5-483f-b9d1-f62b4b840e5c.jpeg",
+        "page_url": "https://civitai.com/images/65531389"
+      }
+    },
+    {
+      "id": 65533711,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65533711.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1cc58d6-767c-4ba0-9474-dd3bacb1308a/original=true/b1cc58d6-767c-4ba0-9474-dd3bacb1308a.jpeg",
+        "page_url": "https://civitai.com/images/65533711"
+      }
+    },
+    {
+      "id": 65534715,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65534715.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b340de4b-71bd-4712-957a-3dfd2ee0864d/original=true/b340de4b-71bd-4712-957a-3dfd2ee0864d.jpeg",
+        "page_url": "https://civitai.com/images/65534715"
+      }
+    },
+    {
+      "id": 65535692,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65535692.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36014b74-8ff7-4ab7-bb01-98cea6a6b62c/original=true/36014b74-8ff7-4ab7-bb01-98cea6a6b62c.jpeg",
+        "page_url": "https://civitai.com/images/65535692"
+      }
+    },
+    {
+      "id": 65536223,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65536223.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0204f613-055a-4d95-a127-a1f66a2c3e41/original=true/0204f613-055a-4d95-a127-a1f66a2c3e41.jpeg",
+        "page_url": "https://civitai.com/images/65536223"
+      }
+    },
+    {
+      "id": 65536947,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65536947.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a8323f3-debe-41df-989c-66cdccce2472/original=true/2a8323f3-debe-41df-989c-66cdccce2472.jpeg",
+        "page_url": "https://civitai.com/images/65536947"
+      }
+    },
+    {
+      "id": 65538875,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\65538875.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0facb1b3-a1b7-4138-8522-15a2b484a369/original=true/0facb1b3-a1b7-4138-8522-15a2b484a369.jpeg",
+        "page_url": "https://civitai.com/images/65538875"
+      }
+    },
+    {
+      "id": 1573710,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\gossgoss\\Pronyma\\Pronyma.safetensors",
+        "expected_file_size": 228455972.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1573710/Pronyma.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Pronyma.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T132435Z&X-Amz-SignedHeaders=host&X-Amz-Signature=4e8f170027ceb805d429efd64bf2da694971d08ac9ddbbedc5470d4fd0451344"
+      }
+    }
+  ]
+}

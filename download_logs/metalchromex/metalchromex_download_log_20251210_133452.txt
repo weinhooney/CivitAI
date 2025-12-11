@@ -1,0 +1,396 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251210_133452
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/metalchromex/models
+
+[다운받을 모델 갯수]
+551
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Mira Suou (World's End Harem) - Commission!
+모델 URL: https://civitai.com/models/1210484
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Commission: La Folia Rihavein (Strike the Blood)
+모델 URL: https://civitai.com/models/927353
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Commission: Rossweisse, The Silver Dragon Queen - Shut Up, Malevolent Dragon! I Don’t Want to Have Any More Children With You - 闭嘴恶龙我不想再跟你带孩子了)
+모델 URL: https://civitai.com/models/825893
+포스트 아이디: 7563461
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/7563461
+--------------------------------------
+
+--------------------------------------
+모델 이름: Shizuku Kuroe's outfit (My Dress-Up Darling) - Commission!
+모델 URL: https://civitai.com/models/2171212
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Alisa Ayase (Love Live!)
+모델 URL: https://civitai.com/models/1079307
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sera Baal (Black Summoner) - Commission!
+모델 URL: https://civitai.com/models/1145088
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Mikatan Narugino/Strange Juice (Punch Line/Punchline)
+모델 URL: https://civitai.com/models/1653476
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Jack-O' Valentine (Guilty Gear Strive: Dual Rulers)
+모델 URL: https://civitai.com/models/2064001
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Commission: Riselia Ray Crystalia (The Demon Sword Master of Excalibur Academy)
+모델 URL: https://civitai.com/models/966182
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Akio Fudou (Trinity Seven) - Commission!
+모델 URL: https://civitai.com/models/1162796
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Lemon Nishikawa (Hope You're Happy, Lemon)
+모델 URL: https://civitai.com/models/2184075
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Commission/Colab: Muv-Luv Alternative 2021 Heroines (Sumika Kagami, Meiya Mitsurugi, and Kei Ayamine) 3-in-1 SDXL Pony
+모델 URL: https://civitai.com/models/546245
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Koyuki Kazahana (Naruto the Movie: Ninja Clash in the Land of Snow) - Commission!
+모델 URL: https://civitai.com/models/937137
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Makina (The Rising Of The Shield Hero, season 4) - Commission!
+모델 URL: https://civitai.com/models/1990094
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Makoto Kikuchi (The iDOLM@STER 2011 anime art style)
+모델 URL: https://civitai.com/models/893964
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Chiyuri Kurashima (Accel World)
+모델 URL: https://civitai.com/models/718434
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Mega Man Star Force/Shinsuke Komaki (artist style) - Commission! - 435MB
+모델 URL: https://civitai.com/models/1645462
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Satou Amami (Komi Can't Communicate) - Commission!
+모델 URL: https://civitai.com/models/2006408
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Commission: Miaka Yuuki (Fushigi Yuugi)
+모델 URL: https://civitai.com/models/962018
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Fianna Ray Ordesia (Blade Dance of the Elementalers) - Commission!
+모델 URL: https://civitai.com/models/2014238
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Goriko (Genderbent Isao Kondou from Gintama)
+모델 URL: https://civitai.com/models/1361527
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ena Susanne Hillenbrand (The 8th Son? Are You Kidding Me?) - Commission!
+모델 URL: https://civitai.com/models/1866687
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Ellis Fahrengart (Blade Dance of the Elementalers) - Commission!
+모델 URL: https://civitai.com/models/2012102
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Eco (Dragonar Academy) - Commission!
+모델 URL: https://civitai.com/models/1806114
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Misaki Kirihara (Darker Than Black) - All Outfits! - Commission!
+모델 URL: https://civitai.com/models/1480328
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Esil Radiru (Solo Leveling: Arise) - Commission!
+모델 URL: https://civitai.com/models/1439539
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Rinslet Laurenfrost (Blade Dance of the Elementalers) - Commission!
+모델 URL: https://civitai.com/models/2014482
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Masaki Kurosaki (Bleach: Thousand-Year Blood War)
+모델 URL: https://civitai.com/models/2138037
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Tohru Honda (Fruits Basket 2019) - Commission!
+모델 URL: https://civitai.com/models/875887
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kyouka Uzen and Yuuki Wakura (Chained Soldier/Mato Seihei no Slave)
+모델 URL: https://civitai.com/models/960067
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Emma G. Wood (Babylon) - Commission!
+모델 URL: https://civitai.com/models/1961078
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Akari Tanikita (You Were Experienced, I Was Not: Our Dating Story)
+모델 URL: https://civitai.com/models/1185866
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Lo Po Bia Zahard (Tower of God) - Commission!
+모델 URL: https://civitai.com/models/1342548
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pooh's Grand Adventure: The Search for Christopher Robin (art style) - Collaboration LoRA!
+모델 URL: https://civitai.com/models/1881152
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Dandara "Dandy" Sombraes (Emi Erokuro series)
+모델 URL: https://civitai.com/models/1686849
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Hibiki Amawa, crossdressing (I My Me! Strawberry Eggs)
+모델 URL: https://civitai.com/models/1540005
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Hanare (Naruto: Shippuden) - Illustrious - Commission!
+모델 URL: https://civitai.com/models/1039640
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sakura (Fire Emblem: Fates) - Commission!
+모델 URL: https://civitai.com/models/1750863
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Emi Akezawa (Baki the Grappler) - 2 art styles! - Commission!
+모델 URL: https://civitai.com/models/1845483
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Louise Yorande Aorelia Oufelbeik (The 8th Son? Are You Kidding Me?) - Commission!
+모델 URL: https://civitai.com/models/1871604
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Lucca Sarlinen (Dragonar Academy) - Commission!
+모델 URL: https://civitai.com/models/2132743
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Chiyuri Kurashima (Accel World)
+모델 URL: https://civitai.com/models/1050226
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Elaine Bluelake (To the Abandoned Sacred Beasts) - Commission!
+모델 URL: https://civitai.com/models/1879399
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Doroka (The Kingdoms of Ruin)
+모델 URL: https://civitai.com/models/2140469
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Jessica Albert, 3D model style (Dragon Quest VIII) - Pony - 435 MB
+모델 URL: https://civitai.com/models/1609923
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sylvia van Hossen, Yuu Fujikura, and Maria van Hossen (Princess Lover! OVA) - Pony version
+모델 URL: https://civitai.com/models/1565058
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Amaru (Naruto Shippūden the Movie: Bonds) - Commission!
+모델 URL: https://civitai.com/models/1081829
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kaoruko Waguri (The Fragrant Flower Blooms with Dignity) - All Season 1 outfits! - Commission!
+모델 URL: https://civitai.com/models/1690238
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

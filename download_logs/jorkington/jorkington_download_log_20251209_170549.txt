@@ -1,0 +1,30 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251209_170549
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/jorkington/models
+
+[다운받을 모델 갯수]
+347
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Niramikko Kojou Style + Some Characters
+모델 URL: https://civitai.com/models/1327902
+포스트 아이디: 16924853
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16924853
+--------------------------------------
+
+--------------------------------------
+모델 이름: Jitsuma Style + Some Characters
+모델 URL: https://civitai.com/models/1636773
+포스트 아이디: 17681595
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17681595
+--------------------------------------

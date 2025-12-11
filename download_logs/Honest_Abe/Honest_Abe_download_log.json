@@ -1,0 +1,571 @@
+{
+  "success": [
+    {
+      "id": 108138798,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose XL\\108138798.png",
+      "size": 1167560
+    },
+    {
+      "id": 7957602,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7957602.jpeg",
+      "size": 156181
+    },
+    {
+      "id": 7956095,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7956095.jpeg",
+      "size": 136332
+    },
+    {
+      "id": 7957603,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7957603.jpeg",
+      "size": 153007
+    },
+    {
+      "id": 7957605,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7957605.jpeg",
+      "size": 154208
+    },
+    {
+      "id": 387170,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\Hannah_Dundee_Cadillacs__Dinosaurs_PonyXL.safetensors",
+      "size": 228459084
+    },
+    {
+      "id": 75449769,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose Illustrious\\75449769.png",
+      "size": 1188230
+    },
+    {
+      "id": 75449772,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose Illustrious\\75449772.png",
+      "size": 1305887
+    },
+    {
+      "id": 75413427,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose\\75413427.png",
+      "size": 1269255
+    },
+    {
+      "id": 45404346,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Stock Photos\\45404346.png",
+      "size": 1176906
+    },
+    {
+      "id": 45406467,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Stock Photos\\45406467.jpeg",
+      "size": 112844
+    },
+    {
+      "id": 7760546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760546.jpeg",
+      "size": 136396
+    },
+    {
+      "id": 7761509,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7761509.jpeg",
+      "size": 149286
+    },
+    {
+      "id": 7761293,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7761293.jpeg",
+      "size": 168510
+    },
+    {
+      "id": 7761546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7761546.jpeg",
+      "size": 159399
+    },
+    {
+      "id": 7760376,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760376.jpeg",
+      "size": 102870
+    },
+    {
+      "id": 7359225,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7359225.jpeg",
+      "size": 69489
+    },
+    {
+      "id": 7359738,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7359738.jpeg",
+      "size": 96786
+    },
+    {
+      "id": 7359214,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7359214.jpeg",
+      "size": 114251
+    },
+    {
+      "id": 7360117,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7360117.jpeg",
+      "size": 73678
+    },
+    {
+      "id": 7282468,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282468.jpeg",
+      "size": 73745
+    },
+    {
+      "id": 7282514,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282514.jpeg",
+      "size": 65235
+    },
+    {
+      "id": 7282539,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282539.jpeg",
+      "size": 67981
+    },
+    {
+      "id": 7282550,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282550.jpeg",
+      "size": 78447
+    }
+  ],
+  "failed": [
+    {
+      "id": 108138799,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose XL\\108138799.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75709b34-abc6-48bd-9d6c-bf7289d6d0a7/original=true/75709b34-abc6-48bd-9d6c-bf7289d6d0a7.jpeg",
+        "page_url": "https://civitai.com/images/108138799"
+      }
+    },
+    {
+      "id": 108138800,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose XL\\108138800.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec596eb6-7a1b-49cc-81a5-a801d586e015/original=true/ec596eb6-7a1b-49cc-81a5-a801d586e015.jpeg",
+        "page_url": "https://civitai.com/images/108138800"
+      }
+    },
+    {
+      "id": 2358456,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose XL\\Big_Beautiful_Nose_XL_r2.safetensors",
+        "expected_file_size": 228458380.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/2358456/Big_Beautiful_Nose_XL_r2.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Big_Beautiful_Nose_XL_r2.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131303Z&X-Amz-SignedHeaders=host&X-Amz-Signature=0629d7b7c66206e531351703725290f4c8b8ef145c2b90de89df99eb6e9f9dbe"
+      }
+    },
+    {
+      "id": 7956598,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7956598.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00236fd5-4258-4cbd-bd48-81dc42c48d58/original=true/00236fd5-4258-4cbd-bd48-81dc42c48d58.jpeg",
+        "page_url": "https://civitai.com/images/7956598"
+      }
+    },
+    {
+      "id": 7956944,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7956944.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63125c57-5ca7-4a13-8cbc-7fd71b15180e/original=true/63125c57-5ca7-4a13-8cbc-7fd71b15180e.jpeg",
+        "page_url": "https://civitai.com/images/7956944"
+      }
+    },
+    {
+      "id": 7957286,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Hannah Dundee (Cadillacs & Dinosaurs) PonyXL\\7957286.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/acd7e1a4-0e99-4b36-bbe8-cbbaf3da6b38/original=true/acd7e1a4-0e99-4b36-bbe8-cbbaf3da6b38.jpeg",
+        "page_url": "https://civitai.com/images/7957286"
+      }
+    },
+    {
+      "id": 75449771,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose Illustrious\\75449771.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e6d851d-f0cd-481f-9df6-7aba642b4f0d/original=true/1e6d851d-f0cd-481f-9df6-7aba642b4f0d.jpeg",
+        "page_url": "https://civitai.com/images/75449771"
+      }
+    },
+    {
+      "id": 1771720,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose Illustrious\\Big_Beautiful_Nose_Illustrious.safetensors",
+        "expected_file_size": 228458596.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1771720/Big_Beautiful_Nose_Illustrious.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Big_Beautiful_Nose_Illustrious.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131327Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5ee5ece1de9ed545ded479c98e802cfd39c2c626ae2a38751f4fc4da0ef7b9e2"
+      }
+    },
+    {
+      "id": 1769420,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Big Beautiful Nose\\Big_nose.safetensors",
+        "expected_file_size": 228458332.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1769420/Big_nose.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Big_nose.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131333Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a0e6df65e92c3f7991e9ef2d3fb2bb364bf06f38dab9182919acf5b0b3451715"
+      }
+    },
+    {
+      "id": 45406393,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Stock Photos\\45406393.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ad8dc7a-382c-4418-9cbe-7a04081fa683/original=true/8ad8dc7a-382c-4418-9cbe-7a04081fa683.jpeg",
+        "page_url": "https://civitai.com/images/45406393"
+      }
+    },
+    {
+      "id": 45406417,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Stock Photos\\45406417.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d693c803-06d2-4ed4-815f-e303b2a4dd59/original=true/d693c803-06d2-4ed4-815f-e303b2a4dd59.jpeg",
+        "page_url": "https://civitai.com/images/45406417"
+      }
+    },
+    {
+      "id": 1161555,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Stock Photos\\Stock_Photos-000008.safetensors",
+        "expected_file_size": 228466348.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1161555/Stock_Photos-000008.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Stock_Photos-000008.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131343Z&X-Amz-SignedHeaders=host&X-Amz-Signature=349a6d006298d7ca25df814065c0936b00b66025dff1383a799c421db5f45bf6"
+      }
+    },
+    {
+      "id": 7760162,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760162.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f89d3f97-302b-459a-b2c6-a97ddb7d6767/original=true/f89d3f97-302b-459a-b2c6-a97ddb7d6767.jpeg",
+        "page_url": "https://civitai.com/images/7760162"
+      }
+    },
+    {
+      "id": 7760468,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760468.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f1e62de-9945-4884-aeb4-b10348777aa1/original=true/9f1e62de-9945-4884-aeb4-b10348777aa1.jpeg",
+        "page_url": "https://civitai.com/images/7760468"
+      }
+    },
+    {
+      "id": 7760669,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760669.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1f253f8-0e04-4227-8ee3-05c109f1ba95/original=true/b1f253f8-0e04-4227-8ee3-05c109f1ba95.jpeg",
+        "page_url": "https://civitai.com/images/7760669"
+      }
+    },
+    {
+      "id": 7760460,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760460.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20372857-ba03-47ab-b19d-31f10552cafd/original=true/20372857-ba03-47ab-b19d-31f10552cafd.jpeg",
+        "page_url": "https://civitai.com/images/7760460"
+      }
+    },
+    {
+      "id": 7760944,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7760944.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08ea5f56-43f6-454c-b65d-b557c0d07ae1/original=true/08ea5f56-43f6-454c-b65d-b557c0d07ae1.jpeg",
+        "page_url": "https://civitai.com/images/7760944"
+      }
+    },
+    {
+      "id": 7759713,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\7759713.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/db82dbef-16cb-4bb0-b345-058eade34bc5/original=true/db82dbef-16cb-4bb0-b345-058eade34bc5.jpeg",
+        "page_url": "https://civitai.com/images/7759713"
+      }
+    },
+    {
+      "id": 380428,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter PonyXL\\Jane_Porter_PonyXL.safetensors",
+        "expected_file_size": 228455892.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/339747/Jane_Porter_PonyXL.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Jane_Porter_PonyXL.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131356Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ec503fc1d991dc4ec6163b698587272d5c5c6492ea4a52652e758af70c7f161d"
+      }
+    },
+    {
+      "id": 7360662,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7360662.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ee9cf4c-ff5f-445a-8c79-b25d4cc8b4e9/original=true/1ee9cf4c-ff5f-445a-8c79-b25d4cc8b4e9.jpeg",
+        "page_url": "https://civitai.com/images/7360662"
+      }
+    },
+    {
+      "id": 7359415,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7359415.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bddc4a7b-6fc0-42b3-b518-e5398c0eb3d5/original=true/bddc4a7b-6fc0-42b3-b518-e5398c0eb3d5.jpeg",
+        "page_url": "https://civitai.com/images/7359415"
+      }
+    },
+    {
+      "id": 7359483,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\7359483.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0b3bd0d5-a7a2-43c7-bab4-1f37e309bae3/original=true/0b3bd0d5-a7a2-43c7-bab4-1f37e309bae3.jpeg",
+        "page_url": "https://civitai.com/images/7359483"
+      }
+    },
+    {
+      "id": 370707,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\The Helga Sinclair-ifyer _ Atlantis_ The Lost Empire Style\\helga_sinclair_xl_prod_lora_helgaandfanart.safetensors",
+        "expected_file_size": 228455468.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/732466/helgaSinclairXlProd.IoBI.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22helga_sinclair_xl_prod_lora_helgaandfanart.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131420Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a7bd0e9cb730e7546cca71d77babe2fa9cee4ae485e7e58ac726318fdc986a2b"
+      }
+    },
+    {
+      "id": 7282225,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282225.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bde803ca-7e99-4be8-82a9-8bf63a9f2c58/original=true/bde803ca-7e99-4be8-82a9-8bf63a9f2c58.jpeg",
+        "page_url": "https://civitai.com/images/7282225"
+      }
+    },
+    {
+      "id": 7282516,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282516.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/801a55c1-d625-44a4-8e5b-1ae437491356/original=true/801a55c1-d625-44a4-8e5b-1ae437491356.jpeg",
+        "page_url": "https://civitai.com/images/7282516"
+      }
+    },
+    {
+      "id": 7282537,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282537.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18ca85a9-cf6a-4814-b38b-6b66664f2df3/original=true/18ca85a9-cf6a-4814-b38b-6b66664f2df3.jpeg",
+        "page_url": "https://civitai.com/images/7282537"
+      }
+    },
+    {
+      "id": 7282538,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\7282538.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14cddc51-9ef3-44b8-8fb7-c66bd5069ac6/original=true/14cddc51-9ef3-44b8-8fb7-c66bd5069ac6.jpeg",
+        "page_url": "https://civitai.com/images/7282538"
+      }
+    },
+    {
+      "id": 368138,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\NSFW Helga Sinclair XL_Pony XL Lora\\helga_sinclair_xl_prod_lora-000047.safetensors",
+        "expected_file_size": 228454308.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/default/41127/helgaSinclairXlProd.tEhd.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22helga_sinclair_xl_prod_lora-000047.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131440Z&X-Amz-SignedHeaders=host&X-Amz-Signature=cd872f2b926621963a46e147ce8d89cfeda85a6491304bc2ab80b09889eee45d"
+      }
+    },
+    {
+      "id": 3978609,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978609.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e0442a40-691c-4cf3-abf7-d5caac291924/original=true/e0442a40-691c-4cf3-abf7-d5caac291924.jpeg",
+        "page_url": "https://civitai.com/images/3978609"
+      }
+    },
+    {
+      "id": 3979060,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3979060.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/325484ac-6183-4a1d-9e14-1695824eb28a/original=true/325484ac-6183-4a1d-9e14-1695824eb28a.jpeg",
+        "page_url": "https://civitai.com/images/3979060"
+      }
+    },
+    {
+      "id": 3978693,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978693.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7a04f87-dd0a-48a1-92fb-79f7acb97de9/original=true/a7a04f87-dd0a-48a1-92fb-79f7acb97de9.jpeg",
+        "page_url": "https://civitai.com/images/3978693"
+      }
+    },
+    {
+      "id": 3979059,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3979059.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5007dfdb-a02a-44df-8085-22323e815cab/original=true/5007dfdb-a02a-44df-8085-22323e815cab.jpeg",
+        "page_url": "https://civitai.com/images/3979059"
+      }
+    },
+    {
+      "id": 3978946,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978946.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09e4f113-e8b2-4b92-bdb2-ba098c79804a/original=true/09e4f113-e8b2-4b92-bdb2-ba098c79804a.jpeg",
+        "page_url": "https://civitai.com/images/3978946"
+      }
+    },
+    {
+      "id": 3978939,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978939.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/76be940b-60a6-40a9-bd94-429cfa7ffffb/original=true/76be940b-60a6-40a9-bd94-429cfa7ffffb.jpeg",
+        "page_url": "https://civitai.com/images/3978939"
+      }
+    },
+    {
+      "id": 3978507,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978507.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f03d74d-11ff-4e88-a4d6-41d3f9264029/original=true/1f03d74d-11ff-4e88-a4d6-41d3f9264029.jpeg",
+        "page_url": "https://civitai.com/images/3978507"
+      }
+    },
+    {
+      "id": 3978508,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978508.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f46ce09-055a-4c4c-935e-84b206a8a98f/original=true/7f46ce09-055a-4c4c-935e-84b206a8a98f.jpeg",
+        "page_url": "https://civitai.com/images/3978508"
+      }
+    },
+    {
+      "id": 3978506,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978506.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4851798-a46a-49cc-9c1d-8601e030c12d/original=true/d4851798-a46a-49cc-9c1d-8601e030c12d.jpeg",
+        "page_url": "https://civitai.com/images/3978506"
+      }
+    },
+    {
+      "id": 3978504,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\3978504.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e8985296-ccda-45c0-9441-ad537b1db884/original=true/e8985296-ccda-45c0-9441-ad537b1db884.jpeg",
+        "page_url": "https://civitai.com/images/3978504"
+      }
+    },
+    {
+      "id": 241495,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Honest_Abe\\Jane Porter XL (NSFW)\\Jane_Porter.safetensors",
+        "expected_file_size": 228455676.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/732466/janePorter.l3Zt.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Jane_Porter.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251209/us-east-1/s3/aws4_request&X-Amz-Date=20251209T131454Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f9d71d20a47e5e3eca03ea6824a995184a3a6a676ff460901d1fd6b8a428efb9"
+      }
+    }
+  ]
+}

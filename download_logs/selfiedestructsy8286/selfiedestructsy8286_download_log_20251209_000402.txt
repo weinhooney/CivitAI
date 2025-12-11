@@ -1,0 +1,28 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251209_000402
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/selfiedestructsy8286/models
+
+[다운받을 모델 갯수]
+188
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Tezuka Yumimi [With Ribbon]
+모델 URL: https://civitai.com/models/2054279
+포스트 아이디: 23641496
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/23641496
+--------------------------------------
+
+--------------------------------------
+모델 이름: Muse/ミュース [Elfen King/エルフェンキング]
+모델 URL: https://civitai.com/models/1855940
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

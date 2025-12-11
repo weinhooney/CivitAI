@@ -1,0 +1,989 @@
+{
+  "success": [
+    {
+      "id": 106707721,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Mizuki Nanako _ GTO\\106707721.png",
+      "size": 3441988
+    },
+    {
+      "id": 106707762,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Mizuki Nanako _ GTO\\106707762.png",
+      "size": 3214332
+    },
+    {
+      "id": 2328158,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Mizuki Nanako _ GTO\\gtoMizukiNanako02.safetensors",
+      "size": 85428932
+    },
+    {
+      "id": 93609233,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Hasebe Haruka, Yukimura Teruhiko (IllustriousXL) _ Classroom of the Elite\\93609233.png",
+      "size": 4091967
+    },
+    {
+      "id": 2102552,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Hasebe Haruka, Yukimura Teruhiko (IllustriousXL) _ Classroom of the Elite\\coteHasebeHaruka01.safetensors",
+      "size": 85430020
+    },
+    {
+      "id": 106707733,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Mizuki Nanako _ GTO\\106707733.png",
+      "size": 3427358
+    },
+    {
+      "id": 106707737,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Mizuki Nanako _ GTO\\106707737.png",
+      "size": 3623028
+    },
+    {
+      "id": 93609187,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Hasebe Haruka, Yukimura Teruhiko (IllustriousXL) _ Classroom of the Elite\\93609187.png",
+      "size": 3904547
+    },
+    {
+      "id": 93609212,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Hasebe Haruka, Yukimura Teruhiko (IllustriousXL) _ Classroom of the Elite\\93609212.png",
+      "size": 3535340
+    },
+    {
+      "id": 90651461,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Yamashita Saki (IllustriousXL) _ Classroom of the Elite\\90651461.png",
+      "size": 2904107
+    },
+    {
+      "id": 90664345,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Yamashita Saki (IllustriousXL) _ Classroom of the Elite\\90664345.png",
+      "size": 3950039
+    },
+    {
+      "id": 2051195,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Yamashita Saki (IllustriousXL) _ Classroom of the Elite\\coteYamashitaSaki01.safetensors",
+      "size": 85429484
+    },
+    {
+      "id": 86619466,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619466.png",
+      "size": 1220567
+    },
+    {
+      "id": 86619511,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619511.png",
+      "size": 3231821
+    },
+    {
+      "id": 86619536,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619536.png",
+      "size": 3757691
+    },
+    {
+      "id": 86619546,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619546.png",
+      "size": 4191925
+    },
+    {
+      "id": 1980439,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\fmpS1ChidoriKaname02-000006.safetensors",
+      "size": 85433012
+    },
+    {
+      "id": 82189946,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Ryuen Kakeru (IllustriouXL) _ Classroom of the Elite\\82189946.png",
+      "size": 3738102
+    },
+    {
+      "id": 82189972,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Ryuen Kakeru (IllustriouXL) _ Classroom of the Elite\\82189972.png",
+      "size": 3266463
+    },
+    {
+      "id": 82189983,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Ryuen Kakeru (IllustriouXL) _ Classroom of the Elite\\82189983.png",
+      "size": 4205156
+    },
+    {
+      "id": 1900629,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Ryuen Kakeru (IllustriouXL) _ Classroom of the Elite\\ryn1.safetensors",
+      "size": 85427148
+    },
+    {
+      "id": 82174169,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Joanna (ep1 gangster's fiancee) (IllustriousXL) _ BLACK CAT\\82174169.png",
+      "size": 3501950
+    },
+    {
+      "id": 1900440,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Joanna (ep1 gangster's fiancee) (IllustriousXL) _ BLACK CAT\\ep1gangstersfiancee2-000008.safetensors",
+      "size": 85427436
+    },
+    {
+      "id": 80908062,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Anna (IllustriousXL) _ Redo of Healer\\80908062.png",
+      "size": 3140953
+    },
+    {
+      "id": 80908085,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Anna (IllustriousXL) _ Redo of Healer\\80908085.png",
+      "size": 932417
+    },
+    {
+      "id": 80908315,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Anna (IllustriousXL) _ Redo of Healer\\80908315.png",
+      "size": 3817912
+    },
+    {
+      "id": 1876932,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Anna (IllustriousXL) _ Redo of Healer\\RoHanna4.safetensors",
+      "size": 85427972
+    },
+    {
+      "id": 79520832,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shiina Hiyori (IllustriousXL) _ Classroom of the Elite\\79520832.png",
+      "size": 4167000
+    },
+    {
+      "id": 79520868,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shiina Hiyori (IllustriousXL) _ Classroom of the Elite\\79520868.webp",
+      "size": 7562265
+    },
+    {
+      "id": 79520887,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shiina Hiyori (IllustriousXL) _ Classroom of the Elite\\79520887.png",
+      "size": 3912271
+    },
+    {
+      "id": 1851391,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shiina Hiyori (IllustriousXL) _ Classroom of the Elite\\hyr5.safetensors",
+      "size": 85427380
+    },
+    {
+      "id": 78250986,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Saeki Ena (IllustriousXL) _ Full Metal Panic_ Fumoffu\\78250986.png",
+      "size": 4170404
+    },
+    {
+      "id": 78251188,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Saeki Ena (IllustriousXL) _ Full Metal Panic_ Fumoffu\\78251188.png",
+      "size": 3710673
+    },
+    {
+      "id": 78251746,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Saeki Ena (IllustriousXL) _ Full Metal Panic_ Fumoffu\\78251746.png",
+      "size": 3371345
+    },
+    {
+      "id": 1828335,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Saeki Ena (IllustriousXL) _ Full Metal Panic_ Fumoffu\\saekiena1.safetensors",
+      "size": 85426548
+    },
+    {
+      "id": 75596387,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75596387.png",
+      "size": 4307890
+    },
+    {
+      "id": 75596424,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75596424.png",
+      "size": 3418613
+    },
+    {
+      "id": 75596496,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75596496.png",
+      "size": 2949136
+    },
+    {
+      "id": 75597073,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75597073.png",
+      "size": 3842653
+    },
+    {
+      "id": 75599544,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75599544.webp",
+      "size": 2552092
+    },
+    {
+      "id": 75599788,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75599788.webp",
+      "size": 2788697
+    },
+    {
+      "id": 75599796,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\75599796.webp",
+      "size": 2072761
+    },
+    {
+      "id": 1774611,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kushida Kikyou Illustrious XL Lora _ Classroom of the Elite\\ksd4.safetensors",
+      "size": 85428444
+    },
+    {
+      "id": 74190923,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shinohara Satsuki IllustriousXL _ Classroom of the Elite\\74190923.png",
+      "size": 3267732
+    },
+    {
+      "id": 74192751,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shinohara Satsuki IllustriousXL _ Classroom of the Elite\\74192751.png",
+      "size": 4762098
+    },
+    {
+      "id": 74192232,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shinohara Satsuki IllustriousXL _ Classroom of the Elite\\74192232.png",
+      "size": 3620674
+    },
+    {
+      "id": 1746564,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Shinohara Satsuki IllustriousXL _ Classroom of the Elite\\snhr3.safetensors",
+      "size": 85427516
+    },
+    {
+      "id": 73980914,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Sato Maya IllustriousXL _ Classroom of the Elite\\73980914.png",
+      "size": 3768148
+    },
+    {
+      "id": 73981313,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Sato Maya IllustriousXL _ Classroom of the Elite\\73981313.png",
+      "size": 3491267
+    },
+    {
+      "id": 1742016,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Sato Maya IllustriousXL _ Classroom of the Elite\\stmy3.safetensors",
+      "size": 85428196
+    },
+    {
+      "id": 73741965,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\73741965.png",
+      "size": 3056724
+    },
+    {
+      "id": 73746576,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\73746576.png",
+      "size": 2666882
+    },
+    {
+      "id": 75429215,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\75429215.webp",
+      "size": 2399284
+    },
+    {
+      "id": 1737128,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\mnb2.safetensors",
+      "size": 85427476
+    },
+    {
+      "id": 73451220,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tachibana Akane IllustriousXL _ Classroom of the Elite\\73451220.png",
+      "size": 2888925
+    },
+    {
+      "id": 73453215,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tachibana Akane IllustriousXL _ Classroom of the Elite\\73453215.png",
+      "size": 2987601
+    },
+    {
+      "id": 73453219,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tachibana Akane IllustriousXL _ Classroom of the Elite\\73453219.png",
+      "size": 3663146
+    },
+    {
+      "id": 1731152,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tachibana Akane IllustriousXL _ Classroom of the Elite\\tcbn1.safetensors",
+      "size": 85427556
+    },
+    {
+      "id": 72817164,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\72817164.png",
+      "size": 3145759
+    },
+    {
+      "id": 72818528,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\72818528.png",
+      "size": 3263213
+    },
+    {
+      "id": 72817818,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\72817818.png",
+      "size": 3517735
+    },
+    {
+      "id": 72818586,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\72818586.png",
+      "size": 3688076
+    },
+    {
+      "id": 1718985,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\kmr1.safetensors",
+      "size": 85427548
+    },
+    {
+      "id": 72419645,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Wang Mei-Yui (Mii-chan) IllustriousXL _ Classroom of the Elite\\72419645.png",
+      "size": 3405076
+    },
+    {
+      "id": 72419544,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Wang Mei-Yui (Mii-chan) IllustriousXL _ Classroom of the Elite\\72419544.png",
+      "size": 4499200
+    },
+    {
+      "id": 72417499,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Wang Mei-Yui (Mii-chan) IllustriousXL _ Classroom of the Elite\\72417499.png",
+      "size": 3550289
+    },
+    {
+      "id": 1710291,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Wang Mei-Yui (Mii-chan) IllustriousXL _ Classroom of the Elite\\wmy1.safetensors",
+      "size": 85427380
+    },
+    {
+      "id": 59801021,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801021.png",
+      "size": 3211299
+    },
+    {
+      "id": 59801039,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801039.png",
+      "size": 3050934
+    },
+    {
+      "id": 59801087,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801087.png",
+      "size": 2728207
+    },
+    {
+      "id": 59801174,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801174.png",
+      "size": 3423104
+    },
+    {
+      "id": 59801263,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801263.png",
+      "size": 3335962
+    },
+    {
+      "id": 1455711,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\yfnyln2.safetensors",
+      "size": 85432468
+    },
+    {
+      "id": 58386891,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Gokou Ruri IllustriousXL _ Oreimo\\58386891.png",
+      "size": 3262202
+    },
+    {
+      "id": 58386932,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Gokou Ruri IllustriousXL _ Oreimo\\58386932.png",
+      "size": 4007165
+    },
+    {
+      "id": 58386951,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Gokou Ruri IllustriousXL _ Oreimo\\58386951.png",
+      "size": 3602882
+    },
+    {
+      "id": 1426258,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Gokou Ruri IllustriousXL _ Oreimo\\krnk4.safetensors",
+      "size": 85428628
+    },
+    {
+      "id": 58183907,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\58183907.png",
+      "size": 2983917
+    },
+    {
+      "id": 58183951,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\58183951.png",
+      "size": 1238861
+    },
+    {
+      "id": 1421605,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\knk1.safetensors",
+      "size": 85429380
+    },
+    {
+      "id": 57956015,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tanya IllustriousXL _ Black Cat\\57956015.png",
+      "size": 2534095
+    },
+    {
+      "id": 57956021,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tanya IllustriousXL _ Black Cat\\57956021.png",
+      "size": 3318282
+    },
+    {
+      "id": 57956059,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tanya IllustriousXL _ Black Cat\\57956059.png",
+      "size": 3307364
+    },
+    {
+      "id": 1416684,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Tanya IllustriousXL _ Black Cat\\tny1-000004.safetensors",
+      "size": 85427988
+    },
+    {
+      "id": 57955317,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Rinslet Walker IllustriousXL _ Black Cat\\57955317.png",
+      "size": 3921966
+    },
+    {
+      "id": 57955355,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Rinslet Walker IllustriousXL _ Black Cat\\57955355.png",
+      "size": 3617932
+    },
+    {
+      "id": 57955384,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Rinslet Walker IllustriousXL _ Black Cat\\57955384.png",
+      "size": 3694366
+    },
+    {
+      "id": 1416664,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Rinslet Walker IllustriousXL _ Black Cat\\rns.safetensors",
+      "size": 85429660
+    },
+    {
+      "id": 57953581,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kirisaki Kyoko IllustriousXL _ Black Cat\\57953581.png",
+      "size": 2491082
+    },
+    {
+      "id": 57953681,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kirisaki Kyoko IllustriousXL _ Black Cat\\57953681.png",
+      "size": 2899645
+    },
+    {
+      "id": 1416630,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kirisaki Kyoko IllustriousXL _ Black Cat\\krsk1.safetensors",
+      "size": 85430428
+    },
+    {
+      "id": 56537451,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kishimoto Kei IllustriousXL _ GANTZ\\56537451.png",
+      "size": 2684241
+    },
+    {
+      "id": 56537493,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kishimoto Kei IllustriousXL _ GANTZ\\56537493.png",
+      "size": 3408653
+    },
+    {
+      "id": 1386905,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Kishimoto Kei IllustriousXL _ GANTZ\\ksmt1.safetensors",
+      "size": 85429644
+    },
+    {
+      "id": 55382853,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\55382853.png",
+      "size": 4262821
+    },
+    {
+      "id": 55383011,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\55383011.jpeg",
+      "size": 545842
+    },
+    {
+      "id": 55383483,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\55383483.png",
+      "size": 3916352
+    },
+    {
+      "id": 53905873,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Minatsuki Saya - IllustriousXL _ Black Cat\\53905873.png",
+      "size": 4068730
+    },
+    {
+      "id": 53905955,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Minatsuki Saya - IllustriousXL _ Black Cat\\53905955.png",
+      "size": 3373325
+    },
+    {
+      "id": 53905983,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\rutjgft\\Minatsuki Saya - IllustriousXL _ Black Cat\\53905983.png",
+      "size": 3368204
+    }
+  ],
+  "failed": [
+    {
+      "id": 90651457,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Yamashita Saki (IllustriousXL) _ Classroom of the Elite\\90651457.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de8d906e-0280-4c96-9cfa-e58a71931685/original=true/de8d906e-0280-4c96-9cfa-e58a71931685.jpeg",
+        "page_url": "https://civitai.com/images/90651457"
+      }
+    },
+    {
+      "id": 90666023,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Yamashita Saki (IllustriousXL) _ Classroom of the Elite\\90666023.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9ba2a9be-49bf-4d62-b90c-78738eb4041a/original=true/9ba2a9be-49bf-4d62-b90c-78738eb4041a.jpeg",
+        "page_url": "https://civitai.com/images/90666023"
+      }
+    },
+    {
+      "id": 86619506,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619506.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f9965d2-5197-469e-9aa0-43eb6e24833b/original=true/4f9965d2-5197-469e-9aa0-43eb6e24833b.jpeg",
+        "page_url": "https://civitai.com/images/86619506"
+      }
+    },
+    {
+      "id": 86619524,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Chidori Kaname (IllustriousXL) _ Full Metal Panic!\\86619524.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/020205e1-fbdb-40c5-b378-4b954e4b86b5/original=true/020205e1-fbdb-40c5-b378-4b954e4b86b5.jpeg",
+        "page_url": "https://civitai.com/images/86619524"
+      }
+    },
+    {
+      "id": 82189977,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Ryuen Kakeru (IllustriouXL) _ Classroom of the Elite\\82189977.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/21bd596c-765c-43ac-b41f-62f467657093/original=true/21bd596c-765c-43ac-b41f-62f467657093.jpeg",
+        "page_url": "https://civitai.com/images/82189977"
+      }
+    },
+    {
+      "id": 82174010,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Joanna (ep1 gangster's fiancee) (IllustriousXL) _ BLACK CAT\\82174010.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/360a8bd9-21c0-4a6a-9835-580a46f627a3/original=true/360a8bd9-21c0-4a6a-9835-580a46f627a3.jpeg",
+        "page_url": "https://civitai.com/images/82174010"
+      }
+    },
+    {
+      "id": 82174055,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Joanna (ep1 gangster's fiancee) (IllustriousXL) _ BLACK CAT\\82174055.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4ea96871-3199-41b9-97b5-ce2578c66819/original=true/4ea96871-3199-41b9-97b5-ce2578c66819.jpeg",
+        "page_url": "https://civitai.com/images/82174055"
+      }
+    },
+    {
+      "id": 82174148,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Joanna (ep1 gangster's fiancee) (IllustriousXL) _ BLACK CAT\\82174148.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80d0a88f-5008-432e-9e82-1f2361feb06a/original=true/80d0a88f-5008-432e-9e82-1f2361feb06a.jpeg",
+        "page_url": "https://civitai.com/images/82174148"
+      }
+    },
+    {
+      "id": 80908101,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Anna (IllustriousXL) _ Redo of Healer\\80908101.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6695d05c-35b4-4bd3-ba4f-185e85cefc4a/original=true/6695d05c-35b4-4bd3-ba4f-185e85cefc4a.jpeg",
+        "page_url": "https://civitai.com/images/80908101"
+      }
+    },
+    {
+      "id": 78251523,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Saeki Ena (IllustriousXL) _ Full Metal Panic_ Fumoffu\\78251523.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/133b6e1a-dc33-4084-a88f-f17b584e5609/original=true/133b6e1a-dc33-4084-a88f-f17b584e5609.jpeg",
+        "page_url": "https://civitai.com/images/78251523"
+      }
+    },
+    {
+      "id": 74191026,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Shinohara Satsuki IllustriousXL _ Classroom of the Elite\\74191026.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/86a1ea5b-b84a-4033-b4b2-e2b3d3150813/original=true/86a1ea5b-b84a-4033-b4b2-e2b3d3150813.jpeg",
+        "page_url": "https://civitai.com/images/74191026"
+      }
+    },
+    {
+      "id": 73980885,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Sato Maya IllustriousXL _ Classroom of the Elite\\73980885.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e23cd47-fdae-46a7-b9de-ed63cf236b54/original=true/1e23cd47-fdae-46a7-b9de-ed63cf236b54.jpeg",
+        "page_url": "https://civitai.com/images/73980885"
+      }
+    },
+    {
+      "id": 73980919,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Sato Maya IllustriousXL _ Classroom of the Elite\\73980919.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/07a12204-52ff-4580-b5b1-522f16f1f932/original=true/07a12204-52ff-4580-b5b1-522f16f1f932.jpeg",
+        "page_url": "https://civitai.com/images/73980919"
+      }
+    },
+    {
+      "id": 73742453,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\73742453.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5e2120fe-9542-40ca-8453-aa5102b470d6/original=true/5e2120fe-9542-40ca-8453-aa5102b470d6.jpeg",
+        "page_url": "https://civitai.com/images/73742453"
+      }
+    },
+    {
+      "id": 73742573,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\73742573.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7f237567-ad0e-4e28-bd67-0ba9018d34b7/original=true/7f237567-ad0e-4e28-bd67-0ba9018d34b7.jpeg",
+        "page_url": "https://civitai.com/images/73742573"
+      }
+    },
+    {
+      "id": 73743751,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Manabe Shiho IllustriousXL _ Classroom of the Elite\\73743751.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a1eb026c-9612-4139-b8b0-7f903aaafca9/original=true/a1eb026c-9612-4139-b8b0-7f903aaafca9.jpeg",
+        "page_url": "https://civitai.com/images/73743751"
+      }
+    },
+    {
+      "id": 73451299,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Tachibana Akane IllustriousXL _ Classroom of the Elite\\73451299.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ccbe5fa8-27d9-4a62-a6be-09f82fc9327f/original=true/ccbe5fa8-27d9-4a62-a6be-09f82fc9327f.jpeg",
+        "page_url": "https://civitai.com/images/73451299"
+      }
+    },
+    {
+      "id": 72835897,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kamuro Masumi IllustriousXL _ Classroom of the Elite\\72835897.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/984f2924-b927-448a-886a-fe67e70e6957/original=true/984f2924-b927-448a-886a-fe67e70e6957.jpeg",
+        "page_url": "https://civitai.com/images/72835897"
+      }
+    },
+    {
+      "id": 72416518,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Wang Mei-Yui (Mii-chan) IllustriousXL _ Classroom of the Elite\\72416518.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8724fa4f-45b4-4036-8101-caa475f3818e/original=true/8724fa4f-45b4-4036-8101-caa475f3818e.jpeg",
+        "page_url": "https://civitai.com/images/72416518"
+      }
+    },
+    {
+      "id": 59801221,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Xia Yu Fan, Xia Yu Lan, Gates IllustriousXL _ Full Metal Panic!\\59801221.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03956a2e-c1b2-4e2c-9475-492841b94a02/original=true/03956a2e-c1b2-4e2c-9475-492841b94a02.jpeg",
+        "page_url": "https://civitai.com/images/59801221"
+      }
+    },
+    {
+      "id": 58386940,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Gokou Ruri IllustriousXL _ Oreimo\\58386940.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3b8533ff-1b0c-48bd-8c5c-fec998e15572/original=true/3b8533ff-1b0c-48bd-8c5c-fec998e15572.jpeg",
+        "page_url": "https://civitai.com/images/58386940"
+      }
+    },
+    {
+      "id": 58183841,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\58183841.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0c005dfe-1fb7-4e94-aedc-63ef13f20d6a/original=true/0c005dfe-1fb7-4e94-aedc-63ef13f20d6a.jpeg",
+        "page_url": "https://civitai.com/images/58183841"
+      }
+    },
+    {
+      "id": 58183884,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\58183884.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7bd3abad-bfbb-4eca-830f-e2eb53ec5ed9/original=true/7bd3abad-bfbb-4eca-830f-e2eb53ec5ed9.jpeg",
+        "page_url": "https://civitai.com/images/58183884"
+      }
+    },
+    {
+      "id": 58183961,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kurusu Kanako IllustriousXL _ Oreimo\\58183961.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/053ab690-49be-4402-b915-aceb420b4489/original=true/053ab690-49be-4402-b915-aceb420b4489.jpeg",
+        "page_url": "https://civitai.com/images/58183961"
+      }
+    },
+    {
+      "id": 57955999,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Tanya IllustriousXL _ Black Cat\\57955999.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33014adc-db09-4885-a482-a56fcd545f40/original=true/33014adc-db09-4885-a482-a56fcd545f40.jpeg",
+        "page_url": "https://civitai.com/images/57955999"
+      }
+    },
+    {
+      "id": 57955393,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Rinslet Walker IllustriousXL _ Black Cat\\57955393.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a83ee0fe-5689-49d4-8861-ee7e65043728/original=true/a83ee0fe-5689-49d4-8861-ee7e65043728.jpeg",
+        "page_url": "https://civitai.com/images/57955393"
+      }
+    },
+    {
+      "id": 57953610,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kirisaki Kyoko IllustriousXL _ Black Cat\\57953610.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d53027d-0068-4033-be0b-7fe0069ae94c/original=true/2d53027d-0068-4033-be0b-7fe0069ae94c.jpeg",
+        "page_url": "https://civitai.com/images/57953610"
+      }
+    },
+    {
+      "id": 57953653,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kirisaki Kyoko IllustriousXL _ Black Cat\\57953653.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03cedc89-6b48-4c05-8f5f-68dcf568087d/original=true/03cedc89-6b48-4c05-8f5f-68dcf568087d.jpeg",
+        "page_url": "https://civitai.com/images/57953653"
+      }
+    },
+    {
+      "id": 56537398,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kishimoto Kei IllustriousXL _ GANTZ\\56537398.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fc5e7725-75a3-4b77-b9ca-dea15766c7d3/original=true/fc5e7725-75a3-4b77-b9ca-dea15766c7d3.jpeg",
+        "page_url": "https://civitai.com/images/56537398"
+      }
+    },
+    {
+      "id": 56537472,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Kishimoto Kei IllustriousXL _ GANTZ\\56537472.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea90db02-16f8-41e7-a8d1-41b6792cf952/original=true/ea90db02-16f8-41e7-a8d1-41b6792cf952.jpeg",
+        "page_url": "https://civitai.com/images/56537472"
+      }
+    },
+    {
+      "id": 55383331,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\55383331.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b4f8252-e62c-459a-b312-39b412c9c8de/original=true/1b4f8252-e62c-459a-b312-39b412c9c8de.jpeg",
+        "page_url": "https://civitai.com/images/55383331"
+      }
+    },
+    {
+      "id": 55383676,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\55383676.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88a26674-8256-42e8-a7b2-c54fe825e959/original=true/88a26674-8256-42e8-a7b2-c54fe825e959.jpeg",
+        "page_url": "https://civitai.com/images/55383676"
+      }
+    },
+    {
+      "id": 1362805,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Dannoura Tomochika IllustriousXL _ My Instant Death Ability Is So Overpowered\\tmck3.safetensors",
+        "expected_file_size": 85429660.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/1427005/tmck3.yZjP.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22tmck3.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251208/us-east-1/s3/aws4_request&X-Amz-Date=20251208T124311Z&X-Amz-SignedHeaders=host&X-Amz-Signature=361ec129b0aac061f4e232c7178b40d31eca89376fab134842516cd4dac423c1"
+      }
+    },
+    {
+      "id": 53905916,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Minatsuki Saya - IllustriousXL _ Black Cat\\53905916.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc552c76-9247-496a-b0de-fff4475ba24c/original=true/cc552c76-9247-496a-b0de-fff4475ba24c.jpeg",
+        "page_url": "https://civitai.com/images/53905916"
+      }
+    },
+    {
+      "id": 1330847,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\rutjgft\\Minatsuki Saya - IllustriousXL _ Black Cat\\mntk-000008.safetensors",
+        "expected_file_size": 85427772.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/1427005/mntk000008.iDXi.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22mntk-000008.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251208/us-east-1/s3/aws4_request&X-Amz-Date=20251208T124319Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f44106fd111e1b1b62b3b727373e5f7e1c621c3a0b57b16fd4a48333f0c580e8"
+      }
+    }
+  ]
+}

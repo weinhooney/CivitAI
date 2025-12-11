@@ -1,0 +1,130 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251208_145337
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/JudgeNaegi/models
+
+[다운받을 모델 갯수]
+779
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Yui Nakaizumi [JK to Ero Konbini Tenchou]|PONY/IL]
+모델 URL: https://civitai.com/models/596411
+포스트 아이디: 16702365
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16702365
+--------------------------------------
+
+--------------------------------------
+모델 이름: Hakurei Reimu [Touhou Memories of Phantasm][PONY/IL]
+모델 URL: https://civitai.com/models/638037
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Maam [Dragon Quest Dai no Daibouken][PONY/IL]
+모델 URL: https://civitai.com/models/1539378
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Shiori Fuyutsuki [JK to Ero Konbini Tenchou][PONY/IL]
+모델 URL: https://civitai.com/models/596933
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sora Kasugano [Yosuga no Sora][COMMISSION][PONY/IL]
+모델 URL: https://civitai.com/models/944281
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Presea Combatir [Tales of Symphonia][PONY/IL]
+모델 URL: https://civitai.com/models/1852058
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Aoi Nami [Aki Sora]
+모델 URL: https://civitai.com/models/627813
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Makoto [Viper Series][PONY/IL]
+모델 URL: https://civitai.com/models/2116146
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Keiko Yukimura [Yu Yu Hakusho][PONY/IL]
+모델 URL: https://civitai.com/models/1187488
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Franziska von Karma [Ace Attorney][PONY/IL]
+모델 URL: https://civitai.com/models/2078584
+포스트 아이디: 23896621
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/23896621
+--------------------------------------
+
+--------------------------------------
+모델 이름: Nanami Honda [Soredomo Tsuma o Aishiteru][PONY/IL]
+모델 URL: https://civitai.com/models/1308660
+포스트 아이디: 13620810
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/13620810
+--------------------------------------
+
+--------------------------------------
+모델 이름: Hinano [Girls Rush The Animation][PONY/IL]
+모델 URL: https://civitai.com/models/1601604
+포스트 아이디: 17202949
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17202949
+--------------------------------------
+
+--------------------------------------
+모델 이름: Quiet [Metal Gear][PONY/IL]
+모델 URL: https://civitai.com/models/1716479
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sayuri Takamine [Garden : Takamine-ke no Nirinka]
+모델 URL: https://civitai.com/models/603626
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

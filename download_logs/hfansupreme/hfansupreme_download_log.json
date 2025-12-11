@@ -1,0 +1,986 @@
+{
+  "success": [
+    {
+      "id": 41329403,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\41329403.png",
+      "size": 518083
+    },
+    {
+      "id": 41329667,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\41329667.png",
+      "size": 616580
+    },
+    {
+      "id": 41330335,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\41330335.png",
+      "size": 592788
+    },
+    {
+      "id": 1083618,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\Tita_Μu_Koshigaya_Captain_Tita_-_Plastic_Little.safetensors",
+      "size": 228461764
+    },
+    {
+      "id": 91769779,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\91769779.png",
+      "size": 1177600
+    },
+    {
+      "id": 91769781,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\91769781.png",
+      "size": 1865752
+    },
+    {
+      "id": 91769778,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\91769778.png",
+      "size": 1622843
+    },
+    {
+      "id": 2071018,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\Kazuk_Kotobuki_Illustrious.safetensors",
+      "size": 228470196
+    },
+    {
+      "id": 50379947,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379947.png",
+      "size": 412123
+    },
+    {
+      "id": 50379949,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379949.png",
+      "size": 379780
+    },
+    {
+      "id": 50379940,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379940.png",
+      "size": 441892
+    },
+    {
+      "id": 50379945,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379945.png",
+      "size": 535294
+    },
+    {
+      "id": 50379946,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379946.png",
+      "size": 544736
+    },
+    {
+      "id": 50379939,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379939.png",
+      "size": 401889
+    },
+    {
+      "id": 50379942,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379942.png",
+      "size": 507886
+    },
+    {
+      "id": 1257456,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\Yayoi_Kuribayashi_-_Mouse_マウス_anime.safetensors",
+      "size": 228459932
+    },
+    {
+      "id": 45771131,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771131.png",
+      "size": 578855
+    },
+    {
+      "id": 45771130,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771130.png",
+      "size": 575934
+    },
+    {
+      "id": 45771127,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771127.png",
+      "size": 538651
+    },
+    {
+      "id": 45771128,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771128.png",
+      "size": 550349
+    },
+    {
+      "id": 45771129,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771129.png",
+      "size": 585084
+    },
+    {
+      "id": 45771133,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771133.png",
+      "size": 603469
+    },
+    {
+      "id": 45771135,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771135.png",
+      "size": 576003
+    },
+    {
+      "id": 45771132,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771132.png",
+      "size": 611185
+    },
+    {
+      "id": 1168949,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\Sutra_Twin_Angels_淫獣聖戦_ツインエンジェル.safetensors",
+      "size": 228459540
+    },
+    {
+      "id": 39075046,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075046.jpeg",
+      "size": 563796
+    },
+    {
+      "id": 39075044,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075044.jpeg",
+      "size": 365434
+    },
+    {
+      "id": 39075047,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075047.jpeg",
+      "size": 540986
+    },
+    {
+      "id": 39075048,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075048.jpeg",
+      "size": 590583
+    },
+    {
+      "id": 39075049,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075049.jpeg",
+      "size": 867717
+    },
+    {
+      "id": 39075052,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075052.jpeg",
+      "size": 1088156
+    },
+    {
+      "id": 1040914,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\Student_from_Angel_of_Darkness_2_淫獣教師.safetensors",
+      "size": 228456572
+    },
+    {
+      "id": 38042331,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042331.jpeg",
+      "size": 574162
+    },
+    {
+      "id": 38042337,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042337.jpeg",
+      "size": 1624661
+    },
+    {
+      "id": 38042334,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042334.jpeg",
+      "size": 1144489
+    },
+    {
+      "id": 38042336,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042336.jpeg",
+      "size": 2302319
+    },
+    {
+      "id": 38042778,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042778.jpeg",
+      "size": 798984
+    },
+    {
+      "id": 1021483,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\Panni_Fatal_Fury_The_Motion_Picture.safetensors",
+      "size": 228457724
+    },
+    {
+      "id": 37497292,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497292.png",
+      "size": 752806
+    },
+    {
+      "id": 37497295,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497295.png",
+      "size": 757689
+    },
+    {
+      "id": 37497298,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497298.png",
+      "size": 802064
+    },
+    {
+      "id": 37497248,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497248.png",
+      "size": 1147454
+    },
+    {
+      "id": 37497293,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497293.png",
+      "size": 455730
+    },
+    {
+      "id": 37497247,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497247.png",
+      "size": 1392202
+    },
+    {
+      "id": 1011774,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\Reiko_Yoshinaga_Angel_of_Darkness_2_淫獣教師.safetensors",
+      "size": 228457300
+    },
+    {
+      "id": 36913422,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36913422.png",
+      "size": 1391914
+    },
+    {
+      "id": 36913437,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36913437.png",
+      "size": 1442284
+    },
+    {
+      "id": 36914147,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36914147.png",
+      "size": 1279433
+    },
+    {
+      "id": 36916608,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36916608.png",
+      "size": 580177
+    },
+    {
+      "id": 1000917,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\Midori_Anzai_Anzai_Sensei_Angel_of_Darkness_2_淫獣教師.safetensors",
+      "size": 228459268
+    },
+    {
+      "id": 35832410,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832410.png",
+      "size": 576020
+    },
+    {
+      "id": 35832467,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832467.png",
+      "size": 730375
+    },
+    {
+      "id": 35832483,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832483.png",
+      "size": 728947
+    },
+    {
+      "id": 35832490,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832490.png",
+      "size": 965757
+    },
+    {
+      "id": 979930,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\Haruka_Tachibana_Angel_of_Darkness_2_淫獣教師.safetensors",
+      "size": 228464204
+    },
+    {
+      "id": 35708264,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708264.png",
+      "size": 600001
+    },
+    {
+      "id": 35708265,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708265.png",
+      "size": 497311
+    },
+    {
+      "id": 35708267,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708267.png",
+      "size": 488984
+    },
+    {
+      "id": 35708268,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708268.png",
+      "size": 514934
+    },
+    {
+      "id": 35708271,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708271.png",
+      "size": 512025
+    },
+    {
+      "id": 35708273,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708273.png",
+      "size": 483682
+    },
+    {
+      "id": 34999171,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\34999171.png",
+      "size": 1388787
+    },
+    {
+      "id": 35006696,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006696.png",
+      "size": 630773
+    },
+    {
+      "id": 35006996,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006996.png",
+      "size": 614312
+    },
+    {
+      "id": 35007007,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35007007.png",
+      "size": 633475
+    }
+  ],
+  "failed": [
+    {
+      "id": 41329396,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\41329396.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be51095a-cc6f-4956-8452-fd4394a4d451/original=true/be51095a-cc6f-4956-8452-fd4394a4d451.jpeg",
+        "page_url": "https://civitai.com/images/41329396"
+      }
+    },
+    {
+      "id": 41329411,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Tita Μu Koshigaya (Captain Tita - Plastic Little)\\41329411.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/37fbb50f-8f4e-48f3-9cbf-78e6e56e62d7/original=true/37fbb50f-8f4e-48f3-9cbf-78e6e56e62d7.jpeg",
+        "page_url": "https://civitai.com/images/41329411"
+      }
+    },
+    {
+      "id": 91769777,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\91769777.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/03b61ae7-933b-4456-b17c-707a694b6261/original=true/03b61ae7-933b-4456-b17c-707a694b6261.jpeg",
+        "page_url": "https://civitai.com/images/91769777"
+      }
+    },
+    {
+      "id": 91769780,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Kazuki Kotobuki (H&K) (琴吹かづき) Style\\91769780.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3d902f11-9a3a-48bd-a309-77a054a96a52/original=true/3d902f11-9a3a-48bd-a309-77a054a96a52.jpeg",
+        "page_url": "https://civitai.com/images/91769780"
+      }
+    },
+    {
+      "id": 50379941,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379941.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da44492a-4f79-44fe-b179-18a005c09a25/original=true/da44492a-4f79-44fe-b179-18a005c09a25.jpeg",
+        "page_url": "https://civitai.com/images/50379941"
+      }
+    },
+    {
+      "id": 50379944,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379944.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e5fae3d-ccb0-48e3-bd1c-fc01111c4631/original=true/8e5fae3d-ccb0-48e3-bd1c-fc01111c4631.jpeg",
+        "page_url": "https://civitai.com/images/50379944"
+      }
+    },
+    {
+      "id": 50379948,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379948.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d296ebd-9d34-468b-acf3-2dad30c2a587/original=true/2d296ebd-9d34-468b-acf3-2dad30c2a587.jpeg",
+        "page_url": "https://civitai.com/images/50379948"
+      }
+    },
+    {
+      "id": 50379943,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yayoi Kuribayashi - Mouse (マウス) anime\\50379943.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f907c2b2-4213-4b9d-998c-c0a13c9cc999/original=true/f907c2b2-4213-4b9d-998c-c0a13c9cc999.jpeg",
+        "page_url": "https://civitai.com/images/50379943"
+      }
+    },
+    {
+      "id": 45771125,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771125.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/83cbb7ee-a18b-464a-bbea-754537371ea0/original=true/83cbb7ee-a18b-464a-bbea-754537371ea0.jpeg",
+        "page_url": "https://civitai.com/images/45771125"
+      }
+    },
+    {
+      "id": 45771134,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771134.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/471c93c3-20aa-4922-b2d5-1f9d2b4d588e/original=true/471c93c3-20aa-4922-b2d5-1f9d2b4d588e.jpeg",
+        "page_url": "https://civitai.com/images/45771134"
+      }
+    },
+    {
+      "id": 45771126,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771126.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe9f5e16-7edb-446c-b728-4d48eb0ecbcf/original=true/fe9f5e16-7edb-446c-b728-4d48eb0ecbcf.jpeg",
+        "page_url": "https://civitai.com/images/45771126"
+      }
+    },
+    {
+      "id": 45771136,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sutra (Twin Angels) 淫獣聖戦 ツインエンジェル\\45771136.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4162f1b1-6578-44fd-8dfa-012841bd3b0d/original=true/4162f1b1-6578-44fd-8dfa-012841bd3b0d.jpeg",
+        "page_url": "https://civitai.com/images/45771136"
+      }
+    },
+    {
+      "id": 39075034,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075034.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/00ea614d-499e-4093-a5bf-29188f9fd38b/original=true/00ea614d-499e-4093-a5bf-29188f9fd38b.jpeg",
+        "page_url": "https://civitai.com/images/39075034"
+      }
+    },
+    {
+      "id": 39075045,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075045.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbe0ef25-f4b6-4f29-a5b0-290b36a78d86/original=true/fbe0ef25-f4b6-4f29-a5b0-290b36a78d86.jpeg",
+        "page_url": "https://civitai.com/images/39075045"
+      }
+    },
+    {
+      "id": 39075050,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Student from Angel of Darkness 2 (淫獣教師)\\39075050.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2d813312-d135-4499-aadf-051ee9d1f5e9/original=true/2d813312-d135-4499-aadf-051ee9d1f5e9.jpeg",
+        "page_url": "https://civitai.com/images/39075050"
+      }
+    },
+    {
+      "id": 38042330,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042330.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd69a4ce-834a-495b-a4c4-dc16891d297b/original=true/bd69a4ce-834a-495b-a4c4-dc16891d297b.jpeg",
+        "page_url": "https://civitai.com/images/38042330"
+      }
+    },
+    {
+      "id": 38042335,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042335.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be1e5930-da62-48d2-9f45-47cbc84f3d84/original=true/be1e5930-da62-48d2-9f45-47cbc84f3d84.jpeg",
+        "page_url": "https://civitai.com/images/38042335"
+      }
+    },
+    {
+      "id": 38042332,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042332.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ee39f83-c962-4ae4-9f48-ba4d1f4bf33e/original=true/5ee39f83-c962-4ae4-9f48-ba4d1f4bf33e.jpeg",
+        "page_url": "https://civitai.com/images/38042332"
+      }
+    },
+    {
+      "id": 38042333,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Panni (Fatal Fury_ The Motion Picture)\\38042333.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1004934c-c9ea-4b4b-85ba-627e9b37b148/original=true/1004934c-c9ea-4b4b-85ba-627e9b37b148.jpeg",
+        "page_url": "https://civitai.com/images/38042333"
+      }
+    },
+    {
+      "id": 37497246,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497246.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2d177c5-f43f-4285-8b12-e4bca35efe87/original=true/f2d177c5-f43f-4285-8b12-e4bca35efe87.jpeg",
+        "page_url": "https://civitai.com/images/37497246"
+      }
+    },
+    {
+      "id": 37497296,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497296.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3c568303-189d-4ca9-a085-b4592e261160/original=true/3c568303-189d-4ca9-a085-b4592e261160.jpeg",
+        "page_url": "https://civitai.com/images/37497296"
+      }
+    },
+    {
+      "id": 37497297,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497297.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e6824176-e7a0-45cc-8609-a813cbca23fd/original=true/e6824176-e7a0-45cc-8609-a813cbca23fd.jpeg",
+        "page_url": "https://civitai.com/images/37497297"
+      }
+    },
+    {
+      "id": 37497294,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Reiko Yoshinaga (Angel of Darkness 2) 淫獣教師\\37497294.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ffbfeb47-9aa0-4d08-91ca-6c3c29fb1fd3/original=true/ffbfeb47-9aa0-4d08-91ca-6c3c29fb1fd3.jpeg",
+        "page_url": "https://civitai.com/images/37497294"
+      }
+    },
+    {
+      "id": 36916204,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36916204.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/73ce2fb9-b254-409d-b779-67ee90823be8/original=true/73ce2fb9-b254-409d-b779-67ee90823be8.jpeg",
+        "page_url": "https://civitai.com/images/36916204"
+      }
+    },
+    {
+      "id": 36915296,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36915296.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/018128ed-242f-4ec2-9eaf-e90bfe68580c/original=true/018128ed-242f-4ec2-9eaf-e90bfe68580c.jpeg",
+        "page_url": "https://civitai.com/images/36915296"
+      }
+    },
+    {
+      "id": 36913411,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Midori Anzai (Anzai Sensei) Angel of Darkness 2 淫獣教師\\36913411.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59dd7ad0-b724-4f15-abed-c5a7499508e8/original=true/59dd7ad0-b724-4f15-abed-c5a7499508e8.jpeg",
+        "page_url": "https://civitai.com/images/36913411"
+      }
+    },
+    {
+      "id": 35832418,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832418.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ff6bb4a-20a2-4a49-93a4-6521dd1e7b30/original=true/5ff6bb4a-20a2-4a49-93a4-6521dd1e7b30.jpeg",
+        "page_url": "https://civitai.com/images/35832418"
+      }
+    },
+    {
+      "id": 35832429,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832429.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb49cbf4-e12e-45c1-b177-3c347b74c847/original=true/bb49cbf4-e12e-45c1-b177-3c347b74c847.jpeg",
+        "page_url": "https://civitai.com/images/35832429"
+      }
+    },
+    {
+      "id": 35832474,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832474.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d52c4c3e-9c34-42b7-b19e-237bf22d4fc5/original=true/d52c4c3e-9c34-42b7-b19e-237bf22d4fc5.jpeg",
+        "page_url": "https://civitai.com/images/35832474"
+      }
+    },
+    {
+      "id": 35832476,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Haruka Tachibana (Angel of Darkness 2) 淫獣教師\\35832476.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dd290176-fafd-4389-8132-314d69ea48a4/original=true/dd290176-fafd-4389-8132-314d69ea48a4.jpeg",
+        "page_url": "https://civitai.com/images/35832476"
+      }
+    },
+    {
+      "id": 35708272,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708272.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1e4101cb-16a4-4d60-b9ba-c29a30f900b2/original=true/1e4101cb-16a4-4d60-b9ba-c29a30f900b2.jpeg",
+        "page_url": "https://civitai.com/images/35708272"
+      }
+    },
+    {
+      "id": 35708266,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708266.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a79bf06-b4a1-4a04-b6ff-5ff6d0480cae/original=true/7a79bf06-b4a1-4a04-b6ff-5ff6d0480cae.jpeg",
+        "page_url": "https://civitai.com/images/35708266"
+      }
+    },
+    {
+      "id": 35708269,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708269.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecabdb78-5704-4c7b-be07-d8d0aae290f5/original=true/ecabdb78-5704-4c7b-be07-d8d0aae290f5.jpeg",
+        "page_url": "https://civitai.com/images/35708269"
+      }
+    },
+    {
+      "id": 35708270,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\35708270.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ab6d788-f561-4c44-ba74-a02f5df06e60/original=true/5ab6d788-f561-4c44-ba74-a02f5df06e60.jpeg",
+        "page_url": "https://civitai.com/images/35708270"
+      }
+    },
+    {
+      "id": 977906,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Director (Angel of Darkness 1) 淫獣教師\\Director_Angel_of_Darkness_1.safetensors",
+        "expected_file_size": 228457404.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/977906/Director_Angel_of_Darkness_1.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Director_Angel_of_Darkness_1.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T035538Z&X-Amz-SignedHeaders=host&X-Amz-Signature=b61c024b6a32d543a256aa9a96335e0e832090db2112c14e30e71323f2cbfc74"
+      }
+    },
+    {
+      "id": 35006628,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006628.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a07c90f-5370-4be0-9cb6-bc23239beb14/original=true/6a07c90f-5370-4be0-9cb6-bc23239beb14.jpeg",
+        "page_url": "https://civitai.com/images/35006628"
+      }
+    },
+    {
+      "id": 35006649,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006649.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/321bc6cf-1d2c-4f9c-aa9e-647f33ffe4fe/original=true/321bc6cf-1d2c-4f9c-aa9e-647f33ffe4fe.jpeg",
+        "page_url": "https://civitai.com/images/35006649"
+      }
+    },
+    {
+      "id": 35006793,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006793.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ce448cc-ca3d-4b8c-b1f2-251e7664a74e/original=true/8ce448cc-ca3d-4b8c-b1f2-251e7664a74e.jpeg",
+        "page_url": "https://civitai.com/images/35006793"
+      }
+    },
+    {
+      "id": 35006797,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\35006797.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ebae08ad-93e6-453c-b235-dc33eb20d68d/original=true/ebae08ad-93e6-453c-b235-dc33eb20d68d.jpeg",
+        "page_url": "https://civitai.com/images/35006797"
+      }
+    },
+    {
+      "id": 963895,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Atsuko Yoshikawa (Angel of Darkness 1) 淫獣教師\\Atsuko_Yoshikawa_Angel_of_Darkness_1_淫獣教師.safetensors",
+        "expected_file_size": 228463380.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/963895/Atsuko_Yoshikawa_Angel_of_Darkness_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Atsuko_Yoshikawa_Angel_of_Darkness_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T035600Z&X-Amz-SignedHeaders=host&X-Amz-Signature=48528b9462a501d8a121021cf14e36eda6be5290065d336b0c5b8fc4e1ef9480"
+      }
+    },
+    {
+      "id": 34908488,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34908488.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8b398c2-b55e-4314-aa17-d908f97d998a/original=true/a8b398c2-b55e-4314-aa17-d908f97d998a.jpeg",
+        "page_url": "https://civitai.com/images/34908488"
+      }
+    },
+    {
+      "id": 34909655,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34909655.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9d41efec-b68d-4999-95b1-db2d00fb761c/original=true/9d41efec-b68d-4999-95b1-db2d00fb761c.jpeg",
+        "page_url": "https://civitai.com/images/34909655"
+      }
+    },
+    {
+      "id": 34906615,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34906615.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/899a4a06-8109-440f-8ce1-92c0563448b7/original=true/899a4a06-8109-440f-8ce1-92c0563448b7.jpeg",
+        "page_url": "https://civitai.com/images/34906615"
+      }
+    },
+    {
+      "id": 34913631,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34913631.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7d28559-8a31-48a2-af6d-8609d4d3db49/original=true/a7d28559-8a31-48a2-af6d-8609d4d3db49.jpeg",
+        "page_url": "https://civitai.com/images/34913631"
+      }
+    },
+    {
+      "id": 34906617,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34906617.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/74dd3585-2d19-4442-b09b-582946649fc8/original=true/74dd3585-2d19-4442-b09b-582946649fc8.jpeg",
+        "page_url": "https://civitai.com/images/34906617"
+      }
+    },
+    {
+      "id": 34912774,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\34912774.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb1506f4-34fa-46f9-bb29-4292f0e5b26a/original=true/cb1506f4-34fa-46f9-bb29-4292f0e5b26a.jpeg",
+        "page_url": "https://civitai.com/images/34912774"
+      }
+    },
+    {
+      "id": 961154,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Sayaka Matsumoto (Angel of Darkness Part 1) 淫獣教師\\Atsuko_Yoshikawa_Angel_of_Darkness_Part_1_淫獣教師.safetensors",
+        "expected_file_size": 228462860.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/961154/Atsuko_Yoshikawa_Angel_of_Darkness_Part_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Atsuko_Yoshikawa_Angel_of_Darkness_Part_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T035615Z&X-Amz-SignedHeaders=host&X-Amz-Signature=42d54ed09cd96f3c3f3197920a5ebd78f0a2f5dffc440c11794b23c98650ab09"
+      }
+    },
+    {
+      "id": 34666310,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34666310.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eafe46b0-445a-4bcd-a409-0273a5312413/original=true/eafe46b0-445a-4bcd-a409-0273a5312413.jpeg",
+        "page_url": "https://civitai.com/images/34666310"
+      }
+    },
+    {
+      "id": 34670639,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34670639.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b75e181c-9b63-4b14-8d15-7dbf476f62e8/original=true/b75e181c-9b63-4b14-8d15-7dbf476f62e8.jpeg",
+        "page_url": "https://civitai.com/images/34670639"
+      }
+    },
+    {
+      "id": 34670847,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34670847.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11b5120e-fa86-4fe1-9b48-4788f3e9b94a/original=true/11b5120e-fa86-4fe1-9b48-4788f3e9b94a.jpeg",
+        "page_url": "https://civitai.com/images/34670847"
+      }
+    },
+    {
+      "id": 34672235,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34672235.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4619257-6345-4078-8a87-b375f2df1a7d/original=true/c4619257-6345-4078-8a87-b375f2df1a7d.jpeg",
+        "page_url": "https://civitai.com/images/34672235"
+      }
+    },
+    {
+      "id": 34672941,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34672941.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/072611a3-9d72-4219-a14d-95265ff22c00/original=true/072611a3-9d72-4219-a14d-95265ff22c00.jpeg",
+        "page_url": "https://civitai.com/images/34672941"
+      }
+    },
+    {
+      "id": 34673282,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\34673282.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e41e85cf-a606-45e7-906a-6dc866d97c77/original=true/e41e85cf-a606-45e7-906a-6dc866d97c77.jpeg",
+        "page_url": "https://civitai.com/images/34673282"
+      }
+    },
+    {
+      "id": 957641,
+      "type": "lora",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\hfansupreme\\Yuko Yoshikawa (Atsuko's Sister - Angel of Darkness 1) 淫獣教師\\Yuko_Yoshikawa_Atsukos_Sister_-_Angel_of_Darkness_1_淫獣教師.safetensors",
+        "expected_file_size": 228457908.0,
+        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/957641/Yuko_Yoshikawa_Atsukos_Sister_-_Angel_of_Darkness_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Yuko_Yoshikawa_Atsukos_Sister_-_Angel_of_Darkness_1_%E6%B7%AB%E7%8D%A3%E6%95%99%E5%B8%AB.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T035625Z&X-Amz-SignedHeaders=host&X-Amz-Signature=5e7ff06bc79194b196768efeb09ffcb48c7575b4dac5ce385ecdfd9536b9f720"
+      }
+    }
+  ]
+}
