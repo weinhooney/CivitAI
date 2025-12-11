@@ -535,6 +535,105 @@ def get_post_id_from_model(model):
 
 
 ###############################################################################
+# DOWNLOAD_TARGETS 검증 (다운로드 시작 전)
+###############################################################################
+def verify_download_targets(download_targets):
+    """
+    IDM 다운로드 시작 전에 DOWNLOAD_TARGETS가 올바르게 구성되었는지 검증
+    """
+    print("\n" + "="*80)
+    print("[VERIFY] DOWNLOAD_TARGETS 검증 시작")
+    print("="*80)
+
+    # 타입별 통계
+    image_count = sum(1 for item in download_targets if item.get("type") == "image")
+    lora_count = sum(1 for item in download_targets if item.get("type") == "lora")
+    other_count = len(download_targets) - image_count - lora_count
+
+    # 다운로드 필요 여부 통계
+    images_need_download = sum(1 for item in download_targets
+                              if item.get("type") == "image" and item.get("needs_download", True))
+    images_already_exists = image_count - images_need_download
+
+    lora_need_download = sum(1 for item in download_targets
+                            if item.get("type") == "lora" and item.get("needs_download", True))
+    lora_already_exists = lora_count - lora_need_download
+
+    print(f"\n[통계]")
+    print(f"  총 항목: {len(download_targets)}개")
+    print(f"  - 이미지: {image_count}개 (다운로드 필요: {images_need_download}개, 기존 파일: {images_already_exists}개)")
+    print(f"  - LoRA: {lora_count}개 (다운로드 필요: {lora_need_download}개, 기존 파일: {lora_already_exists}개)")
+    if other_count > 0:
+        print(f"  - 기타: {other_count}개")
+
+    # 필수 필드 검증
+    missing_fields = []
+    for idx, item in enumerate(download_targets):
+        item_type = item.get("type")
+
+        # 공통 필수 필드
+        if not item.get("expected_file_path"):
+            missing_fields.append(f"[{idx}] type={item_type}, missing: expected_file_path")
+
+        # 타입별 필수 필드
+        if item_type == "image":
+            if not item.get("image_id"):
+                missing_fields.append(f"[{idx}] type=image, missing: image_id")
+        elif item_type == "lora":
+            if not item.get("model_version_id"):
+                missing_fields.append(f"[{idx}] type=lora, missing: model_version_id")
+
+    if missing_fields:
+        print(f"\n[경고] 필수 필드 누락 항목: {len(missing_fields)}개")
+        for msg in missing_fields[:10]:  # 최대 10개만 출력
+            print(f"  - {msg}")
+        if len(missing_fields) > 10:
+            print(f"  ... 외 {len(missing_fields) - 10}개")
+    else:
+        print(f"\n[✓] 모든 항목의 필수 필드 확인 완료")
+
+    # 중복 항목 검증
+    image_ids = []
+    lora_ids = []
+
+    for item in download_targets:
+        if item.get("type") == "image":
+            img_id = item.get("image_id")
+            if img_id:
+                image_ids.append(img_id)
+        elif item.get("type") == "lora":
+            lora_id = item.get("model_version_id")
+            if lora_id:
+                lora_ids.append(lora_id)
+
+    image_duplicates = len(image_ids) - len(set(image_ids))
+    lora_duplicates = len(lora_ids) - len(set(lora_ids))
+
+    if image_duplicates > 0:
+        print(f"\n[경고] 중복된 이미지 ID: {image_duplicates}개")
+    if lora_duplicates > 0:
+        print(f"\n[경고] 중복된 LoRA ID: {lora_duplicates}개")
+
+    if image_duplicates == 0 and lora_duplicates == 0:
+        print(f"\n[✓] 중복 항목 없음")
+
+    print("\n" + "="*80)
+    print("[VERIFY] DOWNLOAD_TARGETS 검증 완료")
+    print("="*80 + "\n")
+
+    return {
+        "total": len(download_targets),
+        "images": image_count,
+        "lora": lora_count,
+        "images_need_download": images_need_download,
+        "lora_need_download": lora_need_download,
+        "missing_fields_count": len(missing_fields),
+        "image_duplicates": image_duplicates,
+        "lora_duplicates": lora_duplicates,
+    }
+
+
+###############################################################################
 # 정상적으로 다운로드 됐는지 검증
 ###############################################################################
 def verify_all_downloads(download_targets):
@@ -1361,7 +1460,21 @@ def main():
                     "failed_lora": {"copy_error": str(e)},
                 })
 
+    # =========================================================================
+    # ✅ 모든 모델 처리 완료 후 DOWNLOAD_TARGETS 검증
+    # =========================================================================
+    print("\n" + "="*80)
+    print("모든 모델 처리 완료 - DOWNLOAD_TARGETS 검증 시작")
+    print("="*80)
+
+    verify_stats = verify_download_targets(DOWNLOAD_TARGETS)
+
+    # 다운로드가 필요한 항목이 있는지 확인
+    if verify_stats["images_need_download"] > 0 or verify_stats["lora_need_download"] > 0:
+        print(f"\n[INFO] IDM 다운로드 시작: 이미지 {verify_stats['images_need_download']}개, LoRA {verify_stats['lora_need_download']}개")
         idm_start_download()
+    else:
+        print("\n[INFO] 다운로드가 필요한 파일이 없습니다. IDM 다운로드 스킵")
 
 
     log_file_path = write_download_log(

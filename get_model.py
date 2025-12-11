@@ -947,9 +947,15 @@ def _process_post_core(post_id: int, save_dir: str):
         print(f"[{idx}/{len(images)}] image_id={image_id}, uuid={uuid}")
 
         # =====================================================
-        # 🚫 통합 로그 기반 이미지 중복 체크 (✅ 실제 파일 검증 추가)
+        # ✅ 통합 로그 기반 이미지 중복 체크 (실제 파일 검증 추가)
+        #    - 성공 로그에 있어도 DOWNLOAD_TARGETS에는 추가해야 함 (검증을 위해)
+        #    - 파일이 정상이면 다운로드만 스킵
         # =====================================================
         import download_state
+
+        # 성공 로그 기반 스킵 여부 플래그
+        skip_download_from_log = False
+
         if download_state.is_success(image_id, "image"):
             # ✅ 실제 파일 존재 확인
             success_entry = None
@@ -964,20 +970,55 @@ def _process_post_core(post_id: int, save_dir: str):
                     actual_size = os.path.getsize(logged_path)
                     if actual_size >= 3000:
                         print(f"[SKIP] 이미지 이미 성공 로그에 있음 (파일 확인됨) → imageId={image_id}")
-                        continue
+                        skip_download_from_log = True
+                        # ✅ DOWNLOAD_TARGETS에 추가하기 위해 continue 제거
                     else:
                         print(f"[WARN] 로그에는 있지만 파일 손상 ({actual_size}bytes) → 재다운로드")
+                        # 로그 제거하고 재다운로드 진행
+                        download_state.download_log["success"] = [
+                            e for e in download_state.download_log["success"]
+                            if not (e.get("id") == image_id and e.get("type") == "image")
+                        ]
                 else:
                     print(f"[WARN] 로그에는 있지만 파일 없음 → 재다운로드")
-
-                # 로그 제거하고 재다운로드 진행
-                download_state.download_log["success"] = [
-                    e for e in download_state.download_log["success"]
-                    if not (e.get("id") == image_id and e.get("type") == "image")
-                ]
+                    # 로그 제거하고 재다운로드 진행
+                    download_state.download_log["success"] = [
+                        e for e in download_state.download_log["success"]
+                        if not (e.get("id") == image_id and e.get("type") == "image")
+                    ]
             else:
                 print(f"[SKIP] 이미지 이미 성공 로그에 있음 → imageId={image_id}")
-                continue
+                skip_download_from_log = True
+                # ✅ DOWNLOAD_TARGETS에 추가하기 위해 continue 제거
+
+        # 성공 로그 체크로 스킵되는 경우, 아래 로직을 건너뛰고 바로 DOWNLOAD_TARGETS 추가로 이동
+        if skip_download_from_log:
+            # 성공 로그에서 경로 가져오기
+            logged_path = None
+            for e in download_state.download_log.get("success", []):
+                if e.get("id") == image_id and e.get("type") == "image":
+                    logged_path = e.get("path")
+                    break
+
+            # DOWNLOAD_TARGETS에 추가 (검증을 위해)
+            from get_model import DOWNLOAD_TARGETS
+            if DOWNLOAD_TARGETS is not None:
+                DOWNLOAD_TARGETS.append({
+                    "type": "image",
+                    "post_id": post_id,
+                    "image_id": image_id,
+                    "uuid": uuid,
+                    "download_url": build_image_url(uuid),
+                    "page_url": f"https://civitai.com/images/{image_id}",
+                    "expected_file_path": logged_path or os.path.join(folder, f"{image_id}.jpeg"),
+                    "needs_download": False,  # 이미 성공 로그에 있으므로 다운로드 불필요
+                })
+
+            # 메타데이터 생성은 계속 진행
+            future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
+            IMG_META_FUTURES.append(future)
+
+            continue  # 다음 이미지로
         # =====================================================
 
 
@@ -1084,11 +1125,51 @@ def process_lora_task(folder, model_version_id, _):
     import traceback
 
     try:
-        # [251211] 임시로 주석
-        # # 1) 통합 성공 로그 기반 중복 체크
-        # if download_state.is_success(model_version_id, "lora"):
-        #     print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
-        #     return  # 해당 LoRA 처리 전체 스킵
+        # =====================================================
+        # ✅ 1) 통합 성공 로그 기반 중복 체크
+        #       성공 로그에 있어도 DOWNLOAD_TARGETS에는 추가해야 함
+        # =====================================================
+        if download_state.is_success(model_version_id, "lora"):
+            # 성공 로그에서 경로 가져오기
+            logged_path = None
+            logged_size = 0
+            for e in download_state.download_log.get("success", []):
+                if e.get("id") == model_version_id and e.get("type") == "lora":
+                    logged_path = e.get("path")
+                    logged_size = e.get("size", 0)
+                    break
+
+            # 파일 실제 존재 여부 확인
+            if logged_path and os.path.exists(logged_path):
+                actual_size = os.path.getsize(logged_path)
+                if actual_size > 0:
+                    print(f"[SKIP] LoRA 이미 성공 로그에 있음 (파일 확인됨) → modelVersionId={model_version_id}")
+
+                    # DOWNLOAD_TARGETS에 추가 (검증을 위해)
+                    from get_model import DOWNLOAD_TARGETS
+                    if DOWNLOAD_TARGETS is not None:
+                        DOWNLOAD_TARGETS.append({
+                            "type": "lora",
+                            "post_id": None,
+                            "model_version_id": model_version_id,
+                            "presigned_url": None,
+                            "expected_file_path": logged_path,
+                            "expected_file_size": logged_size,
+                            "final_paste_path": None,
+                            "needs_download": False,  # 이미 성공 로그에 있으므로 다운로드 불필요
+                        })
+
+                    return  # 처리 완료
+                else:
+                    print(f"[WARN] 성공 로그에 있지만 파일 손상 (0 bytes) → 재다운로드")
+            else:
+                print(f"[WARN] 성공 로그에 있지만 파일 없음 → 재다운로드")
+
+            # 파일이 없거나 손상된 경우 성공 로그에서 제거
+            download_state.download_log["success"] = [
+                e for e in download_state.download_log["success"]
+                if not (e.get("id") == model_version_id and e.get("type") == "lora")
+            ]
 
         # 2) 모델 버전 메타 받아서 파일 정보 확인
         mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
