@@ -862,6 +862,24 @@ def generate_model_meta_files(m, user_root):
 
     model_versions = m.get("modelVersions", [])
 
+    # ✅ 빈 리스트 검증 추가
+    if not model_versions:
+        print(f"[WARN] 모델 버전 없음 (메타파일 생성 스킵): {model_name} (ID: {model_id})")
+        import download_state
+        download_state.mark_failed(
+            model_id,
+            "model_meta",
+            "no_model_versions",
+            {
+                "model_name": model_name,
+                "model_url": model_url
+            }
+        )
+        return  # ✅ 조기 return
+
+    success_count = 0
+    failed_count = 0
+
     for v in model_versions:
         try:
             version_id = v.get("id")
@@ -973,8 +991,30 @@ def generate_model_meta_files(m, user_root):
                 fp.write(pprint.pformat(meta_json, width=180, compact=False))
             print(f"[META] TXT 저장됨: {txt_path}")
 
+            success_count += 1  # ✅ 성공 카운트
+
         except Exception as e:
-            print(f"[ERROR] 모델 버전 메타 생성 실패 modelVersionId={v.get('id')}: {e}")
+            failed_count += 1  # ✅ 실패 카운트
+            version_id = v.get("id")
+            print(f"[ERROR] 모델 버전 메타 생성 실패 modelVersionId={version_id}: {e}")
+
+            # ✅ 실패 기록 추가
+            import download_state
+            import traceback
+            download_state.mark_failed(
+                version_id if version_id else f"unknown_v_{failed_count}",
+                "model_meta",
+                f"generation_failed: {str(e)}",
+                {
+                    "model_name": model_name,
+                    "model_id": model_id,
+                    "error_type": type(e).__name__,
+                    "error_traceback": traceback.format_exc()[:500]  # 처음 500자만
+                }
+            )
+
+    # ✅ 결과 로깅 추가
+    print(f"[META] {model_name}: {success_count}개 성공, {failed_count}개 실패")
 
 
 
@@ -1285,6 +1325,10 @@ def main():
                 except Exception as e:
                     failed_count += 1
                     print(f"[META][ERROR] {e}")
+                    # ✅ 예외 타입 및 스택 트레이스 로깅
+                    import traceback
+                    print(f"[META][ERROR] 예외 타입: {type(e).__name__}")
+                    print(f"[META][ERROR] 스택 트레이스:\n{traceback.format_exc()}")
 
         except TimeoutError:
             # as_completed 자체의 타임아웃
@@ -1322,6 +1366,10 @@ def main():
                 except Exception as e:
                     failed_count += 1
                     print(f"[LORA][ERROR] {e}")
+                    # ✅ 예외 타입 및 스택 트레이스 로깅
+                    import traceback
+                    print(f"[LORA][ERROR] 예외 타입: {type(e).__name__}")
+                    print(f"[LORA][ERROR] 스택 트레이스:\n{traceback.format_exc()}")
 
         except TimeoutError:
             print(f"[LORA][FATAL] 전체 작업 타임아웃 ({LORA_TIMEOUT * total_lora_tasks}초 초과)")

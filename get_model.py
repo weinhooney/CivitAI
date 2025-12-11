@@ -40,19 +40,74 @@ def idm_add_to_queue(url: str, save_dir: str, file_name: str):
     """
     IDM 다운로드 대기열에 추가 (/a)
     다운로드는 아직 시작되지 않음.
+
+    ✅ 개선: subprocess.Popen() 대신 list 형식 + wait() 사용
+    - Windows 경로 처리 개선 (shlex.split 제거)
+    - 프로세스 완료 대기로 타이밍 문제 해결
+    - 반환값 검증으로 실패 감지
     """
-    cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /a'
-    subprocess.Popen(shlex.split(cmd),
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL)
-    print(f"[IDM] Added to queue: {file_name}")
+    # Windows 네이티브 방식: 리스트로 직접 전달 (shlex.split 불필요)
+    process = subprocess.Popen(
+        [IDM_PATH, "/d", url, "/p", save_dir, "/f", file_name, "/a"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+    )
+
+    # 누락 위험 때문에 잠시 딜레이
+    time.sleep(0.5)
+
+    # 프로세스 완료 대기 (최대 5초)
+    try:
+        stdout, stderr = process.communicate(timeout=5)
+
+        if process.returncode != 0:
+            print(f"[IDM][ERROR] 대기열 추가 실패 (RC={process.returncode}): {file_name}")
+            if stderr:
+                print(f"[IDM][ERROR] stderr: {stderr.strip()}")
+            return False
+
+        print(f"[IDM] Added to queue: {file_name}")
+        return True
+
+    except subprocess.TimeoutExpired:
+        process.kill()
+        print(f"[IDM][ERROR] 명령 타임아웃 (5초 초과): {file_name}")
+        return False
+    except Exception as e:
+        print(f"[IDM][ERROR] 예외 발생: {e}")
+        return False
 
 def idm_start_download():
     """IDM 대기열 다운로드 시작 (/s)"""
-    subprocess.Popen(shlex.split(f'"{IDM_PATH}" /s'),
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL)
-    print("[IDM] Queue download started!")
+    process = subprocess.Popen(
+        [IDM_PATH, "/s"],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+    )
+
+    try:
+        stdout, stderr = process.communicate(timeout=3)
+
+        if process.returncode != 0:
+            print(f"[IDM][ERROR] 다운로드 시작 실패 (RC={process.returncode})")
+            if stderr:
+                print(f"[IDM][ERROR] stderr: {stderr.strip()}")
+            return False
+
+        print("[IDM] Queue download started!")
+        return True
+
+    except subprocess.TimeoutExpired:
+        process.kill()
+        print("[IDM][ERROR] 다운로드 시작 타임아웃 (3초 초과)")
+        return False
+    except Exception as e:
+        print(f"[IDM][ERROR] 예외 발생: {e}")
+        return False
 
 
 
@@ -892,17 +947,53 @@ def _process_post_core(post_id: int, save_dir: str):
         print(f"[{idx}/{len(images)}] image_id={image_id}, uuid={uuid}")
 
         # =====================================================
-        # 🚫 통합 로그 기반 이미지 중복 체크
+        # 🚫 통합 로그 기반 이미지 중복 체크 (✅ 실제 파일 검증 추가)
         # =====================================================
         import download_state
         if download_state.is_success(image_id, "image"):
-            print(f"[SKIP] 이미지 이미 성공 로그에 있음 → imageId={image_id}")
-            continue
+            # ✅ 실제 파일 존재 확인
+            success_entry = None
+            for e in download_state.download_log.get("success", []):
+                if e.get("id") == image_id and e.get("type") == "image":
+                    success_entry = e
+                    break
+
+            if success_entry:
+                logged_path = success_entry.get("path")
+                if logged_path and os.path.exists(logged_path):
+                    actual_size = os.path.getsize(logged_path)
+                    if actual_size >= 3000:
+                        print(f"[SKIP] 이미지 이미 성공 로그에 있음 (파일 확인됨) → imageId={image_id}")
+                        continue
+                    else:
+                        print(f"[WARN] 로그에는 있지만 파일 손상 ({actual_size}bytes) → 재다운로드")
+                else:
+                    print(f"[WARN] 로그에는 있지만 파일 없음 → 재다운로드")
+
+                # 로그 제거하고 재다운로드 진행
+                download_state.download_log["success"] = [
+                    e for e in download_state.download_log["success"]
+                    if not (e.get("id") == image_id and e.get("type") == "image")
+                ]
+            else:
+                print(f"[SKIP] 이미지 이미 성공 로그에 있음 → imageId={image_id}")
+                continue
         # =====================================================
 
 
         if not uuid:
             print("  [WARN] uuid 없음 → 스킵")
+            # ✅ 실패 기록 추가
+            download_state.mark_failed(
+                image_id,
+                "image",
+                "uuid_not_found",
+                {
+                    "post_id": post_id,
+                    "image_id": image_id,
+                    "page_url": f"https://civitai.com/images/{image_id}"
+                }
+            )
             failed["failed_image_urls"].append({
                 "download_url": None,
                 "page_url": f"https://civitai.com/images/{image_id}"
@@ -982,77 +1073,116 @@ def _process_post_core(post_id: int, save_dir: str):
 
 def process_lora_task(folder, model_version_id, _):
     import download_state
+    import traceback
 
-    # 1) 통합 성공 로그 기반 중복 체크
-    if download_state.is_success(model_version_id, "lora"):
-        print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
-        return  # 해당 LoRA 처리 전체 스킵
+    try:
+        # 1) 통합 성공 로그 기반 중복 체크
+        if download_state.is_success(model_version_id, "lora"):
+            print(f"[SKIP] 이미 성공 로그에 있는 LoRA → modelVersionId={model_version_id}")
+            return  # 해당 LoRA 처리 전체 스킵
 
-    # 2) 모델 버전 메타 받아서 파일 정보 확인
-    mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
-    mv = safe_get(mv_url)
-    mv_json = mv.json()
+        # 2) 모델 버전 메타 받아서 파일 정보 확인
+        mv_url = f"https://civitai.com/api/v1/model-versions/{model_version_id}"
+        mv = safe_get(mv_url)
+        mv_json = mv.json()
 
-    safes = [f for f in mv_json.get("files", []) if f["name"].endswith(".safetensors")]
-    if not safes:
-        print(f"[LORA][WARN] safetensors 파일 없음 → modelVersionId={model_version_id}")
-        return
+        safes = [f for f in mv_json.get("files", []) if f["name"].endswith(".safetensors")]
+        if not safes:
+            print(f"[LORA][WARN] safetensors 파일 없음 → modelVersionId={model_version_id}")
+            # ✅ 실패 기록 추가
+            download_state.mark_failed(
+                model_version_id,
+                "lora",
+                "safetensors_not_found_in_api",
+                {"files_available": [f["name"] for f in mv_json.get("files", [])]}
+            )
+            return
 
-    info = safes[0]
-    remote_size = info.get("sizeKB", 0) * 1024
-    lora_filename = info["name"]
-    lora_path = os.path.join(folder, lora_filename)
+        info = safes[0]
+        remote_size = info.get("sizeKB", 0) * 1024
+        lora_filename = info["name"]
+        lora_path = os.path.join(folder, lora_filename)
 
-    from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
+        from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
 
-    if DOWNLOAD_TARGETS is not None:
-        DOWNLOAD_TARGETS.append({
-            "type": "lora",
-            "post_id": None,  # LoRA는 post_id가 없으므로 None
-            "model_version_id": model_version_id,
-            "presigned_url": None,  # presigned 이후에 채워짐
-            "expected_file_path": lora_path,
-            "expected_file_size": remote_size,
-            "final_paste_path": None,  # 후처리 단계에서 채워짐
-        })
-    else:
-        print("[WARN] DOWNLOAD_TARGETS가 None이라 LoRA 대상 리스트에 추가하지 못함")
+        if DOWNLOAD_TARGETS is not None:
+            DOWNLOAD_TARGETS.append({
+                "type": "lora",
+                "post_id": None,  # LoRA는 post_id가 없으므로 None
+                "model_version_id": model_version_id,
+                "presigned_url": None,  # presigned 이후에 채워짐
+                "expected_file_path": lora_path,
+                "expected_file_size": remote_size,
+                "final_paste_path": None,  # 후처리 단계에서 채워짐
+            })
+        else:
+            print("[WARN] DOWNLOAD_TARGETS가 None이라 LoRA 대상 리스트에 추가하지 못함")
 
 
-    # 3) 🔥 로컬에 이미 파일이 있고, 용량이 remote_size 이상이면
-    #    → 성공 로그에 추가 + IDM 안 태우고 후처리만 실행
-    actual_size = 0
-    if os.path.exists(lora_path):
-        actual_size = os.path.getsize(lora_path)
+        # 3) 🔥 로컬에 이미 파일이 있고, 용량이 remote_size 이상이면
+        #    → 성공 로그에 추가 + IDM 안 태우고 후처리만 실행
+        actual_size = 0
+        if os.path.exists(lora_path):
+            actual_size = os.path.getsize(lora_path)
 
-    if os.path.exists(lora_path) and actual_size >= remote_size:
-        print(f"[SKIP] LoRA 이미 존재하고 정상 용량 확인됨: {lora_filename}")
+        if os.path.exists(lora_path) and actual_size >= remote_size:
+            print(f"[SKIP] LoRA 이미 존재하고 정상 용량 확인됨: {lora_filename}")
 
-        # ✅ 여기서 성공 로그에 등록
+            # ✅ 여기서 성공 로그에 등록
+            try:
+                download_state.mark_success(model_version_id, "lora", lora_path, actual_size)
+            except Exception:
+                pass
+
+            # 정규화 + SD 폴더 복사는 그대로 수행
+            # 작업 속도를 위해 임시로 주석 처리
+            # wait_and_finalize_lora(folder, None, lora_filename)
+            return
+
+        elif os.path.exists(lora_path) and actual_size < remote_size:
+            print(f"[WARN] 기존 파일 용량 부족({actual_size} < {remote_size}) → 재다운로드")
+            try:
+                os.remove(lora_path)
+            except:
+                pass
+
+        # 4) presigned URL 획득 (✅ 예외 처리 추가)
         try:
-            download_state.mark_success(model_version_id, "lora", lora_path, actual_size)
-        except Exception:
-            pass
+            presigned = get_lora_presigned(model_version_id)
+        except Exception as e:
+            print(f"[LORA][ERROR] presigned URL 획득 실패 (modelVersionId={model_version_id}): {e}")
+            download_state.mark_failed(
+                model_version_id,
+                "lora",
+                f"presigned_url_failed: {str(e)}",
+                {
+                    "error_type": type(e).__name__,
+                    "lora_filename": lora_filename,
+                    "folder": folder
+                }
+            )
+            return  # ✅ 실패 기록 후 return
 
-        # 정규화 + SD 폴더 복사는 그대로 수행
-        # 작업 속도를 위해 임시로 주석 처리
-        # wait_and_finalize_lora(folder, None, lora_filename)
-        return
+        DOWNLOAD_TARGETS[-1]["presigned_url"] = presigned
 
-    elif os.path.exists(lora_path) and actual_size < remote_size:
-        print(f"[WARN] 기존 파일 용량 부족({actual_size} < {remote_size}) → 재다운로드")
-        try:
-            os.remove(lora_path)
-        except:
-            pass
+        # IDM 대기열에 추가
+        idm_add_to_queue(presigned, folder, lora_filename)
+        print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}")
 
-
-    presigned = get_lora_presigned(model_version_id)
-    DOWNLOAD_TARGETS[-1]["presigned_url"] = presigned
-
-    # IDM 대기열에 추가
-    idm_add_to_queue(presigned, folder, lora_filename)
-    print(f"[IDM] LoRA 대기열에 추가됨: {lora_filename}") 
+    except Exception as e:
+        # ✅ 전체 예외 처리 추가
+        print(f"[LORA][FATAL] 예외 발생 (modelVersionId={model_version_id}): {e}")
+        print(f"[LORA][FATAL] 스택 트레이스:\n{traceback.format_exc()}")
+        download_state.mark_failed(
+            model_version_id,
+            "lora",
+            f"unexpected_error: {str(e)}",
+            {
+                "error_type": type(e).__name__,
+                "traceback": traceback.format_exc()[:500]  # 처음 500자만
+            }
+        )
+        raise  # 스레드에서 예외를 로깅했으므로 다시 raise 
 
     # ⚠ 여기서는 /s 호출 안 함
     # 실제 다운로드 시작은 _process_post_core 마지막에서 한 번만 호출된다.
