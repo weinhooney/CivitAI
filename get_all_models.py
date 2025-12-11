@@ -860,7 +860,15 @@ def generate_model_meta_files(m, user_root):
     model_folder = os.path.join(user_root, safe_folder_name(model_name))
     os.makedirs(model_folder, exist_ok=True)
 
-    model_versions = m.get("modelVersions", [])
+    version_data = m.get("modelVersions") or m.get("version")
+
+    if isinstance(version_data, list):
+        model_versions = version_data
+    elif isinstance(version_data, dict):
+        # version이 단일 객체일 때도 기존 코드가 돌아가도록 리스트로 통일
+        model_versions = [version_data]
+    else:
+        model_versions = []
 
     # ✅ 빈 리스트 검증 추가
     if not model_versions:
