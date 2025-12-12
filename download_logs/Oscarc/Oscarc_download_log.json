@@ -3401,9 +3401,26 @@
       "type": "image",
       "path": "E:\\CivitAI\\Users\\Oscarc\\Female Pov Futa Cowgirl Amazon 1.0\\14754336.png",
       "size": 913794
+    },
+    {
+      "id": 552711,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Oscarc\\Female Pov Futa Cowgirl Amazon 1.0\\Female_Pov_Futa_cowgirl_amazon_1.0.safetensors",
+      "size": 228453508
     }
   ],
   "failed": [
+    {
+      "id": 14754342,
+      "type": "image",
+      "reason": "missing",
+      "info": {
+        "expected_file_path": "E:\\CivitAI\\Users\\Oscarc\\Female Pov Futa Cowgirl Amazon 1.0\\14754342.jpeg",
+        "expected_file_size": null,
+        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26336513-806f-4547-b944-02a0acd50de0/original=true/26336513-806f-4547-b944-02a0acd50de0.jpeg",
+        "page_url": "https://civitai.com/images/14754342"
+      }
+    },
     {
       "id": 2488358,
       "type": "lora",
@@ -3411,7 +3428,7 @@
       "info": {
         "expected_file_path": "E:\\CivitAI\\Users\\Oscarc\\Pov Cowgirl (Looking Down) [Updated]\\Pov_Cowgirl_Looking_Down_update-000005.safetensors",
         "expected_file_size": 14667580.0,
-        "presigned_url": null
+        "presigned_url": "/login?returnUrl=%2Fmodel-versions%2F2488358&reason=download-auth"
       }
     },
     {
@@ -3467,27 +3484,6 @@
         "expected_file_size": null,
         "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ef918d2c-7faa-4e4d-b28d-bd2ef0406216/original=true/ef918d2c-7faa-4e4d-b28d-bd2ef0406216.jpeg",
         "page_url": "https://civitai.com/images/92767566"
-      }
-    },
-    {
-      "id": 552711,
-      "type": "lora",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Oscarc\\Female Pov Futa Cowgirl Amazon 1.0\\Female_Pov_Futa_cowgirl_amazon_1.0.safetensors",
-        "expected_file_size": 228453508.0,
-        "presigned_url": null
-      }
-    },
-    {
-      "id": 14754342,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Oscarc\\Female Pov Futa Cowgirl Amazon 1.0\\14754342.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26336513-806f-4547-b944-02a0acd50de0/original=true/26336513-806f-4547-b944-02a0acd50de0.jpeg",
-        "page_url": "https://civitai.com/images/14754342"
       }
     }
   ]

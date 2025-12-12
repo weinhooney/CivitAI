@@ -1,0 +1,260 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251212_024948
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/Oscarc/models
+
+[다운받을 모델 갯수]
+29
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Pov Cowgirl (Looking Down) [Updated]
+모델 URL: https://civitai.com/models/438394
+포스트 아이디: 25020968
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Standing Doggy Style + Missionary (looking up) [remake]
+모델 URL: https://civitai.com/models/530390
+포스트 아이디: 24829160
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Hug/kissing/breast press pov [remake]
+모델 URL: https://civitai.com/models/731660
+포스트 아이디: 15300766
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov ffm threesome
+모델 URL: https://civitai.com/models/675860
+포스트 아이디: 13819991
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov bondage wall
+모델 URL: https://civitai.com/models/1296513
+포스트 아이디: 13494630
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Bondage Chair [remake]
+모델 URL: https://civitai.com/models/526472
+포스트 아이디: 13383466
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Sumata/Grinding v1.0
+모델 URL: https://civitai.com/models/1265595
+포스트 아이디: 13120222
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Sitting on lap [Remake]
+모델 URL: https://civitai.com/models/413385
+포스트 아이디: 12456766
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov amazon position [remake]
+모델 URL: https://civitai.com/models/490129
+포스트 아이디: 12162319
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Lying on Top [remake]
+모델 URL: https://civitai.com/models/466455
+포스트 아이디: 12162051
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Holding a bow
+모델 URL: https://civitai.com/models/1087223
+포스트 아이디: 11076188
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Against a Table (pov + front + side) v1.0
+모델 URL: https://civitai.com/models/1028232
+포스트 아이디: 10399891
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Under Table
+모델 URL: https://civitai.com/models/1017155
+포스트 아이디: 10086574
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Grabbing Own Breasts (with variations) 1.0
+모델 URL: https://civitai.com/models/1008583
+포스트 아이디: 9967028
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Drunk 2.0
+모델 URL: https://civitai.com/models/422001
+포스트 아이디: 8475195
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Pov Against the Wall v2.0
+모델 URL: https://civitai.com/models/483161
+포스트 아이디: 8419319
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Bra Grab/manipulation v1.0
+모델 URL: https://civitai.com/models/881675
+포스트 아이디: 8272442
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Couple Selfie v1.0
+모델 URL: https://civitai.com/models/865632
+포스트 아이디: 8048149
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Stuck in wall (window) v1.0
+모델 URL: https://civitai.com/models/791349
+포스트 아이디: 7874633
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Selfie Pov 1.0
+모델 URL: https://civitai.com/models/578724
+포스트 아이디: 5629337
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Spitroast Pov (missionary/doggystyle) 1.0
+모델 URL: https://civitai.com/models/649869
+포스트 아이디: 5489878
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Reverse cowgirl (sitting on lap) 1.0
+모델 URL: https://civitai.com/models/643602
+포스트 아이디: 5395317
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Intimate Missionary/cowgirl 1.0
+모델 URL: https://civitai.com/models/608032
+포스트 아이디: 4903234
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Doggystyle Pov 2.0
+모델 URL: https://civitai.com/models/582201
+포스트 아이디: 4561696
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------
+
+--------------------------------------
+모델 이름: Female Pov Futa Cowgirl Amazon 1.0
+모델 URL: https://civitai.com/models/497201
+포스트 아이디: 3275227
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: local variable 'img_url' referenced before assignment
+--------------------------------------

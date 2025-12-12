@@ -6743,106 +6743,91 @@
       "type": "image",
       "path": "E:\\CivitAI\\Users\\ej20gf8453\\安里美和 azato miwa - 全国制服美少女グランプリ (zenkoku seifuku bishoujo grand prix)\\3743806.png",
       "size": 2001317
-    }
-  ],
-  "failed": [
+    },
     {
       "id": 3091099,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091099.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a55ba93-d380-4701-a16f-8441eef75ff3/original=true/2a55ba93-d380-4701-a16f-8441eef75ff3.jpeg",
-        "page_url": "https://civitai.com/images/3091099"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091099.png",
+      "size": 1939235
     },
     {
       "id": 3091094,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091094.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be3ead56-ce93-4513-b578-6992a786de1e/original=true/be3ead56-ce93-4513-b578-6992a786de1e.jpeg",
-        "page_url": "https://civitai.com/images/3091094"
-      }
-    },
-    {
-      "id": 193537,
-      "type": "lora",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\hyouuma.safetensors",
-        "expected_file_size": 345663372.0,
-        "presigned_url": null
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091094.png",
+      "size": 2084408
     },
     {
       "id": 3091077,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091077.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a17c2176-3290-41e0-a3ac-fe321eab38fb/original=true/a17c2176-3290-41e0-a3ac-fe321eab38fb.jpeg",
-        "page_url": "https://civitai.com/images/3091077"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091077.png",
+      "size": 1906528
     },
     {
       "id": 3091085,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091085.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56429fb6-06c5-41f9-a736-3d833fd650d0/original=true/56429fb6-06c5-41f9-a736-3d833fd650d0.jpeg",
-        "page_url": "https://civitai.com/images/3091085"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091085.png",
+      "size": 1761210
     },
     {
       "id": 3091096,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091096.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8dbbed9-91d8-40d9-8d4f-6f17e01bc397/original=true/a8dbbed9-91d8-40d9-8d4f-6f17e01bc397.jpeg",
-        "page_url": "https://civitai.com/images/3091096"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091096.png",
+      "size": 1875329
     },
     {
       "id": 3091098,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091098.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e71d2763-d7eb-44b5-b77a-d743c12b9e47/original=true/e71d2763-d7eb-44b5-b77a-d743c12b9e47.jpeg",
-        "page_url": "https://civitai.com/images/3091098"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3091098.png",
+      "size": 1992760
     },
     {
       "id": 3175796,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3175796.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3bd8be6a-c2a4-4c3c-8761-52bc360f6c72/original=true/3bd8be6a-c2a4-4c3c-8761-52bc360f6c72.jpeg",
-        "page_url": "https://civitai.com/images/3175796"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3175796.png",
+      "size": 2193773
     },
     {
       "id": 3175806,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3175806.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e3225076-7c14-4c80-ab43-6a3442b9bced/original=true/e3225076-7c14-4c80-ab43-6a3442b9bced.jpeg",
-        "page_url": "https://civitai.com/images/3175806"
-      }
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\3175806.png",
+      "size": 2233715
+    },
+    {
+      "id": 193537,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Hyouuma style\\hyouuma.safetensors",
+      "size": 345663372
+    },
+    {
+      "id": 87975334,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Pao style\\87975334.png",
+      "size": 2554509
+    },
+    {
+      "id": 87975140,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Pao style\\87975140.png",
+      "size": 2550417
+    },
+    {
+      "id": 87975141,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Pao style\\87975141.png",
+      "size": 2443365
+    },
+    {
+      "id": 87975138,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Pao style\\87975138.png",
+      "size": 2430130
+    },
+    {
+      "id": 2004503,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\ej20gf8453\\Pao style\\pao_IL.safetensors",
+      "size": 228455980
     }
-  ]
+  ],
+  "failed": []
 }

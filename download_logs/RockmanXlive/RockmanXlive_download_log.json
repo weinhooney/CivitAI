@@ -2033,30 +2033,109 @@
       "type": "image",
       "path": "E:\\CivitAI\\Users\\RockmanXlive\\月影骑士_Moonlight Knight_月影の騎士_美少女战士R_美少女戦士 セーラームーンR_SAILOR MOON\\6209206.png",
       "size": 997498
-    }
-  ],
-  "failed": [
+    },
     {
       "id": 6209205,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\RockmanXlive\\月影骑士_Moonlight Knight_月影の騎士_美少女战士R_美少女戦士 セーラームーンR_SAILOR MOON\\6209205.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c2abe1cd-07b9-4dbc-9f5f-4a3e837a86b2/original=true/c2abe1cd-07b9-4dbc-9f5f-4a3e837a86b2.jpeg",
-        "page_url": "https://civitai.com/images/6209205"
-      }
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\月影骑士_Moonlight Knight_月影の騎士_美少女战士R_美少女戦士 セーラームーンR_SAILOR MOON\\6209205.png",
+      "size": 1098802
     },
     {
       "id": 6209204,
       "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\RockmanXlive\\月影骑士_Moonlight Knight_月影の騎士_美少女战士R_美少女戦士 セーラームーンR_SAILOR MOON\\6209204.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d71cda02-99b9-4126-996d-6314a2bab568/original=true/d71cda02-99b9-4126-996d-6314a2bab568.jpeg",
-        "page_url": "https://civitai.com/images/6209204"
-      }
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\月影骑士_Moonlight Knight_月影の騎士_美少女战士R_美少女戦士 セーラームーンR_SAILOR MOON\\6209204.png",
+      "size": 1108073
+    },
+    {
+      "id": 834052,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\Electra XL.safetensors",
+      "size": 170546284
+    },
+    {
+      "id": 29054791,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29054791.png",
+      "size": 2237524
+    },
+    {
+      "id": 29054836,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29054836.png",
+      "size": 2005190
+    },
+    {
+      "id": 29054868,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29054868.png",
+      "size": 2091762
+    },
+    {
+      "id": 29054901,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29054901.png",
+      "size": 1969012
+    },
+    {
+      "id": 29054971,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29054971.png",
+      "size": 2195236
+    },
+    {
+      "id": 29055030,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055030.png",
+      "size": 1878803
+    },
+    {
+      "id": 29055099,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055099.png",
+      "size": 2070680
+    },
+    {
+      "id": 29055151,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055151.png",
+      "size": 2077540
+    },
+    {
+      "id": 29055399,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055399.png",
+      "size": 2280516
+    },
+    {
+      "id": 29055471,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055471.png",
+      "size": 1986341
+    },
+    {
+      "id": 29055501,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055501.png",
+      "size": 2120836
+    },
+    {
+      "id": 29055532,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055532.png",
+      "size": 2041842
+    },
+    {
+      "id": 29055647,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055647.png",
+      "size": 2316529
+    },
+    {
+      "id": 29055739,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\RockmanXlive\\【XL】伊莱克特_蓝宝石之谜_The Secret of Blue Water_ふしぎの海のナディア\\29055739.png",
+      "size": 2091451
     }
-  ]
+  ],
+  "failed": []
 }

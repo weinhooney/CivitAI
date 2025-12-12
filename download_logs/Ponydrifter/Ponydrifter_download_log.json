@@ -1943,6 +1943,24 @@
       "type": "image",
       "path": "E:\\CivitAI\\Users\\Ponydrifter\\Ren (remanedur)\\46218500.png",
       "size": 749252
+    },
+    {
+      "id": 46122529,
+      "type": "image",
+      "path": "E:\\CivitAI\\Users\\Ponydrifter\\Lanya (icshian)\\46122529.jpeg",
+      "size": 182578
+    },
+    {
+      "id": 1175632,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Ponydrifter\\Lanya (icshian)\\Lanya_icshian.safetensors",
+      "size": 228457252
+    },
+    {
+      "id": 1454699,
+      "type": "lora",
+      "path": "E:\\CivitAI\\Users\\Ponydrifter\\Clopping\\Clopping_r1.safetensors",
+      "size": 228458924
     }
   ],
   "failed": [
@@ -1954,37 +1972,6 @@
         "files_available": [
           "tamara v2.zip"
         ]
-      }
-    },
-    {
-      "id": 1454699,
-      "type": "lora",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Ponydrifter\\Clopping\\Clopping_r1.safetensors",
-        "expected_file_size": 228458924.0,
-        "presigned_url": null
-      }
-    },
-    {
-      "id": 46122529,
-      "type": "image",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Ponydrifter\\Lanya (icshian)\\46122529.jpeg",
-        "expected_file_size": null,
-        "download_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf525474-1b82-4638-a72d-937a975dc875/original=true/bf525474-1b82-4638-a72d-937a975dc875.jpeg",
-        "page_url": "https://civitai.com/images/46122529"
-      }
-    },
-    {
-      "id": 1175632,
-      "type": "lora",
-      "reason": "missing",
-      "info": {
-        "expected_file_path": "E:\\CivitAI\\Users\\Ponydrifter\\Lanya (icshian)\\Lanya_icshian.safetensors",
-        "expected_file_size": 228457252.0,
-        "presigned_url": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/modelVersion/1175632/Lanya_icshian.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22Lanya_icshian.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20251211/us-east-1/s3/aws4_request&X-Amz-Date=20251211T163840Z&X-Amz-SignedHeaders=host&X-Amz-Signature=0a3c32efc02237af75836ff8713719fb7413a045b83bd66eaafcdb492f2a94af"
       }
     }
   ]

@@ -1,0 +1,38 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251212_063436
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/yusufho123/models
+
+[다운받을 모델 갯수]
+166
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Mizukoshi Tomoka 水越 智花 MOZU
+모델 URL: https://civitai.com/models/1075631
+포스트 아이디: 10801568
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/10801568
+--------------------------------------
+
+--------------------------------------
+모델 이름: Sonobe Sora 園部 空 人間デブリ
+모델 URL: https://civitai.com/models/1056111
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Kisaragi Shizuka 如月 静 真説 猟奇の檻
+모델 URL: https://civitai.com/models/1016203
+포스트 아이디: 10049078
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/10049078
+--------------------------------------
