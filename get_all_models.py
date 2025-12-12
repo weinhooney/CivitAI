@@ -13,6 +13,7 @@ from get_model import (
     set_future_lists,
     set_download_targets,
     idm_start_download,
+    idm_get_queue_size,
 )
 from get_model import USERS_ROOT, POSTS_ROOT
 from get_model import safe_get
@@ -1460,6 +1461,15 @@ def main():
                     "failed_lora": {"copy_error": str(e)},
                 })
 
+        # =========================================================================
+        # ✅ 각 모델 처리 완료 후 즉시 다운로드 시작 (대기열 크기 제한)
+        # =========================================================================
+        queue_size = idm_get_queue_size()
+        if queue_size > 0:
+            print(f"\n[IDM] 모델 '{model_name}' 처리 완료 - 대기열 다운로드 시작 ({queue_size}개 파일)")
+            idm_start_download()
+            print(f"[IDM] 대기열이 비워졌습니다. 다음 모델 처리 시작...\n")
+
     # =========================================================================
     # ✅ 모든 모델 처리 완료 후 DOWNLOAD_TARGETS 검증
     # =========================================================================
@@ -1469,12 +1479,13 @@ def main():
 
     verify_stats = verify_download_targets(DOWNLOAD_TARGETS)
 
-    # 다운로드가 필요한 항목이 있는지 확인
-    if verify_stats["images_need_download"] > 0 or verify_stats["lora_need_download"] > 0:
-        print(f"\n[INFO] IDM 다운로드 시작: 이미지 {verify_stats['images_need_download']}개, LoRA {verify_stats['lora_need_download']}개")
+    # 마지막 정리: 혹시 남은 파일이 있는지 확인
+    remaining_queue = idm_get_queue_size()
+    if remaining_queue > 0:
+        print(f"\n[INFO] 마지막 정리: 남은 대기열 다운로드 시작 ({remaining_queue}개 파일)")
         idm_start_download()
     else:
-        print("\n[INFO] 다운로드가 필요한 파일이 없습니다. IDM 다운로드 스킵")
+        print("\n[INFO] 모든 다운로드가 각 모델마다 처리되었습니다.")
 
 
     log_file_path = write_download_log(

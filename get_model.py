@@ -10,6 +10,8 @@ import shutil
 import threading
 import subprocess
 import shlex
+import tempfile
+from datetime import datetime
 from thread_pool import IMG_META_EXECUTOR, BG_LORA_EXECUTOR
 
 # ★ get_all_models.py 를 import 하지 않기 위해 전역 future 리스트를 외부에서 주입받는 구조로 변경
@@ -31,6 +33,13 @@ def set_download_targets(target_list):
 
 
 ###########################################################
+# IDM 대기열 크기 추적
+###########################################################
+IDM_QUEUE_COUNTER = 0
+IDM_COUNTER_LOCK = threading.Lock()
+
+
+###########################################################
 # IDM
 ###########################################################
 IDM_PATH = r"C:\Program Files (x86)\Internet Download Manager\IDMan.exe"
@@ -41,73 +50,56 @@ def idm_add_to_queue(url: str, save_dir: str, file_name: str):
     IDM 다운로드 대기열에 추가 (/a)
     다운로드는 아직 시작되지 않음.
 
-    ✅ 개선: subprocess.Popen() 대신 list 형식 + wait() 사용
-    - Windows 경로 처리 개선 (shlex.split 제거)
-    - 프로세스 완료 대기로 타이밍 문제 해결
-    - 반환값 검증으로 실패 감지
+    ✅ 카운터 추적 추가:
+    - 대기열에 추가된 파일 개수를 카운터로 추적
+    - idm_get_queue_size()로 현재 대기열 크기 확인 가능
     """
-    # Windows 네이티브 방식: 리스트로 직접 전달 (shlex.split 불필요)
-    process = subprocess.Popen(
-        [IDM_PATH, "/d", url, "/p", save_dir, "/f", file_name, "/a"],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True,
-        creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
-    )
+    global IDM_QUEUE_COUNTER
 
-    # 누락 위험 때문에 잠시 딜레이
-    time.sleep(0.5)
+    cmd = f'"{IDM_PATH}" /d "{url}" /p "{save_dir}" /f "{file_name}" /a'
+    subprocess.Popen(shlex.split(cmd),
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL)
 
-    # 프로세스 완료 대기 (최대 5초)
-    try:
-        stdout, stderr = process.communicate(timeout=5)
+    # 카운터 증가
+    with IDM_COUNTER_LOCK:
+        IDM_QUEUE_COUNTER += 1
+        current_count = IDM_QUEUE_COUNTER
 
-        if process.returncode != 0:
-            print(f"[IDM][ERROR] 대기열 추가 실패 (RC={process.returncode}): {file_name}")
-            if stderr:
-                print(f"[IDM][ERROR] stderr: {stderr.strip()}")
-            return False
+    print(f"[IDM] Added to queue: {file_name} (총 {current_count}개)")
 
-        print(f"[IDM] Added to queue: {file_name}")
-        return True
-
-    except subprocess.TimeoutExpired:
-        process.kill()
-        print(f"[IDM][ERROR] 명령 타임아웃 (5초 초과): {file_name}")
-        return False
-    except Exception as e:
-        print(f"[IDM][ERROR] 예외 발생: {e}")
-        return False
 
 def idm_start_download():
-    """IDM 대기열 다운로드 시작 (/s)"""
-    process = subprocess.Popen(
-        [IDM_PATH, "/s"],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True,
-        creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
-    )
+    """
+    IDM 대기열 다운로드 시작 (/s)
 
-    try:
-        stdout, stderr = process.communicate(timeout=3)
+    ✅ 카운터 초기화:
+    - 다운로드 시작 시 카운터를 0으로 리셋
+    """
+    global IDM_QUEUE_COUNTER
 
-        if process.returncode != 0:
-            print(f"[IDM][ERROR] 다운로드 시작 실패 (RC={process.returncode})")
-            if stderr:
-                print(f"[IDM][ERROR] stderr: {stderr.strip()}")
-            return False
+    with IDM_COUNTER_LOCK:
+        queue_count = IDM_QUEUE_COUNTER
 
-        print("[IDM] Queue download started!")
-        return True
+    if queue_count == 0:
+        print("[IDM] 다운로드할 파일이 없습니다")
+        return
 
-    except subprocess.TimeoutExpired:
-        process.kill()
-        print("[IDM][ERROR] 다운로드 시작 타임아웃 (3초 초과)")
-        return False
-    except Exception as e:
-        print(f"[IDM][ERROR] 예외 발생: {e}")
-        return False
+    print(f"[IDM] 대기열 다운로드 시작 ({queue_count}개 파일)")
+
+    subprocess.Popen(shlex.split(f'"{IDM_PATH}" /s'),
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL)
+
+    # 카운터 초기화
+    with IDM_COUNTER_LOCK:
+        IDM_QUEUE_COUNTER = 0
+
+
+def idm_get_queue_size():
+    """현재 대기열에 추가된 파일 개수 반환 (추정치)"""
+    with IDM_COUNTER_LOCK:
+        return IDM_QUEUE_COUNTER
 
 
 
@@ -167,43 +159,56 @@ def extract_image_extension(url):
 ###########################################################
 REQUEST_LOCK = threading.Lock()
 LAST_REQUEST_TIME = 0
-REQUEST_INTERVAL = 1.0   # 최소 1초 — CivitAI 안정권
+REQUEST_INTERVAL = 1.5   # 최소 1.5초 — 429 오류 방지를 위해 증가
 
 def safe_get(url, retries=5, **kwargs):
     """
     Rate limit을 고려한 안전한 GET 요청
-    - REQUEST_LOCK: 최소 시간만 보유 (시간 계산 + 갱신)
-    - sleep: LOCK 외부에서 실행하여 다른 스레드 블로킹 방지
+
+    ✅ 개선:
+    - LOCK 안에서 API 호출까지 수행
+    - 여러 스레드의 동시 API 호출 완전 차단
+    - 429 오류 해결
     """
     global LAST_REQUEST_TIME
 
     for attempt in range(retries):
-        # 1) LOCK으로 보호된 영역: 대기 시간 계산 + 시간 갱신만
+        response = None
+
+        # ✅ LOCK 안에서 대기 + API 호출까지 수행
         with REQUEST_LOCK:
+            # 1) 대기 시간 계산
             now = time.time()
             wait_time = REQUEST_INTERVAL - (now - LAST_REQUEST_TIME)
-            LAST_REQUEST_TIME = time.time()  # 미리 갱신하여 다음 스레드가 계산 가능하게
 
-        # 2) LOCK 외부에서 대기 (다른 스레드가 LOCK 획득 가능)
-        if wait_time > 0:
-            time.sleep(wait_time)
+            # 2) 필요하면 대기 (LOCK 안에서)
+            if wait_time > 0:
+                time.sleep(wait_time)
 
-        # 3) API 요청 (LOCK 없이)
-        try:
-            response = session.get(url, **kwargs)
-        except Exception as e:
-            print(f"[ERROR] 요청 실패 (attempt {attempt+1}/{retries}): {e}")
-            if attempt == retries - 1:
-                raise
-            time.sleep(2)  # 네트워크 에러 시 2초 대기 후 재시도
+            # 3) 시간 갱신 (API 호출 직전)
+            LAST_REQUEST_TIME = time.time()
+
+            # 4) API 요청 (LOCK 안에서!)
+            try:
+                response = session.get(url, **kwargs)
+            except Exception as e:
+                print(f"[ERROR] 요청 실패 (attempt {attempt+1}/{retries}): {e}")
+                if attempt == retries - 1:
+                    raise
+                # LOCK 외부에서 재시도 대기
+                pass
+
+        # 5) 예외 발생 시 재시도
+        if response is None:
+            time.sleep(2)
             continue
 
-        # 4) 성공하면 바로 반환
+        # 6) 성공하면 바로 반환
         if response.status_code != 429:
             return response
 
-        # 5) 429 에러 시: LOCK 외부에서 백오프 대기
-        backoff = min(2 ** attempt, 60)  # 최대 60초로 제한
+        # 7) 429 에러 시: LOCK 외부에서 백오프 대기
+        backoff = min(2 ** attempt, 60)
         print(f"[RATE LIMIT] 429 → {backoff}초 대기 (attempt {attempt+1}/{retries})")
         time.sleep(backoff)
 
