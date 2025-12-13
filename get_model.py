@@ -61,6 +61,9 @@ def idm_add_to_queue(url: str, save_dir: str, file_name: str):
                     stdout=subprocess.DEVNULL,
                     stderr=subprocess.DEVNULL)
 
+    # 빠르게 등록하면 누락위험이 있어서 딜레이
+    time.sleep(1)
+
     # 카운터 증가
     with IDM_COUNTER_LOCK:
         IDM_QUEUE_COUNTER += 1
@@ -937,6 +940,8 @@ def _process_post_core(post_id: int, save_dir: str):
     if model_version_id:
         print(f"[THREAD] LoRA 작업 비동기 실행… modelVersionId={model_version_id}")
         lora_future = BG_LORA_EXECUTOR.submit(process_lora_task, folder, model_version_id, None)
+        if LORA_FUTURES is None:
+            LORA_FUTURES = []
         LORA_FUTURES.append(lora_future)
 
     else:
