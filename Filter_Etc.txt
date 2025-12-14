@@ -365,7 +365,6 @@ see-through
 checkered_floor
 foot focus
 from below
-midriff
 off_shoulder
 erection
 hair_bun
@@ -2248,7 +2247,6 @@ water_drop
 light
 arms_back
 white armlet
-cleavage cutout
 clothing cutout
 mai_a_screaming
 mechanical arms
@@ -8064,7 +8062,6 @@ flower hair accessory
 carmen
 carmen_outfit
 dark red top
-midriff cutout
 dark red tail
 furry arms
 brown fur
@@ -8292,7 +8289,6 @@ light blue crop top
 white and blue outfit
 blue v-neck collar
 blue waist sash
-cleavage score_9
 triangular cutout
 choker collar
 red trim top
@@ -8597,7 +8593,6 @@ eastern fantasy
 green and white outfit
 open chest cutout
 han
-cleavage cutout score_9
 motion
 completely completely nude
 reverse upright straddle
@@ -8827,7 +8822,6 @@ jenny
 side-part
 ear-tucked strand
 jenny_outfit
-midriff score_9
 cross-collar
 light yellow top
 black halter top
@@ -9360,7 +9354,6 @@ floral sash
 golden anklet
 crisscross waist wrap
 bandage on arms
-cleavage window score_9
 decorative ruffled cravat
 brown chest bow
 mesa
@@ -9483,7 +9476,6 @@ black gi
 pink strapless top
 silver waist armor
 pink chest gem
-midriff cutout score_9
 sheer black top
 transparent chest
 contrast trim
@@ -9651,7 +9643,6 @@ no slit
 turquoise necklace
 charcoal sleeveless top
 dark wide waist sash
-cleavage window
 see-through fabric
 black and magenta outfit
 fox tails

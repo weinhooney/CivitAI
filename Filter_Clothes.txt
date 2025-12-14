@@ -1867,7 +1867,7 @@ star pasties
 dress earrings
 earrings red dress
 layered dress
-layered dress  indoors
+layered dress indoors
 green cape
 hospital gown
 pink gown
@@ -2034,7 +2034,7 @@ black bridal lingerie
 covering face school uniform
 jump red bikini
 skinny jeans white skin
-kimono  indoors
+kimono indoors
 bikini top only
 breasts white dress
 black turtleneck
@@ -12933,3 +12933,8 @@ balloon skirt
 umbralknight
 striped bikini sensual face
 mismatched legwear thighhighs
+cleavage
+cleavage cutout
+exposed midriff
+midriff
+midriff cutout
