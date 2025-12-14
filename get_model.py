@@ -912,6 +912,15 @@ def _process_post_core(post_id: int, save_dir: str):
     """
     print(f"[PROCESS] POST 처리 시작: {post_id}")
 
+    # NOTE:
+    # - get_model.py 를 단독 실행(__main__)할 때도 동작하도록
+    #   외부 주입이 안 된 전역 리스트들은 여기서 기본값으로 초기화한다.
+    global IMG_META_FUTURES, LORA_FUTURES, DOWNLOAD_TARGETS
+    if IMG_META_FUTURES is None:
+        IMG_META_FUTURES = []
+    if LORA_FUTURES is None:
+        LORA_FUTURES = []
+
     # 실패 정보 수집 dict
     failed = {
         "failed_image_urls": [],
@@ -940,8 +949,6 @@ def _process_post_core(post_id: int, save_dir: str):
     if model_version_id:
         print(f"[THREAD] LoRA 작업 비동기 실행… modelVersionId={model_version_id}")
         lora_future = BG_LORA_EXECUTOR.submit(process_lora_task, folder, model_version_id, None)
-        if LORA_FUTURES is None:
-            LORA_FUTURES = []
         LORA_FUTURES.append(lora_future)
 
     else:
@@ -1011,7 +1018,6 @@ def _process_post_core(post_id: int, save_dir: str):
                     break
 
             # DOWNLOAD_TARGETS에 추가 (검증을 위해)
-            from get_model import DOWNLOAD_TARGETS
             if DOWNLOAD_TARGETS is not None:
                 DOWNLOAD_TARGETS.append({
                     "type": "image",
@@ -1024,9 +1030,14 @@ def _process_post_core(post_id: int, save_dir: str):
                     "needs_download": False,  # 이미 성공 로그에 있으므로 다운로드 불필요
                 })
 
-            # 메타데이터 생성은 계속 진행
-            future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
-            IMG_META_FUTURES.append(future)
+            # 메타데이터 생성은 계속 진행 (단, 메타 파일이 이미 있으면 스킵)
+            if image_id is not None:
+                meta_path = os.path.join(folder, f"{image_id}.txt")
+                if os.path.exists(meta_path) and os.path.getsize(meta_path) > 0:
+                    print(f"[SKIP] 이미지 메타 파일 이미 존재 → {meta_path}")
+                else:
+                    future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
+                    IMG_META_FUTURES.append(future)
 
             continue  # 다음 이미지로
         # =====================================================
@@ -1098,8 +1109,6 @@ def _process_post_core(post_id: int, save_dir: str):
         # =============================================
         # ✅ 다운로드 대상 목록에 추가 (모든 이미지를 누락없이 추가)
         # =============================================
-        from get_model import DOWNLOAD_TARGETS  # 자기 자신 모듈의 전역을 참조
-
         if DOWNLOAD_TARGETS is not None:
             DOWNLOAD_TARGETS.append({
                 "type": "image",
@@ -1121,9 +1130,15 @@ def _process_post_core(post_id: int, save_dir: str):
 
         # =============================================
         # ② 메타 생성은 다운로드 여부와 무관하게 병렬 처리
+        #    - 단, 메타 파일이 이미 존재하면 submit 자체를 스킵
         # =============================================
-        future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
-        IMG_META_FUTURES.append(future)
+        if image_id is not None:
+            meta_path = os.path.join(folder, f"{image_id}.txt")
+            if os.path.exists(meta_path) and os.path.getsize(meta_path) > 0:
+                print(f"[SKIP] 이미지 메타 파일 이미 존재 → {meta_path}")
+            else:
+                future = IMG_META_EXECUTOR.submit(async_process_image_meta, image_id, uuid, folder)
+                IMG_META_FUTURES.append(future)
 
     print(f"=== POST {post_id} 처리 완료 ===\n")
 
@@ -1156,7 +1171,6 @@ def process_lora_task(folder, model_version_id, _):
                     print(f"[SKIP] LoRA 이미 성공 로그에 있음 (파일 확인됨) → modelVersionId={model_version_id}")
 
                     # DOWNLOAD_TARGETS에 추가 (검증을 위해)
-                    from get_model import DOWNLOAD_TARGETS
                     if DOWNLOAD_TARGETS is not None:
                         DOWNLOAD_TARGETS.append({
                             "type": "lora",
@@ -1255,7 +1269,6 @@ def process_lora_task(folder, model_version_id, _):
                     }
                 )
                 # ✅ 실패해도 DOWNLOAD_TARGETS에 추가 후 return
-                from get_model import DOWNLOAD_TARGETS
                 if DOWNLOAD_TARGETS is not None:
                     DOWNLOAD_TARGETS.append({
                         "type": "lora",
@@ -1273,8 +1286,6 @@ def process_lora_task(folder, model_version_id, _):
         # =============================================
         # ✅ DOWNLOAD_TARGETS에 모든 LoRA 추가 (누락 방지)
         # =============================================
-        from get_model import DOWNLOAD_TARGETS  # 주입된 전역 리스트 사용
-
         if DOWNLOAD_TARGETS is not None:
             DOWNLOAD_TARGETS.append({
                 "type": "lora",
@@ -1336,7 +1347,6 @@ def wait_and_finalize_lora(folder, presigned, lora_filename):
     # 로라 expected_size 검색 (DOWNLOAD_TARGETS에서 찾기)
     #   🔥 이제 get_all_models이 아니라, get_model 전역에서 주입받은 리스트 사용
     # ------------------------------------------------------
-    from get_model import DOWNLOAD_TARGETS
 
     expected_size = None
     model_version_id = None
