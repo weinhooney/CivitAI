@@ -25,7 +25,6 @@ absurdres
 incredibly absurdres
 anime style
 source_anime
-anime coloring
 anime_portrait_wallpaper
 cozyaesthetic
 extremely detailed 8k wallpaper
@@ -34,8 +33,6 @@ highres
 realistic style
 japan aesthetic
 highly detailed
-masterpiece
-best quality
 extremely detailed
 4k
 8k
@@ -60,7 +57,6 @@ intricate details
 detailed hands
 hdr
 3d
-extremely detailed
 extremely detailed cg
 extremely detailed face
 best quality eyes
@@ -86,10 +82,8 @@ short stack:0.7 solo anime coloring
 anime coloring __angle__:1.3 __emotion__:1.2 huge breasts
 anime coloring __angle__:1.3
 anime coloring __angle__:1.3 embarrassed
-looking at viewer:1.3 nsfw:1.3 amazed expression with wide eyes clever arcade standing with one foot on a skateboard or other wheeled object detailed pussy siggy
 anime coloring 1girl solo
 u anime coloring
-anime coloring
 crayon shin-chan anime coloring looking at viewer
 b anime coloring:0.8
 anime coloring from above
@@ -134,13 +128,10 @@ ultra hd quality details
 score_6_up
 score_5_up
 score_4_up
-masterpiece
-best quality
 pcmhdrmp
 style anime
 hyper realistic
 cel shading
-hyper realistic
 hyperrealistic
 detailed hair
 this is a digital drawing in an anime style
@@ -173,10 +164,7 @@ with fine details highlighting the material's elasticity and smoothness. the ove
 this is a highly detailed digital illustration featuring a young woman with a serene yet confident expression. she has fair skin
 almond-shaped brown eyes. her facial features are delicate
 adding a sense of depth and tranquility. the overall style of the illustration is realistic with a slight anime influence
-while her right hand adjusts her hair. the overall style of the illustration is anime-inspired
 detailed digital drawing in a manga style
-1980s anime-style illustration featuring two characters standing against a city skyline backdrop with tall
-assertive posture with her hands on her hips. both characters have a realistic
 pastel color palette. the artwork features a young woman with a light skin tone and short
 with a focus on the subject's serene expression and naturalistic details.
 with meticulous attention to detail in the character's features and the surrounding elements.
@@ -221,7 +209,6 @@ detailed irises
 detailed anatomy
 realistic proportions
 fantasy style anime_source
-incredibly detailed
 black bodice with white and red details
 anime style score_9
 gold line details
@@ -273,7 +260,6 @@ glowing fabric trails very aesthetic
 glowing fabric trails source_anime
 flip flops source_anime
 detailed lighting
-detailed face
 semi realistic
 realistic shading
 detailed face and eyes
@@ -291,42 +277,31 @@ anime coloring aki izayoi
 best quality on bed
 detailed face:1.1
 beautiful detailed face
-detailed face
 detailed facembarrassed
 masterpieest quality
-detailed face and eyes
-beautiful detailed face
 frillsdetailed face
 source_anime:1.2
 anime coloring1girl
 detailed face and eyes:1.2
-beautiful detailed face
 high_quality
 beautiful detailed eyes:1.1
 detailed pen-and-ink illustration by franklin booth of tannhuser in the grotto of venus
-detailed pen-and-ink illustration by franklin booth of a man and a woman standing together on top of a grassy hill overlooking a city below. there are billowing clouds in the sky.
 detailed pen-and-ink illustration by franklin booth of a city at night around before new years. in the distance there are people waking on side walks next to multistory buildings. a few cars are parked on street. some background details in include a fire hydrant
 dense and detailed pen-and-ink illustration by franklin booth depicting a serene pond scene. the image is dominated by a tranquil body of water with a few circular lily pads floating on its surface. the lily pads are intricately detailed
 almost impenetrable wall of foliage. the overall style of the drawing is meticulous and detailed
-detailed pen-and-ink illustration by franklin booth of a woman sitting in front a church pipe organ. above her the pipes billowing out clouds which are morphing into angels who are blowing horns as if partying.
 dense and detailed pen-and-ink illustration by franklin booth of a zombie.
 a high-resolution pin-up illustration by gil elvgren. the central figure is a blonde woman with curly
 tactile quality of the illustration. the overall style is playful and whimsical
 a realistic
 high-resolution image by gil elvgren. the central figure is a white haired elf woman with long
-high-resolution image by gil elvgren. the central figure is woman holding a large hammer vetically with both hands. she is kneeling on a concrete floor and she is looking at the hammer with a confused look on her face
 high-resolution painting by gil elvgren of a woman standing. she has long
 high-resolution image by gil elvgren. the central focus is a close up of a dark-skinned woman a bottle of barbeque sauce. she has curly black afro and is wearing a yellow hairband and a yellow crop top. she has a wide nose and she is giving the viewer a wide
 creating a nostalgic and playful mood. the textures are smooth and polished
 a high-resolution painting by gil elvgren depicting a seductive witch in a halloween-themed setting. the central figure is a young woman with fair skin
 adding to the spooky atmosphere. the background features a large
-high-resolution painting by gil elvgren of a woman sitting a huge pile of brown
-a high-resolution image by gil elvgren. it depicts a woman standing in a field of autumn leaves
 almost surreal quality
 high-resolution image by gil elvgren. the image is of the lower half of a woman sticking out the top of a brick chimney. the shot is from behind
 a high-resolution painting by gil elvgren
-high-resolution image by gil elvgren. the central focus is a man standing in the stoop of a house. his hair is wet and he has big
-score_9
 score_4_up:1
 score_6
 adding a three-dimensional quality to the painting. the overall style is highly realistic and detailed
@@ -334,12 +309,10 @@ adding to the spooky atmosphere. the background features a dark
 detailed linework
 very_high_resolution
 anime coloring room
-cinematic lighting
 jewelry anime coloring
 extreamely detailed background
 absurdres:1.5
 smooth_quality
-anime coloring
 detailed speaker
 detailed nipples
 detailed dhands
@@ -349,9 +322,7 @@ hair ribbon anime coloring
 closed mouth anime coloring
 excellent quality
 excellent details
-best quality
 highest quality
-photorealistic
 realistic girl
 contrapposto realistic hands
 japanese girl. photorealistic
@@ -419,8 +390,6 @@ slice of life anime style
 modern anime artstyle similar to 2020s romance slice of life series
 realistic anime mature female
 2010s anime style
-2010s anime style
-modern anime aesthetic
 digital anime style
 2010s anime aesthetic
 oav 1998-2002 anime art style
@@ -428,8 +397,6 @@ soft feminine features mature woman: soft sag body
 realistic mature proportions
 realistic perfect face shape
 realistic dark brown eyes
-detailed anime style
-detailed anime style
 realistic mature anime woman 40s
 realistic aging signs
 ultra-detailed ova anime
@@ -443,7 +410,6 @@ taboomisa detailed figure: elegant mature woman
 clean cel shading
 1998–2002 anime aesthetic
 mature elegant anime hairstyle
-vintage anime realistic_adult_female_body
 ultra high skin detail
 realistic mature female proportion
 ova hikaru no go anime style
@@ -456,11 +422,9 @@ aesthetic
 detailed skin texture
 phenomenal aesthetic
 detailed light
-ultra detailed
 absurdres 1girl
 anime coloring rolstyle
 detailed texture
-neon_genesis_evangelion eva_01 highres blurry blurry_background building evangelion_mecha field from_behind grass horns mecha mountainous_horizon outdoors robot single_horn sky standing
 highly detailed retro anime
 retro futurism aesthetic
 wires and cables attaching to neck
@@ -475,7 +439,6 @@ extremily detailed
 hi resolution
 details
 ultra-realistic
-detailed eyes
 sharp image quality
 intricately detailed illustration
 ultra detailed eyes
@@ -505,7 +468,6 @@ the background features greenery and scattered pine needles on the ground
 with card details subtly embedded in the design
 the backdrop features green gym equipment
 highly detailed face
-very aesthetic
 best quality:1.3
 detailed skin
 perfect quality
@@ -513,7 +475,6 @@ very-detailed
 highly detailed portrait
 beautifully detailed and elegant ballet tiara
 the crown features a golden metallic structure with delicate and filigree-like patterns and adorned with soft curves and pointed arches
-ultra high quality
 high detailed face
 flowing textures and surreal shapes. kataoka_tesshin is surrounded by glitchy distortions
 the background features a traditional korean-style sliding door with wooden frames
@@ -530,9 +491,7 @@ flowing textures and surreal shapes
 the background features historic buildings in pastel colors and a bridge
 the corn stalks are detailed
 digital anime-style drawing
-detailed lighting
 giving it a polished and dynamic appearance. the vehicle's rear end features dual exhausts
-masterpiece
 hyper-detailed
 best aesthetic
 floral details
@@ -542,33 +501,26 @@ the background features a classroom setting with colorful world maps on the wall
 intricate and detailed color
 hdri
 detailed mansion living room
-beautiful aesthetic long-sleeeves pink top with red bow
 beautiful aesthetic short-sleeeves white top with big blue bow
 16k resolution
 detailed demonic background
 detailed demonic world background
 red demon world anime coloring
-8k
 high detailed pupils
 high quality eyes
-masterpiece
 professional lighting
 amazing quality background
 ultra details
 score_10
 ultra detailed fantasy willage
 ultra detailed fantasy castle
-intricate details
 8k uhd
 high detailed eyes
-high quality eyes
-high detailed pupils
 a busy shopping mall with people and stores in the background.
 incorporating lens flares or light leaks for a dreamy and ethereal atmosphere.
 colourful anime-style illustration
 sharp focus inkyo
 detailed:1.2
-beautiful detailed eyes
 high res image] [maid girl
 detailed scenery
 detailed background : 1.1
@@ -582,9 +534,7 @@ old anime style
 perfect detailed background
 score_9. best
 8k detail
-ultra-detailed
 high detailed
-hyperrealistic
 photorealistic face
 source_anime charlotte scherzen
 anime coloring rooftop
@@ -603,7 +553,6 @@ high quality nipple
 1990s anime cels style
 high quality nippleperfect pussy
 sherry is being observed in an embarrassing position by very grotesque ugry creatures with elongated slimy tongue
-sherry is exposed as a sex slave in front of a by very grotesque ugry creatures with elongated slimy tongue
 shelly is being observed in an embarrassing position by very grotesque ugry creatures with elongated slimy tongue
 centipede creatures wrap around cecile_sue's body and violate her
 multiple large centipede creatures swarming all over cecile_sue's body
@@ -611,10 +560,7 @@ detailed facee
 dragon queststylesource_anime
 ridgit forced to satisfy the sexual desires of multiple penises
 detailed fac
-masterpiece
 bold cel shading
-1990s anime style
-1990s anime cels style
 3drealistic
 4k wallpaper
 detailed facequeen's bladestyle
