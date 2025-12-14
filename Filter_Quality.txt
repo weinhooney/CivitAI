@@ -59,13 +59,10 @@ hdr
 3d
 extremely detailed cg
 extremely detailed face
-best quality eyes
 hyperdetailed
 ery aesthetic
 8k resolution
-best quality 5 fingers
 best quality anime coloring
-best quality:1.2 thick thigh
 photorealistic
 score_9_up
 detailed faces
@@ -91,22 +88,14 @@ anime coloring from below
 anime coloring from behind
 anime coloring from side
 anime coloring cirima:0.7
-best quality:1.2 huge breasts:1.3 thick thigh
-best quality:1.2 huge breasts:1.0 thick thigh
 ultra high res
-best quality curvy
-best quality curvy midriff
-best quality curvy from above
-best quality curvy cirima
 photorealistic dead or alive
 anime coloring huge breasts
 anime coloring seductive smile
-best quality:1.2 extreamly long straight hair
 best quality:1.2 victorian:1.4 princess
 anime coloring source masterpiece
 anime coloring huge breasts wide hips
 anime coloring:0.8 take \illustrator\ huge breasts wide hips
-best quality:1.2 huge breasts:1.2 thick thigh
 detailed pussy
 focusing on intricate details
 satisfied smile with relaxed features 1girl
@@ -422,7 +411,6 @@ aesthetic
 detailed skin texture
 phenomenal aesthetic
 detailed light
-absurdres 1girl
 anime coloring rolstyle
 detailed texture
 highly detailed retro anime
@@ -507,7 +495,6 @@ detailed demonic background
 detailed demonic world background
 red demon world anime coloring
 high detailed pupils
-high quality eyes
 professional lighting
 amazing quality background
 ultra details
@@ -548,7 +535,6 @@ anime coloring maid
 anime coloring looking at viewer
 anime coloring evil smile
 detailed lora
-high quality nipple
 1990s anime style
 1990s anime cels style
 high quality nippleperfect pussy
