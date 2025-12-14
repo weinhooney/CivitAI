@@ -1,0 +1,48 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251213_141936
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/tabinezumi/models
+
+[다운받을 모델 갯수]
+412
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: tio_plato (eiyuu_densetsu_sen_no_kiseki_III) XL Illustrious LORA
+모델 URL: https://civitai.com/models/1813909
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: kawarazaki_rei (kawarazakike_no_ichizoku) XL Illustrious LORA
+모델 URL: https://civitai.com/models/1617474
+포스트 아이디: 17405889
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17405889
+--------------------------------------
+
+--------------------------------------
+모델 이름: teramoto_airi (tonari_no_seki_no_teramoto) XL Illustrious LORA
+모델 URL: https://civitai.com/models/1600111
+포스트 아이디: 17184977
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17184977
+--------------------------------------
+
+--------------------------------------
+모델 이름: tekitou (odai) XL Illustrious LORA
+모델 URL: https://civitai.com/models/1568772
+포스트 아이디: 16793150
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16793150
+--------------------------------------

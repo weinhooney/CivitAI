@@ -1,0 +1,56 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251213_173117
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/MikadoNagi/models
+
+[다운받을 모델 갯수]
+672
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: 無限 竜子 illustrious版 (MUGEN) / Mugen Ryuko (MUGEN)
+모델 URL: https://civitai.com/models/1112447
+포스트 아이디: 17122915
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17122915
+--------------------------------------
+
+--------------------------------------
+모델 이름: 山神 しの pony版 (アイドル麻雀 ファイナルロマンス4) / Yamagami Shino (Idol Mahjong Final Romance 4)
+모델 URL: https://civitai.com/models/505972
+포스트 아이디: 4369851
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/4369851
+--------------------------------------
+
+--------------------------------------
+모델 이름: 茜ヶ崎 空 pony版 (Ever17 -the out of infinity-) / Akanegasaki Sora (Ever17 -the out of infinity-)
+모델 URL: https://civitai.com/models/497795
+포스트 아이디: 4383898
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/4383898
+--------------------------------------
+
+--------------------------------------
+모델 이름: 瀧波 パイン (早乙女姉妹は漫画のためなら) / Takinami Pain (The Saotome sisters do anything for manga)
+모델 URL: https://civitai.com/models/1456074
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: 城戸 あやめ pony版 (君は008) / Kido Ayame (You are double o eight)
+모델 URL: https://civitai.com/models/373494
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------

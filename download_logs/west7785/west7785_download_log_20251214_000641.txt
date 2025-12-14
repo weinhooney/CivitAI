@@ -1,0 +1,30 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251214_000641
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/west7785/models
+
+[다운받을 모델 갯수]
+463
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: 蓑田静江 (Minoda Shizue) - 中禅寺先生物怪講義録 (The Mononoke Lecture Logs of Chuzenji-sensei)
+모델 URL: https://civitai.com/models/1823363
+포스트 아이디: 20266030
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/20266030
+--------------------------------------
+
+--------------------------------------
+모델 이름: Catherine E. Romancia - Motto! Haramase! Honoo no Oppai Isekai Ero Mahou Gakuen!
+모델 URL: https://civitai.com/models/1575990
+포스트 아이디: 16883803
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/16883803
+--------------------------------------

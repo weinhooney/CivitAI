@@ -1,0 +1,68 @@
+===== CivitAI 모델 다운로드 기록 =====
+생성 시각: 20251214_105726
+
+[입력한 모델 목록 URL]
+https://civitai.com/user/pateronusage381/models
+
+[다운받을 모델 갯수]
+749
+
+[다운로드 받지 못한 모델 정보]
+
+--------------------------------------
+모델 이름: Zatanna (Justice League Dark) - LoRA Illustrious [NSFW Support]
+모델 URL: https://civitai.com/models/1603164
+포스트 아이디: 17221479
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/17221479
+--------------------------------------
+
+--------------------------------------
+모델 이름: Dragon Tail Lucias (Yu-Gi-Oh!) - Commission LoRA Illustrious [NSFW Support]
+모델 URL: https://civitai.com/models/1548367
+포스트 아이디: 16533868
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16533868
+--------------------------------------
+
+--------------------------------------
+모델 이름: Mai Shiranui (Fatal Fury: City of the Wolves) - LoRA PonyXL [NSFW Support]
+모델 URL: https://civitai.com/models/1518461
+포스트 아이디: 16160288
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/16160288
+--------------------------------------
+
+--------------------------------------
+모델 이름: Punchline (DC Comics) - LoRA PonyXL [NSFW Support]
+모델 URL: https://civitai.com/models/999709
+포스트 아이디: None
+다운 못받은 이미지 없음
+다운 못받은 로라 없음
+--------------------------------------
+
+--------------------------------------
+모델 이름: Seishirō Tsugumi (Nisekoi) - LoRA PonyXL [NSFW Support]
+모델 URL: https://civitai.com/models/982538
+포스트 아이디: 9587223
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 500 Server Error: Internal Server Error for url: https://civitai.com/posts/9587223
+--------------------------------------
+
+--------------------------------------
+모델 이름: Harley Quinn from Injustice Animated Movie
+모델 URL: https://civitai.com/models/581231
+포스트 아이디: 4468999
+다운 못받은 이미지 없음
+다운 못받은 로라 정보:
+ - 로라 URL: 
+ - 복사 실패 정보: 404 Client Error: Not Found for url: https://civitai.com/posts/4468999
+--------------------------------------
