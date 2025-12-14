@@ -610,7 +610,6 @@ mature_male
 eyepatch
 one_eye_covered
 compressed
-hairpin
 tassel
 fur_collar
 cyborg
@@ -6772,7 +6771,6 @@ scar on body
 bandage on arm
 white strap
 frilled neckline
-white hairpin
 zipper tap
 black strip
 o-ring sash
@@ -8299,8 +8297,6 @@ jeweled headband
 eleanor_outfit2
 white piping
 elite regiment
-jeweled hairpin
-pearl hairpin
 eleanor_outfit4
 royal magistrate
 treasury council
@@ -8447,7 +8443,6 @@ freya_outfit
 brown tunic
 frigg
 frigg_outfit
-golden hairpin
 gold forehead ornament
 black and green outfit
 green chest panel green front panel
@@ -8480,14 +8475,12 @@ sleeve brocade trim
 orange inner collar
 orange sash waist
 yellow sash waist
-dangling hairpin
 red beaded veil
 high inner collar
 red and green cuff
 gold chest ornament
 gold shoulder ornament
 forehead curl
-butterfly hairpin
 teal head veil
 dotted veil
 green head veil
@@ -8523,15 +8516,10 @@ strapless neckline
 floral applique
 brown lapel
 teal bow
-blue hairpin
 upper arm cutout
 ruffled upper arm
-turquoise hairpin
-tassel hairpin
 mint gradient
 floral front panel
-metal hairpin
-decorative hairpin
 traditional clothing
 spaghetti strap top
 elastic waistband
@@ -8562,7 +8550,6 @@ dark pink chest bow
 open front
 pink trim panel
 sleeveless crop top
-gold hairpin
 hair tassel
 halter strap
 gold waist ornament
@@ -8669,8 +8656,6 @@ fantasy outfit anime_source
 horn-shaped hair accessory
 orange bust
 wide red sash
-green hairpin
-gourd hairpin
 blue cuff
 blue floral pattern
 blue cloud pattern
@@ -9171,7 +9156,6 @@ lighter front panel
 cross strap
 armored gauntlet
 brown asymmetrical top
-floral hairpin
 earring tassel
 pink trim top
 half-up hair
@@ -9255,7 +9239,6 @@ lunar_outfit
 grey fur trim
 dark purple sash
 ankle band
-white flower hairpin
 floral sleeve print
 floral chest embroidery
 collarbone score_9
@@ -10244,7 +10227,6 @@ blue gem headpiece
 brocade pattern
 medallion necklace
 blue gem necklace
-flower hairpin
 front white panel
 back drape
 fan-shaped hair
@@ -10295,7 +10277,6 @@ flame pattern
 sleeveless halter top
 marble pattern
 bold chest pattern
-beaded hairpin
 dragon engraving
 gold shoulder cord
 brocade floral lapel
@@ -10456,7 +10437,6 @@ left cheek tattoo
 midriff masterpiece
 gemstone ornament
 tail pattern
-ornamental hairpin
 translucent white drape
 asymmetric outfit
 full moon background
@@ -14532,7 +14512,6 @@ ye-won
 short girl
 attractive and cute woman
 visible breast
-tropical blue flower hairpin
 sexy blue top
 erotic dancing
 white id card holder with white lanyard
