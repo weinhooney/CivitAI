@@ -209,6 +209,7 @@ detailed irises
 detailed anatomy
 realistic proportions
 fantasy style anime_source
+anime_source
 black bodice with white and red details
 anime style score_9
 gold line details

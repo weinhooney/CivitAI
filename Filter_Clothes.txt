@@ -903,12 +903,11 @@ leggings
 sleeves_past_fingers
 sun_hat
 off-shoulder_dress
+thigh jewelry chains
 black lace bra
 white_suit
 green_necktie
 blue_necktie
-mai_pgr_hakama_yx
-age up:1 mai_pgr_hakama_yx
 single_leg_pantyhose
 sweater_vest
 eyepatch_bikini
@@ -6836,6 +6835,7 @@ long flared skirt
 orange obi belt
 long kimono skirt
 wooden sandals very aesthetic
+clothing cutout
 wide sleeves. clothing cutout score_9
 wide sleeves. clothing cutout anime_source
 wide sleeves. clothing cutout zpdxl3

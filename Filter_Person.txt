@@ -17,8 +17,18 @@ white_hair
 1boy
 black_hair
 purple_eyes
+hairpin
+black flower hairpin
+rose hairpin
 very_long_hair
+star hairpin
+snowflake hairpin
 lipstick
+black lipstick
+purple lipstick
+red lipstick
+green lipstick
+light blue lipstick
 makeup
 brown_eyes
 low_ponytail
@@ -576,6 +586,7 @@ sharp blue eyes
 purple hair tips
 geometric hair ornament
 dual ponytails
+age up
 parted bangs e straight bangs
 pinkish magenta eyes
 blue hair with purple gradient
@@ -1750,6 +1761,9 @@ long hair skirt
 ponytail skirt
 short hair green blouse
 shinobuhisako jewelry black hair earrings single hair bun
+jewelry
+no lipstick
+no makeup
 tied long hair
 low-tied twintails
 hair red ribbon
