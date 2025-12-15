@@ -84,34 +84,24 @@ aesthetic
 almost impenetrable wall of foliage. the overall style of the drawing is meticulous and detailed
 almost surrealistic setting. he has short
 amazing quality
-amazing quality background
 and detailed shading
 angular design that complements the car's overall aesthetic.
 animal arms source anime
 anime aesthetic
 anime cg
 anime coloring <break>
-anime coloring <break> beach waves
 anime coloring __angle__
 anime coloring __angle__ __emotion__
 anime coloring aki izayoi
 anime coloring blue school swimsuit
 anime coloring cirima
-anime coloring from above
-anime coloring from behind
-anime coloring from below
-anime coloring from side
-anime coloring front view
 anime coloring gym
-anime coloring looking at viewer
 anime coloring maid
 anime coloring navel
-anime coloring outside
 anime coloring pink wedding
 anime coloring playground
 anime coloring rolstyle
 anime coloring rooftop
-anime coloring room
 anime coloring source
 anime coloring summer
 anime coloring take \illustrator\ wide hips
@@ -143,19 +133,11 @@ assertive posture with her hands on her hips. both characters have a realistic
 authentic 1990s eastern european-youth culture
 b anime coloring
 bad quality
-bare feet source_anime
-bare feet very aesthetic
-bare legs source_anime
-bare legs very aesthetic
-barefoot source anime
-barefoot very aesthetic
-beach-luxury aesthetic
 beautiful aesthetic black skirt
 beautiful aesthetic long frilled edged blue skirt
 beautiful aesthetic long-sleeeves pink top with red bow
 beautiful aesthetic long-sleeves sheer white lace
 beautiful aesthetic short-sleeeves white top with big blue bow
-beautiful detailed background
 beautiful detailed eyes
 beautiful detailed face
 beautifully detailed and elegant ballet tiara
@@ -163,7 +145,6 @@ best aesthetic
 best quality
 black animal ears anime screencap
 black ankle boots source_anime
-black background.5score_8_up
 black belt source_anime
 black bodice with white and red details
 black boots source_anime
@@ -216,13 +197,11 @@ clean cel shading
 clean_lineart.cel_shading
 contrapposto realistic hands
 cozyaesthetic
-crayon shin-chan anime coloring looking at viewer
 crayon shin-chan anime screenshot
 creating a striking contrast against her pale skin. the flowers are vividly depicted with detailed petals and centers
 cyan eyes anime screencap
 cyberbody details
 dark blue pants source_anime
-day. anime screencap
 demon world anime screencap
 denim jeans source_anime
 dense and detailed pen-and-ink illustration by franklin booth of a zombie.
@@ -234,18 +213,13 @@ detailed anatomy
 detailed anime
 detailed anime screencap
 detailed anime style
-detailed art style with smooth shading and vibrant colors. the background features a night cityscape with a mix of yellow and white lights
 detailed backgroud
-detailed background
-detailed background : 1.1
 detailed bag
 detailed body
 detailed clothing folds
 detailed colors palette
 detailed corset-like
 detailed costume
-detailed demonic background
-detailed demonic world background
 detailed dhands
 detailed digital drawing in a manga style
 detailed environment
@@ -277,7 +251,6 @@ detailed lined face
 detailed linework
 detailed lips
 detailed lora
-detailed mansion living room
 detailed mature woman figure
 detailed mouth
 detailed outfit
@@ -294,12 +267,10 @@ detailed textures
 detailed trim
 detailed very long hair
 details
-details background
 digital anime style
 digital art
 dragon queststylesource_anime
 dramatic lighting
-dramatic lighting from behind
 drawstring pants source_anime
 drawstring pants very aesthetic
 dthdrgnp
@@ -311,11 +282,8 @@ ensuring the focus remains on the character. the drawing style is vibrant and de
 ery aesthetic
 excellent details
 excellent quality
-extreamely detailed background
-extreme high detail background
 extremely detailed
 extremely detailed 8k wallpaper
-extremely detailed background
 extremely detailed cg
 extremely detailed cg unity 8k wallpaper
 extremely detailed face
@@ -337,7 +305,6 @@ frilled hem source_anime
 frilled hem very aesthetic
 frillsdetailed face
 fuchsia eyes anime screencap
-full body source_anime
 game screenshot aesthetic
 girl with mature+ have detailed face
 giving the impression of being slightly withdrawn from the viewer.
@@ -376,7 +343,6 @@ high detail
 high detail beautiful face
 high detail face
 high detailed
-high detailed background
 high detailed eyes
 high detailed face
 high detailed pupils
@@ -387,10 +353,8 @@ high resolution
 high waist source_anime
 highest quality
 highly detailed
-highly detailed background
 highly detailed eyes
 highly detailed face
-highly detailed portrait
 highly detailed retro anime
 highres
 hyper detailed
@@ -398,7 +362,6 @@ hyper realistic
 hyper-detailed
 hyperdetailed
 hyperrealistic
-in a big retro style bathroom
 incredibly detailed
 indoor clothes source anime
 indoor clothes very aesthetic
@@ -424,11 +387,9 @@ leather gloves very aesthetic
 leotardbeautiful detailed face
 light blue sneakers source anime
 lightweight fabric source anime
-long black hair and green eyes. her hands are on her chin and her elbows are on the round white table in front of her in the foreground. the background appears to be a cozy midwestern screened-in back porch. she is looking at the viewer. the style is cartoonish and american from the 1940s.
 long skirt source_anime
 long skirt very aesthetic
 look at viewer / high detail
-looking at viewer 2000s \style\
 low top sneakers source_anime
 low top sneakers very aesthetic
 lowres
@@ -458,7 +419,6 @@ ova hikaru no go anime style
 pcmhdrmp
 pendant necklace source_anime
 pendant necklace very aesthetic
-perfect detailed background
 perfect details
 perfect quality
 perfect_anatomy1990s_\style\
@@ -611,7 +571,6 @@ typical of digital art. the overall composition is dynamic
 typical of modern digital art styles.
 u anime coloring
 ultra detailed
-ultra detailed background
 ultra detailed eyes
 ultra detailed fantasy castle
 ultra detailed fantasy willage
@@ -662,7 +621,6 @@ white thighhighs source_anime
 white thighhighs very aesthetic
 with a focus on naturalistic textures and fine lines to capture the essence of the scene. the absence of color emphasizes the intricate details and the contrast between light and shadow
 with a realistic yet stylized art style that emphasizes the witch's curves and the vividness of the halloween elements.
-with fine details highlighting the material's elasticity and smoothness. the overall style of the illustration is realistic with a slight anime influence
 wooden sandals very aesthetic
 worst quality
 yellow and green wristbands source_anime
