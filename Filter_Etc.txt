@@ -161,7 +161,6 @@
 > o
 >>_o
 >o<
-[*hairbow*]
 [*misako*]
 [fantasy mountains:cyberpunk city] background
 [rusian cyberpunk:japaneese fantasy]
@@ -210,12 +209,10 @@ __emotion__ yukishiroaya
 __eyes__
 __eyes__ looking at viewer
 __eyes__ shinmeikaori
-__hair__
 __leg__
 __mouth__
 __place__
 __wildcolor__ eyes
-__wildcolor__ hair
 _dancer_snsssy2>
 _illu
 _jester_snsssy2>
@@ -229,7 +226,6 @@ a boy
 a bright yellow cooler on a blue towel
 a busy shopping mall with people and stores in the background.
 a cartoon illustration by j.c. leyendecker of a close up of a man with his arms raised high
-a cartoon illustration by j.c. leyendecker of a dark-skinned woman a bottle of barbeque sauce. she has curly black afro and is wearing a yellow hairband and a yellow crop
 a cartoon illustration by j.c. leyendecker of a man lifting weights. he body is muscular and he is wearing a tight sleeveless shirt. he is looking down
 a character from the street fighter video game series. chun-li is depicted as a young woman with a confident and determined expression. she has fair skin and large
 a character sheet of
@@ -378,7 +374,6 @@ adidas fevernova football ball in front of player
 adjusting clothes
 adjusting headwear
 adjusting legwear
-adjusting_hair
 adorned with a large yellow bow at the top. her large
 adorned with a shimmering
 adorned with numerous yellow flowers
@@ -620,8 +615,6 @@ alter
 alternate breast size
 alternate color
 alternate form
-alternate hair color
-alternate hairstyle
 alternate weapon
 althea luminous
 amaduyu tatsuki style
@@ -651,7 +644,6 @@ amazon position
 amber
 amber fellatrix
 amber genshin impact
-amber hair
 ambient light
 ambient lighting
 ambient occlusion
@@ -715,7 +707,6 @@ and a confident
 and a faint
 and a high-waisted
 and a large
-and a pale complexion. their hair is a striking green
 and a small red pendant with a circular design is visible at her chest. the background is minimalist
 and accessorizes with a gold wristwatch on her left wrist. the background is a plain
 and adorned with a large
@@ -734,13 +725,11 @@ and her feet are visible
 and her large
 and her lips are slightly parted
 and her right arm resting on the ground for support. she wears an oversized
-and her skin is fair. her hair is voluminous and styled in two long
 and his skin is tanned
 and large
 and on hip
 and oranges
 and purple
-and purple. her hair appears to be a mix of light and dark shades
 and resting her chin on her left hand. her expression is neutral
 and she has a pair of round
 and she has a red bracelet on her left wrist. in the background
@@ -892,9 +881,6 @@ another's grabbing breast
 another's grabbing breasts
 another's smiling
 anri \viper-f50\
-antena hair
-antenna_hair
-antennae hair
 anthropomorphic wolf warrior
 anthy himemiya
 anti-aircraft gun
@@ -1090,7 +1076,6 @@ armpit crease
 armpit focus
 armpit kicking
 armpit licking
-armpit_hair
 arms above her head
 arms alternating
 arms apart
@@ -1281,7 +1266,6 @@ asymmetrical clothes rooftop
 asymmetrical clothing
 asymmetrical cut
 asymmetrical fur pattern
-asymmetrical haircut
 asymmetrical hem
 asymmetrical neckline
 asymmetrical red design
@@ -1293,7 +1277,6 @@ asymmetrical top
 asymmetrical trim
 asymmetrical tunic
 asymmetrical wrap
-asymmetrical_hair
 at a restaurant
 at an angle
 at her home
@@ -1337,9 +1320,7 @@ attractive fox woman
 aty
 au d elete
 au ra
-auburn hair
 augus
-auqa hair
 aura
 aura \sousou no frieren\
 aura bella fiora
@@ -1430,7 +1411,6 @@ back
 back drape
 back fins
 back forest
-back hair
 back on wall
 back pockets
 back shot
@@ -1714,14 +1694,10 @@ beatrice kushan
 beatrix amerhauser
 beaty
 beautiful aestetic long-sleeves cut-out
-beautiful amber hair
 beautiful and maternal figure
-beautiful aquamarine hair
 beautiful artistic long-sleeves cut-out frilled white lace wedding
 beautiful ass
-beautiful auburn hair
 beautiful background
-beautiful barely shoulder-length hair with long braid
 beautiful blue
 beautiful breast
 beautiful checkered with elbow-length white top
@@ -1729,7 +1705,6 @@ beautiful colors
 beautiful cut-out beige
 beautiful cut-out long-sleeves red and black chekeres top
 beautiful cut-out off-shoulder long-sleeves beige
-beautiful dark hair
 beautiful day
 beautiful detailed background
 beautiful face
@@ -1737,16 +1712,9 @@ beautiful fingers
 beautiful forest
 beautiful forest in the background
 beautiful gunbari
-beautiful hair
-beautiful haircut
 beautiful high-neck sleeveless grey top
 beautiful high-neck sleeveless yellow top
-beautiful lavender hair
-beautiful light hair
 beautiful light purple skin
-beautiful light wawy hair
-beautiful long bob haircut
-beautiful long flowing hair
 beautiful long-sleeves
 beautiful long-sleeves beige
 beautiful long-sleeves cut-out
@@ -1754,20 +1722,13 @@ beautiful long-sleeves cut-out long
 beautiful long-sleeves pink top
 beautiful long-sleeves v-neck magenta with pink flower print
 beautiful luxury long-sleeves yellow
-beautiful medium bob haircut
-beautiful medium-length hair
 beautiful medium-sleeves with frills
-beautiful middle-length hair
 beautiful mouth
 beautiful off-shoulder beige with pink upper part
 beautiful off-shoulder long-sleeves white top with frills
 beautiful off-shoulder sleeveless
 beautiful off-shoulder white top with lace edge
-beautiful opera mauve color hair
-beautiful peach color hair
-beautiful peach-color hair
 beautiful pupil
-beautiful redhair
 beautiful scene
 beautiful scenery
 beautiful sleeveless
@@ -1780,7 +1741,6 @@ beautiful thick body
 beautiful turquoise eyes
 beautiful white skin
 beautiful white teeth
-beautiful yellow hair
 beauty body
 beautyful eyes
 becky farrah
@@ -1934,7 +1894,6 @@ big city konoha
 big cuffs
 big cutout
 big ears
-big hair
 big hands
 big head
 big hopper ball
@@ -2129,8 +2088,6 @@ black gi
 black glove
 black gothic
 black grim
-black hair beach
-black hair maid cafe
 black hakama
 black halter evening
 black handbag
@@ -2156,7 +2113,6 @@ black horn
 black inner
 black inner cuff
 black inner fabric
-black inner hair
 black inner layer
 black inner lining
 black inner portrait
@@ -2390,7 +2346,6 @@ black_thighhigh
 black_thighhighs
 black_top
 black_umbrella
-blackn hair
 blacksmithing challenges
 blade
 blade hand
@@ -2406,11 +2361,9 @@ blank speech bubble
 blank suit
 blank_eyes
 blanket over head
-blavk_hair
 blaze
 blaze \arknights\
 blaze fielding
-blck hair
 bleach: sennen kessen-hen
 blending elements of holiday cheer with a touch of whimsy
 blending the serene beach with the confident and stylish demeanor of the woman.
@@ -2420,10 +2373,8 @@ blind cane looking at viewer
 blish
 bloated belly
 block wall
-blond hair
 blonde dog
 blonde girl
-blonde hair nightgown
 blonde woman
 blood
 blood around mouth
@@ -2557,7 +2508,6 @@ blue hood. pillow
 blue hoodie and black athletic shorts. in the background is a tiled floor and cupboards
 blue inner
 blue inner cuffs
-blue inner hair
 blue inner layer
 blue inner lining
 blue inner sleeves
@@ -2673,7 +2623,6 @@ blue wide sleeves
 blue wrist cuffs
 blue zhengjiuji
 blue ï¼ white striped
-blue-tinted hair
 blue_archive
 blue_background
 blue_bag
@@ -2790,7 +2739,6 @@ bow \music\
 bow \weapon\
 bow center
 bow galaxy
-bow hair
 bow legwear
 bow looking at viewer
 bow on chest
@@ -2802,7 +2750,6 @@ bow party hall
 bow shoulder accents
 bow sky
 bow weapon forestm
-bow-shaped hair
 bowday
 bowfull body
 bowl
@@ -2955,7 +2902,6 @@ brown handbag
 brown haori
 brown headpiece
 brown hood
-brown inner hair
 brown jaket
 brown knee guard
 brown lapel
@@ -3074,7 +3020,6 @@ but her can't
 but the overall attire suggests a magical or fantasy theme. the background is a gradient of pink and purple
 butler's tuxedo
 butt
-butterfly hairornament
 butterfly nearby
 butterfly net
 butterfly ornament
@@ -3228,8 +3173,6 @@ castle interior
 castle room backgroun
 castle room background
 casts mage skill
-casual and neat hairstyle for work.
-casual and neat hairstyle for work. close up
 casual clothing
 casual indoor style
 casual pajamas
@@ -3291,10 +3234,8 @@ cell animation
 celtic trim
 center cutout
 center front slit
-center hair part
 center opening on rocks
 center part
-center parted hair
 center parting
 center stripe
 center_open
@@ -3443,11 +3384,9 @@ chest strap
 chest touching
 chest window
 chest wrap
-chest_hair
 chest_harness
 chest_of_drawers
 chest_sarashi
-chestnut hair
 chewing gum
 chi-chi \dragon ball\
 chiaki nagumo
@@ -3458,7 +3397,6 @@ chibi
 chibi style
 chibi usa
 chibi_xc3
-chick hair clip
 chick print
 chico
 chie
@@ -3476,7 +3414,6 @@ chika itou
 chikara oota
 chiku
 child
-chin length hair
 chin rest
 chin strap
 chin-length bob
@@ -3496,7 +3433,6 @@ chinese knot
 chinese palace
 chinese style
 chinese traditonal clothes
-chinese traidtional hairstyle
 chinese wedding style
 chinese zodiac
 chinese-style
@@ -3730,7 +3666,6 @@ close-up portrait grabbing own breast
 close-up portrait off-shoulder
 close_to_viewer
 closed eye
-closed hair
 closed mozh
 closed_clothes
 closed_umbrella
@@ -3818,7 +3753,6 @@ colored schlera
 colored square stickers on her right stomach
 colored tips
 colored_eyelashes
-colored_inner_hair
 colored_sclera
 colored_skin
 colorful background
@@ -3928,7 +3862,6 @@ cornea reflections
 cornelia li britannia
 corner table
 cornered by many monsters
-cornflower hair clip
 cornflower petals
 correct anatomy
 corrupted akemi
@@ -4052,7 +3985,6 @@ creamed corn
 creamed corn ear
 creamy mami
 creating a dense
-creating a dramatic and intense contrast with her light hair and skin tone. the texture of the drawing is smooth
 creating a dramatic atmosphere
 creating a sense of depth and tranquility.
 creating a stark contrast with the dark
@@ -4077,8 +4009,6 @@ crime prevention buzzer threat
 crimson dragon
 crimson evening gown
 crimson gem
-crimson gemstone hair clip
-crimson hair
 crisis management form \machimazo\
 criss-cross back straps
 criss-cross chest straps
@@ -4110,7 +4040,6 @@ cross back design
 cross circlet
 cross emblem
 cross embroidery
-cross hair clip
 cross lacing
 cross legs
 cross motif
@@ -4188,7 +4117,6 @@ cuff frills
 cuff trim
 cuffs
 cuirass with gloden pattern
-culry hair
 cunnilingus through clothes
 cup
 cup focus
@@ -4205,11 +4133,8 @@ cure peach
 cure sunny
 cure sunshine
 curious gaze
-curl hair ends
 curled ends
 curled ends. her eyes are brown
-curled hair
-curled hair strands
 curled posture
 curled side strand
 curled tips
@@ -4222,9 +4147,7 @@ curry rice
 cursed shadows
 cursed souls
 curtain.
-curtained_hair
 curtainã
-curved hair tips
 curved horn
 cut from top to bottom
 cut-out design
@@ -4238,8 +4161,6 @@ cute frilled orange top
 cute frilled white nightdress with white micro ribbon
 cute girl
 cute idol
-cute iridescence hair spread out
-cute iridescence shaggy hair
 cute moka
 cute mother
 cute proportions
@@ -4247,7 +4168,6 @@ cute style
 cute theme
 cute vibe
 cute white jeogori top with pink goreum clothing tape
-cute yellow hair over one eye
 cute yellow headwear
 cute yellow top
 cute_niji_style
@@ -4257,7 +4177,6 @@ cutout shoulders
 cutout top
 cuts
 cutting board
-cutting hair
 cveb6c5e878c739bt83g
 cwgrl
 cyan body suit
@@ -4404,10 +4323,6 @@ dark grey business suit
 dark grey thighhighs
 dark grey top
 dark grey tunic
-dark hair
-dark hair and a pale complexion
-dark hair is styled in a messy
-dark hair styled in a casual
 dark high-waist
 dark inner sleeves
 dark lapels
@@ -4419,7 +4334,6 @@ dark long sleeves
 dark looking at viewer
 dark magenta
 dark magenta eyes
-dark magenta hair
 dark magenta tips
 dark magician girl
 dark mansion
@@ -4484,7 +4398,6 @@ dark sky
 dark sleeveless
 dark spaghetti-strap
 dark stage
-dark teal hair
 dark teal tunic
 dark theme
 dark top
@@ -4544,7 +4457,6 @@ death note
 deathtopia virtuoso suicidemaster
 deck
 decorated buttons
-decorated hair
 decorated hem
 decorated neckline
 decorative banners
@@ -4752,7 +4664,6 @@ disco lights
 disembodied hand
 dishe
 disheveled clothing
-disheveled hair
 display case
 display monitor
 disposable coffee cup
@@ -4824,7 +4735,6 @@ double finger gun
 double fox shadow puppet
 double halo
 double horizontal stripe
-double loop hair
 double middle finger
 double obi with tassels
 double peace
@@ -4850,7 +4760,6 @@ dove
 down
 down arms
 down ass up
-down hair
 down on your back
 down own arm
 downcast eyes
@@ -4896,7 +4805,6 @@ drawn whiskers
 drawstring hood
 drawstring neckline
 drawstring waist
-dreamy quality to her gaze. her hair is voluminous and styled in a thick
 dresser in the background
 dressing room in front of the shower room
 drfriend_style
@@ -4937,7 +4845,6 @@ drum magazine
 drum set
 drunk
 drunk wavy mouth
-drying_hair
 dsf
 dudou
 duel
@@ -5015,7 +4922,6 @@ earrings looking at viewer
 ears down
 ears through headwar
 ears through headwear
-ears visible through hair
 earth
 earth \planet\
 earthy tones
@@ -5238,7 +5144,6 @@ enhanced by the character's intense gaze and the elaborate
 enhancing her otherworldly appearance. the background is a solid black
 enhancing his presence and making him appear more dynamic. the texture of the paper is visible
 enhancing its dreamlike quality.
-enhancing the contrast with her hair and eyes. she wears a sleeveless
 enhancing the focus on miku. the texture of the illustration is smooth
 enhancing the halloween theme.
 enhancing the realism of the piece.
@@ -5343,7 +5248,6 @@ excessive peeing
 excessive pissing
 excessive semen on armpit
 excessive semen on breasts
-excessive semen on hair
 excited expression
 excited to be seen urinating by so many people
 excitement as a masochist
@@ -5403,7 +5307,6 @@ eye_glow
 eye_reflection
 eyebrow piercing
 eyebrows raised and eyes wide
-eyebrows visible through hair
 eyelashes visible
 eyelids heavy
 eyepatch on right eye
@@ -5411,7 +5314,6 @@ eyes closing
 eyes shut tight
 eyes wild and rolled back
 eyes_closed
-eyes_visible_through_hair
 ezaki hinami
 ezaki yuuichi
 f4ll_illu
@@ -5494,7 +5396,6 @@ famitsu campaign girl
 fan
 fan service
 fan to mouth
-fan-shaped hair
 fancy hotel room
 fancy night bar
 fancy office background
@@ -5566,7 +5467,6 @@ feather ornament
 feather print
 feather-trimmed sleeves
 feathered shoulders
-feathers hairornament
 featuring a plain
 featuring small
 featuring two characters against a white background. the character on the left is a young man with dark
@@ -5617,7 +5517,6 @@ fiend suit
 fierce expression
 fiery
 fiery battlefield
-fiery hair
 fig
 fight
 fight by throwing chains
@@ -5729,7 +5628,6 @@ flame luminance
 flame mark
 flame pattern
 flame print
-flame-haired burning-eyed hunter
 flame-shaped drapes
 flamenco dance spotlight
 flaming eye
@@ -5760,7 +5658,6 @@ flat colors
 flat comic
 flat design
 flat face
-flat iron waves hair
 flat shadows
 flat texture
 flat vector
@@ -5770,7 +5667,6 @@ flay allster
 fleet
 flexing arm
 flip phone
-flipped_hair
 flirty look on face
 flmas
 float
@@ -5780,7 +5676,6 @@ floating breasts
 floating clothes
 floating clouds
 floating dust
-floating hair looking at viewer
 floating in air
 floating in space
 floating lanterns
@@ -5799,7 +5694,6 @@ floor length
 flooring.
 floppy ears
 flora
-flora hair
 flora nightgown
 florayesprecure5gg
 flour
@@ -5813,7 +5707,6 @@ flower emblem
 flower field
 flower garden
 flower girl
-flower hair clips
 flower in mouth
 flower neck accessory
 flower on head
@@ -5832,10 +5725,6 @@ flower-trimmed thighhighs
 flowers in hand
 flowing breasts
 flowing fabric
-flowing free hair
-flowing hair
-flowing hair spread on the pillow
-flowing hair. the character has long
 flowing layers
 flowing textures and surreal shapes
 flowing textures and surreal shapes. kataoka_tesshin is surrounded by glitchy distortions
@@ -5843,12 +5732,10 @@ flowing textures and surreal shapes. the joker is surrounded by glitchy distorti
 flowing white sleeves
 flowy
 flowy fabric
-flowy hair
 fluffy armlets
 fluffy body
 fluffy earmuffs
 fluffy ears
-fluffy hair
 fluffy hand cuffs
 fluffy legs
 fluffy white
@@ -5925,10 +5812,6 @@ forehead chain
 forehead curl
 forehead gem
 forehead gems
-forehead hair
-forehead hair antenna
-forehead hair strand
-forehead hair tufts
 forehead horn
 forehead jewelry
 forehead mark
@@ -5995,7 +5878,6 @@ francesca lucchini
 francoise cyborg003
 franziska von karma
 fray military
-frayed hair
 frayed hem
 fred
 free fighter
@@ -6053,7 +5935,6 @@ frilled white thighhighs with color accents
 frilled white thighhighs with green accents
 frilled white thighhighs with orange accents
 frilled white thighhighs with red accents
-frilled_hair_tubes
 frills anime_source
 frills cowboy_shot
 frills cuff
@@ -6061,7 +5942,6 @@ frills hem
 frills sky
 frills thighhighs
 frilly cuffs
-frilly hair
 frilly hem
 frilly sleeves
 frilly white trim
@@ -6123,7 +6003,6 @@ front clasp
 front cutout
 front door
 front flap
-front hair strands
 front hands behind back
 front knot
 front lace-up
@@ -6433,7 +6312,6 @@ gilf
 gills
 gilly
 gina
-ginger hair
 ginko
 ginko murakami
 ginny
@@ -6497,7 +6375,6 @@ glory_wall
 glossy bridal gauntlets
 glossy eyes
 glossy fabric
-glossy hair
 glossy lips
 glossy skin
 glossy texture. the image exudes a lively and whimsical atmosphere
@@ -6526,7 +6403,6 @@ glowing gem
 glowing gemstone
 glowing gigantic red moon
 glowing green accents
-glowing hair
 glowing halo
 glowing hand
 glowing hands
@@ -6644,7 +6520,6 @@ grabbing waist
 grabbing_another's_ass
 grabbing_another's_breast
 grabbing_another's_chin
-grabbing_another's_hair
 grabbing_from_behind
 grabbing_own_ass
 grabbing_own_breast
@@ -6710,7 +6585,6 @@ gray front panel
 gray fullbuster
 gray gradient
 gray highleg
-gray inner hair
 gray long sleeves
 gray room
 gray simple background
@@ -6872,7 +6746,6 @@ green theme
 green thigh-high
 green thigh-high anime_source
 green thighhighs
-green tint hair
 green top
 green top iris
 green triangle cuff
@@ -6894,7 +6767,6 @@ green_skin
 green_uniform
 greenbronze tones color palette
 greenish sky
-greenish yellow hair
 grenade launcher
 grey armlet
 grey armsleeves
@@ -7053,125 +6925,6 @@ hagiura aina
 hagiura yuuna
 hagiwara chihaya
 hagiwara_sakura photographed in an obscene manner
-hair batween eyes
-hair beads
-hair beads purple tracksuit
-hair beadscover herself with a towel
-hair beetween eyes
-hair behind back
-hair behind ear
-hair behind ears
-hair bettween eyes
-hair between eye
-hair between eyes off-shoulder evening
-hair between eyhes
-hair between eys
-hair between the eyes
-hair black bow
-hair blue bow
-hair blue highlight
-hair brush
-hair bun black eye looking at viewer
-hair clip
-hair clips
-hair covered
-hair covering chests
-hair covering ears
-hair covering eye
-hair covering eyes
-hair covering forehead
-hair covering left eye
-hair covering one eye
-hair curled into the shape of a heart
-hair curls
-hair down
-hair dryer
-hair ends purple
-hair eyes between
-hair falling forward
-hair feather
-hair feather ornament
-hair flaring outward
-hair flip
-hair flower city
-hair flowing
-hair flowing over
-hair frills
-hair gelled back
-hair gradient
-hair hair over one eye
-hair in wind
-hair intakes ranch
-hair lift
-hair light purple bow
-hair loop
-hair loops
-hair loose back
-hair net
-hair onament
-hair ormanent
-hair ornament portrait looking at viewer
-hair ornament ruined city
-hair over 1eye
-hair over one eye game cg style
-hair over one eyes
-hair over shoulder
-hair over shoulders
-hair pin
-hair pink bow
-hair puff
-hair pulled back
-hair red bobbles
-hair red bow
-hair red flower
-hair ribbon garden
-hair ribbon looking at viewer
-hair ring
-hair rings looking at viewer
-hair shading eyes
-hair shine
-hair strand
-hair strand between eyes
-hair strands
-hair strands over chest
-hair strands over shoulders
-hair striped white bow
-hair swept back
-hair tassel
-hair tassel ornament
-hair through headwear
-hair tips curved
-hair to one left side
-hair tube
-hair tucked behind ear
-hair tufts
-hair twirling
-hair under
-hair vines
-hair white flower
-hair white ornament
-hair white-bow
-hair with accessories
-hair with side locks
-hair without ornaments
-hair yellow bow
-hair_bell
-hair_between_breasts
-hair_bobbles
-hair_censor
-hair_flaps
-hair_in_own_mouth
-hair_intakes
-hair_on_horn
-hair_over_breasts
-hair_over_one_eye
-hair_rings
-hair_spread_out
-hair_tubes
-hair_tucking
-hair_up
-hairband looking at viewer
-hairy pubic mound
 hajime nagumo
 hajimete no hitozuma
 hakone oumi
@@ -7191,7 +6944,6 @@ half turn
 half turned
 half under water
 half up
-half up hair
 half up half down
 half up style
 half-close up
@@ -7200,12 +6952,8 @@ half-crazed
 half-open eyes
 half-side view
 half-sleeves
-half-tied hair crimson evening gown
 half-turned
 half-up
-half-up hair
-half-up hairstyle
-half-up hairstyle with loose strands
 halftone background
 hall
 hall background
@@ -7246,8 +6994,6 @@ hand grabbing another's chin
 hand hand on own hip
 hand hearts
 hand in
-hand in hair
-hand in own hair
 hand in own pocket
 hand job
 hand mirror
@@ -7271,7 +7017,6 @@ hand on ear
 hand on eyes
 hand on floor
 hand on ground
-hand on hair
 hand on head
 hand on headwear
 hand on leg
@@ -7287,7 +7032,6 @@ hand on own chin looking at viewer
 hand on own chin portrait looking at viewer
 hand on own elbow
 hand on own face
-hand on own hair
 hand on own hips
 hand on own leg
 hand on own lip
@@ -7363,7 +7107,6 @@ hands at your side
 hands behind
 hands behind ass
 hands behind back
-hands behind hair
 hands behind head
 hands behind hips
 hands behind neck
@@ -7380,9 +7123,7 @@ hands grabbing another's thigh
 hands heart
 hands hidden
 hands in cuffs
-hands in hair
 hands in opposite sleeves
-hands in own hair
 hands in pocket
 hands in pockets
 hands in the air
@@ -7409,7 +7150,6 @@ hands on floor
 hands on glass
 hands on ground
 hands on ground facing up
-hands on hair
 hands on hands on own hip
 hands on head
 hands on headwear
@@ -7713,7 +7453,6 @@ her back curved softly
 her back is against the wall
 her back is straight
 her billows slightly
-her blonde hair reclining on a striped hammock in a sun-dappled forest
 her body covered in semen is washed away with urine
 her body resisting against the aggression
 her can't get up
@@ -7724,7 +7463,6 @@ her embarrassing appearance has been observed
 her expression is cheerful
 her expression is serene
 her eyes slightly downcast
-her fingers lightly playing with a lock of hair
 her hands are behind back
 her hands up
 her intense gaze fixed ahead
@@ -7820,7 +7558,6 @@ high-parched back torso
 high-resolution
 high-resolution image by gil elvgren. the central figure is a man lifting weights. he body is muscular and he is wearing a tight sleeveless shirt. he is looking down
 high-resolution image by gil elvgren. the central figure is woman in a full body bunny suit. the bunny suit is fuzzy and pink
-high-resolution image by gil elvgren. the central focus is a close up of a dark-skinned woman a bottle of barbeque sauce. she has curly black afro and is wearing a yellow hairband and a yellow crop
 high-resolution image by gil elvgren. the image is of the lower half of a woman sticking out the top of a brick chimney. the shot is from behind
 high-resolution painting by gil elvgren. the image is of the lower half of a woman sticking out of the top of a brick chimney. the image appears to be pov and close up on her rear. she is also wearing white leggings and a velvet
 high-slit tunic
@@ -8356,7 +8093,6 @@ indicating the season is autumn. the illustration has a vivid
 indicating the year of creation.
 indifferent expression with neutral face
 indigo eyes
-indigo hair
 indigo lips
 indigo thighhighs
 indoor background
@@ -8531,7 +8267,6 @@ iroha samurai spirits
 iron sleeves
 iron_cross
 irori
-irregular hair
 iruru
 is perched on the snow to her left. the background is a clear
 is_there_an_empty_room?_style
@@ -9097,7 +8832,6 @@ kitchen gloves
 kitchen interior
 kitchen knife
 kitchen room
-kitty hair clip
 kizuna hida
 kjep3mobwidow
 kjep4mobpolicewoman
@@ -9421,7 +9155,6 @@ lap pillow
 lap pov
 lap siting
 lapis
-lapis hair
 lapis pilotsuit
 lapis school
 larg breasts
@@ -9442,8 +9175,6 @@ large chalkboard background
 large chest bow
 large couch
 large fur mantle
-large hair
-large hair hibbon
 large hood
 large monster
 large navy bow
@@ -9492,7 +9223,6 @@ lavender diamond mark on forehead
 lavender evening gown
 lavender eyes
 lavender frills
-lavender hair
 lavender neckerchief
 lavender nightdress
 lavender nightgown
@@ -9681,7 +9411,6 @@ lena
 lenalee_lee_d.gray-man
 lene feh
 leng
-length-bottom shoulder hair
 lens eye
 lens flar
 lensa
@@ -9760,7 +9489,6 @@ lifting own clothes
 lifting_another's_clothes
 lifts the girl's chin
 light
-light auburn hair
 light beam
 light beige color
 light beige inner
@@ -9877,7 +9605,6 @@ light purple wide waistband
 light rays looking at viewer
 light red trim
 light red tunic
-light rose hair
 light teal
 light teal hanfu
 light with pink straps
@@ -9932,7 +9659,6 @@ limbs spread and restrained
 lime green accents
 lime green shoulders
 lime green trim
-lime yellow hair
 limelda jorg
 limited palette
 limp body
@@ -9962,7 +9688,6 @@ lips parted
 lipstick beach
 lipstick looking at viewer
 lipstick outdoors
-liquid hair
 liquid trail
 lisa
 lisa anderson
@@ -10006,11 +9731,8 @@ loki
 lone warrior mood
 loneliness of jetlagged traveler
 long
-long airy hair
-long antenna hair
 long armsleeves
 long back drape
-long back hair
 long back hem
 long back strands
 long baggy sleeves
@@ -10018,7 +9740,6 @@ long bar earrings
 long bishop sleeves
 long black armsleeves
 long black bridal gauntlets
-long black hair and green eyes. her hands are on her chin and her elbows are on the round white table in front of her in the foreground. the background appears to be a cozy midwestern screened-in back porch. she is looking at the viewer. the style is cartoonish and american from the 1940s.
 long black sleeve
 long black sleeves
 long bobelo
@@ -10027,13 +9748,11 @@ long bridal fishnet gauntlets
 long bridal gauntlet
 long bridal gauntlets
 long claws
-long cleopatra haircut
 long cord bow
 long cowboy shot
 long cuffs
 long curls
 long dark blue sleeves
-long dark hair
 long detached sleeves
 long detached sleeves with transparent black gloves and bare hands
 long earlobes
@@ -10045,8 +9764,6 @@ long face
 long face-framing strands
 long fingerless glove
 long fingernails moon
-long flowing hair
-long flowing hair spread on the pillow
 long flowing panels
 long flowing sleeves
 long forelock
@@ -10055,7 +9772,6 @@ long front slit
 long front strands
 long goatee
 long grey armsleeves
-long hair looking at viewer
 long hanfu
 long haori
 long heir
@@ -10065,7 +9781,6 @@ long inner sleeves
 long komono
 long lace
 long lashes
-long loose hair
 long mouth
 long nail
 long nails
@@ -10082,7 +9797,6 @@ long pink sleeves
 long pointed cuffs
 long pointed ears
 long pointed feet
-long princess hair
 long puffed sleeves
 long purple armsleeves
 long purple v-neck with long sleeves
@@ -10096,7 +9810,6 @@ long side locks
 long side panels
 long side slit
 long side strands
-long side strands of hair
 long sideburns
 long sideloacks
 long sidelock
@@ -10124,10 +9837,8 @@ long sleevesã
 long slightly off-center part long airy to underchest
 long slit
 long staff
-long staright hair
 long stick
 long stoles
-long straight dark hair
 long straight-on
 long strand
 long sword
@@ -10145,10 +9856,8 @@ long with frills
 long with juliet sleeves
 long wooden wand with blue fire effect
 long yellow bow
-long yellow hair
 long yellow sleeves
 long zpdxl3
-long-haired dog. the dog
 long-sleeve nightgown
 long-sleeved
 long-sleeved hanfu-style
@@ -10281,14 +9990,9 @@ looks very stinky.4steam
 looks very syinky
 loook to viewer
 loose
-loose back hair
 loose cloth wrap
 loose curls
 loose front strands
-loose hair
-loose hair bathtub
-loose hair ends
-loose hair strands
 loose long nightdress
 loose long sleeves
 loose maroon tanktop
@@ -10304,7 +10008,6 @@ loose strands purple tracksuit
 loose top
 loose tunic
 loose waves
-loose_hair_strand
 lora: amytoyobanaidehitomi_v2>
 lora: anxiouskyouko_v2>
 lora: anxiousshino_v2>
@@ -10508,7 +10211,6 @@ mage_->_jester_snsssy2
 magenta accent
 magenta buruma
 magenta eyes
-magenta hair
 magenta high heel thigh
 magenta lips
 magenta sarong
@@ -10553,7 +10255,6 @@ mahjong tile
 mahou shoujo
 mahou_shoujo_madoka_magica
 mai
-mai black hair
 mai kamishiro
 mai kazuki
 mai sakurajima
@@ -11002,7 +10703,6 @@ marmo
 marnie \pokemon\
 marnie pokemon
 maroon eyes
-maroon hair
 maroon pauldron
 martial arena
 martial artist
@@ -11122,22 +10822,17 @@ medieval tavern
 medieval torture chamber
 medieval town on fire
 mediterean background
-medium bob haircut
 medium breast
 medium breats
 medium build
 medium close up
 medium figure
 medium fingernails
-medium front hair
-medium hair day
 medium hips
-medium length hair tied back. she is looking over her shoulder at the viewer. she is holding a white paper that has the red text "f- stay behind after class!". the shot is . the background features a large chalkboard above a wooden panelled wall and a few scattered books
 medium shot
 medium skin
 medium sleeves
 medium waist
-medium-length hair
 medium-length sideburns
 medium-sleeves off-shoulder grey top
 mediuml breasts
@@ -11242,8 +10937,6 @@ methode \sousou no frieren\
 mew
 mewwr
 mexiah casual
-mexiah floaty hair
-mexiah hair down
 mexiah pilotsuit
 mexiah racequeen
 mexiah sensei
@@ -11268,7 +10961,6 @@ mickey cryburn
 micro panty
 microphone in hand
 microphone stage
-mid back hair
 mid thigh
 mid-shot full bodies
 mid-thigh
@@ -11704,11 +11396,9 @@ muimi36s
 mujin
 mules white background
 multi \to heart\
-multi color hair
 multi nanairo
 multi pause
 multi-strapped bottom
-multicolor hair
 multicolor nails
 multicolored ascot
 multicolored blossoms
@@ -11749,7 +11439,6 @@ multiple goblin feeling up a girl
 multiple goblins
 multiple guards attack shadow_lady
 multiple guards defeated by shadow_lady
-multiple hair tubes
 multiple hands
 multiple head
 multiple humanoid monsters
@@ -11809,7 +11498,6 @@ muscled body
 musha miko tomoe
 mushroom
 mushroom girl
-mushroom hair ornament
 mushroom outfit
 music
 music festival
@@ -11856,7 +11544,6 @@ mystical glow
 mystical magic and colorful smoke effects
 mythra xenoblade
 myuu
-médium hair
 n00na's_t4ste_style
 n0riuma_illu
 na min-jeong
@@ -12042,7 +11729,6 @@ neck ring
 neck rings
 neck strap
 neck tassel
-neck-length hair
 neck_bell
 necklace office
 neckline applique
@@ -12183,7 +11869,6 @@ nitou tomoe
 nix
 niya niya face
 nnmj
-no accessories hair
 no accessories on ears
 no arms
 no cgi
@@ -12194,7 +11879,6 @@ no eyebrows
 no footware
 no frill
 no gradients
-no hairornament
 no halo
 no hand
 no hands
@@ -12384,7 +12068,6 @@ ochre eyes
 octane render
 oda kiyoko
 oda sensei
-odango_hair_mobuko
 odin
 oekaki indoors
 of the castle
@@ -12428,7 +12111,6 @@ officeoutfit
 officer hat
 officer outfit
 officeroom
-official alternate hairstyle
 official anime artwork
 official art
 official_style
@@ -12577,17 +12259,13 @@ one closed eye
 one eye close
 one fang
 one finger on mouth
-one hair strand sticking up
-one hand in hair
 one hand near chest
 one hand on cheek
 one hand on chin
-one hand on hair
 one hand on the ground
 one hand on thighs
 one hand on your waist
 one hand resting on his chest
-one hand rubbing hair to ear
 one hand up
 one handdo masturbating and one hand is grabbing her own breast
 one katana
@@ -12601,7 +12279,6 @@ one leg up
 one long sleeve
 one shoulder
 one shoulder top
-one side up and single hair ring
 one single katana
 one sleeve
 one thigh_boot
@@ -12831,7 +12508,6 @@ oshiroi hana
 osono
 other
 other focus
-other hand playing with hair
 other hand reaching forward
 other leg extended behind
 otherworldly presence
@@ -12951,7 +12627,6 @@ painful face
 paint
 paint splatter
 paint splatter on face
-painted hair
 painted nails
 painted red nails. the cake is already cut
 painting \medium\
@@ -13033,7 +12708,6 @@ parking lot
 parn
 part_time_job_style
 parted bangs crass room
-parted hair
 parted in middle
 parted lip
 parted lips dutch angle
@@ -13114,8 +12788,6 @@ peach-pit style
 pearl \gemstone\
 pearl chains
 pearl gemstone
-pearl hair chains
-pearl hair strand
 pearl necklace portait looking at viewer
 pearl ornament
 pearl strands
@@ -13129,7 +12801,6 @@ peeing like a dog
 peeing on body
 peeing on breasts
 peeing on face
-peeing on hair
 peeing on head
 peeing on mouth
 peeking out upper body
@@ -13161,7 +12832,6 @@ perfect eyes
 perfect face
 perfect finger
 perfect fingers
-perfect hair
 perfect hand
 perfect hands
 perfect legs
@@ -13231,7 +12901,6 @@ pig tale ass plug
 pigeon-knee
 pigeon666
 pija
-piked_hair
 pile of corpses
 pill
 pillory restrained
@@ -13285,7 +12954,6 @@ pink chest bow
 pink chest gem
 pink chinese clothes
 pink clothes
-pink colored streaked hair
 pink cotton candy
 pink cover-up
 pink cuff
@@ -13345,7 +13013,6 @@ pink kote
 pink lasers
 pink latex
 pink latex superhero
-pink lavender hair
 pink layered
 pink leg accessories
 pink legwear
@@ -13417,7 +13084,6 @@ pink spiked latex armsleeves
 pink sport top
 pink steam
 pink strap
-pink streaked hair
 pink striped thighhighs
 pink stripes
 pink suits
@@ -13483,7 +13149,6 @@ pirate bandana
 pit house
 pitcher \container\
 pitching form
-pix_hair
 pixel art
 pixel ke rosa
 pizza
@@ -13536,7 +13201,6 @@ playing piano
 playing sports
 playing tennis
 playing video game
-playing with own hair
 playing_games
 playing_instrument
 plays tennis
@@ -13562,7 +13226,6 @@ plsp1def
 plug cryostat
 plum
 plum blossom
-plum hair
 plum long sleeves
 plume
 plush body
@@ -13816,7 +13479,6 @@ public humiliation
 public place
 public restroom stall with a single toilet
 public shopping mall
-public_hair
 puccy
 puddle due to urination
 puddle of pee
@@ -13828,7 +13490,6 @@ puffed sleeves
 puffed white sleeves
 puffer fish
 puffy cheeks
-puffy hair
 puffy lips
 puffy long sleeves with frills
 puffy short sleeves looking at viewer
@@ -13836,7 +13497,6 @@ puffy shoulders
 puffy sleevesm
 puffy_long_sleeves
 pull
-pulled back hair
 pulling another's clothes
 pulling fabric
 pulling own clothes
@@ -14107,7 +13767,6 @@ rain
 rain mikamura
 rain over window
 rainbow after rain
-rainbow hair
 rainy
 rainy night in a cyberpunk city with glowing neon lights
 raise arm and wave
@@ -14120,7 +13779,6 @@ raised eyes
 raised eyesbrows
 raised finger
 raised fist
-raised hair
 raised head
 raised hood
 raised one eyebrow
@@ -14239,7 +13897,6 @@ red balloon
 red bandana
 red basketball
 red bead chains
-red beaded hair
 red bean paste
 red bed
 red bedsheet
@@ -14279,7 +13936,6 @@ red cloth draped figure
 red clothes around waist
 red cloud print
 red cloudy sky
-red colored inner hair
 red cord
 red cord bow
 red couch
@@ -14431,7 +14087,6 @@ red red sleeve trim
 red roman legionary tunica
 red rope ornament
 red rose embroidery
-red rose hair pins
 red rose over yellow chest bow
 red rose sidelighting
 red roses
@@ -14460,8 +14115,6 @@ red spider emblem
 red sports car
 red strap
 red straps
-red streaked hair
-red streaks in hair
 red string
 red striped
 red striped bow
@@ -14506,7 +14159,6 @@ red waist sash
 red waist tassel
 red waist wrap
 red waistband
-red wavy long flowing hair
 red whip
 red wine
 red wrist cuffs
@@ -14790,7 +14442,6 @@ ring ornament
 ring pupils
 ring zpdxl3
 ringed eyes
-ringlet hair
 ringo noyamano
 rings
 rinka
@@ -15008,7 +14659,6 @@ ruffled trim
 ruffled upper arm
 ruffled waist
 ruffles at the shoulder
-ruffling hair
 rug
 rui \guardian guynarock r\
 ruiko sakuragi
@@ -15455,7 +15105,6 @@ semen on armpit
 semen on ass
 semen on breasts
 semen on face
-semen on hair
 semen on head
 semen on mouth
 semen-covered armpits
@@ -15521,7 +15170,6 @@ set in a seedy egyptian-style shop
 set up yo-yo
 seto ichitaka
 setsuna sakurazaki
-several strands of hair hanging over the face
 severe humiliation
 sewing needle
 sewn applique
@@ -15542,7 +15190,6 @@ shady alley
 shady laboratory
 shaga ayame
 shaia
-shair beads
 shake own ass
 shakled to the floor
 shakti kareen
@@ -15573,7 +15220,6 @@ sharp clean lines
 sharp ears
 sharp ends
 sharp feet
-sharp hair tips
 sharp harpy teeth
 sharp image
 sharp image expressiveh.
@@ -15692,7 +15338,6 @@ shinomiya sumire
 shinto shrine
 shiny
 shiny adenela
-shiny hair
 shiny legwear
 shiny metal
 shiny skin
@@ -15761,9 +15406,7 @@ shop
 shopping center
 shopping mall
 shops
-shor hair
 shore
-short hair kitchen
 short nightdress
 short nightgown
 shose
@@ -15771,9 +15414,7 @@ shot from behind
 shot from below
 shot from side
 shot glass
-shot hair
 shotgun shell
-shotr hair
 shou adachi
 shouji midori
 shoujo no haha
@@ -15797,7 +15438,6 @@ shoulder free
 shoulder fringe
 shoulder gem
 shoulder guard
-shoulder length hair
 shoulder loop
 shoulder mantle
 shoulder ornament
@@ -15862,12 +15502,6 @@ side cutout top
 side cutouts
 side drill
 side fringe
-side hair
-side hair clip
-side hair strand
-side hair strands
-side hair tufts
-side hair volume
 side lace up
 side lace-up
 side lace-up zpdxl3
@@ -15876,7 +15510,6 @@ side lacing over black bodice
 side leg openings
 side locks
 side part
-side parted hair
 side ponytail looking at viewer
 side ponytail outside
 side pouch
@@ -15902,10 +15535,8 @@ side-by-side
 side-part
 side-parted
 side-slit tunic
-side-swept hair
 side_cutout
 side_slit
-sidecut hair
 sidelock ornament
 sidelock tubes
 sideways_mouth
@@ -15943,7 +15574,6 @@ silver chain
 silver chest ring
 silver chestplate
 silver clasp
-silver colored streaked hair
 silver crescent ornament
 silver decorative buttons
 silver elbow guard
@@ -16022,9 +15652,6 @@ single garter strap
 single gauntlet
 single gauntlets
 single glove anime_source
-single hair bun cityscape
-single hair clip
-single hair ring
 single half glove
 single hand on own knee
 single high calf boot
@@ -16262,7 +15889,6 @@ small dog
 small explosion
 small fang
 small grey clubs-shaped pasties
-small hair clip
 small head proportion
 small heads
 small magic circle
@@ -16275,7 +15901,6 @@ small stature
 small village on fire
 small waist
 small woman
-small yellow hair clip
 small_eyes
 small_head
 smash ball
@@ -16299,7 +15924,6 @@ smoking pipe
 smooth dark hallway background
 smooth dark medieval office background
 smooth fabric
-smooth hair
 smooth light
 smooth muscle
 smooth muscle limbs
@@ -16314,7 +15938,6 @@ smug gaze
 snaj
 snake
 snake bra stair looking at viewer
-snake hair
 snake motif
 snakelike ring
 snap of the whip
@@ -16408,7 +16031,6 @@ soft shadows
 soft studio lighting
 soft sunlight
 soft volume
-soft wave hair
 soft_pink_skin
 sofu
 sofya_obertas and one ugry man
@@ -16543,14 +16165,12 @@ spiked club
 spiked club gauntlets
 spiked gauntlet
 spiked gauntlets
-spiked hair bamboo forest
 spiked headgear
 spiked headpiece
 spiked pauldrons
 spiked shoulder protector
 spiked shoulders
 spiked wrist cuffs
-spiked_hair
 spiky tips
 spill
 spine
@@ -16568,7 +16188,6 @@ split sleeve cuffs
 split sleeves
 split theme
 split-color clothes
-split-color hair
 spoken anger vein
 spoken ellipsis
 spoken exclamation mark
@@ -16627,7 +16246,6 @@ ssv5ep2opgirl
 ssv5mikawakiyomi
 ssv5misonohikari
 ssv5schooluniform
-ssv5scspikedhairmob
 st. arcadia academy
 st. chronica academy
 st. theresa's girls academy
@@ -16679,13 +16297,11 @@ starry eyes
 starry guardians
 starry night
 starry print eyes
-starry print shaggy hair
 starry sky background
 starry sky print
 stars
 starsky
 stats
-steaked hair
 stealth pilgrim
 stealth suit
 steam
@@ -16775,7 +16391,6 @@ straw
 straw doll
 strawberry juice
 strawberry print
-streaked_hair
 streamer girl
 streaming purple flags
 streaming red flags
@@ -16812,7 +16427,6 @@ striped bow
 striped buruma
 striped cuff
 striped cuffs
-striped hair
 striped headwear
 striped hem
 striped legwear
@@ -17040,7 +16654,6 @@ sweeping with a fan
 sweet mint
 sweet potato
 sweetheart neckline
-swept back hair
 swf
 swim
 swim ring
@@ -17254,8 +16867,6 @@ teal draped panels
 teal edge
 teal gem
 teal gradient
-teal hair
-teal hair clip
 teal hanfu
 teal hem embroidery
 teal high calf boot
@@ -17426,7 +17037,6 @@ thick eyebrow
 thick eyebrows0.8
 thick eyelashes
 thick front lock
-thick hair
 thick lips
 thick lips;
 thick neck
@@ -17743,7 +17353,6 @@ touma kazusa
 tounge out
 toushintoshiiiep3angelmob
 toushintoshiiiep3mobgirl
-tousled hair
 touya akiko
 towel
 towel around waist
@@ -17781,7 +17390,6 @@ traditional clothes
 traditional clothes zpdxl3
 traditional clothing
 traditional fan pattern fabric
-traditional hairstyle
 traditional illustration
 traditional japanese clothing
 traditional japanese home
@@ -17905,11 +17513,7 @@ tsutsumi_mimi as a creepy ghost woman
 tsuzuki_kozuedoukyuusei2
 tuareninya veyron
 tube
-tubes from hair
-tuck hair inside
-tuck_hair_inside_hat
 tucked in top
-tucking hair
 tug looking at viewer
 tulip
 tummy
@@ -17921,7 +17525,6 @@ turned cuffs
 turning head
 turquoise eyes
 turquoise gemstone
-turquoise hue hair
 turquoise sleeves
 turquoise trim
 turquoise waist sash
@@ -17940,13 +17543,11 @@ twin sword holsters
 twins
 twins lorinroll
 twintails looking at viewer
-twirling hair
 twisted torso
 twitching womb
 twitter username
 two boys
 two fingers
-two hair tufts
 two handed
 two handed aiming gun
 two pieces obi
@@ -17954,7 +17555,6 @@ two pieces sash
 two piercing ears
 two side up looking at viewer
 two sword sheaths
-two tone hair
 two tone lighting
 two tone skin
 two tone tunic
@@ -17974,7 +17574,6 @@ two-tone top
 two-tone tracksuit
 two_side_up
 twtkn
-tying hair
 typical of anime artistry.
 typical of japanese manga art. the composition and color palette evoke a sense of relaxation and tranquility
 typical of mid-20th-century american illustrative art.
@@ -18049,7 +17648,6 @@ underwear only japanese room
 underworld arena background
 undressing. bed room
 uneven bags
-uneven hair tips
 uneven_eyes
 uni linne
 unidentified boy gedo
@@ -18128,7 +17726,6 @@ urotsukidoji2peepshowhandygirl
 urotsukidoji2takeakismother
 urotsukidoji2teacher
 urotsukidoji3alectohandler
-urotsukidoji3blackhaircaesarcultmob
 urotsukidoji3blondecaesarcultmob
 urotsukidoji3gingercaesarcultmob
 urotsukidoji3mantiswoman
@@ -18210,7 +17807,6 @@ vehicle_focus
 veins
 veins looking at viewer
 veiny hands
-vellus hair
 velvet batrass
 velvet curtains
 velvet drapes
@@ -18253,8 +17849,6 @@ very large chest window
 very light blue skin
 very long
 very long fingernails
-very long hair hospital in the room
-very long hair looking at viewer
 very long sleeves
 very sagging breasts
 very short black tabard
@@ -18306,7 +17900,6 @@ vintage comic book with the title "sir nose"
 violet and white accents
 violet evergarden
 violet gem at the neckline
-violet hair
 violet waist sash
 violin indoors
 vip section
@@ -18358,7 +17951,6 @@ vivid color
 vivid colors
 vivid iris
 vivid tones
-vivid yellow hair
 vocaloid append
 voice actor
 void 0
@@ -18367,9 +17959,7 @@ volleyball \object\
 volleyball net
 voltes vstyle
 volumetric light
-voluminous hair
 voluminous waves
-voluminously fluffy manner. her hair is adorned with a few small
 vore
 vrdct
 vuelo eluko
@@ -18399,7 +17989,6 @@ waist gem
 waist gems
 waist grab
 waist hip cutout
-waist length hair
 waist ornament
 waist rose ornament
 waist ruffle
@@ -18467,7 +18056,6 @@ warming hands
 warping the periphery for a unique perspective
 warrior of light \ff14\
 washing back
-washing hair
 washing vehicle
 washroom
 watanabe akio style
@@ -18516,7 +18104,6 @@ waving kjtakeuchinanami
 waving misumi rie
 waving urotsukidoji2peepshowhandygirl
 wavy
-wavy auburn hair
 wavy bags
 wavy bob
 wavy ends
@@ -18573,7 +18160,6 @@ which adds a clean and polished finish to the artwork. the overall style is remi
 which adds a touch of elegance to her appearance. around her neck
 which adds a touch of elegance to her appearance. her attire includes a beige
 which are slightly crumpled
-which complements the flowers in her hair. her expression is serene and slightly melancholic
 which consists of a long-sleeved
 which contrasts sharply with her light complexion and colorful attire
 which contrasts sharply with her light-colored attire
@@ -18586,7 +18172,6 @@ which is visible at the top of the image. the background is dark
 which she appears to have failed to hammer in correctly.
 which suggests a cozy
 while her left hand is slightly raised
-while her right hand adjusts her hair. the overall style of the illustration is anime-inspired
 while others are splattered with blood
 whimsical anime background
 whip
@@ -18954,7 +18539,6 @@ white stole panels
 white strap
 white strap visible
 white straps
-white streaked hair
 white streaks
 white stripe
 white stripe front
@@ -19138,17 +18722,13 @@ wiene
 wife
 wig
 wild
-wild hair
-wild puboc hair
 wild west saloon
 wilhelmina carmel
 will-o' the-wisp
 wince
 wind
 wind blowing
-wind blowing hair
 wind blowing sand
-wind blowing through hair
 wind chime
 wind class room miyaharasuzuko
 wind classroom miyaharasuzuko
@@ -19258,7 +18838,6 @@ with her lips slightly parted. the overall composition and color palette evoke a
 with her mouth is open
 with her mouth open in a wide
 with her mouth slightly open. she is wearing a provocative
-with his eyes looking down and his lips slightly pursed. his brown hair is short and styled
 with illusion neckline
 with large
 with light blue accents
@@ -19277,8 +18856,6 @@ with puffed shoulders
 with purple
 with rose corsage on middle of bust
 with scattered
-with several hair hanging over the face
-with several strands of hair hanging over the face
 with sharp
 with some yellow and orange hues
 with splashes of red and white
@@ -19293,7 +18870,6 @@ with the characters' attire and expressions suggesting they are ready for any ch
 with the characters' expressions and clothing suggesting a narrative or emotional conflict.
 with the flowers framing her face symmetrically
 with the girl at the center
-with the man's hair and the lotus flowers being the main focal points. the illustration exudes a sense both of ancient japanese culture and modern anime artistry
 with the water-like background elements enhancing the sense of motion and fluidity. the illustration captures a serene yet captivating moment
 with the woman's body slightly angled towards the viewer
 with the woman's gaze slightly turned towards the viewer
@@ -19532,9 +19108,6 @@ yellow glowing
 yellow glowing hands
 yellow glowing sword
 yellow hagoromo
-yellow hair
-yellow hairband looking at viewer
-yellow hairbow
 yellow handbag
 yellow hanfu
 yellow hanten \clothes\
@@ -19597,7 +19170,6 @@ yellow screw
 yellow serafuku
 yellow shoulder bow
 yellow shoulder pads
-yellow single hair streak
 yellow skin
 yellow sleeve
 yellow sleeve band

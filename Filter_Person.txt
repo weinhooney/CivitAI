@@ -44,11 +44,15 @@
 8thstea_outfit
 9thstea_outfit
 =strong muscular toned body
+[*hairbow*]
 [adult]
 [blue hair]
 __cama__ perky breasts
+__hair__
+__wildcolor__ hair
 a beautiful elf woman with long flowing blue hair
 a black choker around her neck and round-rim glasses. she has brown
+a cartoon illustration by j.c. leyendecker of a dark-skinned woman a bottle of barbeque sauce. she has curly black afro and is wearing a yellow hairband and a yellow crop
 a cartoon illustration by j.c. leyendecker of a white haired elf man with long
 a cartoon illustration by j.c. leyendecker of a white haired elf woman with long
 a cluster of cattails stands tall
@@ -106,6 +110,7 @@ adelia_outfit2
 adjusting glasses
 adjusting goggles
 adjusting_eyewear
+adjusting_hair
 adrienne_outfit
 adult
 adult face
@@ -166,9 +171,12 @@ alisa_outfit2
 all black outfit
 almeia restall
 almond-shaped eyes and a slender build
+alternate hair color
+alternate hairstyle
 alternative outfit
 alyssa_outfit
 amber eyes
+amber hair
 amber orange eyes
 amy_outfit
 amy_outfit1
@@ -189,11 +197,14 @@ anchor necklace
 and a confident stance. her outfit features moon symbols and gloves
 and a matching pleated skirt in the same shade. her outfit also includes a white scarf tied around her neck
 and a matching red scarf tied around her neck. her attire also includes light blue high-waisted shorts that hug her slender figure. she carries a brown handbag with gold hardware
+and a pale complexion. their hair is a striking green
 and a white sash tied around her waist. her physique is athletic
 and black lace her outfit is complemented by black thigh-high boots
 and green earrings that match the color of their hair. in their left hand
 and her bangs are neatly brushed to the side. she is dressed in a traditional japanese
+and her skin is fair. her hair is voluminous and styled in two long
 and orange hair flower
+and purple. her hair appears to be a mix of light and dark shades
 and she has short
 and she is holding a leash attached to a small black penguin with a white belly
 and she is wearing a short
@@ -226,6 +237,9 @@ anne_outfit
 annegilden_outfit1
 annegilden_outfit2
 another woman with blue short hair beside her holding her back
+antena hair
+antenna_hair
+antennae hair
 aprilste_outfit
 apronoufit
 apronoutfit
@@ -265,6 +279,7 @@ armored outfit
 armored tail
 armorlessoutfit
 armoroutfit
+armpit_hair
 arms tattoo
 arrow hair ornament
 art_outfit
@@ -280,10 +295,12 @@ asymmetric bangs
 asymmetric outfit
 asymmetric sidelocks
 asymmetrical bangs
+asymmetrical haircut
 asymmetrical outfit
 asymmetrical parted bangs
 asymmetrical sidelocks
 asymmetrical wings
+asymmetrical_hair
 athena_outfit
 athletic
 athletic bloomers
@@ -299,8 +316,10 @@ attractive milf
 attractive muscular woman
 attractive toned woman
 attractive woman
+auburn hair
 augus_outfit1
 augus_outfit2
+auqa hair
 aura long hair
 aviator sunglasses
 awhite hair
@@ -309,6 +328,7 @@ babydolloutfit
 back braid
 back braids
 back dimples
+back hair
 back hair ornaments
 back hairband
 back tattoo
@@ -382,8 +402,12 @@ beaded necklace
 bear hair ornament
 beautiful aestetic earrings
 beautiful amber eyes
+beautiful amber hair
+beautiful aquamarine hair
 beautiful artistic big silver earrings
+beautiful auburn hair
 beautiful azure blue eyes
+beautiful barely shoulder-length hair with long braid
 beautiful beige-edged short-sleeves whire shirt
 beautiful black eyes
 beautiful black hair
@@ -411,6 +435,7 @@ beautiful dark brown hair
 beautiful dark gray eyes
 beautiful dark grey eyes
 beautiful dark grey hair
+beautiful dark hair
 beautiful dark pink eyes
 beautiful dark pink hair
 beautiful dark purple eyes
@@ -433,9 +458,12 @@ beautiful green eyes
 beautiful green hair
 beautiful grey hair
 beautiful grey-white hair
+beautiful hair
 beautiful hairbun
+beautiful haircut
 beautiful high ponytail
 beautiful igh ponytail
+beautiful lavender hair
 beautiful light blonde hair
 beautiful light blue eyes
 beautiful light blue hair
@@ -444,16 +472,20 @@ beautiful light brown hair
 beautiful light green eyes
 beautiful light green hair
 beautiful light grey hair
+beautiful light hair
 beautiful light orange hair
 beautiful light pink hair
 beautiful light purple eyes
 beautiful light purple hair
 beautiful light red eyes
 beautiful light silver hair
+beautiful light wawy hair
 beautiful lightly tanned skin
 beautiful long blue hair
+beautiful long bob haircut
 beautiful long crystal earrings
 beautiful long double low ponytails
+beautiful long flowing hair
 beautiful long hair
 beautiful long hair with twintails
 beautiful long low ponytail
@@ -469,7 +501,9 @@ beautiful low ponytail
 beautiful low tied long hair
 beautiful low-bun hairstyle
 beautiful luxury earring
+beautiful medium bob haircut
 beautiful medium hair
+beautiful medium-length hair
 beautiful medium-length hair with short twintails
 beautiful medium-length hair with twintails
 beautiful messy blonde hair
@@ -478,15 +512,19 @@ beautiful messy purple hair
 beautiful messy short bob haircut
 beautiful messy short hair
 beautiful micro-bob cut hair
+beautiful middle-length hair
 beautiful milf
 beautiful milf virgin-killer
 beautiful moss green hair
 beautiful necklace
 beautiful neon blue hair
 beautiful olive-green eyes
+beautiful opera mauve color hair
 beautiful orange hair
 beautiful orange-brown hair
 beautiful pale skin
+beautiful peach color hair
+beautiful peach-color hair
 beautiful pink eyes
 beautiful pink hair
 beautiful platinum blonde hair
@@ -497,6 +535,7 @@ beautiful purple hair
 beautiful red eyes
 beautiful red hair
 beautiful red-brown hair
+beautiful redhair
 beautiful round ass
 beautiful sheer high-collar short-sleeves with frills
 beautiful short bob hair
@@ -530,6 +569,7 @@ beautiful wavy long hair
 beautiful wavy short bob hair
 beautiful woman
 beautiful yellow eyes
+beautiful yellow hair
 beauty mark
 beauty mark red on earlobe
 beauty mark under eye
@@ -569,6 +609,7 @@ big gold chain ring along the chest
 big gold crucifix necklace
 big gold hoop earrings
 big grey heart-shape pendant
+big hair
 big hair bow
 big hair buns
 big purple fluff fox ears
@@ -679,10 +720,12 @@ black gloves that extend to her elbows. around her neck is a black choker with a
 black gold saw
 black grey hair
 black hair band
+black hair beach
 black hair bow
 black hair clip
 black hair flower
 black hair long hair
+black hair maid cafe
 black hair ornament
 black hair pulled back
 black hair purple eyes
@@ -704,6 +747,7 @@ black heeled short boots
 black heels yeonhwa_outfit2
 black hoop earrings
 black horns with red tips
+black inner hair
 black inner shorts
 black lace panties under sport shorts
 black leotard tall
@@ -801,17 +845,22 @@ black_short_shorts
 black_shorts
 blackand brown hair
 blackkimonooutfit
+blackn hair
 blacksnak_outfit
 blackwi_outfit
 blank blue eyes
+blavk_hair
+blck hair
 blindfold
 blindfold covering the eyes
 blindfold machine
 blint bangs
 blond green hair
+blond hair
 blond wavy updo with curly locks
 blonde green hair
 blonde hair chinese clothes
+blonde hair nightgown
 blonde hair styled in a bob cut with a slight curl at the ends
 blonde hair styled in a bob cut with soft
 blonde long hair
@@ -882,6 +931,7 @@ blue heart necklace
 blue horns
 blue id card holder with blue lanyard
 blue id card holder with white lanyard
+blue inner hair
 blue lens sunglasses with red freme
 blue long sleeves shirt with blue flight-attendant scarf
 blue long-sleeves shirt with blue flight-attendant scarf
@@ -923,6 +973,7 @@ blue-green hair
 blue-grey eyes
 blue-silver eyes
 blue-tinted eyewear
+blue-tinted hair
 blue_eyes
 blue_hair
 blue_hairband
@@ -958,7 +1009,9 @@ bottoned_jacket
 bow bun
 bow detail
 bow earrings
+bow hair
 bow hair ornament
+bow-shaped hair
 bow_hairband
 boy holding leash
 boyshort panties
@@ -1054,6 +1107,7 @@ brown hair tied bun at nape of neck
 brown hair uncensoredã
 brown hair. short hair
 brown headband
+brown inner hair
 brown leather outfit
 brown medium hair
 brown short
@@ -1112,6 +1166,7 @@ busty soft breasts
 busty woman
 butt crack tattoo
 butterfly hair accessory
+butterfly hairornament
 butterfly hairpin
 butterfly tattoo
 butterfly_hair_ornament
@@ -1173,6 +1228,8 @@ carmen_outfit
 carrot hair ornament
 cartoon illustration by j.c. leyendecker of a muscular man. he is wearing
 cartoon illustration by j.c. leyendecker of a young woman. she is wearing a mint
+casual and neat hairstyle for work.
+casual and neat hairstyle for work. close up
 casual fit
 casual modern outfit
 casual shorts
@@ -1198,8 +1255,10 @@ cecilia_outfit
 celes chere_type_mm turned into a pet of soldiers
 celes_outfit
 center gem brooch
+center hair part
 center part bangs
 center parted bangs
+center parted hair
 center-flap bangs
 center-parted bangs
 centre parting bangs
@@ -1259,12 +1318,17 @@ chest fur brooch
 chest pendant
 chest scar
 chest tassel pendant
+chest_hair
 chest_tattoo
+chestnut hair
+chick hair clip
 chico_outfit
+chin length hair
 china_outfit
 chinese clothes earring
 chinese outfit
 chinese traditional outfit
+chinese traidtional hairstyle
 chinese-style outfit
 chloe_outfit
 cho_ha-young
@@ -1291,6 +1355,7 @@ claw clip bun
 clear eyes
 cleric outfit
 cloak gold trim
+closed hair
 cloth scarf
 clover hair ornament
 coathicarteold
@@ -1310,11 +1375,13 @@ collarbone tropical
 collarbone undressing
 collarbone zpdxl3
 collarbonea
+colored_inner_hair
 compass pendant
 complementing her fair skin. she wears a form-fitting
 complete metallization of the rain mikamura
 cone hair bun
 cool tattoo on left leg
+cornflower hair clip
 corset detail
 corsetoutfit
 covered abs
@@ -1328,6 +1395,7 @@ crazy green eyes
 crazy milf
 cream colored shorts
 cream shorts
+creating a dramatic and intense contrast with her light hair and skin tone. the texture of the drawing is smooth
 creating a sense of ethereal beauty. the petals are intricately drawn
 creepy green energy fake cat ears on hoodie
 crescent earring
@@ -1337,12 +1405,15 @@ crescent moon necklace
 crescent moon pendant
 crescent necklace
 crimson eyes
+crimson gemstone hair clip
+crimson hair
 crimson pink hair
 cristine_outfit
 crop top shirt with short sleeves
 cropped blue and yellow tunic with puffy short sleeves and popped collar
 cropped blue tunic with puffy short sleeves
 cropped white shirt with short red raglan sleeves with black trim
+cross hair clip
 cross hair ornament
 cross hairclip
 cross necklace
@@ -1359,6 +1430,10 @@ crystal earrings
 crystal hair ornament
 crystal necklace
 crystal_wings
+culry hair
+curl hair ends
+curled hair
+curled hair strands
 curled ponytail
 curled sidelocks
 curled_horns
@@ -1372,19 +1447,25 @@ curly ponytail
 curly sidelocks
 curtain bangs
 curtained long hair
+curtained_hair
 curved bangs
+curved hair tips
 curved horns
 curved sidelocks
 curvy
 cute aqua hair over one eye
 cute aqua pixie cut
 cute iridescence french braid
+cute iridescence hair spread out
+cute iridescence shaggy hair
 cute makeup
 cute necklace、earrings
 cute short woman
 cute short-sleeves white top with black bow decoration and sailor collar
 cute vermilion hair slicked back
+cute yellow hair over one eye
 cutout outfit
+cutting hair
 cyan eyes
 cyan hair
 cyan twin tails
@@ -1444,9 +1525,14 @@ dark green sport shorts
 dark grey cow horns
 dark grey eyes
 dark grey nun bandeau with gold double cross symbol
+dark hair
+dark hair and a pale complexion
+dark hair is styled in a messy
+dark hair styled in a casual
 dark horns
 dark inner outfit
 dark magenta gradient hair
+dark magenta hair
 dark makeup
 dark ninja outfit
 dark outfit
@@ -1473,12 +1559,14 @@ dark reddish-brown hair
 dark skin patch
 dark slate blue hair
 dark sports shorts
+dark teal hair
 dark teal-grey tailored jacket
 dark white hair
 dark-blonde hair between eyes
 dark_skin
 davey_outfit
 declaration of absolute obedience
+decorated hair
 decorative back tails
 decorative brooch
 decorative bun
@@ -1554,6 +1642,7 @@ dirty ripped blue sport shorts with white edge
 dirty ripped detached collar with short red necktie
 dirty ripped short-sleeves pink prison shirt
 dirty torn denim shorts
+disheveled hair
 distinct black knee boots with blue and gold accents
 distinct black knee boots with gold accents
 distinct blue earrings
@@ -1598,12 +1687,14 @@ double hair bows
 double hair bun
 double lavender bun cover
 double loop bun
+double loop hair
 double low-tied long hair
 double pair black demon wings
 double puff afro
 double-breasted brown shirt with white collar and puffy short sleeves with white trim
 double-parted bangs
 doulble bun
+down hair
 dragon horns
 dragon tail
 dragon tattoo
@@ -1614,6 +1705,7 @@ draped short sleeves
 drawstring shorts
 dreadlocks
 dreadlocks over eyes
+dreamy quality to her gaze. her hair is voluminous and styled in a thick
 dressed in a traditional east asian outfit with intricate gold
 drill ponytail
 drill_hair
@@ -1623,6 +1715,7 @@ drop earrings
 drop earrings eleanor_outfit2
 drop-shape earrings
 droppy brown eyes
+drying_hair
 dual colored eyes
 dual ponytails
 dual-layer sleeves fitted bodice
@@ -1646,6 +1739,7 @@ earrings victorian
 earrings zpdxl3
 earringsnavel
 earringsone-piece swimsuit
+ears visible through hair
 egg hair ornament
 elador_outfit
 elderhua_outfit
@@ -1685,6 +1779,7 @@ emphasizing the character's youthful and energetic personality.
 emphasizing the character's youthful innocence and charm.
 endoutfit
 energy wings
+enhancing the contrast with her hair and eyes. she wears a sleeveless
 enormous breasts
 ep1outfit
 ep2outfit
@@ -1711,6 +1806,7 @@ euph_outfit
 evan_outfit
 excessive foreshortening
 excessive golden shower
+excessive semen on hair
 exercise outfit
 explorer shorts
 expressive blue eyes
@@ -1755,9 +1851,11 @@ extreamly long straight hair
 extremely and voluptuous mature woman body
 extremely voluptuous mature woman body
 eye tattoo
+eyebrows visible through hair
 eyeliner
 eyes covered by bangs
 eyes covered by eyewear
+eyes_visible_through_hair
 eyeshadow
 eyeshadows
 eyewear
@@ -1797,6 +1895,7 @@ fake_tail
 fake_wings
 famiressenshioutfit
 famireswaitressoutfit
+fan-shaped hair
 fang necklace
 fang_outfit
 fangs
@@ -1816,6 +1915,7 @@ feather-like ornaments that resemble angel wings
 feather_hair_ornament
 feathered elements and metallic
 feathered wings
+feathers hairornament
 featuring a young
 featuring a young girl with light blue hair styled in a high bun adorned with a pink flower. she has large
 featuring a young girl with short
@@ -1834,6 +1934,7 @@ feng_outfit
 feng_outfit1
 feng_outfit2
 feng_outfit3
+fiery hair
 fifitted white blouse with a high collar
 finia_outfit
 fiore_outfit
@@ -1870,25 +1971,31 @@ fitted waist seam
 fitted waist wrap
 fitting shorts
 fivestar_outfit
+flame-haired burning-eyed hunter
 flame-themed outfit
 flandre_scarlet
 flanked by the golden border. the texture of the drawing is smooth
 flat bangs
 flat chest
 flat chests
+flat iron waves hair
 flat_chest_grab
 flight attendant outfit
+flipped_hair
 floating earring
+floating hair looking at viewer
 floating tail
 floating_hair
 floded ponytail
 flora bath outfit
+flora hair
 flora ponytail
 flora updo
 flower anklets
 flower brooch
 flower earrings
 flower hair accessory
+flower hair clips
 flower hair ornament
 flower hair ornaments
 flower hairband
@@ -1897,11 +2004,17 @@ flower necklace
 flower tattoo
 flower-shaped collar brooch
 flowing black hair adorned with vibrant red flowers. she is wearing a school
+flowing free hair
 flowing green hair adorned with a yellow flower accessory. she has large
+flowing hair
+flowing hair spread on the pillow
+flowing hair. the character has long
+flowy hair
 fluffy anklets
 fluffy bangs
 fluffy cat tail curls behind her
 fluffy green anklets
+fluffy hair
 fluffy tail
 fluffy tails
 fluffy white fake cat ears
@@ -1926,6 +2039,10 @@ folding_chair
 food-themed hair ornament
 forehead bangs
 forehead gold chain jewelry with purple gem
+forehead hair
+forehead hair antenna
+forehead hair strand
+forehead hair tufts
 forehead headband
 forehead_tattoo
 foreshortening
@@ -1954,6 +2071,7 @@ fox tails
 foxdemon_outfit
 framed by round glasses
 frayed denim shorts
+frayed hair
 frayed hem shorts
 frayed shorts
 freckle
@@ -1979,6 +2097,8 @@ frilled sailor collar with hearth brooch
 frilled shorts
 frilled white maid scrunchies
 frilled white puffy short sleeves
+frilled_hair_tubes
+frilly hair
 frilly lace detailing
 fringed white edged denim shorts
 frog hair ornament
@@ -1987,6 +2107,7 @@ froidmain_outfit2
 froidmain_outfit3
 front bangs
 front bangs covering eyes
+front hair strands
 front panel gold
 front panel gold shirt
 front ponytail
@@ -2035,6 +2156,7 @@ gijukong_outfit1
 gijukong_outfit2
 gilda_outfit1
 gilda_outfit2
+ginger hair
 ginger red hair
 girl holding onto his shoulders
 girl holding_bow
@@ -2061,12 +2183,14 @@ glitter red lips
 glitter_pink_lipstick
 glossy dark pink lips
 glossy finish that highlights the metallic elements and the character's vibrant green hair. the overall style is reminiscent of modern anime and manga
+glossy hair
 glossy light pink lips
 glossy outfit
 glossy shorts
 glow hyper-detail
 glowing blue eyes
 glowing golden gem
+glowing hair
 glowing light purple eyes
 glowing pink eyes
 glowing public_tattoo
@@ -2610,6 +2734,7 @@ gothic hairband
 gothic outfit
 gothic-styled fitted accented with purple ribbon tie
 gourd hairpin
+grabbing_another's_hair
 grace_outfit1
 graceful and well-proportioned
 gradient brown that contrasts with her pale skin and dark attire
@@ -2627,6 +2752,7 @@ gray blue eyes
 gray eyes
 gray hair
 gray horns
+gray inner hair
 gray oversized turtleneck with black skinny jeans
 gray scarf
 gray shorts
@@ -2698,6 +2824,7 @@ green sphere earrings
 green sunglasses on forehead
 green tail
 green tattoo
+green tint hair
 green transparent wings
 green wings
 green-framed eyewear
@@ -2709,6 +2836,7 @@ green_short_shorts
 green_stud_earrings
 greendressoutfit
 greenish blue hair
+greenish yellow hair
 greenoutfit
 gremory_outfit
 grenade hair ornament
@@ -2765,65 +2893,183 @@ hair accessory
 hair band
 hair bandana
 hair bands
+hair batween eyes
+hair beads
+hair beads purple tracksuit
+hair beadscover herself with a towel
+hair beetween eyes
+hair behind back
+hair behind ear
+hair behind ears
 hair behind eyewear
+hair bettween eyes
+hair between eye
 hair between eyes
 hair between eyes buruma
 hair between eyes eyes
+hair between eyes off-shoulder evening
 hair between eyes school
 hair between eyes weddingdress
 hair between eyesm
+hair between eyhes
+hair between eys
+hair between the eyes
+hair black bow
+hair blue bow
+hair blue highlight
 hair bobbles earrings
 hair bow school
 hair braid
 hair braids
+hair brush
 hair bun back
+hair bun black eye looking at viewer
 hair bun chinese clothes
 hair bun cover
 hair bun crown
 hair bun wind
 hair bun with hair sticks
 hair buns
+hair clip
+hair clips
+hair covered
+hair covering chests
+hair covering ears
+hair covering eye
+hair covering eyes
+hair covering forehead
+hair covering left eye
+hair covering one eye
+hair curled into the shape of a heart
+hair curls
+hair down
+hair dryer
+hair ends purple
+hair eyes between
+hair falling forward
+hair feather
+hair feather ornament
+hair flaring outward
+hair flip
+hair flower city
 hair flower ornament
+hair flowing
+hair flowing over
+hair frills
+hair gelled back
+hair gradient
 hair hair over eyes
+hair hair over one eye
 hair horns
+hair in wind
+hair intakes ranch
+hair lift
+hair light purple bow
 hair long hair
+hair loop
+hair loops
+hair loose back
+hair net
+hair onament
+hair ormanent
 hair ornament __angle__
 hair ornament fantasy
 hair ornament glasses
 hair ornament hairclip
 hair ornament net
 hair ornament pillow
+hair ornament portrait looking at viewer
+hair ornament ruined city
 hair ornament zpdxl3
 hair ornaments
+hair over 1eye
 hair over eye
+hair over one eye game cg style
+hair over one eyes
+hair over shoulder
+hair over shoulders
+hair pin
+hair pink bow
+hair puff
+hair pulled back
+hair red bobbles
+hair red bow
+hair red flower
+hair ribbon garden
 hair ribbon grass
+hair ribbon looking at viewer
 hair ribbon outdoor
 hair ribbon star symbol
 hair ribbon sundress
 hair ribbon yan_outfit
 hair ribbon yellow
 hair ribbons
+hair ring
+hair rings looking at viewer
+hair shading eyes
+hair shine
 hair slicked back
 hair stick anime_source
 hair sticks
+hair strand
+hair strand between eyes
 hair strand over bangs
+hair strands
+hair strands over chest
+hair strands over shoulders
+hair striped white bow
+hair swept back
+hair tassel
+hair tassel ornament
+hair through headwear
 hair tied
 hair tied back
 hair tied end
 hair tied in back
 hair tied with ribbon
 hair ties
+hair tips curved
+hair to one left side
+hair tube
+hair tucked behind ear
+hair tufts
+hair twirling
+hair under
 hair updo
+hair vines
+hair white flower
+hair white ornament
+hair white-bow
+hair with accessories
+hair with side locks
+hair without ornaments
+hair yellow bow
+hair_bell
+hair_between_breasts
+hair_bobbles
 hair_bow
 hair_bun
+hair_censor
+hair_flaps
 hair_flower
+hair_in_own_mouth
+hair_intakes
+hair_on_horn
 hair_ornament
+hair_over_breasts
 hair_over_eyes
+hair_over_one_eye
 hair_ribbon
+hair_rings
 hair_scrunchie
+hair_spread_out
 hair_stick
 hair_tie
+hair_tubes
+hair_tucking
+hair_up
 hairband
+hairband looking at viewer
 hairbun
 hairclip
 hairclip on left side
@@ -2833,6 +3079,7 @@ hairpin tassels
 hairpin with ribbons
 hairpin zpdxl3
 hairpins
+hairy pubic mound
 hakama short skirt
 half crown braid
 half long-stemmed and half short-stemmed black pants with black belt
@@ -2842,11 +3089,16 @@ half up braid
 half up braided
 half up braids
 half up bun
+half up hair
 half up ponytail
 half up ponytails
 half up twin tails
 half-open cropped bangs
+half-tied hair crimson evening gown
 half-up bun
+half-up hair
+half-up hairstyle
+half-up hairstyle with loose strands
 half-up messy bun hair
 half-up ponytail
 half_updo
@@ -2858,12 +3110,20 @@ hana_outfit
 hancha_outfit1
 hancha_outfit2
 hand holding up head
+hand in hair
+hand in own hair
 hand on glasses
+hand on hair
 hand on own chest half updo
+hand on own hair
 hand pendant
 hand tattoo
+hands behind hair
 hands folded
 hands holding phone
+hands in hair
+hands in own hair
+hands on hair
 hands pendant
 hands tugging her bra and shorts
 hanfu-style outfit
@@ -2931,6 +3191,8 @@ heodoa_outfit4
 heodoa_outfit5
 heodoa_outfit6
 heoseung_outfit
+her blonde hair reclining on a striped hammock in a sun-dappled forest
+her fingers lightly playing with a lock of hair
 her hair is styled with a braided section and adorned with a purple accessory
 her outfit includes a tight red tank accentuating her breasts and a black blazer and a black pencil skirt
 her try to hold back the pleasure
@@ -2963,6 +3225,7 @@ high-detail
 high-neck sleeveless cut-out pink chinese with gold decoration
 high-neck sleeveless cut-out red chinese with gold decoration
 high-resolution image by gil elvgren. the central figure is a white haired elf woman with long
+high-resolution image by gil elvgren. the central focus is a close up of a dark-skinned woman a bottle of barbeque sauce. she has curly black afro and is wearing a yellow hairband and a yellow crop
 high-resolution image by gil elvgren. the central focus is a man holding an ax. he is muscular and has blonde hair. he wears a flannel
 high-waist_shorts
 high-waisted black fitted pants
@@ -3488,6 +3751,7 @@ imp tail with heart
 in jedi outfit
 incognitooutfit
 incredible detail
+indigo hair
 indigo scarf
 infinity hairclip
 ingyi_outfit
@@ -3521,6 +3785,7 @@ ironma_outfit1
 ironma_outfit2
 ironma_outfit3
 irregular bangs
+irregular hair
 isabel_outfit
 isabella_outfit
 isabelle_outfit
@@ -3710,6 +3975,7 @@ killer outfit
 kimhayan_outfit
 kimjina_outfit1
 kimjina_outfit2
+kitty hair clip
 knee length shorts
 knot bun
 konohagakure olive-green forehead protector headband with dark grey crossed out konoha symbol
@@ -3738,6 +4004,7 @@ lani_outfit2
 lani_outfit3
 lanxue_outfit
 laosa_outfit
+lapis hair
 large aqua hair bow
 large bow headband
 large breasts
@@ -3746,8 +4013,10 @@ large expressive brown eyes
 large eyes
 large four tails
 large gold hoop earrings
+large hair
 large hair bow
 large hair bows
+large hair hibbon
 large hair ribbon
 large pendant
 large purple hair bow
@@ -3764,6 +4033,7 @@ lavender bangs
 lavender blue eyes
 lavender gray eyes
 lavender gray hair
+lavender hair
 lavender hair bow
 lavender shorts
 lavish red and gold crown with emerald brooch
@@ -3828,6 +4098,7 @@ lemon yellow eyes
 lena tall
 lena_outfit
 leng_outfit
+length-bottom shoulder hair
 leopard print party bitch short coat with black fluffy edge
 leopard print scarf
 leyrin1_outfit
@@ -3845,6 +4116,7 @@ light and dark grey horisontally striped v-neck top
 light aqua eyes
 light aqua hair
 light ash brown hair
+light auburn hair
 light black lipstick
 light blonde hair
 light blue and gold oval neck brooch
@@ -3896,6 +4168,7 @@ light purple shorts
 light red eyes
 light red hair
 light reddish brown hair
+light rose hair
 light scrunchie
 light silver hair
 light skin
@@ -3921,6 +4194,7 @@ lilyeve_outfit2
 lilyeve_outfit3
 lime green eyes
 lime green hair
+lime yellow hair
 lina_outfit
 lina_outfit1
 lina_outfit2
@@ -3950,6 +4224,7 @@ lipstick zpdxl3
 lipstick. clothing cutout
 lipstick_tube
 liqingchan_outfit
+liquid hair
 lisa_outfit1
 lisa_outfit2
 litana_outfit
@@ -3960,10 +4235,14 @@ livestock animal tag earring
 living_with_two_busty_women_style
 lize_outfit
 lizev2_outfit
+long airy hair
+long antenna hair
 long aqua hair
+long back hair
 long bangs
 long black gloves with gold claws and with white feather decoration and with very wide decorative gold edge
 long black hair
+long black hair and green eyes. her hands are on her chin and her elbows are on the round white table in front of her in the foreground. the background appears to be a cozy midwestern screened-in back porch. she is looking at the viewer. the style is cartoonish and american from the 1940s.
 long black hair and green eyes. she is wearing
 long black hair with white highlights
 long black tail
@@ -3980,15 +4259,19 @@ long braids
 long brown hair
 long brown scarf
 long brown twin ponytails
+long cleopatra haircut
 long coat tails
 long coattails
 long crystal earrings
 long curly hair
 long curtain bangs
 long dark blue skirt with gold buttons
+long dark hair
 long draped scarf
 long earring
 long earrings
+long flowing hair
+long flowing hair spread on the pillow
 long flowing ponytail
 long french braid
 long geometric earrings
@@ -4005,6 +4288,7 @@ long hair covering one eye
 long hair formal
 long hair half up
 long hair in motion
+long hair looking at viewer
 long hair pantyhose
 long hair past the shoulders
 long hair straight hair
@@ -4022,6 +4306,7 @@ long layered hair
 long legs
 long light blue hair
 long light brown hair
+long loose hair
 long loose sidelocks
 long low ponytail
 long luxury white pearl necklace
@@ -4036,6 +4321,7 @@ long pink hair
 long pink jiangshi armsleeves with gold edge
 long pointy ears
 long ponytail
+long princess hair
 long purple hair
 long purple scarf
 long purple tailcoat flap
@@ -4049,6 +4335,7 @@ long segmented tail
 long short
 long side bangs
 long side braid
+long side strands of hair
 long side-swept bangs
 long sidebangs
 long sidelocks
@@ -4061,8 +4348,10 @@ long sidelocks white top
 long silver earring
 long silver hair
 long slim blue jeans
+long staright hair
 long straight bangs
 long straight black hair
+long straight dark hair
 long straight hair
 long tail
 long tail shawl
@@ -4075,7 +4364,9 @@ long white hair
 long white tail
 long white with black tips sideways animal ears
 long wide white sleeves with gold trim
+long yellow hair
 long yellow-green hair
+long-haired dog. the dog
 long-sleeves black shirt with gold buttons
 long-sleeves pink shirt with pink silk flight-attendant scarf
 long-sleeves short grey suit jacket
@@ -4085,9 +4376,14 @@ longt sidelocks
 looking over eyewear
 loop earrings
 looped braids
+loose back hair
 loose bangs
 loose bun
 loose fit
+loose hair
+loose hair bathtub
+loose hair ends
+loose hair strands
 loose hair with braids
 loose shorts
 loose side bangs
@@ -4095,6 +4391,7 @@ loose side braid
 loose side fringes and short bangs}
 loose sidelock fringes and short bangs
 loose sidelocks
+loose_hair_strand
 lora: amytoyobanaidescbraidmob>
 loriana_outfit
 lot of makeup
@@ -4181,8 +4478,10 @@ magatama necklace
 mage outfit
 magenta cropped jacket over short magenta
 magenta eyeshadow
+magenta hair
 magical boy outfit
 magical girl outfit
+mai black hair
 maid hairband
 maid headband
 maid headband frills
@@ -4214,6 +4513,7 @@ marin_outfit
 market stall
 marking under eye kaeram_outfit
 maroon eyeshadow
+maroon hair
 maroon shorts
 martial outfit
 martina_outfit1
@@ -4260,14 +4560,19 @@ medieval outfit
 medieval style outfit
 medieval-style outfit
 medieval-style outfit zpdxl3
+medium bob haircut
 medium breasts
+medium front hair
 medium green eyes
+medium hair day
 medium hair with long locks
 medium length black hair
+medium length hair tied back. she is looking over her shoulder at the viewer. she is holding a white paper that has the red text "f- stay behind after class!". the shot is . the background features a large chalkboard above a wooden panelled wall and a few scattered books
 medium long hair
 medium sleeves folded
 medium wavy brown hair
 medium-length curly hair
+medium-length hair
 medium_hair
 medrine_outfit
 megrez_outfit1
@@ -4318,6 +4623,8 @@ metallic paint reflects the surrounding environment
 metallic shoulder armor
 metallic shoulder guards
 metallic shoulder piece that resembles a mechanical arm
+mexiah floaty hair
+mexiah hair down
 mexiah hair updo
 mexiah long hair
 mia_outfit1
@@ -4325,6 +4632,7 @@ mia_outfit2
 micro short pleated skirt
 micro_shorts
 microshorts
+mid back hair
 mid notch bangs
 mid ponytail
 middle part bangs
@@ -4436,6 +4744,8 @@ mouth_hold
 movie outfit
 mozui_outfit
 mujin_outfit
+multi color hair
+multicolor hair
 multicolored hair scrunchie
 multicolored horns
 multicolored lips
@@ -4454,6 +4764,7 @@ multiple earring
 multiple earrings
 multiple gruesome scars around her body
 multiple hair bows
+multiple hair tubes
 multiple necklaces
 multiple scars
 multiple soldier
@@ -4472,10 +4783,12 @@ muscular body
 muscular build
 muscular shirtless woman
 muscular woman
+mushroom hair ornament
 muxi_outfit
 muxue_outfit
 myo_outfit
 mysterious girl a's outifit
+médium hair
 nadoyeonv1_outfit1
 nadoyeonv1_outfit2
 nadoyeonv2_outfit1
@@ -4534,6 +4847,7 @@ navy vest over short-sleeved white shirt
 neck gemstone brooch
 neck scarf
 neck tattoo
+neck-length hair
 neck-wrapped tight red scarf
 neck-wrapped tight white scarf
 necklace
@@ -4566,6 +4880,7 @@ nine tails
 ninetails
 ningyudie_outfit
 ninja outfit
+no accessories hair
 no bangs
 no blindfold
 no earring
@@ -4575,6 +4890,7 @@ no glasses short hair
 no hair between eyes
 no hair bow
 no hair ornament
+no hairornament
 no lipstick
 no makeup
 no tattoos
@@ -4604,6 +4920,7 @@ nurse_outfit
 obelia_outfit1
 obelia_outfit2
 obelia_outfit3
+odango_hair_mobuko
 odin_outfit
 off-shorts-area
 off-shoulder frilled long with frilled puffy short sleeves
@@ -4613,6 +4930,7 @@ off-shoulder short-sleeves pink top
 off-shoulder short-sleeves top
 off-shoulder short-sleeves with red skirt part
 off-the-shoulder blouse with short sleeves and a high collar
+official alternate hairstyle
 official outfit
 oiled body sidelocks
 oiran style updo
@@ -4641,11 +4959,16 @@ olive green eyes
 olive green hair
 on an old green motorcycle
 one arm raised triumphantly. his slicked-back jet-black hair and sideburns are on full display
+one hair strand sticking up
 one hand holding pointer
+one hand in hair
+one hand on hair
+one hand rubbing hair to ear
 one mole on the breast
 one mole under eye
 one mole under lips
 one mole under mouth
+one side up and single hair ring
 one-leg shorts
 oni horns
 only one mole under left mouth
@@ -4699,6 +5022,7 @@ ornate sword with a golden hilt and a purple gem embedded in the pommel. the swo
 ornate updo
 oscar francois de jarjayes
 oscardejarjayes
+other hand playing with hair
 otonarin_outfit
 outer short shorts
 outfit
@@ -4712,6 +5036,7 @@ over-rim eyewear
 overall detail
 overall_shorts
 own hands together short stack
+painted hair
 paired with a short
 paired with slim dark blue jeans
 pajama shorts
@@ -4745,6 +5070,7 @@ parted bangs white lace
 parted bangs zpdxl3
 parted bangs0.8
 parted blunt bangs
+parted hair
 parted long bangs
 partial ponytail
 partial updo
@@ -4759,7 +5085,9 @@ pbangs
 pearl brooch
 pearl earring
 pearl earrings
+pearl hair chains
 pearl hair ornament
+pearl hair strand
 pearl hairpin
 pearl headband
 pearl necklace :d
@@ -4768,6 +5096,7 @@ pearl necklace send
 pearl necklace with big thick cross pendant
 pearl_necklace
 pecorinedefdress < old ver. pecodefdress
+peeing on hair
 pelvic tattoo
 pendant
 pendant choker
@@ -4786,6 +5115,7 @@ perfect body
 perfect body ratio
 perfect breasts
 perfect breasts out
+perfect hair
 performanceoutfit
 perky breasts
 perky breasts ; narrow hips
@@ -4834,6 +5164,7 @@ piercing yellow eyes
 pig tail
 pig tails
 pigtails
+piked_hair
 pill earrings
 pince-nez
 pink alice band with fake pink cat ears
@@ -4848,6 +5179,7 @@ pink cat ears
 pink cat tail
 pink chest ribbon with green and gold brooch
 pink choker necklace
+pink colored streaked hair
 pink devil horns
 pink devil tail
 pink drop earrings
@@ -4887,6 +5219,7 @@ pink hairclip
 pink hairornament
 pink hairribbon
 pink horns
+pink lavender hair
 pink lipsobscenely altered costumes
 pink lipstick
 pink lipstick. brown pantyhose
@@ -4914,6 +5247,7 @@ pink short skirt
 pink silk scarf
 pink sport shorts with white edge
 pink sport-shorts with white edge
+pink streaked hair
 pink stud earrings
 pink sunglasses
 pink tail
@@ -4936,6 +5270,7 @@ pinkchemiseoutfit
 pinkish purple hair
 pinkturtleneckoutfit
 pinkvneckoutfit
+pix_hair
 pixel sunglasses
 pixie cut
 pizza slice hair ornament
@@ -4954,9 +5289,11 @@ playboy bunny suit
 playboy purple bunnygirl cosplay
 playboy tattoo
 playboy_bunny
+playing with own hair
 pleated pink short skirt
 pleated short green skirt
 plum fitted blazer
+plum hair
 plump
 plump lips
 plump;
@@ -5005,16 +5342,19 @@ print hairband
 print shorts
 prostitute outfit
 pubic_tattoo
+public_hair
 public_tattoo
 publuc_tattoo
 puckered lips
 puff short sleeves
 puffed short sleeves
+puffy hair
 puffy short sleeves v arms
 puffy short sleeves with red ribbons
 puffy shorts
 puffy yellow shorts
 puffy_short_sleeves
+pulled back hair
 pulling up shorts
 pumpkin hair ornament
 pumpkin shorts
@@ -5132,9 +5472,11 @@ ragged outfit
 raigrim_outfit1
 raigrim_outfit2
 raimu outfit
+rainbow hair
 rainbow wings
 rainbow-tinted eyewear
 raised bangs
+raised hair
 ranxie_outfit
 rapier sword with gold crossguard
 rapier sword with gold crossguard and shield
@@ -5173,6 +5515,7 @@ red and green outfit
 red and white military outfit with popped collar
 red and white outfit
 red arm tattoo
+red beaded hair
 red belt with gold edge
 red belt with gold round buckle
 red blindfold
@@ -5192,6 +5535,7 @@ red choker with gold chain and with small pink heart charm
 red choker with gold chain and with small yellow diamonds charm
 red choker with gold trim
 red collar with gold accents
+red colored inner hair
 red devil horns
 red dice hair ornament
 red dotted white pyjama shorts
@@ -5264,6 +5608,7 @@ red rim glasses
 red ring earrings
 red roman legionary fociale scarf
 red rose brooch
+red rose hair pins
 red scarf around her neck
 red scarf draped around her shoulders
 red scrunchie
@@ -5278,7 +5623,9 @@ red sphere earrings
 red sport shorts
 red sport shorts with white edge
 red star-shape earrings
+red streaked hair
 red streaked hair short hair
+red streaks in hair
 red striped scarf
 red stripes shorts
 red sunglasses
@@ -5292,6 +5639,7 @@ red twintails
 red under-rim glasses
 red vest over short sleeved white shirt
 red wavy hair
+red wavy long flowing hair
 red wings
 red winter outfit
 red with gold accents open jacket with long sleeves over v-neck white shirt
@@ -5370,6 +5718,7 @@ ring necklace
 ring pendant
 ring_outfit
 ringlet at tail
+ringlet hair
 rinne_outfit
 ripped chekered purple pyjama shorts
 ripped purple short-sleeves top
@@ -5428,6 +5777,7 @@ rounded shorts
 royal blue cape with golden embroidery
 rudao_outfit
 ruffled short sleeves
+ruffling hair
 ruined makeup
 ruler of fangs elina
 runny makeup
@@ -5533,6 +5883,7 @@ segmented spikes tattoo
 segmented tail
 selli_outfit01
 selli_outfit02
+semen on hair
 semen-covered hair
 semi-rimless_eyewear
 senia_outfit
@@ -5568,9 +5919,11 @@ serian_outfit
 serin_outfit
 seungah_outfit1
 seungah_outfit2
+several strands of hair hanging over the face
 seyu_outfit
 shaggy bangs
 shailen_outfit
+shair beads
 shang_outfit
 shared scarf
 sharelle_outfit
@@ -5579,6 +5932,7 @@ sharp bangs
 sharp black demon horns
 sharp blue eyes
 sharp eyes
+sharp hair tips
 sharp light blue eyes
 she accessorizes with a necklace and earrings
 she accessorizes with a white shawl and a gold bracelet and she is holding a sunglasses in her left hand
@@ -5612,6 +5966,7 @@ shinsei_outfit4
 shinsei_outfit5
 shinsei_outfit6
 shiny brown leather skirt and a purple blouse. her short
+shiny hair
 shiranui mai's outfit 3
 shirt over shorts
 shirt short sleeves
@@ -5623,6 +5978,7 @@ shiyin_outfit
 shiyuu headband
 shoe brooch
 sholders cutout
+shor hair
 short
 short apron
 short back flap
@@ -5679,6 +6035,7 @@ short hai
 short hair brown eyes
 short hair completely
 short hair indoor
+short hair kitchen
 short hair with long hair
 short haircut
 short hero cloak
@@ -5873,8 +6230,11 @@ shortsleeveddressoutfit
 shortsleeves
 shortstack
 shortt hair
+shot hair
+shotr hair
 shoulder armor detail
 shoulder brooch
+shoulder length hair
 shoulder tattoo
 shoulder-length blonde hair
 shoulder-length hair
@@ -5898,15 +6258,22 @@ side braidscrown
 side bun
 side buns
 side french braid
+side hair
 side hair braid
 side hair buns
+side hair clip
 side hair ornament
 side hair ornaments
+side hair strand
+side hair strands
+side hair tufts
+side hair volume
 side hairclip
 side messy bangs
 side part bangs
 side parted bangs
 side parted bangs bangs
+side parted hair
 side ponytail
 side ponytail blue school
 side ponytail gym
@@ -5929,8 +6296,10 @@ side swept bangs
 side tail
 side-parted bangs
 side-swept bangs
+side-swept hair
 side_braid
 sidebangs
+sidecut hair
 sideless outfit
 sidelocks
 sidelocks chesea_crimveil
@@ -5956,6 +6325,7 @@ silver blue hair
 silver chain on shorts
 silver chest brooch
 silver choker necklace with silver pendant
+silver colored streaked hair
 silver cross necklace
 silver earring
 silver earrings
@@ -5994,7 +6364,10 @@ single hair braid with peach color
 single hair bun
 single hair bun anime_source
 single hair bun chinese clothes
+single hair bun cityscape
 single hair bun lab
+single hair clip
+single hair ring
 single left gold bracelet
 single left hanging earring
 single left red hanging earring
@@ -6117,6 +6490,7 @@ small flower hair ornament
 small gem earrings
 small gold-trimmed collar
 small hair bows
+small hair clip
 small hair flowers
 small hoop piercing earrings
 small horns
@@ -6124,9 +6498,12 @@ small pointy ears
 small ponytail
 small round eyewear
 small wings
+small yellow hair clip
 smart casual outfit
+smooth hair
 smooth skin
 smooth skin and a serene expression. she is wearing a short-sleeved
+snake hair
 snake hair ornament
 snake tail
 snow-covered rock. she is wearing a festive red outfit with a white fur trim
@@ -6142,6 +6519,7 @@ soft feminine features mature woman: soft sag body
 soft folds
 soft skin
 soft skindentation body
+soft wave hair
 soft_breasts
 sohye_outfit
 sold as a slave
@@ -6169,9 +6547,11 @@ speedgod_outfit
 sphere gold earrings
 sphere magenta earrings
 sphere silver earrings
+spiked hair bamboo forest
 spiked hairband
 spiked headband
 spiked tail
+spiked_hair
 spiky bangs
 spiky hair
 spiky hair tips
@@ -6184,6 +6564,7 @@ spirishen_outfit
 split bangs
 split coat tails
 split ponytail
+split-color hair
 sport outfit
 sport short pant
 sporty outfit
@@ -6194,6 +6575,7 @@ squirrel tail
 sshort hair
 ssv5scbangsmob
 ssv5scpartedbangsmob
+ssv5scspikedhairmob
 ssv5sctiedsidelocksmob
 stained glasses
 stallion
@@ -6211,7 +6593,9 @@ star-shape silver earrings
 star-shaped earrings
 star_earrings
 starflow_outfit
+starry print shaggy hair
 state of absentmindedness
+steaked hair
 steamed bun
 steel blue eyes
 stomach tattoo
@@ -6234,7 +6618,9 @@ strapless short with cross-laced cutout
 strapless short with double belt
 strappy leather outfit that accentuates her breasts and hips. the outfit consists of a harness-like with metal rings and straps
 strawberry blonde hair
+streaked_hair
 striking purple lipstick
+striped hair
 striped hairband
 striped horns
 striped scarf
@@ -6283,6 +6669,7 @@ suspender shorts
 suying_outfit
 suyuan_outfit
 swept back bangs
+swept back hair
 swept_bangs
 swimsuit outfit
 swimsuit red lips
@@ -6360,6 +6747,8 @@ teal earrings
 teal eyes
 teal eyeshadow
 teal green hair
+teal hair
+teal hair clip
 teal hair ribbon
 teal hair ribbon bow
 teal pendant
@@ -6389,6 +6778,7 @@ thick braid ponytail
 thick braids
 thick gold necklace
 thick gold yakuza necklace
+thick hair
 thick side braid
 thick sidelocks
 thick thighs
@@ -6474,10 +6864,12 @@ tousled brown hair
 tousled brown hair and a determined expression. the woman stands to his left
 tousled brown hair and striking blue eyes. he has a slender build and wears
 tousled brown hair that frames her face
+tousled hair
 tousled manner with a pink headband. her expression is neutral
 towelhairoutfit
 track shorts
 traditional hair accessory
+traditional hairstyle
 traditional indian outfit
 traditional outfit
 traditional outfit zpdxl3
@@ -6504,13 +6896,18 @@ triple crown braid
 tropical blue flower hairpin
 tsukuyomi_outfit
 tsutsutorikanako long hair
+tubes from hair
+tuck hair inside
+tuck_hair_inside_hat
 tucked half ponytail
+tucking hair
 tumida_outfit1
 tumida_outfit2
 turquoise earrings
 turquoise earrings dark navy blazer
 turquoise eyeshadow
 turquoise hairpin
+turquoise hue hair
 turquoise necklace
 twin braid
 twin braids blue school
@@ -6547,18 +6944,22 @@ twintails
 twintails hair
 twintails with black bows
 twintails with hair base
+twirling hair
 twisted side bangs
 twisted updo with hair accessory hair
 two ahoges
 two braids
+two hair tufts
 two low ponytails
 two ribbon tails
 two side ponytails
 two tails
+two tone hair
 two-piece gold bikini
 two-tone wings
 two-tone_hair
 two-tone_shorts
+tying hair
 ugly old bastard
 ultra detail
 ultra fine detail
@@ -6581,6 +6982,7 @@ undercut formal
 undercut sarashi
 underwear outfit
 uneven bangs
+uneven hair tips
 uneven parted bangs
 uneven straight bangs
 unevn bangs
@@ -6594,6 +6996,7 @@ upshorts
 upward bangs
 urd_outfit
 uriel_outfit
+urotsukidoji3blackhaircaesarcultmob
 urushihara satoshi old style
 usa bikini outfit
 using her left hand to adjust her glasses. her right hand is adorned with a large
@@ -6606,6 +7009,7 @@ vanessa_outfit
 vanh_outfit
 veil with gold patterns
 veldandy_outfit
+vellus hair
 veren_outfit
 verna_outfit
 vertical face scar
@@ -6629,6 +7033,8 @@ very long braided black hair with center part
 very long braided hair to [*butt] tied by large red hairbow yellow headband
 very long hair __angle__
 very long hair chinese clothes
+very long hair hospital in the room
+very long hair looking at viewer
 very long hair red hair
 very long hair wings
 very long hair with twin tail neat on the neck
@@ -6656,13 +7062,17 @@ viewer_holding_leash
 vintage look with a slightly tattered cover. the spine of the book has the bold
 violet black haircenter part
 violet eyes
+violet hair
 violet_outfit
 visible abs
 visible aging skin
 visible skin aging
+vivid yellow hair
 voluminous dark brown hair with a slight wave
+voluminous hair
 voluminous pigtails
 voluminous shoulder-length blonde hair
+voluminously fluffy manner. her hair is adorned with a few small
 voluptuous
 voluptuous body
 voluptuous body yet slim body
@@ -6673,6 +7083,7 @@ voluptuous muscular body
 voluptuous thick yet fit
 voluptuous toned body
 voluptuous very large sagging breasts
+waist length hair
 waist pendants
 waist tattoo
 waistcoat with gold lining
@@ -6683,7 +7094,9 @@ wang_outfit
 wanner_outfit
 warm white hair
 warrior outfit
+washing hair
 wave bangs
+wavy auburn hair
 wavy bangs
 wavy blue hair cascades around her face
 wavy brown hair
@@ -6714,8 +7127,10 @@ weina_outfit
 weiwei_outfit
 whale tail
 whale_tail_clothing
+which complements the flowers in her hair. her expression is serene and slightly melancholic
 which contrasts with the vivid colors of her outfit and the bed. the overall composition is dynamic
 which makes the character and her hair stand out vividly. the illustration is characterized by a high level of detail and a smooth
+while her right hand adjusts her hair. the overall style of the illustration is anime-inspired
 while his right hand is holding another pistol
 white alice band with fake white bunny ears
 white alice band with small fake horns
@@ -6851,6 +7266,7 @@ white sport shorts with black edge
 white spotted blue hair-ribbon
 white star brooch
 white star-shape earring
+white streaked hair
 white stripe shorts
 white tail
 white tails
@@ -6886,6 +7302,10 @@ wide_hips
 widowâs peak bangs
 wielding a rapier sword with gold crossguard
 wifeoutfit
+wild hair
+wild puboc hair
+wind blowing hair
+wind blowing through hair
 wing brooch
 wing hair ornaments
 wing_hair_ornament
@@ -6912,12 +7332,16 @@ with bold lines and vibrant colors
 with gold accents
 with gold buttoms
 with gold trim
+with his eyes looking down and his lips slightly pursed. his brown hair is short and styled
 with light skin and short
 with meticulous attention to detail in the character's features and the surrounding elements.
+with several hair hanging over the face
+with several strands of hair hanging over the face
 with short sleeves
 with soft shading and careful attention to detail
 with tall grasses and possibly reeds or rushes
 with the braid ending just below her waist. the hair is a rich
+with the man's hair and the lotus flowers being the main focal points. the illustration exudes a sense both of ancient japanese culture and modern anime artistry
 wolf ears
 wolf tail
 womb tattoo
@@ -7037,10 +7461,13 @@ yellow eyeshadow
 yellow flower brooch on chest area
 yellow flower hair accessory
 yellow green eyes
+yellow hair
 yellow hair bow
 yellow hair ribbon
 yellow hair scrunchie
+yellow hairband looking at viewer
 yellow hairband with blue star accessory and yellow ribbon
+yellow hairbow
 yellow hairclip
 yellow headband
 yellow hibiscus flower brooch on chest area
@@ -7052,6 +7479,7 @@ yellow shirt with short sleeves
 yellow short kimono white pantyhose white capelet pink obi pink bow
 yellow short sleeves
 yellow shorts
+yellow single hair streak
 yellow slime
 yellow tailcoat
 yellow turtleneck shirt with short sleeves
